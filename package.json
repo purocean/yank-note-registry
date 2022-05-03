@@ -1,0 +1,16 @@
+{
+  "name": "yank-note-registry",
+  "version": "1.0.3",
+  "description": "Yank Note Extension Registry",
+  "main": "index.json",
+  "repository": "git@github.com:purocean/yank-note-registry.git",
+  "author": "purocean <purocean@gmail.com>",
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "build": "node build.js"
+  },
+  "devDependencies": {
+    "node-fetch": "2"
+  }
+}
