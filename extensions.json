@@ -2,7 +2,7 @@
   "official": [
     { "id": "yank-note-extension-git-push", "version": "1.0.0-alpha.1" }
   ],
-  "unofficial": [
+  "registry": [
     { "id": "yank-note-extension-example", "version": "0.0.3" }
   ]
 }

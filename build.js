@@ -1,7 +1,7 @@
 const fs = require('fs');
 const fetch = require('node-fetch');
 const index = require('./index.json');
-const { official, unofficial } = require('./extensions.json');
+const { official, registry } = require('./extensions.json');
 
 async function fetchInfo (id, version) {
   console.log(`    Fetching ${id}@${version}`);
@@ -41,7 +41,7 @@ async function transform (list, official = false) {
 
   for (const item of list) {
     const old = index.find(i => i.name === item.id);
-    const origin = official ? 'official' : 'unofficial';
+    const origin = official ? 'official' : 'registry';
     console.log(`Transform ${origin} ${item.id}@${item.version}`);
     if (!old || old.version !== item.version) {
       data.push({ ...await fetchInfo(item.id, item.version), origin });
@@ -56,7 +56,7 @@ async function transform (list, official = false) {
 async function build () {
   const data = [
     ...await transform(official, true),
-    ...await transform(unofficial, false)
+    ...await transform(registry, false)
   ];
 
   fs.writeFileSync('./index.json', JSON.stringify(data, null, 2));
