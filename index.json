@@ -46,7 +46,7 @@
   },
   {
     "name": "yank-note-extension-example",
-    "version": "0.0.5",
+    "version": "0.0.6",
     "displayName": "Example Extension",
     "description": "HelloWorld example extension",
     "displayName_ZH-CN": "示例扩展",
@@ -63,9 +63,9 @@
     "keywords": [],
     "homepage": "https://github.com/purocean/yank-note-extension-example",
     "main": "./lib/index.js",
-    "icon": "https://unpkg.com/yank-note-extension-example@0.0.5/./icon.png",
+    "icon": "https://unpkg.com/yank-note-extension-example@0.0.6/./icon.png",
     "engines": {
-      "yank-note": "^23.29.0"
+      "yank-note": "^3.29.0"
     },
     "themes": [
       {
@@ -77,16 +77,16 @@
         "css": "./themes/demo2.css"
       }
     ],
-    "gitHead": "6b82a99758024fca7f1945b0f28679725cff1ea0",
+    "gitHead": "a948066ae42da1f8543ae35b8a17bf8ba0f20497",
     "bugs": {
       "url": "https://github.com/purocean/yank-note-extension-example/issues"
     },
     "dist": {
-      "integrity": "sha512-dJuWL1QtdJdar3PHFXSu+9hQC/1xjaksTDChJO1sKXFHMEyyA8s8osBXUHXrPM5hlOmmDJvT99l7wIZjTrT4Lw==",
-      "shasum": "bc145387fd3d44ab4bd13a64275eddbe9f686f47",
-      "tarball": "https://registry.npmjs.org/yank-note-extension-example/-/yank-note-extension-example-0.0.5.tgz",
+      "integrity": "sha512-E+rYJ87kUw7pXAaN5CAVuXFIbHGJOjEzvCjwjdt5AJw4b+fIug+paeilto0NQe3T8WO36AHPgstC9qwlCL7d5w==",
+      "shasum": "9b7abd22ed127edcf970322a8548c1f9722a50c9",
+      "tarball": "https://registry.npmjs.org/yank-note-extension-example/-/yank-note-extension-example-0.0.6.tgz",
       "fileCount": 10,
-      "unpackedSize": 27027
+      "unpackedSize": 27026
     },
     "directories": {},
     "maintainers": [
