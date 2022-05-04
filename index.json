@@ -1,7 +1,7 @@
 [
   {
     "name": "yank-note-extension-git-push",
-    "version": "1.0.0-alpha.1",
+    "version": "1.0.0-alpha.3",
     "displayName": "Git Push",
     "displayName_ZH-CN": "Git 推送",
     "description": "Run Git commit and push to remote repository",
@@ -12,28 +12,25 @@
       "email": "purocean@gmail.com"
     },
     "license": "AGPL-3.0",
-    "homepage": "https://github.com/purocean/yank-note-extension/packages/git-push",
+    "homepage": "https://github.com/purocean/yank-note-extension/tree/main/packages/git-push",
     "repository": {
       "type": "git",
       "url": "git+https://github.com/purocean/yank-note-extension.git"
     },
     "main": "./lib/index.js",
-    "icon": "https://unpkg.com/yank-note-extension-git-push@1.0.0-alpha.1/./icon.png",
-    "compatibility": [
-      {
-        "extension": "*",
-        "engine": ">=3.29.0"
-      }
-    ],
+    "icon": "https://unpkg.com/yank-note-extension-git-push@1.0.0-alpha.3/./icon.png",
+    "engines": {
+      "yank-note": "^3.29.0"
+    },
     "bugs": {
       "url": "https://github.com/purocean/yank-note-extension/issues"
     },
     "dist": {
-      "integrity": "sha512-Dbc4fwv23aCYp9/rVcJ8YixslLao8A/1SJSH3wNuRTg6MAlnuscTxSV044mmObFUiFpmjQ4XgzRSTPkFhlVHJg==",
-      "shasum": "d91a15020d6b5eed77560d21814d839c79a17f46",
-      "tarball": "https://registry.npmjs.org/yank-note-extension-git-push/-/yank-note-extension-git-push-1.0.0-alpha.1.tgz",
+      "integrity": "sha512-50xktmOYUF+6vIsmPAlSU5MPnvXx1IhGAb3nwE6j06YfCENChomKQH8XCOgYR+LxwPdkf4QXTCSw/ji38ePv5Q==",
+      "shasum": "1d4c747507c4e7812b50a633d2b90c09b35f9f21",
+      "tarball": "https://registry.npmjs.org/yank-note-extension-git-push/-/yank-note-extension-git-push-1.0.0-alpha.3.tgz",
       "fileCount": 6,
-      "unpackedSize": 41253
+      "unpackedSize": 41213
     },
     "directories": {},
     "maintainers": [
