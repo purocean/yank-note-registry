@@ -1,1 +1,1 @@
-# yank-note-registry
+# Yank Note Registry
