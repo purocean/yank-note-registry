@@ -1,11 +1,11 @@
 [
   {
     "name": "yank-note-extension-git-push",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "displayName": "Git Push",
     "displayName_ZH-CN": "Git 推送",
-    "description": "Run Git commit and push to remote repository",
-    "description_ZH-CN": "运行 Git 提交并推送到远程仓库",
+    "description": "Run Git commit and push to remote repository. Note: This plugin is not available for Mac App Store downloaded Yank Note.",
+    "description_ZH-CN": "运行 Git 提交并推送到远程仓库。注意：此插件不适用于 Mac App Store 中下载的 Yank Note。",
     "keywords": [],
     "author": {
       "name": "purocean",
@@ -18,7 +18,7 @@
       "url": "git+https://github.com/purocean/yank-note-extension.git"
     },
     "main": "./lib/index.js",
-    "icon": "https://unpkg.com/yank-note-extension-git-push@1.0.1/./icon.png",
+    "icon": "https://unpkg.com/yank-note-extension-git-push@1.0.2/./icon.png",
     "engines": {
       "yank-note": "^3.29.0"
     },
@@ -26,11 +26,11 @@
       "url": "https://github.com/purocean/yank-note-extension/issues"
     },
     "dist": {
-      "integrity": "sha512-GrgUiWQWskGLHUfhAkb327epXSpmkSrgAlwYpzEvww4fQdb6KarlQr0JBjNvaKIY7jXl7cAd+6jjHidQbHUybQ==",
-      "shasum": "d6a3a4fc74f218398f002a15b0c53e3fa5d68341",
-      "tarball": "https://registry.npmjs.org/yank-note-extension-git-push/-/yank-note-extension-git-push-1.0.1.tgz",
+      "integrity": "sha512-Ws9DmQ0kZPE4Kq3vvwsNVqC/Ul66pSfQqCXd2NceWjjVtpxquFHz++c1+8vDaP4D6XK1kUImfDbziB+ALs/7cg==",
+      "shasum": "5b4b96d06dbcf85ae6a3164df11c524a2aa0a0dd",
+      "tarball": "https://registry.npmjs.org/yank-note-extension-git-push/-/yank-note-extension-git-push-1.0.2.tgz",
       "fileCount": 6,
-      "unpackedSize": 43760
+      "unpackedSize": 43905
     },
     "directories": {},
     "maintainers": [
