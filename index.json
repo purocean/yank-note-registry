@@ -1,7 +1,7 @@
 [
   {
     "name": "yank-note-extension-git-push",
-    "version": "1.0.2",
+    "version": "1.0.3",
     "displayName": "Git Push",
     "displayName_ZH-CN": "Git 推送",
     "description": "Run Git commit and push to remote repository. Note: This plugin is not available for Mac App Store downloaded Yank Note.",
@@ -17,8 +17,8 @@
       "type": "git",
       "url": "git+https://github.com/purocean/yank-note-extension.git"
     },
-    "main": "./lib/index.js",
-    "icon": "https://unpkg.com/yank-note-extension-git-push@1.0.2/./icon.png",
+    "main": "./dist/index.js",
+    "icon": "https://unpkg.com/yank-note-extension-git-push@1.0.3/./icon.png",
     "engines": {
       "yank-note": "^3.29.0"
     },
@@ -26,11 +26,11 @@
       "url": "https://github.com/purocean/yank-note-extension/issues"
     },
     "dist": {
-      "integrity": "sha512-Ws9DmQ0kZPE4Kq3vvwsNVqC/Ul66pSfQqCXd2NceWjjVtpxquFHz++c1+8vDaP4D6XK1kUImfDbziB+ALs/7cg==",
-      "shasum": "5b4b96d06dbcf85ae6a3164df11c524a2aa0a0dd",
-      "tarball": "https://registry.npmjs.org/yank-note-extension-git-push/-/yank-note-extension-git-push-1.0.2.tgz",
-      "fileCount": 6,
-      "unpackedSize": 43905
+      "integrity": "sha512-R7crivqVRCzSt2dzWuu/PYXK/3HJmBGW9cNy0MCzduik5WhepXOAIuUTxMvi+iY0ZMuYXWg4J3PPtmfY8CYjkg==",
+      "shasum": "12e74014bb2dbe1aaeb85df65a04ae9bcb98d547",
+      "tarball": "https://registry.npmjs.org/yank-note-extension-git-push/-/yank-note-extension-git-push-1.0.3.tgz",
+      "fileCount": 5,
+      "unpackedSize": 39701
     },
     "directories": {},
     "maintainers": [
@@ -43,7 +43,7 @@
   },
   {
     "name": "yank-note-extension-example",
-    "version": "0.0.6",
+    "version": "0.0.8",
     "displayName": "Example Extension",
     "description": "HelloWorld example extension",
     "displayName_ZH-CN": "示例扩展",
@@ -59,8 +59,9 @@
     "license": "MIT",
     "keywords": [],
     "homepage": "https://github.com/purocean/yank-note-extension-example",
-    "main": "./lib/index.js",
-    "icon": "https://unpkg.com/yank-note-extension-example@0.0.6/./icon.png",
+    "main": "./dist/index.js",
+    "style": "./dist/style.css",
+    "icon": "https://unpkg.com/yank-note-extension-example@0.0.8/./icon.png",
     "engines": {
       "yank-note": "^3.29.0"
     },
@@ -74,16 +75,16 @@
         "css": "./themes/demo2.css"
       }
     ],
-    "gitHead": "a948066ae42da1f8543ae35b8a17bf8ba0f20497",
+    "gitHead": "46eb9fb2ee597c79561c3f88f8834991396416e2",
     "bugs": {
       "url": "https://github.com/purocean/yank-note-extension-example/issues"
     },
     "dist": {
-      "integrity": "sha512-E+rYJ87kUw7pXAaN5CAVuXFIbHGJOjEzvCjwjdt5AJw4b+fIug+paeilto0NQe3T8WO36AHPgstC9qwlCL7d5w==",
-      "shasum": "9b7abd22ed127edcf970322a8548c1f9722a50c9",
-      "tarball": "https://registry.npmjs.org/yank-note-extension-example/-/yank-note-extension-example-0.0.6.tgz",
+      "integrity": "sha512-TFYK1Cv7mywyJY35hmzJwBE7SJDU9QTpsI79qeELF5AoZhUDhGQMXPQ2MlC91PYP6DIjgXTd6nUMnu1Qpyjp3A==",
+      "shasum": "ffee85119223db3c8f4be5c87e1392638f0bcb80",
+      "tarball": "https://registry.npmjs.org/yank-note-extension-example/-/yank-note-extension-example-0.0.8.tgz",
       "fileCount": 10,
-      "unpackedSize": 27026
+      "unpackedSize": 23777
     },
     "directories": {},
     "maintainers": [
