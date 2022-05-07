@@ -30,7 +30,7 @@ async function fetchInfo (id, version) {
   });
 
   if (packageJson.icon && !/^https?:\/\//.test(packageJson.icon)) {
-    packageJson.icon = `https://unpkg.com/${id}@${version}/${packageJson.icon}`;
+    packageJson.icon = `https://cdn.jsdelivr.net/npm/${id}@${version}/${packageJson.icon}`;
   }
 
   return packageJson;
