@@ -1,15 +1,14 @@
 [
   {
     "name": "yank-note-extension-git-push",
-    "version": "1.0.3",
+    "version": "1.1.0",
     "displayName": "Git Push",
     "displayName_ZH-CN": "Git 推送",
     "description": "Run Git commit and push to remote repository. Note: This plugin is not available for Mac App Store downloaded Yank Note.",
     "description_ZH-CN": "运行 Git 提交并推送到远程仓库。注意：此插件不适用于 Mac App Store 中下载的 Yank Note。",
     "keywords": [],
     "author": {
-      "name": "purocean",
-      "email": "purocean@gmail.com"
+      "name": "purocean"
     },
     "license": "AGPL-3.0",
     "homepage": "https://github.com/purocean/yank-note-extension/tree/main/packages/git-push",
@@ -18,19 +17,20 @@
       "url": "git+https://github.com/purocean/yank-note-extension.git"
     },
     "main": "./dist/index.js",
-    "icon": "https://unpkg.com/yank-note-extension-git-push@1.0.3/./icon.png",
+    "icon": "https://unpkg.com/yank-note-extension-git-push@1.1.0/./icon.png",
     "engines": {
+      "node": ">=14.6.0",
       "yank-note": "^3.29.0"
     },
     "bugs": {
       "url": "https://github.com/purocean/yank-note-extension/issues"
     },
     "dist": {
-      "integrity": "sha512-R7crivqVRCzSt2dzWuu/PYXK/3HJmBGW9cNy0MCzduik5WhepXOAIuUTxMvi+iY0ZMuYXWg4J3PPtmfY8CYjkg==",
-      "shasum": "12e74014bb2dbe1aaeb85df65a04ae9bcb98d547",
-      "tarball": "https://registry.npmjs.org/yank-note-extension-git-push/-/yank-note-extension-git-push-1.0.3.tgz",
+      "integrity": "sha512-HbH24kY/zLNj08npWJQ7QK1iSSCDusW44t8iC7QdOa63jj7LUmfJr+VDy9Bx6MXhcny81Fi5DTIBHrbT6hGLog==",
+      "shasum": "09df7ab426a74486d1f78f41e1a6fdbc25427b2d",
+      "tarball": "https://registry.npmjs.org/yank-note-extension-git-push/-/yank-note-extension-git-push-1.1.0.tgz",
       "fileCount": 5,
-      "unpackedSize": 39701
+      "unpackedSize": 39709
     },
     "directories": {},
     "maintainers": [
@@ -42,49 +42,30 @@
     "origin": "official"
   },
   {
-    "name": "yank-note-extension-example",
-    "version": "0.0.9",
-    "displayName": "Example Extension",
-    "description": "HelloWorld example extension",
-    "displayName_ZH-CN": "示例扩展",
-    "description_ZH-CN": "HelloWorld 示例扩展",
-    "repository": {
-      "type": "git",
-      "url": "git+ssh://git@github.com/purocean/yank-note-extension-example.git"
-    },
+    "name": "yank-note-extension-sublime-merge",
+    "version": "1.0.0",
+    "displayName": "Sublime Merge",
+    "description": "Sublime Merge integration for Yank Note",
+    "displayName_ZH-CN": "Sublime Merge",
+    "description_ZH-CN": "Sublime Merge 和 Yank Note 的集成",
     "author": {
-      "name": "purocean",
-      "email": "purocean@gmail.com"
+      "name": "Yank Note"
     },
     "license": "MIT",
     "keywords": [],
-    "homepage": "https://github.com/purocean/yank-note-extension-example",
+    "homepage": "https://github.com/purocean/yn",
     "main": "./dist/index.js",
-    "style": "./dist/style.css",
-    "icon": "https://unpkg.com/yank-note-extension-example@0.0.9/./icon.png",
+    "icon": "https://unpkg.com/yank-note-extension-sublime-merge@1.0.0/./icon.png",
     "engines": {
       "node": ">=14.6.0",
       "yank-note": "^3.29.0"
     },
-    "themes": [
-      {
-        "name": "Red",
-        "css": "./themes/demo1.css"
-      },
-      {
-        "name": "Green",
-        "css": "./themes/demo2.css"
-      }
-    ],
-    "bugs": {
-      "url": "https://github.com/purocean/yank-note-extension-example/issues"
-    },
     "dist": {
-      "integrity": "sha512-z/7HQL5vjwGHA1xVocncac5QqQxPWlz5Si4OpOnCiiTG5Nzi+DXYUz5twbTrUx35APCIj2B1+0nt4TCLyVeWfg==",
-      "shasum": "3a1f1c65c10adb009a1e09cd66988e75bcc93960",
-      "tarball": "https://registry.npmjs.org/yank-note-extension-example/-/yank-note-extension-example-0.0.9.tgz",
-      "fileCount": 9,
-      "unpackedSize": 23777
+      "integrity": "sha512-DNqomq7l3c6HJZoUkU74/fY/oKM8g7FmWLMJiBTaTYMPCsWdpugO469Fclm35ab7R3dXHEsbIihMNIiKuBD/Gw==",
+      "shasum": "4cc1eee5c16c79c0aa1ac217da3413378d6a20b3",
+      "tarball": "https://registry.npmjs.org/yank-note-extension-sublime-merge/-/yank-note-extension-sublime-merge-1.0.0.tgz",
+      "fileCount": 5,
+      "unpackedSize": 25537
     },
     "directories": {},
     "maintainers": [
@@ -93,6 +74,6 @@
         "email": "purocean@outlook.com"
       }
     ],
-    "origin": "registry"
+    "origin": "official"
   }
 ]
