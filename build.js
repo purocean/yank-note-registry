@@ -3,6 +3,8 @@ const fetch = require('node-fetch');
 const index = require('./index.json');
 const { official, registry } = require('./extensions.json');
 
+const cdnPrefix = 'https://cdn.jsdelivr.net/npm/'
+
 async function fetchInfo (id, version) {
   console.log(`    Fetching ${id}@${version}`);
 
@@ -30,8 +32,11 @@ async function fetchInfo (id, version) {
   });
 
   if (packageJson.icon && !/^https?:\/\//.test(packageJson.icon)) {
-    packageJson.icon = `https://cdn.jsdelivr.net/npm/${id}@${version}/${packageJson.icon}`;
+    packageJson.icon = `${cdnPrefix}/${id}@${version}/${packageJson.icon}`;
   }
+  
+  packageJson.readmeUrl = `${cdnPrefix}/${id}@${version}/README.md`;  
+  packageJson.changelogUrl = `${cdnPrefix}/${id}@${version}/CHANGELOG.md`;  
 
   return packageJson;
 }
