@@ -1,7 +1,7 @@
 {
   "official": [
-    { "id": "yank-note-extension-git-push", "version": "1.1.0" },
-    { "id": "yank-note-extension-sublime-merge", "version": "1.0.0" }
+    { "id": "yank-note-extension-git-push", "version": "1.1.1" },
+    { "id": "yank-note-extension-sublime-merge", "version": "1.0.1" }
   ],
   "registry": [
   ]
