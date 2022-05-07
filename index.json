@@ -1,7 +1,7 @@
 [
   {
     "name": "yank-note-extension-git-push",
-    "version": "1.1.0",
+    "version": "1.1.1",
     "displayName": "Git Push",
     "displayName_ZH-CN": "Git 推送",
     "description": "Run Git commit and push to remote repository. Note: This plugin is not available for Mac App Store downloaded Yank Note.",
@@ -17,7 +17,7 @@
       "url": "git+https://github.com/purocean/yank-note-extension.git"
     },
     "main": "./dist/index.js",
-    "icon": "https://cdn.jsdelivr.net/npm//yank-note-extension-git-push@1.1.0/./icon.png",
+    "icon": "https://cdn.jsdelivr.net/npm//yank-note-extension-git-push@1.1.1/./icon.png",
     "engines": {
       "node": ">=14.6.0",
       "yank-note": "^3.29.0"
@@ -26,11 +26,11 @@
       "url": "https://github.com/purocean/yank-note-extension/issues"
     },
     "dist": {
-      "integrity": "sha512-HbH24kY/zLNj08npWJQ7QK1iSSCDusW44t8iC7QdOa63jj7LUmfJr+VDy9Bx6MXhcny81Fi5DTIBHrbT6hGLog==",
-      "shasum": "09df7ab426a74486d1f78f41e1a6fdbc25427b2d",
-      "tarball": "https://registry.npmjs.org/yank-note-extension-git-push/-/yank-note-extension-git-push-1.1.0.tgz",
-      "fileCount": 5,
-      "unpackedSize": 39709
+      "integrity": "sha512-0XZ0BbZyc+pgOXNMiXZoRxc6jt/qynV+VkOth3yaV1K7TE7Lfu5bNTzt9QJuyIKulrhC45OpyXAA2IR9v6qE1g==",
+      "shasum": "90164c72f2c39a684e5767a5a57ecb3cca9b0610",
+      "tarball": "https://registry.npmjs.org/yank-note-extension-git-push/-/yank-note-extension-git-push-1.1.1.tgz",
+      "fileCount": 6,
+      "unpackedSize": 39884
     },
     "directories": {},
     "maintainers": [
@@ -39,13 +39,13 @@
         "email": "purocean@outlook.com"
       }
     ],
-    "readmeUrl": "https://cdn.jsdelivr.net/npm//yank-note-extension-git-push@1.1.0/README.md",
-    "changelogUrl": "https://cdn.jsdelivr.net/npm//yank-note-extension-git-push@1.1.0/CHANGELOG.md",
+    "readmeUrl": "https://cdn.jsdelivr.net/npm//yank-note-extension-git-push@1.1.1/README.md",
+    "changelogUrl": "https://cdn.jsdelivr.net/npm//yank-note-extension-git-push@1.1.1/CHANGELOG.md",
     "origin": "official"
   },
   {
     "name": "yank-note-extension-sublime-merge",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "displayName": "Sublime Merge",
     "description": "Sublime Merge integration for Yank Note",
     "displayName_ZH-CN": "Sublime Merge",
@@ -57,17 +57,17 @@
     "keywords": [],
     "homepage": "https://github.com/purocean/yn",
     "main": "./dist/index.js",
-    "icon": "https://cdn.jsdelivr.net/npm//yank-note-extension-sublime-merge@1.0.0/./icon.png",
+    "icon": "https://cdn.jsdelivr.net/npm//yank-note-extension-sublime-merge@1.0.1/./icon.png",
     "engines": {
       "node": ">=14.6.0",
       "yank-note": "^3.29.0"
     },
     "dist": {
-      "integrity": "sha512-DNqomq7l3c6HJZoUkU74/fY/oKM8g7FmWLMJiBTaTYMPCsWdpugO469Fclm35ab7R3dXHEsbIihMNIiKuBD/Gw==",
-      "shasum": "4cc1eee5c16c79c0aa1ac217da3413378d6a20b3",
-      "tarball": "https://registry.npmjs.org/yank-note-extension-sublime-merge/-/yank-note-extension-sublime-merge-1.0.0.tgz",
-      "fileCount": 5,
-      "unpackedSize": 25537
+      "integrity": "sha512-bPfEnTSkc8VVm23NjavRIrFIsa3o5rVmfKg+9UCCoKLLu2SdfR5HpKnlpOCk7x1dY+AnBBRV1ihiotjG3eGxcw==",
+      "shasum": "f526c884de1e3a1b453129c80cfb383b880c55a1",
+      "tarball": "https://registry.npmjs.org/yank-note-extension-sublime-merge/-/yank-note-extension-sublime-merge-1.0.1.tgz",
+      "fileCount": 6,
+      "unpackedSize": 25606
     },
     "directories": {},
     "maintainers": [
@@ -76,8 +76,8 @@
         "email": "purocean@outlook.com"
       }
     ],
-    "readmeUrl": "https://cdn.jsdelivr.net/npm//yank-note-extension-sublime-merge@1.0.0/README.md",
-    "changelogUrl": "https://cdn.jsdelivr.net/npm//yank-note-extension-sublime-merge@1.0.0/CHANGELOG.md",
+    "readmeUrl": "https://cdn.jsdelivr.net/npm//yank-note-extension-sublime-merge@1.0.1/README.md",
+    "changelogUrl": "https://cdn.jsdelivr.net/npm//yank-note-extension-sublime-merge@1.0.1/CHANGELOG.md",
     "origin": "official"
   }
 ]
