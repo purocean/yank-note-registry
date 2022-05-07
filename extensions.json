@@ -3,6 +3,6 @@
     { "id": "yank-note-extension-git-push", "version": "1.0.3" }
   ],
   "registry": [
-    { "id": "yank-note-extension-example", "version": "0.0.8" }
+    { "id": "yank-note-extension-example", "version": "0.0.9" }
   ]
 }
