@@ -1,5 +1,50 @@
 [
   {
+    "name": "yank-note-extension-drawio",
+    "version": "0.0.1",
+    "displayName": "Drawio",
+    "description": "Drawio integration for Yank Note",
+    "displayName_ZH-CN": "Drawio",
+    "description_ZH-CN": "Drawio 和 Yank Note 的集成",
+    "author": {
+      "name": "Yank Note"
+    },
+    "license": "MIT",
+    "keywords": [],
+    "homepage": "https://github.com/purocean/yank-note-extension/tree/main/packages/extension-drawio",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/purocean/yank-note-extension.git"
+    },
+    "main": "./dist/index.js",
+    "style": "./dist/style.css",
+    "icon": "https://cdn.jsdelivr.net/npm//yank-note-extension-drawio@0.0.1/./icon.svg",
+    "engines": {
+      "node": ">=14.6.0",
+      "yank-note": "^3.29.0"
+    },
+    "bugs": {
+      "url": "https://github.com/purocean/yank-note-extension/issues"
+    },
+    "dist": {
+      "integrity": "sha512-94QsHDWoGqz3OmxUL3lRmAFMxGTBQ2gxPrfhB8+xqfeRPg1XumR/WP2M6Aqsw2a7YbcvtHTZ0oIcAF8IVdYZkg==",
+      "shasum": "086ff6e57170401ffb88913ee32a86b3e120566b",
+      "tarball": "https://registry.npmjs.org/yank-note-extension-drawio/-/yank-note-extension-drawio-0.0.1.tgz",
+      "fileCount": 3453,
+      "unpackedSize": 136254389
+    },
+    "directories": {},
+    "maintainers": [
+      {
+        "name": "purocean",
+        "email": "purocean@outlook.com"
+      }
+    ],
+    "readmeUrl": "https://cdn.jsdelivr.net/npm//yank-note-extension-drawio@0.0.1/README.md",
+    "changelogUrl": "https://cdn.jsdelivr.net/npm//yank-note-extension-drawio@0.0.1/CHANGELOG.md",
+    "origin": "official"
+  },
+  {
     "name": "yank-note-extension-git-push",
     "version": "1.1.1",
     "displayName": "Git Push",
