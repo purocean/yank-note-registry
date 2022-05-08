@@ -10,13 +10,14 @@ async function buildCDNUrl (id, version, filename) {
     return filename;
   }
 
-  const url = filename
+  let url = filename
 
   if (!/^https?:\/\//.test(url)) {
     url = `${cdnPrefix}/${id}@${version}/${filename}`
   }
 
   if (url.startsWith(cdnPrefix)) {
+    console.log(`    Purge: ${url}`);
     await fetch(url.replace('cdn.jsdelivr.net', 'purge.jsdelivr.net'));
   }
 
