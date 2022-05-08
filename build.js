@@ -34,9 +34,14 @@ async function fetchInfo (id, version) {
   if (packageJson.icon && !/^https?:\/\//.test(packageJson.icon)) {
     packageJson.icon = `${cdnPrefix}/${id}@${version}/${packageJson.icon}`;
   }
-  
-  packageJson.readmeUrl = `${cdnPrefix}/${id}@${version}/README.md`;  
-  packageJson.changelogUrl = `${cdnPrefix}/${id}@${version}/CHANGELOG.md`;  
+
+  if (packageJson.readmeUrl && !/^https?:\/\//.test(packageJson.readmeUrl)) {
+    packageJson.readmeUrl = `${cdnPrefix}/${id}@${version}/${packageJson.readmeUrl}`;
+  }
+
+  if (packageJson.changelogUrl && !/^https?:\/\//.test(packageJson.changelogUrl)) {
+    packageJson.changelogUrl = `${cdnPrefix}/${id}@${version}/${packageJson.changelogUrl}`;
+  }
 
   return packageJson;
 }
