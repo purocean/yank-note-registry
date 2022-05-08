@@ -53,8 +53,8 @@ async function fetchInfo (id, version) {
   });
 
   packageJson.icon = await buildCDNUrl(id, version, packageJson.icon)
-  packageJson.readmeUrl = await buildCDNUrl(id, version, packageJson.readmeUrl)
-  packageJson.changelogUrl = await buildCDNUrl(id, version, packageJson.changelogUrl)
+  packageJson.readmeUrl = await buildCDNUrl(id, version, packageJson.readmeUrl || 'README.md')
+  packageJson.changelogUrl = await buildCDNUrl(id, version, packageJson.changelogUrl || 'CHANGELOG.md')
 
   return packageJson;
 }
