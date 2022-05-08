@@ -5,8 +5,24 @@ const { official, registry } = require('./extensions.json');
 
 const cdnPrefix = 'https://cdn.jsdelivr.net/npm/'
 
-async function purgeJsdelivr (url) {
-  await fetch(url.replace('cdn.jsdelivr.net', 'purge.jsdelivr.net'));
+async function buildCDNUrl (id, version, filename) {
+  if (!filename) {
+    return filename;
+  }
+
+  const url = filename
+
+  if (!/^https?:\/\//.test(url)) {
+    url = `${cdnPrefix}/${id}@${version}/${filename}`
+  }
+
+  if (url.startsWith(cdnPrefix)) {
+    await fetch(url.replace('cdn.jsdelivr.net', 'purge.jsdelivr.net'));
+  }
+
+  const _url = new URL(url);
+  _url.searchParams.set('__t', Date.now());
+  return _url.toString();
 }
 
 async function fetchInfo (id, version) {
@@ -35,20 +51,9 @@ async function fetchInfo (id, version) {
     delete packageJson.dist['npm-signature'];
   });
 
-  if (packageJson.icon && !/^https?:\/\//.test(packageJson.icon)) {
-    packageJson.icon = `${cdnPrefix}/${id}@${version}/${packageJson.icon}`;
-    await purgeJsdelivr(packageJson.icon);
-  }
-
-  if (packageJson.readmeUrl && !/^https?:\/\//.test(packageJson.readmeUrl)) {
-    packageJson.readmeUrl = `${cdnPrefix}/${id}@${version}/${packageJson.readmeUrl}`;
-    await purgeJsdelivr(packageJson.readmeUrl);
-  }
-
-  if (packageJson.changelogUrl && !/^https?:\/\//.test(packageJson.changelogUrl)) {
-    packageJson.changelogUrl = `${cdnPrefix}/${id}@${version}/${packageJson.changelogUrl}`;
-    await purgeJsdelivr(packageJson.changelogUrl);
-  }
+  packageJson.icon = await buildCDNUrl(id, version, packageJson.icon)
+  packageJson.readmeUrl = await buildCDNUrl(id, version, packageJson.readmeUrl)
+  packageJson.changelogUrl = await buildCDNUrl(id, version, packageJson.changelogUrl)
 
   return packageJson;
 }
