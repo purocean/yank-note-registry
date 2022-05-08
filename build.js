@@ -5,6 +5,10 @@ const { official, registry } = require('./extensions.json');
 
 const cdnPrefix = 'https://cdn.jsdelivr.net/npm/'
 
+async function purgeJsdelivr (url) {
+  await fetch(url.replace('cdn.jsdelivr.net', 'purge.jsdelivr.net'));
+}
+
 async function fetchInfo (id, version) {
   console.log(`    Fetching ${id}@${version}`);
 
@@ -33,14 +37,17 @@ async function fetchInfo (id, version) {
 
   if (packageJson.icon && !/^https?:\/\//.test(packageJson.icon)) {
     packageJson.icon = `${cdnPrefix}/${id}@${version}/${packageJson.icon}`;
+    await purgeJsdelivr(packageJson.icon);
   }
 
   if (packageJson.readmeUrl && !/^https?:\/\//.test(packageJson.readmeUrl)) {
     packageJson.readmeUrl = `${cdnPrefix}/${id}@${version}/${packageJson.readmeUrl}`;
+    await purgeJsdelivr(packageJson.readmeUrl);
   }
 
   if (packageJson.changelogUrl && !/^https?:\/\//.test(packageJson.changelogUrl)) {
     packageJson.changelogUrl = `${cdnPrefix}/${id}@${version}/${packageJson.changelogUrl}`;
+    await purgeJsdelivr(packageJson.changelogUrl);
   }
 
   return packageJson;
