@@ -1,8 +1,8 @@
 {
   "official": [
-    { "id": "yank-note-extension-drawio", "version": "0.0.2" },
-    { "id": "yank-note-extension-git-push", "version": "1.1.1" },
-    { "id": "yank-note-extension-sublime-merge", "version": "1.0.1" }
+    { "id": "yank-note-extension-drawio", "version": "0.0.3" },
+    { "id": "yank-note-extension-git-push", "version": "1.1.2" },
+    { "id": "yank-note-extension-sublime-merge", "version": "1.0.2" }
   ],
   "registry": [
   ]
