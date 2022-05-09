@@ -1,7 +1,7 @@
 [
   {
-    "name": "yank-note-extension-drawio",
-    "version": "0.0.3",
+    "name": "@yank-note/extension-drawio",
+    "version": "1.0.0",
     "displayName": "Drawio",
     "description": "Drawio integration for Yank Note",
     "displayName_ZH-CN": "Drawio",
@@ -18,9 +18,9 @@
     },
     "main": "./dist/index.js",
     "style": "./dist/style.css",
-    "icon": "https://cdn.jsdelivr.net/gh/purocean/yank-note-extension/packages/extension-drawio/icon.svg?__t=1652016517989",
-    "readmeUrl": "https://cdn.jsdelivr.net/gh/purocean/yank-note-extension/packages/extension-drawio/README.md?__t=1652016517989",
-    "changelogUrl": "https://cdn.jsdelivr.net/gh/purocean/yank-note-extension/packages/extension-drawio/CHANGELOG.md?__t=1652016517989",
+    "icon": "https://cdn.jsdelivr.net/gh/purocean/yank-note-extension/packages/extension-drawio/icon.svg?__t=1652072746121",
+    "readmeUrl": "https://cdn.jsdelivr.net/gh/purocean/yank-note-extension/packages/extension-drawio/README.md?__t=1652072746122",
+    "changelogUrl": "https://cdn.jsdelivr.net/gh/purocean/yank-note-extension/packages/extension-drawio/CHANGELOG.md?__t=1652072746122",
     "engines": {
       "node": ">=14.6.0",
       "yank-note": "^3.29.0"
@@ -29,11 +29,11 @@
       "url": "https://github.com/purocean/yank-note-extension/issues"
     },
     "dist": {
-      "integrity": "sha512-SgF8XFkxQgTANoZIu7R4Y+HEy9SEZ2YKSFWxkeOien9Z/sy67ZywZL8xJJ4gXazy9HolLrU+mYEZK1dGjwCHRg==",
-      "shasum": "dd315d3574d3f8b5ea6e7618f134e65cf823f81a",
-      "tarball": "https://registry.npmjs.org/yank-note-extension-drawio/-/yank-note-extension-drawio-0.0.3.tgz",
+      "integrity": "sha512-G87iVHAsU5G/r6M3gqTcuCSCd5wXsFPeEfcLAAPXcx/myUo7NnsKp+rDZHc0m9XfUv7xWw3TUPUfkgN/hCv+kg==",
+      "shasum": "90cb609f6b67aeec85c4f735a18bb61931bb271b",
+      "tarball": "https://registry.npmjs.org/@yank-note/extension-drawio/-/extension-drawio-1.0.0.tgz",
       "fileCount": 3453,
-      "unpackedSize": 136254517
+      "unpackedSize": 136254441
     },
     "directories": {},
     "maintainers": [
@@ -45,7 +45,7 @@
     "origin": "official"
   },
   {
-    "name": "yank-note-extension-git-push",
+    "name": "@yank-note/extension-git-push",
     "version": "1.1.2",
     "displayName": "Git Push",
     "displayName_ZH-CN": "Git 推送",
@@ -62,7 +62,7 @@
       "url": "git+https://github.com/purocean/yank-note-extension.git"
     },
     "main": "./dist/index.js",
-    "icon": "https://cdn.jsdelivr.net/npm//yank-note-extension-git-push@1.1.2/icon.png?__t=1652016519124",
+    "icon": "https://cdn.jsdelivr.net/npm//@yank-note/extension-git-push@1.1.2/icon.png?__t=1652072747317",
     "engines": {
       "node": ">=14.6.0",
       "yank-note": "^3.29.0"
@@ -71,11 +71,11 @@
       "url": "https://github.com/purocean/yank-note-extension/issues"
     },
     "dist": {
-      "integrity": "sha512-elQXhnT6+XD2c5jr4JrnYUlnOX5NUxN+LPTRbOmB7mTiivefMCp1GxKnQ5VWB5a4dX3VW/hjYE+Y+HTVrnyNAg==",
-      "shasum": "2ba66d439f5bb14d282aca58ce0600debdfee277",
-      "tarball": "https://registry.npmjs.org/yank-note-extension-git-push/-/yank-note-extension-git-push-1.1.2.tgz",
+      "integrity": "sha512-Inl50z4aHGJca+mYQL2AtNVUadGrAubLRqL0VgSOO6OFOQvN8ZsWgZs2K78/x5UTaYeza4ckSg0DUIvnuZOmJw==",
+      "shasum": "daeb39864091849ddd16cabedc64290e510a0116",
+      "tarball": "https://registry.npmjs.org/@yank-note/extension-git-push/-/extension-git-push-1.1.2.tgz",
       "fileCount": 6,
-      "unpackedSize": 40238
+      "unpackedSize": 39989
     },
     "directories": {},
     "maintainers": [
@@ -84,12 +84,12 @@
         "email": "purocean@outlook.com"
       }
     ],
-    "readmeUrl": "https://cdn.jsdelivr.net/npm//yank-note-extension-git-push@1.1.2/README.md?__t=1652016519598",
-    "changelogUrl": "https://cdn.jsdelivr.net/npm//yank-note-extension-git-push@1.1.2/CHANGELOG.md?__t=1652016520121",
+    "readmeUrl": "https://cdn.jsdelivr.net/npm//@yank-note/extension-git-push@1.1.2/README.md?__t=1652072747944",
+    "changelogUrl": "https://cdn.jsdelivr.net/npm//@yank-note/extension-git-push@1.1.2/CHANGELOG.md?__t=1652072748453",
     "origin": "official"
   },
   {
-    "name": "yank-note-extension-sublime-merge",
+    "name": "@yank-note/extension-sublime-merge",
     "version": "1.0.2",
     "displayName": "Sublime Merge",
     "description": "Sublime Merge integration for Yank Note",
@@ -106,7 +106,7 @@
       "url": "git+https://github.com/purocean/yank-note-extension.git"
     },
     "main": "./dist/index.js",
-    "icon": "https://cdn.jsdelivr.net/npm//yank-note-extension-sublime-merge@1.0.2/icon.png?__t=1652016520706",
+    "icon": "https://cdn.jsdelivr.net/npm//@yank-note/extension-sublime-merge@1.0.2/icon.png?__t=1652072749009",
     "engines": {
       "node": ">=14.6.0",
       "yank-note": "^3.29.0"
@@ -115,11 +115,11 @@
       "url": "https://github.com/purocean/yank-note-extension/issues"
     },
     "dist": {
-      "integrity": "sha512-iMaa+G9cSdN8yFAc6jgJyBzJA3IFl6L5bKjLcqea5YUJmzGdt/2tE5UlsW6R1i09E/tJsx4oQBXqPLZvsjUmrw==",
-      "shasum": "87db0e55dff46b2625c383d13b1b9ca9c3600cc2",
-      "tarball": "https://registry.npmjs.org/yank-note-extension-sublime-merge/-/yank-note-extension-sublime-merge-1.0.2.tgz",
+      "integrity": "sha512-cr1zxF+pvTvd8dpxn5rdqQLeN9etjaSlzNLHOAa5ON8khwtPjHkDYbodafKhaFAplBiPiVZYV/Q5Aj8riG9XQg==",
+      "shasum": "465b3815eb0f40fd94f839d883e7871ad20481a4",
+      "tarball": "https://registry.npmjs.org/@yank-note/extension-sublime-merge/-/extension-sublime-merge-1.0.2.tgz",
       "fileCount": 6,
-      "unpackedSize": 59591
+      "unpackedSize": 59459
     },
     "directories": {},
     "maintainers": [
@@ -128,8 +128,8 @@
         "email": "purocean@outlook.com"
       }
     ],
-    "readmeUrl": "https://cdn.jsdelivr.net/npm//yank-note-extension-sublime-merge@1.0.2/README.md?__t=1652016521146",
-    "changelogUrl": "https://cdn.jsdelivr.net/npm//yank-note-extension-sublime-merge@1.0.2/CHANGELOG.md?__t=1652016521587",
+    "readmeUrl": "https://cdn.jsdelivr.net/npm//@yank-note/extension-sublime-merge@1.0.2/README.md?__t=1652072749513",
+    "changelogUrl": "https://cdn.jsdelivr.net/npm//@yank-note/extension-sublime-merge@1.0.2/CHANGELOG.md?__t=1652072750044",
     "origin": "official"
   }
 ]
