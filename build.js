@@ -13,7 +13,7 @@ async function buildCDNUrl (id, version, filename) {
   let url = filename
 
   if (!/^https?:\/\//.test(url)) {
-    url = `${cdnPrefix}/${id}@${version}/${filename}`
+    url = `${cdnPrefix}${id}@${version}/${filename}`
   }
 
   if (url.startsWith(cdnPrefix)) {
