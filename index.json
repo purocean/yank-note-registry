@@ -131,5 +131,49 @@
     "readmeUrl": "https://cdn.jsdelivr.net/npm/@yank-note/extension-sublime-merge@1.0.2/README.md?__t=1652072885259",
     "changelogUrl": "https://cdn.jsdelivr.net/npm/@yank-note/extension-sublime-merge@1.0.2/CHANGELOG.md?__t=1652072885735",
     "origin": "official"
+  },
+  {
+    "name": "@yank-note/extension-popup-preview",
+    "version": "1.0.0",
+    "displayName": "Popup Preview",
+    "description": "Popup preview in a new window",
+    "displayName_ZH-CN": "弹出预览",
+    "description_ZH-CN": "在新窗口中弹出预览",
+    "author": {
+      "name": "Yank Note"
+    },
+    "license": "AGPL-3.0",
+    "keywords": [],
+    "homepage": "https://github.com/purocean/yank-note-extension/tree/main/packages/extension-pop-preview",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/purocean/yank-note-extension.git"
+    },
+    "main": "./dist/index.js",
+    "icon": "https://cdn.jsdelivr.net/npm/@yank-note/extension-popup-preview@1.0.0/icon.svg?__t=1652165325990",
+    "engines": {
+      "node": ">=14.6.0",
+      "yank-note": "^3.29.0"
+    },
+    "bugs": {
+      "url": "https://github.com/purocean/yank-note-extension/issues"
+    },
+    "dist": {
+      "integrity": "sha512-5goftCd/5UWhrbpWWqSljs13XQILG4wIV3XPUysy4HG1+ukW2XzVjiRL5hNi/lLbCi+NxzjL+m0t92WEd+i2bw==",
+      "shasum": "ce3d02d82b196a0310f0f31e5c7f4bca12d6c367",
+      "tarball": "https://registry.npmjs.org/@yank-note/extension-popup-preview/-/extension-popup-preview-1.0.0.tgz",
+      "fileCount": 5,
+      "unpackedSize": 38645
+    },
+    "directories": {},
+    "maintainers": [
+      {
+        "name": "purocean",
+        "email": "purocean@outlook.com"
+      }
+    ],
+    "readmeUrl": "https://cdn.jsdelivr.net/npm/@yank-note/extension-popup-preview@1.0.0/README.md?__t=1652165326499",
+    "changelogUrl": "https://cdn.jsdelivr.net/npm/@yank-note/extension-popup-preview@1.0.0/CHANGELOG.md?__t=1652165326982",
+    "origin": "official"
   }
 ]
