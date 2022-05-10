@@ -134,7 +134,7 @@
   },
   {
     "name": "@yank-note/extension-popup-preview",
-    "version": "1.0.2",
+    "version": "1.0.3",
     "displayName": "Popup Preview",
     "description": "Popup preview in a new window",
     "displayName_ZH-CN": "弹出预览",
@@ -150,7 +150,7 @@
       "url": "git+https://github.com/purocean/yank-note-extension.git"
     },
     "main": "./dist/index.js",
-    "icon": "https://cdn.jsdelivr.net/npm/@yank-note/extension-popup-preview@1.0.2/icon.svg?__t=1652197542261",
+    "icon": "https://cdn.jsdelivr.net/npm/@yank-note/extension-popup-preview@1.0.3/icon.svg?__t=1652198121541",
     "engines": {
       "node": ">=14.6.0",
       "yank-note": "^3.29.0"
@@ -159,11 +159,11 @@
       "url": "https://github.com/purocean/yank-note-extension/issues"
     },
     "dist": {
-      "integrity": "sha512-h30AejTypkTOl3wAL2I/rXXC/YJT5YgtIjdv7BjwYstIr6bJeVQ7dDltT/SeLQjS18Dgxps3XMcCPa3M5l6rgw==",
-      "shasum": "b03e1dc1a7efd74f07381bbcc7df0b7cbf9277a1",
-      "tarball": "https://registry.npmjs.org/@yank-note/extension-popup-preview/-/extension-popup-preview-1.0.2.tgz",
+      "integrity": "sha512-oAdlsd40ANfshvg438sYVgkeJJrXqBoS+5cnWQETmgWauKBolFczZWdlbyNTURZrePVDcaiHQZ4lkkEZS4WUyA==",
+      "shasum": "1e1bf437404d2a54058d1f4c587f132278888405",
+      "tarball": "https://registry.npmjs.org/@yank-note/extension-popup-preview/-/extension-popup-preview-1.0.3.tgz",
       "fileCount": 6,
-      "unpackedSize": 40058
+      "unpackedSize": 39968
     },
     "directories": {},
     "maintainers": [
@@ -172,8 +172,8 @@
         "email": "purocean@outlook.com"
       }
     ],
-    "readmeUrl": "https://cdn.jsdelivr.net/npm/@yank-note/extension-popup-preview@1.0.2/README.md?__t=1652197542816",
-    "changelogUrl": "https://cdn.jsdelivr.net/npm/@yank-note/extension-popup-preview@1.0.2/CHANGELOG.md?__t=1652197543290",
+    "readmeUrl": "https://cdn.jsdelivr.net/npm/@yank-note/extension-popup-preview@1.0.3/README.md?__t=1652198122117",
+    "changelogUrl": "https://cdn.jsdelivr.net/npm/@yank-note/extension-popup-preview@1.0.3/CHANGELOG.md?__t=1652198122572",
     "origin": "official"
   },
   {
