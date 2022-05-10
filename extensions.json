@@ -3,7 +3,8 @@
     { "id": "@yank-note/extension-drawio", "version": "1.0.0" },
     { "id": "@yank-note/extension-git-push", "version": "1.1.2" },
     { "id": "@yank-note/extension-sublime-merge", "version": "1.0.2" },
-    { "id": "@yank-note/extension-popup-preview", "version": "1.0.1" }
+    { "id": "@yank-note/extension-popup-preview", "version": "1.0.1" },
+    { "id": "@yank-note/extension-luckysheet", "version": "1.0.0" }
   ],
   "registry": [
   ]
