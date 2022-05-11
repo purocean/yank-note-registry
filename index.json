@@ -46,11 +46,11 @@
   },
   {
     "name": "@yank-note/extension-drawio",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "displayName": "Drawio",
-    "description": "Drawio integration for Yank Note",
+    "description": "Drawio integration",
     "displayName_ZH-CN": "Drawio",
-    "description_ZH-CN": "Drawio 和 Yank Note 的集成",
+    "description_ZH-CN": "Drawio 图形集成",
     "author": {
       "name": "Yank Note"
     },
@@ -63,9 +63,9 @@
     },
     "main": "./dist/index.js",
     "style": "./dist/style.css",
-    "icon": "https://cdn.jsdelivr.net/gh/purocean/yank-note-extension/packages/extension-drawio/icon.svg?__t=1652072882507",
-    "readmeUrl": "https://cdn.jsdelivr.net/gh/purocean/yank-note-extension/packages/extension-drawio/README.md?__t=1652072882507",
-    "changelogUrl": "https://cdn.jsdelivr.net/gh/purocean/yank-note-extension/packages/extension-drawio/CHANGELOG.md?__t=1652072882507",
+    "icon": "https://cdn.jsdelivr.net/gh/purocean/yank-note-extension/packages/extension-drawio/icon.svg?__t=1652281960085",
+    "readmeUrl": "https://cdn.jsdelivr.net/gh/purocean/yank-note-extension/packages/extension-drawio/README.md?__t=1652281960639",
+    "changelogUrl": "https://cdn.jsdelivr.net/gh/purocean/yank-note-extension/packages/extension-drawio/CHANGELOG.md?__t=1652281961116",
     "engines": {
       "node": ">=14.6.0",
       "yank-note": "^3.29.0"
@@ -74,11 +74,11 @@
       "url": "https://github.com/purocean/yank-note-extension/issues"
     },
     "dist": {
-      "integrity": "sha512-G87iVHAsU5G/r6M3gqTcuCSCd5wXsFPeEfcLAAPXcx/myUo7NnsKp+rDZHc0m9XfUv7xWw3TUPUfkgN/hCv+kg==",
-      "shasum": "90cb609f6b67aeec85c4f735a18bb61931bb271b",
-      "tarball": "https://registry.npmjs.org/@yank-note/extension-drawio/-/extension-drawio-1.0.0.tgz",
+      "integrity": "sha512-0wVHBgJJxdFJBu4lM2rVazXIuJxQkXJCZObk0vu/NrIbxqdWgdyAfkpYa5Efl6igVKECaC+2f/gW7Tug4BMMjQ==",
+      "shasum": "c961b0ba867089b416fc5eb813a8cf872352e5ad",
+      "tarball": "https://registry.npmjs.org/@yank-note/extension-drawio/-/extension-drawio-1.0.1.tgz",
       "fileCount": 3453,
-      "unpackedSize": 136254441
+      "unpackedSize": 136254434
     },
     "directories": {},
     "maintainers": [
@@ -135,6 +135,51 @@
     "origin": "official"
   },
   {
+    "name": "@yank-note/extension-luckysheet",
+    "version": "1.0.1",
+    "displayName": "Luckysheet",
+    "description": "Luckysheet table integration",
+    "displayName_ZH-CN": "Luckysheet",
+    "description_ZH-CN": "Luckysheet 表格集成",
+    "keywords": [],
+    "author": {
+      "name": "Yank Note"
+    },
+    "license": "AGPL-3.0",
+    "homepage": "https://github.com/purocean/yank-note-extension/tree/main/packages/extension-luckysheet",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/purocean/yank-note-extension.git"
+    },
+    "main": "./dist/index.js",
+    "style": "./dist/style.css",
+    "icon": "https://cdn.jsdelivr.net/npm/@yank-note/extension-luckysheet@1.0.1/icon.png?__t=1652281962116",
+    "engines": {
+      "node": ">=14.6.0",
+      "yank-note": "^3.29.0"
+    },
+    "bugs": {
+      "url": "https://github.com/purocean/yank-note-extension/issues"
+    },
+    "dist": {
+      "integrity": "sha512-51lhDmKJrIlHpvBM1XpTAFxMVEzljsVHrPjYdLTG9FRj1UeOCsPxVDCLX+TegmBl3eim4snba0s5aPWq7tae6g==",
+      "shasum": "1c5b62f25e7fbece1f97c26d16ffe3ff9d96143d",
+      "tarball": "https://registry.npmjs.org/@yank-note/extension-luckysheet/-/extension-luckysheet-1.0.1.tgz",
+      "fileCount": 53,
+      "unpackedSize": 6594505
+    },
+    "directories": {},
+    "maintainers": [
+      {
+        "name": "purocean",
+        "email": "purocean@outlook.com"
+      }
+    ],
+    "readmeUrl": "https://cdn.jsdelivr.net/npm/@yank-note/extension-luckysheet@1.0.1/README.md?__t=1652281962580",
+    "changelogUrl": "https://cdn.jsdelivr.net/npm/@yank-note/extension-luckysheet@1.0.1/CHANGELOG.md?__t=1652281963189",
+    "origin": "official"
+  },
+  {
     "name": "@yank-note/extension-popup-preview",
     "version": "1.0.3",
     "displayName": "Popup Preview",
@@ -180,7 +225,7 @@
   },
   {
     "name": "@yank-note/extension-git-push",
-    "version": "1.1.2",
+    "version": "1.1.4",
     "displayName": "Git Push",
     "displayName_ZH-CN": "Git 推送",
     "description": "Run Git commit and push to remote repository. Note: This plugin is not available for Mac App Store downloaded Yank Note.",
@@ -196,7 +241,7 @@
       "url": "git+https://github.com/purocean/yank-note-extension.git"
     },
     "main": "./dist/index.js",
-    "icon": "https://cdn.jsdelivr.net/npm/@yank-note/extension-git-push@1.1.2/icon.png?__t=1652072883396",
+    "icon": "https://cdn.jsdelivr.net/npm/@yank-note/extension-git-push@1.1.4/icon.png?__t=1652281964553",
     "engines": {
       "node": ">=14.6.0",
       "yank-note": "^3.29.0"
@@ -205,11 +250,11 @@
       "url": "https://github.com/purocean/yank-note-extension/issues"
     },
     "dist": {
-      "integrity": "sha512-Inl50z4aHGJca+mYQL2AtNVUadGrAubLRqL0VgSOO6OFOQvN8ZsWgZs2K78/x5UTaYeza4ckSg0DUIvnuZOmJw==",
-      "shasum": "daeb39864091849ddd16cabedc64290e510a0116",
-      "tarball": "https://registry.npmjs.org/@yank-note/extension-git-push/-/extension-git-push-1.1.2.tgz",
+      "integrity": "sha512-z+PR3fW6ObpxtdxAC2QcM1jBMdkbtLhK//AYYGYIqaIdrSIJOSY7zza5WG7WIqr/inpjCoiw0yBuQEqjlIXCMw==",
+      "shasum": "df6dc95d2aa3ddb2846e357e51163d02edbcff5c",
+      "tarball": "https://registry.npmjs.org/@yank-note/extension-git-push/-/extension-git-push-1.1.4.tgz",
       "fileCount": 6,
-      "unpackedSize": 39989
+      "unpackedSize": 59712
     },
     "directories": {},
     "maintainers": [
@@ -218,8 +263,8 @@
         "email": "purocean@outlook.com"
       }
     ],
-    "readmeUrl": "https://cdn.jsdelivr.net/npm/@yank-note/extension-git-push@1.1.2/README.md?__t=1652072883819",
-    "changelogUrl": "https://cdn.jsdelivr.net/npm/@yank-note/extension-git-push@1.1.2/CHANGELOG.md?__t=1652072884259",
+    "readmeUrl": "https://cdn.jsdelivr.net/npm/@yank-note/extension-git-push@1.1.4/README.md?__t=1652281965117",
+    "changelogUrl": "https://cdn.jsdelivr.net/npm/@yank-note/extension-git-push@1.1.4/CHANGELOG.md?__t=1652281965716",
     "origin": "official"
   },
   {
@@ -264,51 +309,6 @@
     ],
     "readmeUrl": "https://cdn.jsdelivr.net/npm/@yank-note/extension-sublime-merge@1.0.2/README.md?__t=1652072885259",
     "changelogUrl": "https://cdn.jsdelivr.net/npm/@yank-note/extension-sublime-merge@1.0.2/CHANGELOG.md?__t=1652072885735",
-    "origin": "official"
-  },
-  {
-    "name": "@yank-note/extension-luckysheet",
-    "version": "1.0.0",
-    "displayName": "Luckysheet",
-    "description": "Luckysheet table integration",
-    "displayName_ZH-CN": "Luckysheet",
-    "description_ZH-CN": "Luckysheet 表格集成",
-    "keywords": [],
-    "author": {
-      "name": "Yank Note"
-    },
-    "license": "AGPL-3.0",
-    "homepage": "https://github.com/purocean/yank-note-extension/tree/main/packages/extension-luckysheet",
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/purocean/yank-note-extension.git"
-    },
-    "main": "./dist/index.js",
-    "style": "./dist/style.css",
-    "icon": "https://cdn.jsdelivr.net/npm/@yank-note/extension-luckysheet@1.0.0/icon.png?__t=1652192081471",
-    "engines": {
-      "node": ">=14.6.0",
-      "yank-note": "^3.29.0"
-    },
-    "bugs": {
-      "url": "https://github.com/purocean/yank-note-extension/issues"
-    },
-    "dist": {
-      "integrity": "sha512-UKfeAPgDORG/K3oqRMU4iaPZatit3BgbXurwNmFvfeZE2BQFdWCcnkhdroYLhwdX/qJiIx5MrQigpy/UkkHrAw==",
-      "shasum": "09a035b10e2ca64b15dbff9ab82337a5bb6ed934",
-      "tarball": "https://registry.npmjs.org/@yank-note/extension-luckysheet/-/extension-luckysheet-1.0.0.tgz",
-      "fileCount": 53,
-      "unpackedSize": 6594607
-    },
-    "directories": {},
-    "maintainers": [
-      {
-        "name": "purocean",
-        "email": "purocean@outlook.com"
-      }
-    ],
-    "readmeUrl": "https://cdn.jsdelivr.net/npm/@yank-note/extension-luckysheet@1.0.0/README.md?__t=1652192082078",
-    "changelogUrl": "https://cdn.jsdelivr.net/npm/@yank-note/extension-luckysheet@1.0.0/CHANGELOG.md?__t=1652192082599",
     "origin": "official"
   }
 ]
