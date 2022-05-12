@@ -181,7 +181,7 @@
   },
   {
     "name": "@yank-note/extension-popup-preview",
-    "version": "1.0.3",
+    "version": "1.0.4",
     "displayName": "Popup Preview",
     "description": "Popup preview in a new window",
     "displayName_ZH-CN": "弹出预览",
@@ -197,20 +197,23 @@
       "url": "git+https://github.com/purocean/yank-note-extension.git"
     },
     "main": "./dist/index.js",
-    "icon": "https://cdn.jsdelivr.net/npm/@yank-note/extension-popup-preview@1.0.3/icon.svg?__t=1652198121541",
+    "icon": "https://cdn.jsdelivr.net/npm/@yank-note/extension-popup-preview@1.0.4/icon.svg?__t=1652326457116",
     "engines": {
       "node": ">=14.6.0",
       "yank-note": "^3.29.0"
+    },
+    "requirements": {
+      "premium": true
     },
     "bugs": {
       "url": "https://github.com/purocean/yank-note-extension/issues"
     },
     "dist": {
-      "integrity": "sha512-oAdlsd40ANfshvg438sYVgkeJJrXqBoS+5cnWQETmgWauKBolFczZWdlbyNTURZrePVDcaiHQZ4lkkEZS4WUyA==",
-      "shasum": "1e1bf437404d2a54058d1f4c587f132278888405",
-      "tarball": "https://registry.npmjs.org/@yank-note/extension-popup-preview/-/extension-popup-preview-1.0.3.tgz",
+      "integrity": "sha512-totT64fuvdVKfc2Y8Hp9HdVFFkiio1datFPuGRO5uZTvgUCoehDTxGbJvRh7RUdSM46F7Jj2t4sJvjg36kR0Ag==",
+      "shasum": "5db4e41e2d13c63a55dbe0c6659ef6daf85f5e8c",
+      "tarball": "https://registry.npmjs.org/@yank-note/extension-popup-preview/-/extension-popup-preview-1.0.4.tgz",
       "fileCount": 6,
-      "unpackedSize": 39968
+      "unpackedSize": 39685
     },
     "directories": {},
     "maintainers": [
@@ -219,13 +222,13 @@
         "email": "purocean@outlook.com"
       }
     ],
-    "readmeUrl": "https://cdn.jsdelivr.net/npm/@yank-note/extension-popup-preview@1.0.3/README.md?__t=1652198122117",
-    "changelogUrl": "https://cdn.jsdelivr.net/npm/@yank-note/extension-popup-preview@1.0.3/CHANGELOG.md?__t=1652198122572",
+    "readmeUrl": "https://cdn.jsdelivr.net/npm/@yank-note/extension-popup-preview@1.0.4/README.md?__t=1652326457554",
+    "changelogUrl": "https://cdn.jsdelivr.net/npm/@yank-note/extension-popup-preview@1.0.4/CHANGELOG.md?__t=1652326458035",
     "origin": "official"
   },
   {
     "name": "@yank-note/extension-git-push",
-    "version": "1.1.4",
+    "version": "1.1.5",
     "displayName": "Git Push",
     "displayName_ZH-CN": "Git 推送",
     "description": "Run Git commit and push to remote repository. Note: This plugin is not available for Mac App Store downloaded Yank Note.",
@@ -241,20 +244,23 @@
       "url": "git+https://github.com/purocean/yank-note-extension.git"
     },
     "main": "./dist/index.js",
-    "icon": "https://cdn.jsdelivr.net/npm/@yank-note/extension-git-push@1.1.4/icon.png?__t=1652281964553",
+    "icon": "https://cdn.jsdelivr.net/npm/@yank-note/extension-git-push@1.1.5/icon.png?__t=1652326461129",
     "engines": {
       "node": ">=14.6.0",
       "yank-note": "^3.29.0"
+    },
+    "requirements": {
+      "terminal": true
     },
     "bugs": {
       "url": "https://github.com/purocean/yank-note-extension/issues"
     },
     "dist": {
-      "integrity": "sha512-z+PR3fW6ObpxtdxAC2QcM1jBMdkbtLhK//AYYGYIqaIdrSIJOSY7zza5WG7WIqr/inpjCoiw0yBuQEqjlIXCMw==",
-      "shasum": "df6dc95d2aa3ddb2846e357e51163d02edbcff5c",
-      "tarball": "https://registry.npmjs.org/@yank-note/extension-git-push/-/extension-git-push-1.1.4.tgz",
+      "integrity": "sha512-w2OnhK6KJq/hHOl7A0c/y1s3MqpaFs/tFHAzhL/2P+gX4p+wHsPUvrY8nnpb/DxyucVG+eh8Lu97WhOtCxTMKQ==",
+      "shasum": "2dfdc4ca2fa5f692a23283fbdbf95a7612bd4780",
+      "tarball": "https://registry.npmjs.org/@yank-note/extension-git-push/-/extension-git-push-1.1.5.tgz",
       "fileCount": 6,
-      "unpackedSize": 59712
+      "unpackedSize": 59902
     },
     "directories": {},
     "maintainers": [
@@ -263,8 +269,8 @@
         "email": "purocean@outlook.com"
       }
     ],
-    "readmeUrl": "https://cdn.jsdelivr.net/npm/@yank-note/extension-git-push@1.1.4/README.md?__t=1652281965117",
-    "changelogUrl": "https://cdn.jsdelivr.net/npm/@yank-note/extension-git-push@1.1.4/CHANGELOG.md?__t=1652281965716",
+    "readmeUrl": "https://cdn.jsdelivr.net/npm/@yank-note/extension-git-push@1.1.5/README.md?__t=1652326461621",
+    "changelogUrl": "https://cdn.jsdelivr.net/npm/@yank-note/extension-git-push@1.1.5/CHANGELOG.md?__t=1652326462130",
     "origin": "official"
   },
   {
