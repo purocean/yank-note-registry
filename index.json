@@ -180,6 +180,53 @@
     "origin": "official"
   },
   {
+    "name": "@yank-note/extension-openai",
+    "version": "1.0.0",
+    "displayName": "OpenAI",
+    "description": "Your AI writing assistant",
+    "displayName_ZH-CN": "OpenAI",
+    "description_ZH-CN": "你的人工智能写作助手",
+    "author": {
+      "name": "Yank Note"
+    },
+    "license": "AGPL-3.0",
+    "keywords": [],
+    "homepage": "https://github.com/purocean/yank-note-extension/tree/main/packages/extension-openai",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/purocean/yank-note-extension.git"
+    },
+    "main": "./dist/index.js",
+    "icon": "https://cdn.jsdelivr.net/npm/@yank-note/extension-openai@1.0.0/icon.svg?__t=1652352081755",
+    "engines": {
+      "node": ">=14.6.0",
+      "yank-note": "^3.29.0"
+    },
+    "requirements": {
+      "premium": true
+    },
+    "bugs": {
+      "url": "https://github.com/purocean/yank-note-extension/issues"
+    },
+    "dist": {
+      "integrity": "sha512-XfgR9ur5SM6+ixpv5RlmjJpsveWm8zvSgFzP17n6B/I9WgToDgFQGYzPvBGpLvpnNQv6yJlLqF0Cq51bNwZs9w==",
+      "shasum": "6ff5ba574158b20b658b13d7b5f987ee4c7a63f6",
+      "tarball": "https://registry.npmjs.org/@yank-note/extension-openai/-/extension-openai-1.0.0.tgz",
+      "fileCount": 6,
+      "unpackedSize": 44416
+    },
+    "directories": {},
+    "maintainers": [
+      {
+        "name": "purocean",
+        "email": "purocean@outlook.com"
+      }
+    ],
+    "readmeUrl": "https://cdn.jsdelivr.net/npm/@yank-note/extension-openai@1.0.0/README.md?__t=1652352082238",
+    "changelogUrl": "https://cdn.jsdelivr.net/npm/@yank-note/extension-openai@1.0.0/CHANGELOG.md?__t=1652352082698",
+    "origin": "official"
+  },
+  {
     "name": "@yank-note/extension-popup-preview",
     "version": "1.0.4",
     "displayName": "Popup Preview",
