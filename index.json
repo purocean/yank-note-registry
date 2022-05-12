@@ -181,7 +181,7 @@
   },
   {
     "name": "@yank-note/extension-openai",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "displayName": "OpenAI",
     "description": "Your AI writing assistant",
     "displayName_ZH-CN": "OpenAI",
@@ -197,7 +197,7 @@
       "url": "git+https://github.com/purocean/yank-note-extension.git"
     },
     "main": "./dist/index.js",
-    "icon": "https://cdn.jsdelivr.net/npm/@yank-note/extension-openai@1.0.0/icon.svg?__t=1652352081755",
+    "icon": "https://cdn.jsdelivr.net/npm/@yank-note/extension-openai@1.0.1/icon.svg?__t=1652363626087",
     "engines": {
       "node": ">=14.6.0",
       "yank-note": "^3.29.0"
@@ -209,11 +209,11 @@
       "url": "https://github.com/purocean/yank-note-extension/issues"
     },
     "dist": {
-      "integrity": "sha512-XfgR9ur5SM6+ixpv5RlmjJpsveWm8zvSgFzP17n6B/I9WgToDgFQGYzPvBGpLvpnNQv6yJlLqF0Cq51bNwZs9w==",
-      "shasum": "6ff5ba574158b20b658b13d7b5f987ee4c7a63f6",
-      "tarball": "https://registry.npmjs.org/@yank-note/extension-openai/-/extension-openai-1.0.0.tgz",
+      "integrity": "sha512-oJDglQZh7DEp/Pp98m9Ptz1aACFn4wJD38zDY0VDIsS6mT+42hsBDQ4HKhuqBwLpxrfN618OAE6XcEuzd3K3uQ==",
+      "shasum": "ba0e7dd16a07edd336d077b076db4a8e33f216dd",
+      "tarball": "https://registry.npmjs.org/@yank-note/extension-openai/-/extension-openai-1.0.1.tgz",
       "fileCount": 6,
-      "unpackedSize": 44416
+      "unpackedSize": 44905
     },
     "directories": {},
     "maintainers": [
@@ -222,8 +222,8 @@
         "email": "purocean@outlook.com"
       }
     ],
-    "readmeUrl": "https://cdn.jsdelivr.net/npm/@yank-note/extension-openai@1.0.0/README.md?__t=1652352082238",
-    "changelogUrl": "https://cdn.jsdelivr.net/npm/@yank-note/extension-openai@1.0.0/CHANGELOG.md?__t=1652352082698",
+    "readmeUrl": "https://cdn.jsdelivr.net/npm/@yank-note/extension-openai@1.0.1/README.md?__t=1652363626544",
+    "changelogUrl": "https://cdn.jsdelivr.net/npm/@yank-note/extension-openai@1.0.1/CHANGELOG.md?__t=1652363627040",
     "origin": "official"
   },
   {
