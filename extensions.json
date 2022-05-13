@@ -1,13 +1,13 @@
 {
   "official": [
     { "id": "@yank-note/extension-mermaid", "version": "1.0.0" },
-    { "id": "@yank-note/extension-drawio", "version": "1.0.1" },
+    { "id": "@yank-note/extension-drawio", "version": "1.0.2" },
     { "id": "@yank-note/extension-echarts", "version": "1.0.0" },
-    { "id": "@yank-note/extension-luckysheet", "version": "1.0.1" },
-    { "id": "@yank-note/extension-openai", "version": "1.0.2" },
-    { "id": "@yank-note/extension-popup-preview", "version": "1.0.4" },
-    { "id": "@yank-note/extension-git-push", "version": "1.1.5" },
-    { "id": "@yank-note/extension-sublime-merge", "version": "1.0.2" }
+    { "id": "@yank-note/extension-luckysheet", "version": "1.0.2" },
+    { "id": "@yank-note/extension-openai", "version": "1.0.3" },
+    { "id": "@yank-note/extension-popup-preview", "version": "1.0.5" },
+    { "id": "@yank-note/extension-git-push", "version": "1.1.6" },
+    { "id": "@yank-note/extension-sublime-merge", "version": "1.0.3" }
   ],
   "registry": [
   ]
