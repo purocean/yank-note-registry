@@ -46,7 +46,7 @@
   },
   {
     "name": "@yank-note/extension-drawio",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "displayName": "Drawio",
     "description": "Drawio integration",
     "displayName_ZH-CN": "Drawio",
@@ -63,9 +63,9 @@
     },
     "main": "./dist/index.js",
     "style": "./dist/style.css",
-    "icon": "https://cdn.jsdelivr.net/gh/purocean/yank-note-extension/packages/extension-drawio/icon.svg?__t=1652281960085",
-    "readmeUrl": "https://cdn.jsdelivr.net/gh/purocean/yank-note-extension/packages/extension-drawio/README.md?__t=1652281960639",
-    "changelogUrl": "https://cdn.jsdelivr.net/gh/purocean/yank-note-extension/packages/extension-drawio/CHANGELOG.md?__t=1652281961116",
+    "icon": "https://cdn.jsdelivr.net/gh/purocean/yank-note-extension/packages/extension-drawio/icon.svg?__t=1652419367682",
+    "readmeUrl": "https://cdn.jsdelivr.net/gh/purocean/yank-note-extension/packages/extension-drawio/README.md?__t=1652419368288",
+    "changelogUrl": "https://cdn.jsdelivr.net/gh/purocean/yank-note-extension/packages/extension-drawio/CHANGELOG.md?__t=1652419368778",
     "engines": {
       "node": ">=14.6.0",
       "yank-note": "^3.29.0"
@@ -74,11 +74,11 @@
       "url": "https://github.com/purocean/yank-note-extension/issues"
     },
     "dist": {
-      "integrity": "sha512-0wVHBgJJxdFJBu4lM2rVazXIuJxQkXJCZObk0vu/NrIbxqdWgdyAfkpYa5Efl6igVKECaC+2f/gW7Tug4BMMjQ==",
-      "shasum": "c961b0ba867089b416fc5eb813a8cf872352e5ad",
-      "tarball": "https://registry.npmjs.org/@yank-note/extension-drawio/-/extension-drawio-1.0.1.tgz",
+      "integrity": "sha512-00wEO8SrKwoPg6St4HAtsZFO2fHjrmC1f53waKOiabcEy2iKllpPuKrowz7x2/pqhLAJInuqWICdIq91P1/6Dg==",
+      "shasum": "ce2536a34e764254c82d5bd26ca93919f0983584",
+      "tarball": "https://registry.npmjs.org/@yank-note/extension-drawio/-/extension-drawio-1.0.2.tgz",
       "fileCount": 3453,
-      "unpackedSize": 136254434
+      "unpackedSize": 136254478
     },
     "directories": {},
     "maintainers": [
@@ -136,7 +136,7 @@
   },
   {
     "name": "@yank-note/extension-luckysheet",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "displayName": "Luckysheet",
     "description": "Luckysheet table integration",
     "displayName_ZH-CN": "Luckysheet",
@@ -153,7 +153,7 @@
     },
     "main": "./dist/index.js",
     "style": "./dist/style.css",
-    "icon": "https://cdn.jsdelivr.net/npm/@yank-note/extension-luckysheet@1.0.1/icon.png?__t=1652281962116",
+    "icon": "https://cdn.jsdelivr.net/npm/@yank-note/extension-luckysheet@1.0.2/icon.png?__t=1652419369835",
     "engines": {
       "node": ">=14.6.0",
       "yank-note": "^3.29.0"
@@ -162,11 +162,11 @@
       "url": "https://github.com/purocean/yank-note-extension/issues"
     },
     "dist": {
-      "integrity": "sha512-51lhDmKJrIlHpvBM1XpTAFxMVEzljsVHrPjYdLTG9FRj1UeOCsPxVDCLX+TegmBl3eim4snba0s5aPWq7tae6g==",
-      "shasum": "1c5b62f25e7fbece1f97c26d16ffe3ff9d96143d",
-      "tarball": "https://registry.npmjs.org/@yank-note/extension-luckysheet/-/extension-luckysheet-1.0.1.tgz",
+      "integrity": "sha512-Vf7YURwBBU72MpyODx+HFrbotc9exTb/96tK5R18yWP1sEEoJSkHSYtPnilpNnJHU88eZ0iQ/rJthRMVPzCCzQ==",
+      "shasum": "acd3f740db161f1418611e8a1e8479c3341045b9",
+      "tarball": "https://registry.npmjs.org/@yank-note/extension-luckysheet/-/extension-luckysheet-1.0.2.tgz",
       "fileCount": 53,
-      "unpackedSize": 6594505
+      "unpackedSize": 6594565
     },
     "directories": {},
     "maintainers": [
@@ -175,13 +175,13 @@
         "email": "purocean@outlook.com"
       }
     ],
-    "readmeUrl": "https://cdn.jsdelivr.net/npm/@yank-note/extension-luckysheet@1.0.1/README.md?__t=1652281962580",
-    "changelogUrl": "https://cdn.jsdelivr.net/npm/@yank-note/extension-luckysheet@1.0.1/CHANGELOG.md?__t=1652281963189",
+    "readmeUrl": "https://cdn.jsdelivr.net/npm/@yank-note/extension-luckysheet@1.0.2/README.md?__t=1652419370277",
+    "changelogUrl": "https://cdn.jsdelivr.net/npm/@yank-note/extension-luckysheet@1.0.2/CHANGELOG.md?__t=1652419370782",
     "origin": "official"
   },
   {
     "name": "@yank-note/extension-openai",
-    "version": "1.0.2",
+    "version": "1.0.3",
     "displayName": "OpenAI",
     "description": "Your AI writing assistant",
     "displayName_ZH-CN": "OpenAI",
@@ -197,7 +197,7 @@
       "url": "git+https://github.com/purocean/yank-note-extension.git"
     },
     "main": "./dist/index.js",
-    "icon": "https://cdn.jsdelivr.net/npm/@yank-note/extension-openai@1.0.2/icon.svg?__t=1652364469140",
+    "icon": "https://cdn.jsdelivr.net/npm/@yank-note/extension-openai@1.0.3/icon.svg?__t=1652419371869",
     "engines": {
       "node": ">=14.6.0",
       "yank-note": "^3.29.0"
@@ -209,11 +209,11 @@
       "url": "https://github.com/purocean/yank-note-extension/issues"
     },
     "dist": {
-      "integrity": "sha512-zly7Jk7v+dG82m09qwH2D0ypV1+fOhY/FXIjSQgXgvrka0jjoLvOq4vpdM/g3ylTWg/66UgkilRUQ+tAm6eebQ==",
-      "shasum": "9d4bc4509464e12cdb23e590d4aede50560a7a1b",
-      "tarball": "https://registry.npmjs.org/@yank-note/extension-openai/-/extension-openai-1.0.2.tgz",
+      "integrity": "sha512-JMeifdFy0lRwBaY8+vO9I6iasUABxtHcx3MLdtcD6g3w2EH0JDExuYzVITIexVzwAdbV9dIlsQwMG5/oYHuNHw==",
+      "shasum": "fba96d8adf219bf273f1cb28f42526ddb1045b8b",
+      "tarball": "https://registry.npmjs.org/@yank-note/extension-openai/-/extension-openai-1.0.3.tgz",
       "fileCount": 6,
-      "unpackedSize": 45192
+      "unpackedSize": 45285
     },
     "directories": {},
     "maintainers": [
@@ -222,13 +222,13 @@
         "email": "purocean@outlook.com"
       }
     ],
-    "readmeUrl": "https://cdn.jsdelivr.net/npm/@yank-note/extension-openai@1.0.2/README.md?__t=1652364469838",
-    "changelogUrl": "https://cdn.jsdelivr.net/npm/@yank-note/extension-openai@1.0.2/CHANGELOG.md?__t=1652364470471",
+    "readmeUrl": "https://cdn.jsdelivr.net/npm/@yank-note/extension-openai@1.0.3/README.md?__t=1652419372329",
+    "changelogUrl": "https://cdn.jsdelivr.net/npm/@yank-note/extension-openai@1.0.3/CHANGELOG.md?__t=1652419372768",
     "origin": "official"
   },
   {
     "name": "@yank-note/extension-popup-preview",
-    "version": "1.0.4",
+    "version": "1.0.5",
     "displayName": "Popup Preview",
     "description": "Popup preview in a new window",
     "displayName_ZH-CN": "弹出预览",
@@ -244,7 +244,7 @@
       "url": "git+https://github.com/purocean/yank-note-extension.git"
     },
     "main": "./dist/index.js",
-    "icon": "https://cdn.jsdelivr.net/npm/@yank-note/extension-popup-preview@1.0.4/icon.svg?__t=1652326457116",
+    "icon": "https://cdn.jsdelivr.net/npm/@yank-note/extension-popup-preview@1.0.5/icon.svg?__t=1652419373643",
     "engines": {
       "node": ">=14.6.0",
       "yank-note": "^3.29.0"
@@ -256,11 +256,11 @@
       "url": "https://github.com/purocean/yank-note-extension/issues"
     },
     "dist": {
-      "integrity": "sha512-totT64fuvdVKfc2Y8Hp9HdVFFkiio1datFPuGRO5uZTvgUCoehDTxGbJvRh7RUdSM46F7Jj2t4sJvjg36kR0Ag==",
-      "shasum": "5db4e41e2d13c63a55dbe0c6659ef6daf85f5e8c",
-      "tarball": "https://registry.npmjs.org/@yank-note/extension-popup-preview/-/extension-popup-preview-1.0.4.tgz",
+      "integrity": "sha512-y0CG1qyWLOJ47iwLnF15+ALwpuzZV8Ew7jcBnS0HEawZhdng2agkigRuVh1MOxz010WZXhqHnO370ET/DAxWcQ==",
+      "shasum": "404c5f717c87d91c28b2058cc3481e72edf8017c",
+      "tarball": "https://registry.npmjs.org/@yank-note/extension-popup-preview/-/extension-popup-preview-1.0.5.tgz",
       "fileCount": 6,
-      "unpackedSize": 39685
+      "unpackedSize": 39778
     },
     "directories": {},
     "maintainers": [
@@ -269,13 +269,13 @@
         "email": "purocean@outlook.com"
       }
     ],
-    "readmeUrl": "https://cdn.jsdelivr.net/npm/@yank-note/extension-popup-preview@1.0.4/README.md?__t=1652326457554",
-    "changelogUrl": "https://cdn.jsdelivr.net/npm/@yank-note/extension-popup-preview@1.0.4/CHANGELOG.md?__t=1652326458035",
+    "readmeUrl": "https://cdn.jsdelivr.net/npm/@yank-note/extension-popup-preview@1.0.5/README.md?__t=1652419374098",
+    "changelogUrl": "https://cdn.jsdelivr.net/npm/@yank-note/extension-popup-preview@1.0.5/CHANGELOG.md?__t=1652419374522",
     "origin": "official"
   },
   {
     "name": "@yank-note/extension-git-push",
-    "version": "1.1.5",
+    "version": "1.1.6",
     "displayName": "Git Push",
     "displayName_ZH-CN": "Git 推送",
     "description": "Run Git commit and push to remote repository. Note: This plugin is not available for Mac App Store downloaded Yank Note.",
@@ -291,7 +291,7 @@
       "url": "git+https://github.com/purocean/yank-note-extension.git"
     },
     "main": "./dist/index.js",
-    "icon": "https://cdn.jsdelivr.net/npm/@yank-note/extension-git-push@1.1.5/icon.png?__t=1652326461129",
+    "icon": "https://cdn.jsdelivr.net/npm/@yank-note/extension-git-push@1.1.6/icon.png?__t=1652419375815",
     "engines": {
       "node": ">=14.6.0",
       "yank-note": "^3.29.0"
@@ -303,11 +303,11 @@
       "url": "https://github.com/purocean/yank-note-extension/issues"
     },
     "dist": {
-      "integrity": "sha512-w2OnhK6KJq/hHOl7A0c/y1s3MqpaFs/tFHAzhL/2P+gX4p+wHsPUvrY8nnpb/DxyucVG+eh8Lu97WhOtCxTMKQ==",
-      "shasum": "2dfdc4ca2fa5f692a23283fbdbf95a7612bd4780",
-      "tarball": "https://registry.npmjs.org/@yank-note/extension-git-push/-/extension-git-push-1.1.5.tgz",
+      "integrity": "sha512-6MBr+wQBhDiG+Q320hEQ0q0xb0hvuoZ02Bm0TS78bloI7djO3DZMdjn08xOi+GveFHNBDp9usyiOFV3bxswc/w==",
+      "shasum": "2ff15bd548e3f6e2e7e78974ab36664857910910",
+      "tarball": "https://registry.npmjs.org/@yank-note/extension-git-push/-/extension-git-push-1.1.6.tgz",
       "fileCount": 6,
-      "unpackedSize": 59902
+      "unpackedSize": 59989
     },
     "directories": {},
     "maintainers": [
@@ -316,13 +316,13 @@
         "email": "purocean@outlook.com"
       }
     ],
-    "readmeUrl": "https://cdn.jsdelivr.net/npm/@yank-note/extension-git-push@1.1.5/README.md?__t=1652326461621",
-    "changelogUrl": "https://cdn.jsdelivr.net/npm/@yank-note/extension-git-push@1.1.5/CHANGELOG.md?__t=1652326462130",
+    "readmeUrl": "https://cdn.jsdelivr.net/npm/@yank-note/extension-git-push@1.1.6/README.md?__t=1652419376256",
+    "changelogUrl": "https://cdn.jsdelivr.net/npm/@yank-note/extension-git-push@1.1.6/CHANGELOG.md?__t=1652419376672",
     "origin": "official"
   },
   {
     "name": "@yank-note/extension-sublime-merge",
-    "version": "1.0.2",
+    "version": "1.0.3",
     "displayName": "Sublime Merge",
     "description": "Sublime Merge integration for Yank Note",
     "displayName_ZH-CN": "Sublime Merge",
@@ -338,7 +338,7 @@
       "url": "git+https://github.com/purocean/yank-note-extension.git"
     },
     "main": "./dist/index.js",
-    "icon": "https://cdn.jsdelivr.net/npm/@yank-note/extension-sublime-merge@1.0.2/icon.png?__t=1652072884766",
+    "icon": "https://cdn.jsdelivr.net/npm/@yank-note/extension-sublime-merge@1.0.3/icon.png?__t=1652419377422",
     "engines": {
       "node": ">=14.6.0",
       "yank-note": "^3.29.0"
@@ -347,11 +347,11 @@
       "url": "https://github.com/purocean/yank-note-extension/issues"
     },
     "dist": {
-      "integrity": "sha512-cr1zxF+pvTvd8dpxn5rdqQLeN9etjaSlzNLHOAa5ON8khwtPjHkDYbodafKhaFAplBiPiVZYV/Q5Aj8riG9XQg==",
-      "shasum": "465b3815eb0f40fd94f839d883e7871ad20481a4",
-      "tarball": "https://registry.npmjs.org/@yank-note/extension-sublime-merge/-/extension-sublime-merge-1.0.2.tgz",
+      "integrity": "sha512-ZFvn2BcnSgBb68Gnsw9UPYjEyS9koZv3gqb6DoeJProIEYy/9DXpKgij+SbsWjAJZYE1Zgt+Vf64yZjEQWg5Vw==",
+      "shasum": "ff920fef1c3004d612df18ebb4a59730aa7f51f9",
+      "tarball": "https://registry.npmjs.org/@yank-note/extension-sublime-merge/-/extension-sublime-merge-1.0.3.tgz",
       "fileCount": 6,
-      "unpackedSize": 59459
+      "unpackedSize": 59552
     },
     "directories": {},
     "maintainers": [
@@ -360,8 +360,8 @@
         "email": "purocean@outlook.com"
       }
     ],
-    "readmeUrl": "https://cdn.jsdelivr.net/npm/@yank-note/extension-sublime-merge@1.0.2/README.md?__t=1652072885259",
-    "changelogUrl": "https://cdn.jsdelivr.net/npm/@yank-note/extension-sublime-merge@1.0.2/CHANGELOG.md?__t=1652072885735",
+    "readmeUrl": "https://cdn.jsdelivr.net/npm/@yank-note/extension-sublime-merge@1.0.3/README.md?__t=1652419377910",
+    "changelogUrl": "https://cdn.jsdelivr.net/npm/@yank-note/extension-sublime-merge@1.0.3/CHANGELOG.md?__t=1652419378413",
     "origin": "official"
   }
 ]
