@@ -181,7 +181,7 @@
   },
   {
     "name": "@yank-note/extension-openai",
-    "version": "1.0.3",
+    "version": "1.0.4",
     "displayName": "OpenAI",
     "description": "Your AI writing assistant",
     "displayName_ZH-CN": "OpenAI",
@@ -197,23 +197,20 @@
       "url": "git+https://github.com/purocean/yank-note-extension.git"
     },
     "main": "./dist/index.js",
-    "icon": "https://cdn.jsdelivr.net/npm/@yank-note/extension-openai@1.0.3/icon.svg?__t=1652419371869",
+    "icon": "https://cdn.jsdelivr.net/npm/@yank-note/extension-openai@1.0.4/icon.svg?__t=1652437600441",
     "engines": {
       "node": ">=14.6.0",
       "yank-note": "^3.29.0"
-    },
-    "requirements": {
-      "premium": true
     },
     "bugs": {
       "url": "https://github.com/purocean/yank-note-extension/issues"
     },
     "dist": {
-      "integrity": "sha512-JMeifdFy0lRwBaY8+vO9I6iasUABxtHcx3MLdtcD6g3w2EH0JDExuYzVITIexVzwAdbV9dIlsQwMG5/oYHuNHw==",
-      "shasum": "fba96d8adf219bf273f1cb28f42526ddb1045b8b",
-      "tarball": "https://registry.npmjs.org/@yank-note/extension-openai/-/extension-openai-1.0.3.tgz",
+      "integrity": "sha512-Cf6TL2HwpO+VyTf6v6P27yY3mjDUxIxuOw7OYqKWzgOIGMglTr9JrBooSQJN4PojGE0EcMXxG13t8A8l77bf1g==",
+      "shasum": "492e0f51b86ea34c088b465ace6c37e9f29b84a2",
+      "tarball": "https://registry.npmjs.org/@yank-note/extension-openai/-/extension-openai-1.0.4.tgz",
       "fileCount": 6,
-      "unpackedSize": 45285
+      "unpackedSize": 45372
     },
     "directories": {},
     "maintainers": [
@@ -222,8 +219,8 @@
         "email": "purocean@outlook.com"
       }
     ],
-    "readmeUrl": "https://cdn.jsdelivr.net/npm/@yank-note/extension-openai@1.0.3/README.md?__t=1652419372329",
-    "changelogUrl": "https://cdn.jsdelivr.net/npm/@yank-note/extension-openai@1.0.3/CHANGELOG.md?__t=1652419372768",
+    "readmeUrl": "https://cdn.jsdelivr.net/npm/@yank-note/extension-openai@1.0.4/README.md?__t=1652437604805",
+    "changelogUrl": "https://cdn.jsdelivr.net/npm/@yank-note/extension-openai@1.0.4/CHANGELOG.md?__t=1652437605600",
     "origin": "official"
   },
   {
@@ -322,7 +319,7 @@
   },
   {
     "name": "@yank-note/extension-sublime-merge",
-    "version": "1.0.3",
+    "version": "1.0.4",
     "displayName": "Sublime Merge",
     "description": "Sublime Merge integration for Yank Note",
     "displayName_ZH-CN": "Sublime Merge",
@@ -338,20 +335,23 @@
       "url": "git+https://github.com/purocean/yank-note-extension.git"
     },
     "main": "./dist/index.js",
-    "icon": "https://cdn.jsdelivr.net/npm/@yank-note/extension-sublime-merge@1.0.3/icon.png?__t=1652419377422",
+    "icon": "https://cdn.jsdelivr.net/npm/@yank-note/extension-sublime-merge@1.0.4/icon.png?__t=1652437606843",
     "engines": {
       "node": ">=14.6.0",
       "yank-note": "^3.29.0"
+    },
+    "requirements": {
+      "terminal": true
     },
     "bugs": {
       "url": "https://github.com/purocean/yank-note-extension/issues"
     },
     "dist": {
-      "integrity": "sha512-ZFvn2BcnSgBb68Gnsw9UPYjEyS9koZv3gqb6DoeJProIEYy/9DXpKgij+SbsWjAJZYE1Zgt+Vf64yZjEQWg5Vw==",
-      "shasum": "ff920fef1c3004d612df18ebb4a59730aa7f51f9",
-      "tarball": "https://registry.npmjs.org/@yank-note/extension-sublime-merge/-/extension-sublime-merge-1.0.3.tgz",
+      "integrity": "sha512-eMHL1o4ioYXkwTkn9UgzjVHFhiDGDTCiNSy4/cytQZskxm124orDRKOhOIuDapKUaJ/5lMF3o9HpsQPvEAyuLQ==",
+      "shasum": "5c098ff8071e94b0026d14f75317ede849475317",
+      "tarball": "https://registry.npmjs.org/@yank-note/extension-sublime-merge/-/extension-sublime-merge-1.0.4.tgz",
       "fileCount": 6,
-      "unpackedSize": 59552
+      "unpackedSize": 59744
     },
     "directories": {},
     "maintainers": [
@@ -360,8 +360,8 @@
         "email": "purocean@outlook.com"
       }
     ],
-    "readmeUrl": "https://cdn.jsdelivr.net/npm/@yank-note/extension-sublime-merge@1.0.3/README.md?__t=1652419377910",
-    "changelogUrl": "https://cdn.jsdelivr.net/npm/@yank-note/extension-sublime-merge@1.0.3/CHANGELOG.md?__t=1652419378413",
+    "readmeUrl": "https://cdn.jsdelivr.net/npm/@yank-note/extension-sublime-merge@1.0.4/README.md?__t=1652437607326",
+    "changelogUrl": "https://cdn.jsdelivr.net/npm/@yank-note/extension-sublime-merge@1.0.4/CHANGELOG.md?__t=1652437607868",
     "origin": "official"
   }
 ]
