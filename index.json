@@ -136,7 +136,7 @@
   },
   {
     "name": "@yank-note/extension-luckysheet",
-    "version": "1.0.2",
+    "version": "1.0.3",
     "displayName": "Luckysheet",
     "description": "Luckysheet table integration",
     "displayName_ZH-CN": "Luckysheet",
@@ -153,7 +153,7 @@
     },
     "main": "./dist/index.js",
     "style": "./dist/style.css",
-    "icon": "https://cdn.jsdelivr.net/npm/@yank-note/extension-luckysheet@1.0.2/icon.png?__t=1652419369835",
+    "icon": "https://cdn.jsdelivr.net/npm/@yank-note/extension-luckysheet@1.0.3/icon.png?__t=1652540847608",
     "engines": {
       "node": ">=14.6.0",
       "yank-note": "^3.29.0"
@@ -162,11 +162,11 @@
       "url": "https://github.com/purocean/yank-note-extension/issues"
     },
     "dist": {
-      "integrity": "sha512-Vf7YURwBBU72MpyODx+HFrbotc9exTb/96tK5R18yWP1sEEoJSkHSYtPnilpNnJHU88eZ0iQ/rJthRMVPzCCzQ==",
-      "shasum": "acd3f740db161f1418611e8a1e8479c3341045b9",
-      "tarball": "https://registry.npmjs.org/@yank-note/extension-luckysheet/-/extension-luckysheet-1.0.2.tgz",
+      "integrity": "sha512-32PkmoR5aaIUl6+5B22aCqT7Pajjaff5aG6saq/z27t1ypKNFDTn1O2P/VeFN/4Fp6OEFRlNMmTlwWp/jKr+oQ==",
+      "shasum": "2fff2939b48bc6c5787d8fcc34cce220b3775e84",
+      "tarball": "https://registry.npmjs.org/@yank-note/extension-luckysheet/-/extension-luckysheet-1.0.3.tgz",
       "fileCount": 53,
-      "unpackedSize": 6594565
+      "unpackedSize": 6594942
     },
     "directories": {},
     "maintainers": [
@@ -175,8 +175,8 @@
         "email": "purocean@outlook.com"
       }
     ],
-    "readmeUrl": "https://cdn.jsdelivr.net/npm/@yank-note/extension-luckysheet@1.0.2/README.md?__t=1652419370277",
-    "changelogUrl": "https://cdn.jsdelivr.net/npm/@yank-note/extension-luckysheet@1.0.2/CHANGELOG.md?__t=1652419370782",
+    "readmeUrl": "https://cdn.jsdelivr.net/npm/@yank-note/extension-luckysheet@1.0.3/README.md?__t=1652540848102",
+    "changelogUrl": "https://cdn.jsdelivr.net/npm/@yank-note/extension-luckysheet@1.0.3/CHANGELOG.md?__t=1652540848781",
     "origin": "official"
   },
   {
