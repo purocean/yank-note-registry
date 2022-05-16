@@ -272,7 +272,7 @@
   },
   {
     "name": "@yank-note/extension-git-push",
-    "version": "1.1.6",
+    "version": "1.1.7",
     "displayName": "Git Push",
     "displayName_ZH-CN": "Git 推送",
     "description": "Run Git commit and push to remote repository. Note: This plugin is not available for Mac App Store downloaded Yank Note.",
@@ -288,7 +288,7 @@
       "url": "git+https://github.com/purocean/yank-note-extension.git"
     },
     "main": "./dist/index.js",
-    "icon": "https://cdn.jsdelivr.net/npm/@yank-note/extension-git-push@1.1.6/icon.png?__t=1652419375815",
+    "icon": "https://cdn.jsdelivr.net/npm/@yank-note/extension-git-push@1.1.7/icon.png?__t=1652711592250",
     "engines": {
       "node": ">=14.6.0",
       "yank-note": "^3.29.0"
@@ -300,11 +300,11 @@
       "url": "https://github.com/purocean/yank-note-extension/issues"
     },
     "dist": {
-      "integrity": "sha512-6MBr+wQBhDiG+Q320hEQ0q0xb0hvuoZ02Bm0TS78bloI7djO3DZMdjn08xOi+GveFHNBDp9usyiOFV3bxswc/w==",
-      "shasum": "2ff15bd548e3f6e2e7e78974ab36664857910910",
-      "tarball": "https://registry.npmjs.org/@yank-note/extension-git-push/-/extension-git-push-1.1.6.tgz",
+      "integrity": "sha512-ksN2zT8sIlPXhJ70TNzkRCIC1F/IK7EmP+3YovcpeGmcImcf3Hk/2X3r/vDgIjVjyh+oPMZJqepNbIlvWBUPPw==",
+      "shasum": "6d09c2a162c85c2e86dc4e9432e93fa33ff623aa",
+      "tarball": "https://registry.npmjs.org/@yank-note/extension-git-push/-/extension-git-push-1.1.7.tgz",
       "fileCount": 6,
-      "unpackedSize": 59989
+      "unpackedSize": 60251
     },
     "directories": {},
     "maintainers": [
@@ -313,13 +313,13 @@
         "email": "purocean@outlook.com"
       }
     ],
-    "readmeUrl": "https://cdn.jsdelivr.net/npm/@yank-note/extension-git-push@1.1.6/README.md?__t=1652419376256",
-    "changelogUrl": "https://cdn.jsdelivr.net/npm/@yank-note/extension-git-push@1.1.6/CHANGELOG.md?__t=1652419376672",
+    "readmeUrl": "https://cdn.jsdelivr.net/npm/@yank-note/extension-git-push@1.1.7/README.md?__t=1652711592725",
+    "changelogUrl": "https://cdn.jsdelivr.net/npm/@yank-note/extension-git-push@1.1.7/CHANGELOG.md?__t=1652711593236",
     "origin": "official"
   },
   {
     "name": "@yank-note/extension-sublime-merge",
-    "version": "1.0.4",
+    "version": "1.0.5",
     "displayName": "Sublime Merge",
     "description": "Sublime Merge integration for Yank Note",
     "displayName_ZH-CN": "Sublime Merge",
@@ -335,7 +335,7 @@
       "url": "git+https://github.com/purocean/yank-note-extension.git"
     },
     "main": "./dist/index.js",
-    "icon": "https://cdn.jsdelivr.net/npm/@yank-note/extension-sublime-merge@1.0.4/icon.png?__t=1652437606843",
+    "icon": "https://cdn.jsdelivr.net/npm/@yank-note/extension-sublime-merge@1.0.5/icon.png?__t=1652711593981",
     "engines": {
       "node": ">=14.6.0",
       "yank-note": "^3.29.0"
@@ -347,11 +347,11 @@
       "url": "https://github.com/purocean/yank-note-extension/issues"
     },
     "dist": {
-      "integrity": "sha512-eMHL1o4ioYXkwTkn9UgzjVHFhiDGDTCiNSy4/cytQZskxm124orDRKOhOIuDapKUaJ/5lMF3o9HpsQPvEAyuLQ==",
-      "shasum": "5c098ff8071e94b0026d14f75317ede849475317",
-      "tarball": "https://registry.npmjs.org/@yank-note/extension-sublime-merge/-/extension-sublime-merge-1.0.4.tgz",
+      "integrity": "sha512-eNF/xphuny20GbOCjxARZ1XffXunLGOOk65LZCF++/h0MdRX7ejoF6wPHJdgUqeecCAJcc2xUdi4eXHziUGKIw==",
+      "shasum": "eb7b37d59b29b6db5becbb48f423fd16aff3f7cc",
+      "tarball": "https://registry.npmjs.org/@yank-note/extension-sublime-merge/-/extension-sublime-merge-1.0.5.tgz",
       "fileCount": 6,
-      "unpackedSize": 59744
+      "unpackedSize": 60677
     },
     "directories": {},
     "maintainers": [
@@ -360,8 +360,8 @@
         "email": "purocean@outlook.com"
       }
     ],
-    "readmeUrl": "https://cdn.jsdelivr.net/npm/@yank-note/extension-sublime-merge@1.0.4/README.md?__t=1652437607326",
-    "changelogUrl": "https://cdn.jsdelivr.net/npm/@yank-note/extension-sublime-merge@1.0.4/CHANGELOG.md?__t=1652437607868",
+    "readmeUrl": "https://cdn.jsdelivr.net/npm/@yank-note/extension-sublime-merge@1.0.5/README.md?__t=1652711594494",
+    "changelogUrl": "https://cdn.jsdelivr.net/npm/@yank-note/extension-sublime-merge@1.0.5/CHANGELOG.md?__t=1652711594949",
     "origin": "official"
   }
 ]
