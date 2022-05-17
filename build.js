@@ -3,7 +3,7 @@ const fetch = require('node-fetch');
 const index = require('./index.json');
 const { official, registry } = require('./extensions.json');
 
-const cdnPrefix = 'https://cdn.jsdelivr.net/npm/'
+const cdnPrefix = 'https://fastly.jsdelivr.net/npm/'
 
 async function buildCDNUrl (id, version, filename) {
   if (!filename) {
@@ -16,7 +16,7 @@ async function buildCDNUrl (id, version, filename) {
     url = `${cdnPrefix}${id}@${version}/${filename}`
   }
 
-  if (url.startsWith('https://cdn.jsdelivr.net/')) {
+  if (url.startsWith('https://fastly.jsdelivr.net/')) {
     console.log(`    Purge: ${url}`);
     await fetch(url.replace('cdn.jsdelivr.net', 'purge.jsdelivr.net'));
   }
