@@ -10,5 +10,6 @@
     { "id": "@yank-note/extension-sublime-merge", "version": "1.0.5" }
   ],
   "registry": [
+    { "id": "yank-note-extension-theme-yanser", "version": "1.0.1" }
   ]
 }
