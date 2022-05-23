@@ -225,7 +225,7 @@
   },
   {
     "name": "@yank-note/extension-popup-preview",
-    "version": "1.0.5",
+    "version": "1.1.0",
     "displayName": "Popup Preview",
     "description": "Popup preview in a new window",
     "displayName_ZH-CN": "弹出预览",
@@ -241,7 +241,7 @@
       "url": "git+https://github.com/purocean/yank-note-extension.git"
     },
     "main": "./dist/index.js",
-    "icon": "https://fastly.jsdelivr.net/npm/@yank-note/extension-popup-preview@1.0.5/icon.svg?__t=1652779091093",
+    "icon": "https://fastly.jsdelivr.net/npm/@yank-note/extension-popup-preview@1.1.0/icon.svg?__t=1653280409659",
     "engines": {
       "node": ">=14.6.0",
       "yank-note": "^3.29.0"
@@ -253,11 +253,11 @@
       "url": "https://github.com/purocean/yank-note-extension/issues"
     },
     "dist": {
-      "integrity": "sha512-y0CG1qyWLOJ47iwLnF15+ALwpuzZV8Ew7jcBnS0HEawZhdng2agkigRuVh1MOxz010WZXhqHnO370ET/DAxWcQ==",
-      "shasum": "404c5f717c87d91c28b2058cc3481e72edf8017c",
-      "tarball": "https://registry.npmjs.org/@yank-note/extension-popup-preview/-/extension-popup-preview-1.0.5.tgz",
+      "integrity": "sha512-Ga8tqcv3grR7ofwobDHaWjxg0jxRn454gGvaYYUOqtCYdNlJ1Zx+hJNcAWJYo+Z9+SN3MHw4oNQZBG+iHRRURg==",
+      "shasum": "c29a4cafa33d9fc8dd0d273a9ce427ff766c63d2",
+      "tarball": "https://registry.npmjs.org/@yank-note/extension-popup-preview/-/extension-popup-preview-1.1.0.tgz",
       "fileCount": 6,
-      "unpackedSize": 39778
+      "unpackedSize": 40636
     },
     "directories": {},
     "maintainers": [
@@ -266,8 +266,8 @@
         "email": "purocean@outlook.com"
       }
     ],
-    "readmeUrl": "https://fastly.jsdelivr.net/npm/@yank-note/extension-popup-preview@1.0.5/README.md?__t=1652779091872",
-    "changelogUrl": "https://fastly.jsdelivr.net/npm/@yank-note/extension-popup-preview@1.0.5/CHANGELOG.md?__t=1652779092147",
+    "readmeUrl": "https://fastly.jsdelivr.net/npm/@yank-note/extension-popup-preview@1.1.0/README.md?__t=1653280409765",
+    "changelogUrl": "https://fastly.jsdelivr.net/npm/@yank-note/extension-popup-preview@1.1.0/CHANGELOG.md?__t=1653280409881",
     "origin": "official"
   },
   {
