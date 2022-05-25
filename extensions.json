@@ -11,6 +11,6 @@
   ],
   "registry": [ 
     { "id": "yank-note-extension-theme-yanser", "version": "1.0.4" },
-    { "id": "yank-note-extension-vim-mode", "version": "0.0.1" }
+    { "id": "yank-note-extension-vim-mode", "version": "1.0.0" }
   ]
 }
