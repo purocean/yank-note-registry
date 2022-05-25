@@ -417,5 +417,51 @@
     "readmeUrl": "https://fastly.jsdelivr.net/npm/yank-note-extension-theme-yanser@1.0.4/README.md?__t=1653021625434",
     "changelogUrl": "https://fastly.jsdelivr.net/npm/yank-note-extension-theme-yanser@1.0.4/CHANGELOG.md?__t=1653021625663",
     "origin": "registry"
+  },
+  {
+    "name": "yank-note-extension-vim-mode",
+    "version": "1.0.0",
+    "displayName": "Vim Mode",
+    "description": "Vim Mode extension",
+    "displayName_ZH-CN": "Vim Mode",
+    "description_ZH-CN": "Vim Mode 扩展",
+    "author": {
+      "name": "zhyipeng"
+    },
+    "license": "MIT",
+    "keywords": [],
+    "homepage": "https://github.com/zhyipeng/yank-note-extension-vim-mode",
+    "main": "./dist/index.js",
+    "icon": "https://fastly.jsdelivr.net/npm/yank-note-extension-vim-mode@1.0.0/icon.png?__t=1653491499728",
+    "engines": {
+      "node": ">=14.6.0",
+      "yank-note": "^3.29.0"
+    },
+    "themes": [],
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/zhyipeng/yank-note-extension-vim-mode.git"
+    },
+    "bugs": {
+      "url": "https://github.com/zhyipeng/yank-note-extension-vim-mode/issues"
+    },
+    "gitHead": "ba84ad1af4e142e4afbcb525d0ea9baaeeaa9b58",
+    "dist": {
+      "integrity": "sha512-vCW2TxkuW4AbWKXsyeQgCUjld9YxR0SlPizPzy6R9QrBFD+ZfuSyQORDjyY+EG8smQJ1fSnFei/jXM4UhkdWeQ==",
+      "shasum": "99286bcbf8b7478e9619de45ebe059fcbf6d5d2f",
+      "tarball": "https://registry.npmjs.org/yank-note-extension-vim-mode/-/yank-note-extension-vim-mode-1.0.0.tgz",
+      "fileCount": 6,
+      "unpackedSize": 12929
+    },
+    "directories": {},
+    "maintainers": [
+      {
+        "name": "zhyipeng",
+        "email": "zhyipeng@outlook.com"
+      }
+    ],
+    "readmeUrl": "https://fastly.jsdelivr.net/npm/yank-note-extension-vim-mode@1.0.0/README.md?__t=1653491500821",
+    "changelogUrl": "https://fastly.jsdelivr.net/npm/yank-note-extension-vim-mode@1.0.0/CHANGELOG.md?__t=1653491500998",
+    "origin": "registry"
   }
 ]
