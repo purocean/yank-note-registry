@@ -180,6 +180,53 @@
     "origin": "official"
   },
   {
+    "name": "@yank-note/extension-reveal-js",
+    "version": "1.0.0",
+    "displayName": "Reveal.js",
+    "description": "Reveal.js integration",
+    "displayName_ZH-CN": "Reveal.js",
+    "description_ZH-CN": "Reveal.js 集成",
+    "author": {
+      "name": "Yank Note"
+    },
+    "license": "AGPL-3.0",
+    "keywords": [],
+    "homepage": "https://github.com/purocean/yank-note-extension/tree/main/packages/extension-reveal-js",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/purocean/yank-note-extension.git"
+    },
+    "main": "./dist/index.js",
+    "icon": "https://fastly.jsdelivr.net/npm/@yank-note/extension-reveal-js@1.0.0/icon.svg?__t=1657783245112",
+    "engines": {
+      "node": ">=14.6.0",
+      "yank-note": "^3.31.0"
+    },
+    "requirements": {
+      "premium": true
+    },
+    "bugs": {
+      "url": "https://github.com/purocean/yank-note-extension/issues"
+    },
+    "dist": {
+      "integrity": "sha512-JMg4eTIIkHm5SnNTorYRNvNAQP07vSYoo2Q07BC0lEJIfgOfgKboC9e7+SWMoI0TImXDmLgY5s47XtzUnt2tKA==",
+      "shasum": "30e2eb6884871ba9e4d8cbc409a185254f40f5c3",
+      "tarball": "https://registry.npmjs.org/@yank-note/extension-reveal-js/-/extension-reveal-js-1.0.0.tgz",
+      "fileCount": 62,
+      "unpackedSize": 4672933
+    },
+    "directories": {},
+    "maintainers": [
+      {
+        "name": "purocean",
+        "email": "purocean@outlook.com"
+      }
+    ],
+    "readmeUrl": "https://fastly.jsdelivr.net/npm/@yank-note/extension-reveal-js@1.0.0/README.md?__t=1657783245226",
+    "changelogUrl": "https://fastly.jsdelivr.net/npm/@yank-note/extension-reveal-js@1.0.0/CHANGELOG.md?__t=1657783245947",
+    "origin": "official"
+  },
+  {
     "name": "@yank-note/extension-openai",
     "version": "1.0.4",
     "displayName": "OpenAI",
