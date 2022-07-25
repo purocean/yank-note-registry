@@ -181,7 +181,7 @@
   },
   {
     "name": "@yank-note/extension-reveal-js",
-    "version": "1.2.0",
+    "version": "1.2.1",
     "displayName": "Reveal.js",
     "description": "Reveal.js integration",
     "displayName_ZH-CN": "Reveal.js",
@@ -197,7 +197,7 @@
       "url": "git+https://github.com/purocean/yank-note-extension.git"
     },
     "main": "./dist/index.js",
-    "icon": "https://fastly.jsdelivr.net/npm/@yank-note/extension-reveal-js@1.2.0/icon.svg?__t=1658679217127",
+    "icon": "https://fastly.jsdelivr.net/npm/@yank-note/extension-reveal-js@1.2.1/icon.svg?__t=1658712855955",
     "engines": {
       "node": ">=14.6.0",
       "yank-note": "^3.32.0"
@@ -209,11 +209,11 @@
       "url": "https://github.com/purocean/yank-note-extension/issues"
     },
     "dist": {
-      "integrity": "sha512-DJoEiFWCl+ual5nMZoyOcZa8YICbksCGPucImMCxFfzn+C6SMv9w4Sa7BaC6g8vKAqGV+8bo5GjBHt2xX3ec2Q==",
-      "shasum": "83b7ca9de2dc728a3c970135e51cb2faf1000801",
-      "tarball": "https://registry.npmjs.org/@yank-note/extension-reveal-js/-/extension-reveal-js-1.2.0.tgz",
+      "integrity": "sha512-BjS2s0iRcm0aL61dbJVzMm80GcqA8hoNGhnSTd+URw/E8gXnn9jruvjkuxKttM7Cir3XDhTNVTITALeI8ENxMw==",
+      "shasum": "1f4e789f8e784406c1ee2605becf5eb78df55fc2",
+      "tarball": "https://registry.npmjs.org/@yank-note/extension-reveal-js/-/extension-reveal-js-1.2.1.tgz",
       "fileCount": 62,
-      "unpackedSize": 4674708
+      "unpackedSize": 4675021
     },
     "directories": {},
     "maintainers": [
@@ -222,8 +222,8 @@
         "email": "purocean@outlook.com"
       }
     ],
-    "readmeUrl": "https://fastly.jsdelivr.net/npm/@yank-note/extension-reveal-js@1.2.0/README.md?__t=1658679217242",
-    "changelogUrl": "https://fastly.jsdelivr.net/npm/@yank-note/extension-reveal-js@1.2.0/CHANGELOG.md?__t=1658679217360",
+    "readmeUrl": "https://fastly.jsdelivr.net/npm/@yank-note/extension-reveal-js@1.2.1/README.md?__t=1658712858945",
+    "changelogUrl": "https://fastly.jsdelivr.net/npm/@yank-note/extension-reveal-js@1.2.1/CHANGELOG.md?__t=1658712861902",
     "origin": "official"
   },
   {
