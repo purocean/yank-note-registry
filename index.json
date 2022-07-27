@@ -510,5 +510,51 @@
     "readmeUrl": "https://fastly.jsdelivr.net/npm/yank-note-extension-vim-mode@1.0.2/README.md?__t=1653558909668",
     "changelogUrl": "https://fastly.jsdelivr.net/npm/yank-note-extension-vim-mode@1.0.2/CHANGELOG.md?__t=1653558910051",
     "origin": "registry"
+  },
+  {
+    "name": "yank-note-extension-tool-bar",
+    "version": "1.0.0",
+    "displayName": "Yank Note Tool Bar",
+    "description": "Tool Bar For Yank Note",
+    "displayName_ZH-CN": "工具栏",
+    "description_ZH-CN": "yank工具栏",
+    "author": {
+      "name": "andrew_asa"
+    },
+    "license": "AGPL-3.0",
+    "keywords": [],
+    "homepage": "https://github.com/andrew-asa/yank-note-extension-tool-bar",
+    "repository": {
+      "type": "git",
+      "url": "git+ssh://git@github.com/andrew-asa/yank-note-extension-tool-bar.git"
+    },
+    "main": "./dist/index.js",
+    "icon": "https://fastly.jsdelivr.net/npm/yank-note-extension-tool-bar@1.0.0/icon.png?__t=1658886520206",
+    "engines": {
+      "node": ">=14.6.0",
+      "yank-note": "^3.30.0"
+    },
+    "requirements": {},
+    "bugs": {
+      "url": "https://github.com/andrew-asa/yank-note-extension-tool-bar/issues"
+    },
+    "gitHead": "9d3ff2a4846228022be6b24e75b735088d82e97f",
+    "dist": {
+      "integrity": "sha512-OBt3R+WaVhJvCzldqhvy61Sajzu3c1KZg4khYpWBQFPNhKnjQ8VQUhz3rbak1Rz3kfXZEowi2FswxNR7FabNYg==",
+      "shasum": "2b2a414c18675ccfae13e2767c321bea17ce3b52",
+      "tarball": "https://registry.npmjs.org/yank-note-extension-tool-bar/-/yank-note-extension-tool-bar-1.0.0.tgz",
+      "fileCount": 6,
+      "unpackedSize": 1266436
+    },
+    "directories": {},
+    "maintainers": [
+      {
+        "name": "andrew_asa",
+        "email": "asa.andrew@yahoo.com"
+      }
+    ],
+    "readmeUrl": "https://fastly.jsdelivr.net/npm/yank-note-extension-tool-bar@1.0.0/README.md?__t=1658886520594",
+    "changelogUrl": "https://fastly.jsdelivr.net/npm/yank-note-extension-tool-bar@1.0.0/CHANGELOG.md?__t=1658886521753",
+    "origin": "registry"
   }
 ]
