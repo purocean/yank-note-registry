@@ -181,7 +181,7 @@
   },
   {
     "name": "@yank-note/extension-reveal-js",
-    "version": "1.2.1",
+    "version": "1.3.0",
     "displayName": "Reveal.js",
     "description": "Reveal.js integration",
     "displayName_ZH-CN": "Reveal.js",
@@ -197,10 +197,11 @@
       "url": "git+https://github.com/purocean/yank-note-extension.git"
     },
     "main": "./dist/index.js",
-    "icon": "https://fastly.jsdelivr.net/npm/@yank-note/extension-reveal-js@1.2.1/icon.svg?__t=1658712855955",
+    "style": "./dist/style.css",
+    "icon": "https://fastly.jsdelivr.net/npm/@yank-note/extension-reveal-js@1.3.0/icon.svg?__t=1658997146940",
     "engines": {
       "node": ">=14.6.0",
-      "yank-note": "^3.32.0"
+      "yank-note": "^3.33.0"
     },
     "requirements": {
       "premium": true
@@ -209,11 +210,11 @@
       "url": "https://github.com/purocean/yank-note-extension/issues"
     },
     "dist": {
-      "integrity": "sha512-BjS2s0iRcm0aL61dbJVzMm80GcqA8hoNGhnSTd+URw/E8gXnn9jruvjkuxKttM7Cir3XDhTNVTITALeI8ENxMw==",
-      "shasum": "1f4e789f8e784406c1ee2605becf5eb78df55fc2",
-      "tarball": "https://registry.npmjs.org/@yank-note/extension-reveal-js/-/extension-reveal-js-1.2.1.tgz",
-      "fileCount": 62,
-      "unpackedSize": 4675021
+      "integrity": "sha512-wJP3D2FVMQngK+9DFY6VZ5zZ5YUA1xSMOZdBlNW1HaKUes09IxPANXQ9nXk4orAJ6M3+fQIclRY4uAEwHnVfGw==",
+      "shasum": "61b076ab9653a21101d949e76e520c0252b7307c",
+      "tarball": "https://registry.npmjs.org/@yank-note/extension-reveal-js/-/extension-reveal-js-1.3.0.tgz",
+      "fileCount": 63,
+      "unpackedSize": 4678063
     },
     "directories": {},
     "maintainers": [
@@ -222,8 +223,8 @@
         "email": "purocean@outlook.com"
       }
     ],
-    "readmeUrl": "https://fastly.jsdelivr.net/npm/@yank-note/extension-reveal-js@1.2.1/README.md?__t=1658712858945",
-    "changelogUrl": "https://fastly.jsdelivr.net/npm/@yank-note/extension-reveal-js@1.2.1/CHANGELOG.md?__t=1658712861902",
+    "readmeUrl": "https://fastly.jsdelivr.net/npm/@yank-note/extension-reveal-js@1.3.0/README.md?__t=1658997147356",
+    "changelogUrl": "https://fastly.jsdelivr.net/npm/@yank-note/extension-reveal-js@1.3.0/CHANGELOG.md?__t=1658997151870",
     "origin": "official"
   },
   {
