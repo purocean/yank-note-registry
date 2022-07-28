@@ -228,6 +228,54 @@
     "origin": "official"
   },
   {
+    "name": "@yank-note/extension-markmap",
+    "version": "1.0.1",
+    "displayName": "Markmap",
+    "description": "Visualize your Markdown as mindmaps with Markmap.",
+    "displayName_ZH-CN": "Markmap",
+    "description_ZH-CN": "使用 Markmap 将您的 Markdown 可视化为思维导图。",
+    "author": {
+      "name": "Yank Note"
+    },
+    "license": "AGPL-3.0",
+    "keywords": [],
+    "homepage": "https://github.com/purocean/yank-note-extension/tree/main/packages/extension-markmap",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/purocean/yank-note-extension.git"
+    },
+    "main": "./dist/index.js",
+    "style": "./dist/style.css",
+    "icon": "https://fastly.jsdelivr.net/npm/@yank-note/extension-markmap@1.0.1/icon.png?__t=1659021661043",
+    "engines": {
+      "node": ">=14.6.0",
+      "yank-note": "^3.33.0"
+    },
+    "requirements": {
+      "premium": true
+    },
+    "bugs": {
+      "url": "https://github.com/purocean/yank-note-extension/issues"
+    },
+    "dist": {
+      "integrity": "sha512-7Sb3/gpSrqs2IJZf+uYzFioXB7XOdr2jrbgc6+D0J8LMW1Yk9JxpWjaopI4qJDVPHOYgv6NWWq9NfT8meuXIFA==",
+      "shasum": "c475e243a198090c0f9753276c17452547d82eb9",
+      "tarball": "https://registry.npmjs.org/@yank-note/extension-markmap/-/extension-markmap-1.0.1.tgz",
+      "fileCount": 12,
+      "unpackedSize": 476195
+    },
+    "directories": {},
+    "maintainers": [
+      {
+        "name": "purocean",
+        "email": "purocean@outlook.com"
+      }
+    ],
+    "readmeUrl": "https://fastly.jsdelivr.net/npm/@yank-note/extension-markmap@1.0.1/README.md?__t=1659021661161",
+    "changelogUrl": "https://fastly.jsdelivr.net/npm/@yank-note/extension-markmap@1.0.1/CHANGELOG.md?__t=1659021661545",
+    "origin": "official"
+  },
+  {
     "name": "@yank-note/extension-openai",
     "version": "1.0.4",
     "displayName": "OpenAI",
