@@ -276,37 +276,40 @@
     "origin": "official"
   },
   {
-    "name": "@yank-note/extension-openai",
-    "version": "1.0.5",
-    "displayName": "OpenAI",
-    "description": "Your AI writing assistant",
-    "displayName_ZH-CN": "OpenAI",
-    "description_ZH-CN": "你的人工智能写作助手",
+    "name": "@yank-note/extension-code-runner",
+    "version": "1.0.0",
+    "displayName": "Code Runner",
+    "displayName_ZH-CN": "Code Runner",
+    "description": "Run code for multiple languages: BASH/SH, PHP, Python, Node.js.",
+    "description_ZH-CN": "执行多种语言的代码：BASH/SH, PHP, Python, Node.js。",
+    "keywords": [],
     "author": {
       "name": "Yank Note"
     },
     "license": "AGPL-3.0",
-    "keywords": [],
-    "homepage": "https://github.com/purocean/yank-note-extension/tree/main/packages/extension-openai",
+    "homepage": "https://github.com/purocean/yank-note-extension/tree/main/packages/extension-code-runner",
     "repository": {
       "type": "git",
       "url": "git+https://github.com/purocean/yank-note-extension.git"
     },
     "main": "./dist/index.js",
-    "icon": "https://fastly.jsdelivr.net/npm/@yank-note/extension-openai@1.0.5/icon.svg?__t=1659322726201",
+    "icon": "https://fastly.jsdelivr.net/npm/@yank-note/extension-code-runner@1.0.0/icon.png?__t=1660384248430",
     "engines": {
       "node": ">=14.6.0",
-      "yank-note": "^3.29.0"
+      "yank-note": "^3.34.0"
+    },
+    "requirements": {
+      "terminal": true
     },
     "bugs": {
       "url": "https://github.com/purocean/yank-note-extension/issues"
     },
     "dist": {
-      "integrity": "sha512-67+f8QbVrI9LV/PL0JNsxrXd6pnJc2FdYVOmlzsVhQJy5biggn9nDnF3ZQQMfL2aeiYmrq8X9HgeiRXLthr97A==",
-      "shasum": "71dbf6ea44f933407fcfbc2b84bf7b289de7e4e7",
-      "tarball": "https://registry.npmjs.org/@yank-note/extension-openai/-/extension-openai-1.0.5.tgz",
+      "integrity": "sha512-BacJTMZiTUlHNIKH981oeWbTQPJ51C8OAgHosoyipXda5zNS1kU6bCjaWPt69ij7dUf0EvXtLRnW9ytvKgn1nQ==",
+      "shasum": "1afeddd497c18fbfe4ca1b51c7ca8e0f94332117",
+      "tarball": "https://registry.npmjs.org/@yank-note/extension-code-runner/-/extension-code-runner-1.0.0.tgz",
       "fileCount": 6,
-      "unpackedSize": 45623
+      "unpackedSize": 51770
     },
     "directories": {},
     "maintainers": [
@@ -315,8 +318,8 @@
         "email": "purocean@outlook.com"
       }
     ],
-    "readmeUrl": "https://fastly.jsdelivr.net/npm/@yank-note/extension-openai@1.0.5/README.md?__t=1659322726643",
-    "changelogUrl": "https://fastly.jsdelivr.net/npm/@yank-note/extension-openai@1.0.5/CHANGELOG.md?__t=1659322728300",
+    "readmeUrl": "https://fastly.jsdelivr.net/npm/@yank-note/extension-code-runner@1.0.0/README.md?__t=1660384250660",
+    "changelogUrl": "https://fastly.jsdelivr.net/npm/@yank-note/extension-code-runner@1.0.0/CHANGELOG.md?__t=1660384250780",
     "origin": "official"
   },
   {
@@ -458,6 +461,50 @@
     ],
     "readmeUrl": "https://fastly.jsdelivr.net/npm/@yank-note/extension-sublime-merge@1.0.5/README.md?__t=1652779098712",
     "changelogUrl": "https://fastly.jsdelivr.net/npm/@yank-note/extension-sublime-merge@1.0.5/CHANGELOG.md?__t=1652779099979",
+    "origin": "official"
+  },
+  {
+    "name": "@yank-note/extension-openai",
+    "version": "1.0.5",
+    "displayName": "OpenAI",
+    "description": "Your AI writing assistant",
+    "displayName_ZH-CN": "OpenAI",
+    "description_ZH-CN": "你的人工智能写作助手",
+    "author": {
+      "name": "Yank Note"
+    },
+    "license": "AGPL-3.0",
+    "keywords": [],
+    "homepage": "https://github.com/purocean/yank-note-extension/tree/main/packages/extension-openai",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/purocean/yank-note-extension.git"
+    },
+    "main": "./dist/index.js",
+    "icon": "https://fastly.jsdelivr.net/npm/@yank-note/extension-openai@1.0.5/icon.svg?__t=1659322726201",
+    "engines": {
+      "node": ">=14.6.0",
+      "yank-note": "^3.29.0"
+    },
+    "bugs": {
+      "url": "https://github.com/purocean/yank-note-extension/issues"
+    },
+    "dist": {
+      "integrity": "sha512-67+f8QbVrI9LV/PL0JNsxrXd6pnJc2FdYVOmlzsVhQJy5biggn9nDnF3ZQQMfL2aeiYmrq8X9HgeiRXLthr97A==",
+      "shasum": "71dbf6ea44f933407fcfbc2b84bf7b289de7e4e7",
+      "tarball": "https://registry.npmjs.org/@yank-note/extension-openai/-/extension-openai-1.0.5.tgz",
+      "fileCount": 6,
+      "unpackedSize": 45623
+    },
+    "directories": {},
+    "maintainers": [
+      {
+        "name": "purocean",
+        "email": "purocean@outlook.com"
+      }
+    ],
+    "readmeUrl": "https://fastly.jsdelivr.net/npm/@yank-note/extension-openai@1.0.5/README.md?__t=1659322726643",
+    "changelogUrl": "https://fastly.jsdelivr.net/npm/@yank-note/extension-openai@1.0.5/CHANGELOG.md?__t=1659322728300",
     "origin": "official"
   },
   {
