@@ -277,7 +277,7 @@
   },
   {
     "name": "@yank-note/extension-code-runner",
-    "version": "1.1.0",
+    "version": "1.1.1",
     "displayName": "Code Runner",
     "displayName_ZH-CN": "Code Runner",
     "description": "Run code for multiple languages: BASH/SH, PHP, Python, Node.js.",
@@ -293,7 +293,7 @@
       "url": "git+https://github.com/purocean/yank-note-extension.git"
     },
     "main": "./dist/index.js",
-    "icon": "https://fastly.jsdelivr.net/npm/@yank-note/extension-code-runner@1.1.0/icon.png?__t=1660393623159",
+    "icon": "https://fastly.jsdelivr.net/npm/@yank-note/extension-code-runner@1.1.1/icon.png?__t=1660394917826",
     "engines": {
       "node": ">=14.6.0",
       "yank-note": "^3.34.0"
@@ -305,11 +305,11 @@
       "url": "https://github.com/purocean/yank-note-extension/issues"
     },
     "dist": {
-      "integrity": "sha512-XRygHR02FGw+BawZFfdZE8+6JkT5FEogxdrfaKpD+Mdb0e4z+P2mCfnfjVMhAkkEIkbIHVAHEKOcQ4lf1FzniQ==",
-      "shasum": "a2411fc90600e4c80ad3a023f4be2f8133017318",
-      "tarball": "https://registry.npmjs.org/@yank-note/extension-code-runner/-/extension-code-runner-1.1.0.tgz",
+      "integrity": "sha512-pugHCC2Srl6HX/zcxhQ0/MqbGirchybCrgoEmy3xnMal3xIUJgXQ7WtM1DwcRDcrs1Y1ZMDeIx1Cg24F+EU3lA==",
+      "shasum": "aa46cbf20dcca8db704cb03b9abbfdd8fea0c0aa",
+      "tarball": "https://registry.npmjs.org/@yank-note/extension-code-runner/-/extension-code-runner-1.1.1.tgz",
       "fileCount": 6,
-      "unpackedSize": 52451
+      "unpackedSize": 52834
     },
     "directories": {},
     "maintainers": [
@@ -318,8 +318,8 @@
         "email": "purocean@outlook.com"
       }
     ],
-    "readmeUrl": "https://fastly.jsdelivr.net/npm/@yank-note/extension-code-runner@1.1.0/README.md?__t=1660393623450",
-    "changelogUrl": "https://fastly.jsdelivr.net/npm/@yank-note/extension-code-runner@1.1.0/CHANGELOG.md?__t=1660393624629",
+    "readmeUrl": "https://fastly.jsdelivr.net/npm/@yank-note/extension-code-runner@1.1.1/README.md?__t=1660394917991",
+    "changelogUrl": "https://fastly.jsdelivr.net/npm/@yank-note/extension-code-runner@1.1.1/CHANGELOG.md?__t=1660394918099",
     "origin": "official"
   },
   {
