@@ -277,11 +277,11 @@
   },
   {
     "name": "@yank-note/extension-code-runner",
-    "version": "1.1.1",
+    "version": "1.2.0",
     "displayName": "Code Runner",
     "displayName_ZH-CN": "Code Runner",
-    "description": "Run code for multiple languages: BASH/SH, PHP, Python, Node.js.",
-    "description_ZH-CN": "执行多种语言的代码：BASH/SH, PHP, Python, Node.js。",
+    "description": "Run code for multiple languages: BASH/SH, PHP, Python, Node.js, BAT, Java, C and more.",
+    "description_ZH-CN": "执行多种语言的代码：BASH/SH, PHP, Python, Node.js, BAT, Java, C 和更多。",
     "keywords": [],
     "author": {
       "name": "Yank Note"
@@ -293,7 +293,7 @@
       "url": "git+https://github.com/purocean/yank-note-extension.git"
     },
     "main": "./dist/index.js",
-    "icon": "https://fastly.jsdelivr.net/npm/@yank-note/extension-code-runner@1.1.1/icon.png?__t=1660394917826",
+    "icon": "https://fastly.jsdelivr.net/npm/@yank-note/extension-code-runner@1.2.0/icon.png?__t=1660539858022",
     "engines": {
       "node": ">=14.6.0",
       "yank-note": "^3.34.0"
@@ -305,11 +305,11 @@
       "url": "https://github.com/purocean/yank-note-extension/issues"
     },
     "dist": {
-      "integrity": "sha512-pugHCC2Srl6HX/zcxhQ0/MqbGirchybCrgoEmy3xnMal3xIUJgXQ7WtM1DwcRDcrs1Y1ZMDeIx1Cg24F+EU3lA==",
-      "shasum": "aa46cbf20dcca8db704cb03b9abbfdd8fea0c0aa",
-      "tarball": "https://registry.npmjs.org/@yank-note/extension-code-runner/-/extension-code-runner-1.1.1.tgz",
+      "integrity": "sha512-LpMU0KCAX9kquRSqJWLY68hDtAUOauF1fckOEhEUFrePReWf1R1t7zfMJnU1NlN8jLHw6wF9mYznDhuqdySYMQ==",
+      "shasum": "85a8e2a092d75a729c1f78b4609464e60438ecc3",
+      "tarball": "https://registry.npmjs.org/@yank-note/extension-code-runner/-/extension-code-runner-1.2.0.tgz",
       "fileCount": 6,
-      "unpackedSize": 52834
+      "unpackedSize": 53642
     },
     "directories": {},
     "maintainers": [
@@ -318,8 +318,8 @@
         "email": "purocean@outlook.com"
       }
     ],
-    "readmeUrl": "https://fastly.jsdelivr.net/npm/@yank-note/extension-code-runner@1.1.1/README.md?__t=1660394917991",
-    "changelogUrl": "https://fastly.jsdelivr.net/npm/@yank-note/extension-code-runner@1.1.1/CHANGELOG.md?__t=1660394918099",
+    "readmeUrl": "https://fastly.jsdelivr.net/npm/@yank-note/extension-code-runner@1.2.0/README.md?__t=1660539859192",
+    "changelogUrl": "https://fastly.jsdelivr.net/npm/@yank-note/extension-code-runner@1.2.0/CHANGELOG.md?__t=1660539859296",
     "origin": "official"
   },
   {
