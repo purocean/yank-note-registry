@@ -563,7 +563,7 @@
   },
   {
     "name": "yank-note-extension-view-reverse-yanser",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "displayName": " view-reverse｜Yanser",
     "description": "view-reverse extension from Yanser",
     "displayName_ZH-CN": "预览翻转｜烟舍",
@@ -571,7 +571,7 @@
     "author": {
       "name": "Yanser"
     },
-    "license": "MIT",
+    "license": "AGPL-3.0",
     "keywords": [],
     "homepage": "https://github.com/Yannnser/yank-note-view-reverse.git",
     "repository": {
@@ -584,20 +584,21 @@
     },
     "main": "./dist/index.js",
     "style": "./dist/style.css",
-    "icon": "https://fastly.jsdelivr.net/npm/yank-note-extension-view-reverse-yanser@1.0.0/icon.png?__t=1660568149140",
+    "icon": "https://fastly.jsdelivr.net/npm/yank-note-extension-view-reverse-yanser@1.0.1/icon.png?__t=1660576925638",
     "engines": {
       "node": ">=14.6.0",
       "yank-note": "^3.32.0"
     },
+    "gitHead": "b8d4018cd8feb24a55b8d53b5a0f3a9db193f23b",
     "bugs": {
       "url": "https://github.com/Yannnser/yank-note-view-reverse/issues"
     },
     "dist": {
-      "integrity": "sha512-Ab1EAMfS2Xr0dpjvsXJz5fe2RQU41S6+ERHlCLG4igmZL+x3ycgFemzveTEuwdHNwRMiIRkNa0hyzo7yjZZuVA==",
-      "shasum": "2e7b3e5202ad1d0e7c4aaa544c724f89dd994db9",
-      "tarball": "https://registry.npmjs.org/yank-note-extension-view-reverse-yanser/-/yank-note-extension-view-reverse-yanser-1.0.0.tgz",
+      "integrity": "sha512-nvbou2EvQYomIfwWQ7TQxB5xj6TD5BZUylXo6zbvWMmQq2tCaQa8NSJvgq9FYX/9OIGRU0o5a0rmyQMIVB/IiQ==",
+      "shasum": "40564d7b82dfabe26a3cc15651ad3a9d2bd33a20",
+      "tarball": "https://registry.npmjs.org/yank-note-extension-view-reverse-yanser/-/yank-note-extension-view-reverse-yanser-1.0.1.tgz",
       "fileCount": 7,
-      "unpackedSize": 5532
+      "unpackedSize": 5512
     },
     "directories": {},
     "maintainers": [
@@ -606,8 +607,8 @@
         "email": "2306974571@qq.com"
       }
     ],
-    "readmeUrl": "https://fastly.jsdelivr.net/npm/yank-note-extension-view-reverse-yanser@1.0.0/README.md?__t=1660568149264",
-    "changelogUrl": "https://fastly.jsdelivr.net/npm/yank-note-extension-view-reverse-yanser@1.0.0/CHANGELOG.md?__t=1660568149557",
+    "readmeUrl": "https://fastly.jsdelivr.net/npm/yank-note-extension-view-reverse-yanser@1.0.1/README.md?__t=1660576926756",
+    "changelogUrl": "https://fastly.jsdelivr.net/npm/yank-note-extension-view-reverse-yanser@1.0.1/CHANGELOG.md?__t=1660576927039",
     "origin": "registry"
   },
   {
