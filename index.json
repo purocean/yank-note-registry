@@ -562,6 +562,55 @@
     "origin": "registry"
   },
   {
+    "name": "yank-note-extension-view-reverse-yanser",
+    "version": "1.0.0",
+    "displayName": " view-reverse｜Yanser",
+    "description": "view-reverse extension from Yanser",
+    "displayName_ZH-CN": "预览翻转｜烟舍",
+    "description_ZH-CN": "翻转预览和编辑",
+    "author": {
+      "name": "Yanser"
+    },
+    "license": "MIT",
+    "keywords": [],
+    "homepage": "https://github.com/Yannnser/yank-note-view-reverse.git",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/Yannnser/yank-note-view-reverse.git"
+    },
+    "publishConfig": {
+      "access": "public",
+      "registry": "https://registry.npmjs.org/"
+    },
+    "main": "./dist/index.js",
+    "style": "./dist/style.css",
+    "icon": "https://fastly.jsdelivr.net/npm/yank-note-extension-view-reverse-yanser@1.0.0/icon.png?__t=1660568149140",
+    "engines": {
+      "node": ">=14.6.0",
+      "yank-note": "^3.32.0"
+    },
+    "bugs": {
+      "url": "https://github.com/Yannnser/yank-note-view-reverse/issues"
+    },
+    "dist": {
+      "integrity": "sha512-Ab1EAMfS2Xr0dpjvsXJz5fe2RQU41S6+ERHlCLG4igmZL+x3ycgFemzveTEuwdHNwRMiIRkNa0hyzo7yjZZuVA==",
+      "shasum": "2e7b3e5202ad1d0e7c4aaa544c724f89dd994db9",
+      "tarball": "https://registry.npmjs.org/yank-note-extension-view-reverse-yanser/-/yank-note-extension-view-reverse-yanser-1.0.0.tgz",
+      "fileCount": 7,
+      "unpackedSize": 5532
+    },
+    "directories": {},
+    "maintainers": [
+      {
+        "name": "yanser",
+        "email": "2306974571@qq.com"
+      }
+    ],
+    "readmeUrl": "https://fastly.jsdelivr.net/npm/yank-note-extension-view-reverse-yanser@1.0.0/README.md?__t=1660568149264",
+    "changelogUrl": "https://fastly.jsdelivr.net/npm/yank-note-extension-view-reverse-yanser@1.0.0/CHANGELOG.md?__t=1660568149557",
+    "origin": "registry"
+  },
+  {
     "name": "yank-note-extension-vim-mode",
     "version": "1.0.2",
     "displayName": "Vim Mode",
