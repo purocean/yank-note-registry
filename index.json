@@ -563,7 +563,7 @@
   },
   {
     "name": "yank-note-extension-view-reverse-yanser",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "displayName": " view-reverse｜Yanser",
     "description": "view-reverse extension from Yanser",
     "displayName_ZH-CN": "预览翻转｜烟舍",
@@ -584,21 +584,21 @@
     },
     "main": "./dist/index.js",
     "style": "./dist/style.css",
-    "icon": "https://fastly.jsdelivr.net/npm/yank-note-extension-view-reverse-yanser@1.0.1/icon.png?__t=1660576925638",
+    "icon": "https://fastly.jsdelivr.net/npm/yank-note-extension-view-reverse-yanser@1.0.2/icon.png?__t=1660640578479",
     "engines": {
       "node": ">=14.6.0",
       "yank-note": "^3.32.0"
     },
-    "gitHead": "b8d4018cd8feb24a55b8d53b5a0f3a9db193f23b",
+    "gitHead": "3b24f46ba4203cefda7781efcfa834242a26a722",
     "bugs": {
       "url": "https://github.com/Yannnser/yank-note-view-reverse/issues"
     },
     "dist": {
-      "integrity": "sha512-nvbou2EvQYomIfwWQ7TQxB5xj6TD5BZUylXo6zbvWMmQq2tCaQa8NSJvgq9FYX/9OIGRU0o5a0rmyQMIVB/IiQ==",
-      "shasum": "40564d7b82dfabe26a3cc15651ad3a9d2bd33a20",
-      "tarball": "https://registry.npmjs.org/yank-note-extension-view-reverse-yanser/-/yank-note-extension-view-reverse-yanser-1.0.1.tgz",
+      "integrity": "sha512-GFLa82zVCqWvFY2aqbaAdgZPDzKNphP+HRv4KNcDcjBaNZnWtJ/GLTVO2Y67c3eeL9zmyGT1z49VkJlp2NGAZA==",
+      "shasum": "0a686b6bf165aa602079819bcd891298e8f490c4",
+      "tarball": "https://registry.npmjs.org/yank-note-extension-view-reverse-yanser/-/yank-note-extension-view-reverse-yanser-1.0.2.tgz",
       "fileCount": 7,
-      "unpackedSize": 5512
+      "unpackedSize": 5638
     },
     "directories": {},
     "maintainers": [
@@ -607,13 +607,13 @@
         "email": "2306974571@qq.com"
       }
     ],
-    "readmeUrl": "https://fastly.jsdelivr.net/npm/yank-note-extension-view-reverse-yanser@1.0.1/README.md?__t=1660576926756",
-    "changelogUrl": "https://fastly.jsdelivr.net/npm/yank-note-extension-view-reverse-yanser@1.0.1/CHANGELOG.md?__t=1660576927039",
+    "readmeUrl": "https://fastly.jsdelivr.net/npm/yank-note-extension-view-reverse-yanser@1.0.2/README.md?__t=1660640580881",
+    "changelogUrl": "https://fastly.jsdelivr.net/npm/yank-note-extension-view-reverse-yanser@1.0.2/CHANGELOG.md?__t=1660640581044",
     "origin": "registry"
   },
   {
     "name": "yank-note-extension-vim-mode",
-    "version": "1.0.2",
+    "version": "1.0.3",
     "displayName": "Vim Mode",
     "description": "Vim Mode extension",
     "displayName_ZH-CN": "Vim Mode",
@@ -625,7 +625,7 @@
     "keywords": [],
     "homepage": "https://github.com/zhyipeng/yank-note-extension-vim-mode",
     "main": "./dist/index.js",
-    "icon": "https://fastly.jsdelivr.net/npm/yank-note-extension-vim-mode@1.0.2/icon.png?__t=1653558909464",
+    "icon": "https://fastly.jsdelivr.net/npm/yank-note-extension-vim-mode@1.0.3/icon.png?__t=1660640583427",
     "engines": {
       "node": ">=14.6.0",
       "yank-note": "^3.29.0"
@@ -638,13 +638,13 @@
     "bugs": {
       "url": "https://github.com/zhyipeng/yank-note-extension-vim-mode/issues"
     },
-    "gitHead": "359be16c52e66349cd70e3b29eee5164efef5e0a",
+    "gitHead": "707a6e45e62db52459160959016b9f260ef1665b",
     "dist": {
-      "integrity": "sha512-6cqzCHhH1TYVH3uRG7a9qLuexoavXE0Hqjy860yUvMwI4g+GEWxUd0rRlnD+GS8Af1pZbNIFEv5LsvqtUPElkg==",
-      "shasum": "7fd14dbfd0f7fb5fbc30f91b4afb64e75ee50c0a",
-      "tarball": "https://registry.npmjs.org/yank-note-extension-vim-mode/-/yank-note-extension-vim-mode-1.0.2.tgz",
+      "integrity": "sha512-fwTmk508NKijvg4gXy/mAiwZI3CiYrwTVPg11i0E7Rq1Y2QKQzJ/bdy9NkqQ7HockPHTGApzDV+l2Tso6gSCUw==",
+      "shasum": "524bf8332885bed1745e2f0a138827c5e9268c08",
+      "tarball": "https://registry.npmjs.org/yank-note-extension-vim-mode/-/yank-note-extension-vim-mode-1.0.3.tgz",
       "fileCount": 7,
-      "unpackedSize": 119218
+      "unpackedSize": 119810
     },
     "directories": {},
     "maintainers": [
@@ -653,8 +653,8 @@
         "email": "zhyipeng@outlook.com"
       }
     ],
-    "readmeUrl": "https://fastly.jsdelivr.net/npm/yank-note-extension-vim-mode@1.0.2/README.md?__t=1653558909668",
-    "changelogUrl": "https://fastly.jsdelivr.net/npm/yank-note-extension-vim-mode@1.0.2/CHANGELOG.md?__t=1653558910051",
+    "readmeUrl": "https://fastly.jsdelivr.net/npm/yank-note-extension-vim-mode@1.0.3/README.md?__t=1660640585380",
+    "changelogUrl": "https://fastly.jsdelivr.net/npm/yank-note-extension-vim-mode@1.0.3/CHANGELOG.md?__t=1660640585666",
     "origin": "registry"
   },
   {
