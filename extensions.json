@@ -15,7 +15,7 @@
   "registry": [
     { "id": "yank-note-extension-theme-yanser", "version": "1.0.5" },
     { "id": "yank-note-extension-view-reverse-yanser", "version": "1.0.2" },
-    { "id": "yank-note-extension-vim-mode", "version": "1.0.2" },
+    { "id": "yank-note-extension-vim-mode", "version": "1.0.3" },
     { "id": "yank-note-extension-tool-bar", "version": "1.0.0" }
   ]
 }
