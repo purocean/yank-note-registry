@@ -1,7 +1,7 @@
 [
   {
     "name": "@yank-note/extension-mermaid",
-    "version": "1.0.0",
+    "version": "1.1.0",
     "displayName": "Mermaid",
     "description": "Mermaid integration",
     "displayName_ZH-CN": "Mermaid",
@@ -18,7 +18,7 @@
     },
     "main": "./dist/index.js",
     "style": "./dist/style.css",
-    "icon": "https://fastly.jsdelivr.net/npm/@yank-note/extension-mermaid@1.0.0/icon.png?__t=1652779077594",
+    "icon": "https://fastly.jsdelivr.net/npm/@yank-note/extension-mermaid@1.1.0/icon.png?__t=1660729002459",
     "engines": {
       "node": ">=14.6.0",
       "yank-note": "^3.29.0"
@@ -27,11 +27,11 @@
       "url": "https://github.com/purocean/yank-note-extension/issues"
     },
     "dist": {
-      "integrity": "sha512-Lj6jHLtfM74N3bDvLuHCEcGULhJ6/L7DE5E+TkiL55RRc/uv+UC98tD2tmMgrtcW5R3mWDdrkRTv4XVZv4YSvg==",
-      "shasum": "5566ebac63d7ebb76a2de1ee127c34282a5e856d",
-      "tarball": "https://registry.npmjs.org/@yank-note/extension-mermaid/-/extension-mermaid-1.0.0.tgz",
+      "integrity": "sha512-Kf1fQ7CKa/mZBlDjQLZ3bI08dyjbjh3wPCUMYlPqT8akg3wkcj82ezOCS3UZU7a3q48SYrbvDfyR1ljdDMzC0Q==",
+      "shasum": "6bca0564f159d48ca2cb90c3f72b375c3fe1b638",
+      "tarball": "https://registry.npmjs.org/@yank-note/extension-mermaid/-/extension-mermaid-1.1.0.tgz",
       "fileCount": 7,
-      "unpackedSize": 1259213
+      "unpackedSize": 1209252
     },
     "directories": {},
     "maintainers": [
@@ -40,8 +40,8 @@
         "email": "purocean@outlook.com"
       }
     ],
-    "readmeUrl": "https://fastly.jsdelivr.net/npm/@yank-note/extension-mermaid@1.0.0/README.md?__t=1652779077970",
-    "changelogUrl": "https://fastly.jsdelivr.net/npm/@yank-note/extension-mermaid@1.0.0/CHANGELOG.md?__t=1652779078246",
+    "readmeUrl": "https://fastly.jsdelivr.net/npm/@yank-note/extension-mermaid@1.1.0/README.md?__t=1660729002731",
+    "changelogUrl": "https://fastly.jsdelivr.net/npm/@yank-note/extension-mermaid@1.1.0/CHANGELOG.md?__t=1660729005740",
     "origin": "official"
   },
   {
