@@ -556,7 +556,7 @@
   },
   {
     "name": "yank-note-extension-theme-yanser",
-    "version": "1.0.5",
+    "version": "1.1.0",
     "displayName": "theme｜Yanser",
     "description": "theme from Yanser",
     "displayName_ZH-CN": "主题｜烟舍",
@@ -575,7 +575,7 @@
       "access": "public",
       "registry": "https://registry.npmjs.org/"
     },
-    "icon": "https://fastly.jsdelivr.net/npm/yank-note-extension-theme-yanser@1.0.5/icon.png?__t=1658156336211",
+    "icon": "https://fastly.jsdelivr.net/npm/yank-note-extension-theme-yanser@1.1.0/icon.png?__t=1661487093418",
     "engines": {
       "node": ">=14.6.0",
       "yank-note": "^3.30.1"
@@ -584,18 +584,22 @@
       {
         "name": "winter",
         "css": "./themes/winter.css"
+      },
+      {
+        "name": "dark",
+        "css": "./themes/dark.css"
       }
     ],
-    "gitHead": "6745ce12ef73484cc775f3bc8bffde479a49c2ea",
+    "gitHead": "ac4f4d9249b4b6ec411cebcde23f4f9db27e4102",
     "bugs": {
       "url": "https://github.com/Yannnser/yank-note-theme/issues"
     },
     "dist": {
-      "integrity": "sha512-ZWsKhHqOMtK2M29NJ5ARtS0u1lOu8DrIkobtgkVUntQhf97louIWkuvBsRTwSy3rVPHGyWhveAPipUpsJ6NEDw==",
-      "shasum": "2ff034a9c0cbc999dc1ffa9531781660eaab105a",
-      "tarball": "https://registry.npmjs.org/yank-note-extension-theme-yanser/-/yank-note-extension-theme-yanser-1.0.5.tgz",
-      "fileCount": 6,
-      "unpackedSize": 22227
+      "integrity": "sha512-FSp+uKz13/hWQM8KLn8unIU6U+o2h/1xBRJLLkXKe8nIhmYelnYtI6l6ZvVcMqzosWVPyfJWZsa4WnG6zBXyPg==",
+      "shasum": "43c2709225950faf55811d2b570ec7ea73dc36d2",
+      "tarball": "https://registry.npmjs.org/yank-note-extension-theme-yanser/-/yank-note-extension-theme-yanser-1.1.0.tgz",
+      "fileCount": 7,
+      "unpackedSize": 34955
     },
     "directories": {},
     "maintainers": [
@@ -604,8 +608,8 @@
         "email": "2306974571@qq.com"
       }
     ],
-    "readmeUrl": "https://fastly.jsdelivr.net/npm/yank-note-extension-theme-yanser@1.0.5/README.md?__t=1658156336774",
-    "changelogUrl": "https://fastly.jsdelivr.net/npm/yank-note-extension-theme-yanser@1.0.5/CHANGELOG.md?__t=1658156337264",
+    "readmeUrl": "https://fastly.jsdelivr.net/npm/yank-note-extension-theme-yanser@1.1.0/README.md?__t=1661487093706",
+    "changelogUrl": "https://fastly.jsdelivr.net/npm/yank-note-extension-theme-yanser@1.1.0/CHANGELOG.md?__t=1661487093810",
     "origin": "registry"
   },
   {
