@@ -279,7 +279,7 @@
   },
   {
     "name": "@yank-note/extension-markdown-prettier",
-    "version": "1.1.1",
+    "version": "1.2.0",
     "displayName": "Markdown Prettier",
     "description": "Markdown Formatter for Yank Note",
     "displayName_ZH-CN": "Markdown Prettier",
@@ -295,7 +295,7 @@
       "url": "git+https://github.com/purocean/yank-note-extension.git"
     },
     "main": "./dist/index.js",
-    "icon": "https://fastly.jsdelivr.net/npm/@yank-note/extension-markdown-prettier@1.1.1/icon.png?__t=1664115127930",
+    "icon": "https://fastly.jsdelivr.net/npm/@yank-note/extension-markdown-prettier@1.2.0/icon.png?__t=1664117504176",
     "engines": {
       "node": ">=14.6.0",
       "yank-note": "^3.29.0"
@@ -307,11 +307,11 @@
       "url": "https://github.com/purocean/yank-note-extension/issues"
     },
     "dist": {
-      "integrity": "sha512-c8h471WRTMRzpsXjma4ASwBlmZMD+dVk4hpI/6MgmmLLECMyyXy10AynPzgV3szNVCJ/G9O8v2bK4eIr4cknyA==",
-      "shasum": "a8ac2498dfc156c9fa91bd3670e940fdc0793d37",
-      "tarball": "https://registry.npmjs.org/@yank-note/extension-markdown-prettier/-/extension-markdown-prettier-1.1.1.tgz",
+      "integrity": "sha512-7MyqjGswD5qUZyQ6AC32NhCG4Qa8dwpnCsd8DMlPTKs9QWDooz6cNP79WaPp03K4XyYFsmkdZKiH9ms8M14XiA==",
+      "shasum": "9c30018528abd80070e5ab9f5a82abc86e9240ca",
+      "tarball": "https://registry.npmjs.org/@yank-note/extension-markdown-prettier/-/extension-markdown-prettier-1.2.0.tgz",
       "fileCount": 6,
-      "unpackedSize": 645596
+      "unpackedSize": 646552
     },
     "directories": {},
     "maintainers": [
@@ -320,8 +320,8 @@
         "email": "purocean@outlook.com"
       }
     ],
-    "readmeUrl": "https://fastly.jsdelivr.net/npm/@yank-note/extension-markdown-prettier@1.1.1/README.md?__t=1664115128485",
-    "changelogUrl": "https://fastly.jsdelivr.net/npm/@yank-note/extension-markdown-prettier@1.1.1/CHANGELOG.md?__t=1664115128787",
+    "readmeUrl": "https://fastly.jsdelivr.net/npm/@yank-note/extension-markdown-prettier@1.2.0/README.md?__t=1664117507064",
+    "changelogUrl": "https://fastly.jsdelivr.net/npm/@yank-note/extension-markdown-prettier@1.2.0/CHANGELOG.md?__t=1664117507228",
     "origin": "official"
   },
   {
