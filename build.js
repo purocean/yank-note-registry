@@ -59,6 +59,12 @@ async function fetchInfo (id, version) {
   return packageJson;
 }
 
+async function triggerSyncPackage (id) {
+  const url = `https://registry-direct.npmmirror.com/${id}/sync?sync_upstream=true`
+  console.log(`    Sync: ${url}`);
+  await fetch(url, { method: 'PUT' });
+}
+
 async function transform (list, official = false) {
   const data = [];
 
@@ -68,6 +74,7 @@ async function transform (list, official = false) {
     console.log(`Transform ${origin} ${item.id}@${item.version}`);
     if (!old || old.version !== item.version) {
       data.push({ ...await fetchInfo(item.id, item.version), origin });
+      await triggerSyncPackage(item.id);
     } else {
       data.push({ ...old, origin });
     }
