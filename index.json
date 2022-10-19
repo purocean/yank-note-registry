@@ -184,7 +184,7 @@
   },
   {
     "name": "@yank-note/extension-markmap",
-    "version": "1.3.1",
+    "version": "1.3.2",
     "displayName": "Markmap",
     "description": "Visualize your Markdown as mindmaps with Markmap.",
     "displayName_ZH-CN": "Markmap",
@@ -201,7 +201,7 @@
     },
     "main": "./dist/index.js",
     "style": "./dist/style.css",
-    "icon": "https://fastly.jsdelivr.net/npm/@yank-note/extension-markmap@1.3.1/icon.png?__t=1665385079848",
+    "icon": "https://fastly.jsdelivr.net/npm/@yank-note/extension-markmap@1.3.2/icon.png?__t=1666200105354",
     "engines": {
       "node": ">=14.6.0",
       "yank-note": "^3.33.0"
@@ -213,11 +213,11 @@
       "url": "https://github.com/purocean/yank-note-extension/issues"
     },
     "dist": {
-      "integrity": "sha512-XlEr5/uJ+2MzqrOyrVSUyuMVGP7Q+klYy5oVlcBZxDEN20PpitHemjOY47VbzSUcqyt4t3seVsUL4s+vJdHRGw==",
-      "shasum": "1fe304c60846b838416b43f65c13b21754772f57",
-      "tarball": "https://registry.npmjs.org/@yank-note/extension-markmap/-/extension-markmap-1.3.1.tgz",
+      "integrity": "sha512-hG+GSlEw9K/kpsbYBAcQP+ElDEodUDsW+8qp7Vengnj6aQ38IFfsIrLM0C4NrdbgGQuHUJY+VSUnKGWL4IRI0A==",
+      "shasum": "d4b64c63d3660dc829f1da7e43be77a7e0517a2f",
+      "tarball": "https://registry.npmjs.org/@yank-note/extension-markmap/-/extension-markmap-1.3.2.tgz",
       "fileCount": 12,
-      "unpackedSize": 481012
+      "unpackedSize": 481304
     },
     "directories": {},
     "maintainers": [
@@ -226,8 +226,8 @@
         "email": "purocean@outlook.com"
       }
     ],
-    "readmeUrl": "https://fastly.jsdelivr.net/npm/@yank-note/extension-markmap@1.3.1/README.md?__t=1665385081126",
-    "changelogUrl": "https://fastly.jsdelivr.net/npm/@yank-note/extension-markmap@1.3.1/CHANGELOG.md?__t=1665385081344",
+    "readmeUrl": "https://fastly.jsdelivr.net/npm/@yank-note/extension-markmap@1.3.2/README.md?__t=1666200105684",
+    "changelogUrl": "https://fastly.jsdelivr.net/npm/@yank-note/extension-markmap@1.3.2/CHANGELOG.md?__t=1666200108084",
     "origin": "official"
   },
   {
