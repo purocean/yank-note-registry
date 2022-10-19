@@ -91,7 +91,7 @@
   },
   {
     "name": "@yank-note/extension-echarts",
-    "version": "1.1.0",
+    "version": "1.2.0",
     "displayName": "ECharts",
     "description": "ECharts integration",
     "displayName_ZH-CN": "ECharts",
@@ -108,7 +108,7 @@
     },
     "main": "./dist/index.js",
     "style": "./dist/style.css",
-    "icon": "https://fastly.jsdelivr.net/npm/@yank-note/extension-echarts@1.1.0/icon.png?__t=1665909390306",
+    "icon": "https://fastly.jsdelivr.net/npm/@yank-note/extension-echarts@1.2.0/icon.png?__t=1666177121797",
     "engines": {
       "node": ">=14.6.0",
       "yank-note": "^3.40.0"
@@ -117,11 +117,11 @@
       "url": "https://github.com/purocean/yank-note-extension/issues"
     },
     "dist": {
-      "integrity": "sha512-KbvtwsYoRXFAR5XBALgQrnRDdiEvJeAAbDmcBE36KtExmygT6qH3KaKPlbgQbmc1vOhqm7vbyfj0T8fa1qWkKw==",
-      "shasum": "82d25033625b6c1e6545f0004da839ff1816b5b4",
-      "tarball": "https://registry.npmjs.org/@yank-note/extension-echarts/-/extension-echarts-1.1.0.tgz",
+      "integrity": "sha512-ZlKqhfHkk8Ya0IY/90jAAXTeyBsmGek2XZaGOIdwG1jKq4xKXHMUdxQnebQSdC9uhP33OCbYbWLqzM/t1NZIhg==",
+      "shasum": "9b765aebc24f61e4b36f5cdee60b9239e3267e05",
+      "tarball": "https://registry.npmjs.org/@yank-note/extension-echarts/-/extension-echarts-1.2.0.tgz",
       "fileCount": 7,
-      "unpackedSize": 1217128
+      "unpackedSize": 1217413
     },
     "directories": {},
     "maintainers": [
@@ -130,8 +130,8 @@
         "email": "purocean@outlook.com"
       }
     ],
-    "readmeUrl": "https://fastly.jsdelivr.net/npm/@yank-note/extension-echarts@1.1.0/README.md?__t=1665909391453",
-    "changelogUrl": "https://fastly.jsdelivr.net/npm/@yank-note/extension-echarts@1.1.0/CHANGELOG.md?__t=1665909393869",
+    "readmeUrl": "https://fastly.jsdelivr.net/npm/@yank-note/extension-echarts@1.2.0/README.md?__t=1666177122594",
+    "changelogUrl": "https://fastly.jsdelivr.net/npm/@yank-note/extension-echarts@1.2.0/CHANGELOG.md?__t=1666177124237",
     "origin": "official"
   },
   {
