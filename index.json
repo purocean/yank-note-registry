@@ -1,7 +1,7 @@
 [
   {
     "name": "@yank-note/extension-mermaid",
-    "version": "1.5.0",
+    "version": "1.5.1",
     "displayName": "Mermaid",
     "description": "Mermaid integration",
     "displayName_ZH-CN": "Mermaid",
@@ -18,20 +18,20 @@
     },
     "main": "./dist/index.js",
     "style": "./dist/style.css",
-    "icon": "https://fastly.jsdelivr.net/npm/@yank-note/extension-mermaid@1.5.0/icon.png?__t=1666505932047",
+    "icon": "https://fastly.jsdelivr.net/npm/@yank-note/extension-mermaid@1.5.1/icon.png?__t=1666506386777",
     "engines": {
       "node": ">=14.6.0",
-      "yank-note": "^3.40.0"
+      "yank-note": "^3.41.0"
     },
     "bugs": {
       "url": "https://github.com/purocean/yank-note-extension/issues"
     },
     "dist": {
-      "integrity": "sha512-urbO2glpvCOvW2YmopfmeGLjUSto3ApFbpLzhlIK8sPPgqRIXX7hVK760A3ia0jEAKJZBfh2bcaSjopFbcnDpg==",
-      "shasum": "b339c35e470a1ef9caf3f89100f52c8235c34537",
-      "tarball": "https://registry.npmjs.org/@yank-note/extension-mermaid/-/extension-mermaid-1.5.0.tgz",
+      "integrity": "sha512-6TODFnum7hJX8So5bmmcW6QnzSZcCAOWQiPfzoksgIhrVSKkfqJkOl7osnrBRtL1mtDoe+sGRI0408348z3ZoA==",
+      "shasum": "d9975ccb09392f58218e27947b3f574f39da90b1",
+      "tarball": "https://registry.npmjs.org/@yank-note/extension-mermaid/-/extension-mermaid-1.5.1.tgz",
       "fileCount": 8,
-      "unpackedSize": 1220136
+      "unpackedSize": 1220421
     },
     "directories": {},
     "maintainers": [
@@ -40,8 +40,8 @@
         "email": "purocean@outlook.com"
       }
     ],
-    "readmeUrl": "https://fastly.jsdelivr.net/npm/@yank-note/extension-mermaid@1.5.0/README.md?__t=1666505932410",
-    "changelogUrl": "https://fastly.jsdelivr.net/npm/@yank-note/extension-mermaid@1.5.0/CHANGELOG.md?__t=1666505932580",
+    "readmeUrl": "https://fastly.jsdelivr.net/npm/@yank-note/extension-mermaid@1.5.1/README.md?__t=1666506388148",
+    "changelogUrl": "https://fastly.jsdelivr.net/npm/@yank-note/extension-mermaid@1.5.1/CHANGELOG.md?__t=1666506388474",
     "origin": "official"
   },
   {
@@ -91,7 +91,7 @@
   },
   {
     "name": "@yank-note/extension-echarts",
-    "version": "1.3.0",
+    "version": "1.3.1",
     "displayName": "ECharts",
     "description": "ECharts integration",
     "displayName_ZH-CN": "ECharts",
@@ -108,20 +108,20 @@
     },
     "main": "./dist/index.js",
     "style": "./dist/style.css",
-    "icon": "https://fastly.jsdelivr.net/npm/@yank-note/extension-echarts@1.3.0/icon.png?__t=1666505935728",
+    "icon": "https://fastly.jsdelivr.net/npm/@yank-note/extension-echarts@1.3.1/icon.png?__t=1666506390779",
     "engines": {
       "node": ">=14.6.0",
-      "yank-note": "^3.40.0"
+      "yank-note": "^3.41.0"
     },
     "bugs": {
       "url": "https://github.com/purocean/yank-note-extension/issues"
     },
     "dist": {
-      "integrity": "sha512-qt82D7v9qZhn8uWsI6OkzFSiR7/1VtgOCZhEfBa08y6LhZDLdSYCChHusKsf05BbvcHutXS6Mf7S6VJGfTZbWQ==",
-      "shasum": "c7cd5732321e88f82467a42fea8a2a9d1922ea5a",
-      "tarball": "https://registry.npmjs.org/@yank-note/extension-echarts/-/extension-echarts-1.3.0.tgz",
+      "integrity": "sha512-GsmUbq4Llo1LQHUZrLo70NlvCavoXHvEhZ4wVlY8WCjDYhWzjT+1YktOSpmM5cLZ9HB/MVDdSicOkiFKmbQ4+g==",
+      "shasum": "94c51b7c4ee9f17ceb70367719a6e2881d68030d",
+      "tarball": "https://registry.npmjs.org/@yank-note/extension-echarts/-/extension-echarts-1.3.1.tgz",
       "fileCount": 7,
-      "unpackedSize": 1217775
+      "unpackedSize": 1218060
     },
     "directories": {},
     "maintainers": [
@@ -130,13 +130,13 @@
         "email": "purocean@outlook.com"
       }
     ],
-    "readmeUrl": "https://fastly.jsdelivr.net/npm/@yank-note/extension-echarts@1.3.0/README.md?__t=1666505936010",
-    "changelogUrl": "https://fastly.jsdelivr.net/npm/@yank-note/extension-echarts@1.3.0/CHANGELOG.md?__t=1666505936256",
+    "readmeUrl": "https://fastly.jsdelivr.net/npm/@yank-note/extension-echarts@1.3.1/README.md?__t=1666506392748",
+    "changelogUrl": "https://fastly.jsdelivr.net/npm/@yank-note/extension-echarts@1.3.1/CHANGELOG.md?__t=1666506393046",
     "origin": "official"
   },
   {
     "name": "@yank-note/extension-reveal-js",
-    "version": "1.5.0",
+    "version": "1.5.1",
     "displayName": "Reveal.js",
     "description": "Reveal.js integration",
     "displayName_ZH-CN": "Reveal.js",
@@ -153,10 +153,10 @@
     },
     "main": "./dist/index.js",
     "style": "./dist/style.css",
-    "icon": "https://fastly.jsdelivr.net/npm/@yank-note/extension-reveal-js@1.5.0/icon.svg?__t=1666505940494",
+    "icon": "https://fastly.jsdelivr.net/npm/@yank-note/extension-reveal-js@1.5.1/icon.svg?__t=1666506396550",
     "engines": {
       "node": ">=14.6.0",
-      "yank-note": "^3.40.0"
+      "yank-note": "^3.41.0"
     },
     "requirements": {
       "premium": true
@@ -165,11 +165,11 @@
       "url": "https://github.com/purocean/yank-note-extension/issues"
     },
     "dist": {
-      "integrity": "sha512-qbY876lCokaJGCGOAU4Eyzgu9dxnrBiiTUgllAFK07jGDrqq8W17L5uHvbAMx9JmyOuYQXlTEbr/Z1h+bLefxw==",
-      "shasum": "af71e6848f92c34c75a7a6eb191ecbb4a5228f38",
-      "tarball": "https://registry.npmjs.org/@yank-note/extension-reveal-js/-/extension-reveal-js-1.5.0.tgz",
+      "integrity": "sha512-U4yVhyNYqweKEbIi8MFZZvyC2uZ+PYywir6Rqx3IF1xSatTtjTyWWWqdNT0Clm/YJXnSTA2Yu2lT95yd+zog+Q==",
+      "shasum": "95ef1a887ce00a0676a052b1beebeabf8b91c963",
+      "tarball": "https://registry.npmjs.org/@yank-note/extension-reveal-js/-/extension-reveal-js-1.5.1.tgz",
       "fileCount": 63,
-      "unpackedSize": 4679196
+      "unpackedSize": 4679485
     },
     "directories": {},
     "maintainers": [
@@ -178,13 +178,13 @@
         "email": "purocean@outlook.com"
       }
     ],
-    "readmeUrl": "https://fastly.jsdelivr.net/npm/@yank-note/extension-reveal-js@1.5.0/README.md?__t=1666505940793",
-    "changelogUrl": "https://fastly.jsdelivr.net/npm/@yank-note/extension-reveal-js@1.5.0/CHANGELOG.md?__t=1666505942048",
+    "readmeUrl": "https://fastly.jsdelivr.net/npm/@yank-note/extension-reveal-js@1.5.1/README.md?__t=1666506396730",
+    "changelogUrl": "https://fastly.jsdelivr.net/npm/@yank-note/extension-reveal-js@1.5.1/CHANGELOG.md?__t=1666506397966",
     "origin": "official"
   },
   {
     "name": "@yank-note/extension-markmap",
-    "version": "1.4.0",
+    "version": "1.4.1",
     "displayName": "Markmap",
     "description": "Visualize your Markdown as mindmaps with Markmap.",
     "displayName_ZH-CN": "Markmap",
@@ -201,10 +201,10 @@
     },
     "main": "./dist/index.js",
     "style": "./dist/style.css",
-    "icon": "https://fastly.jsdelivr.net/npm/@yank-note/extension-markmap@1.4.0/icon.png?__t=1666505944366",
+    "icon": "https://fastly.jsdelivr.net/npm/@yank-note/extension-markmap@1.4.1/icon.png?__t=1666506399794",
     "engines": {
       "node": ">=14.6.0",
-      "yank-note": "^3.33.0"
+      "yank-note": "^3.41.0"
     },
     "requirements": {
       "premium": true
@@ -213,11 +213,11 @@
       "url": "https://github.com/purocean/yank-note-extension/issues"
     },
     "dist": {
-      "integrity": "sha512-1JLKBPwQsjkhj1q76Qf29k2WWcoRb2xlrj1duxlxtexchLW0w+J0iMHSrDXGXWVHpLj856KucVLzJyg8wv+vrw==",
-      "shasum": "82958678d614aacf72919e302de7b10508cfd473",
-      "tarball": "https://registry.npmjs.org/@yank-note/extension-markmap/-/extension-markmap-1.4.0.tgz",
+      "integrity": "sha512-RzHVZo8RNej9PwJYz6LTs4oGUirtMgo/ypiX+G3ZemBoEuPmtfurj6cXwrx6kkUx0m7tc/Jrq36+tb/rJSF8Rg==",
+      "shasum": "22ca8039fc3695dd8db49dd4b39afadf4174178f",
+      "tarball": "https://registry.npmjs.org/@yank-note/extension-markmap/-/extension-markmap-1.4.1.tgz",
       "fileCount": 12,
-      "unpackedSize": 483055
+      "unpackedSize": 483340
     },
     "directories": {},
     "maintainers": [
@@ -226,8 +226,8 @@
         "email": "purocean@outlook.com"
       }
     ],
-    "readmeUrl": "https://fastly.jsdelivr.net/npm/@yank-note/extension-markmap@1.4.0/README.md?__t=1666505947774",
-    "changelogUrl": "https://fastly.jsdelivr.net/npm/@yank-note/extension-markmap@1.4.0/CHANGELOG.md?__t=1666505948056",
+    "readmeUrl": "https://fastly.jsdelivr.net/npm/@yank-note/extension-markmap@1.4.1/README.md?__t=1666506400663",
+    "changelogUrl": "https://fastly.jsdelivr.net/npm/@yank-note/extension-markmap@1.4.1/CHANGELOG.md?__t=1666506402105",
     "origin": "official"
   },
   {
