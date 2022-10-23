@@ -1,7 +1,7 @@
 [
   {
     "name": "@yank-note/extension-mermaid",
-    "version": "1.4.0",
+    "version": "1.5.0",
     "displayName": "Mermaid",
     "description": "Mermaid integration",
     "displayName_ZH-CN": "Mermaid",
@@ -18,7 +18,7 @@
     },
     "main": "./dist/index.js",
     "style": "./dist/style.css",
-    "icon": "https://fastly.jsdelivr.net/npm/@yank-note/extension-mermaid@1.4.0/icon.png?__t=1666005438476",
+    "icon": "https://fastly.jsdelivr.net/npm/@yank-note/extension-mermaid@1.5.0/icon.png?__t=1666505932047",
     "engines": {
       "node": ">=14.6.0",
       "yank-note": "^3.40.0"
@@ -27,11 +27,11 @@
       "url": "https://github.com/purocean/yank-note-extension/issues"
     },
     "dist": {
-      "integrity": "sha512-lz4rZ9MUo2S2ucareuNNNtIvtmEpLTLhd5F6lLOsA/o3trU/dq4kCnrHluAENGr9J6/hZWo66J5rKQ4il5X0Hg==",
-      "shasum": "7a304b732cfafcaf50c256e94c5c960b97188747",
-      "tarball": "https://registry.npmjs.org/@yank-note/extension-mermaid/-/extension-mermaid-1.4.0.tgz",
+      "integrity": "sha512-urbO2glpvCOvW2YmopfmeGLjUSto3ApFbpLzhlIK8sPPgqRIXX7hVK760A3ia0jEAKJZBfh2bcaSjopFbcnDpg==",
+      "shasum": "b339c35e470a1ef9caf3f89100f52c8235c34537",
+      "tarball": "https://registry.npmjs.org/@yank-note/extension-mermaid/-/extension-mermaid-1.5.0.tgz",
       "fileCount": 8,
-      "unpackedSize": 1219801
+      "unpackedSize": 1220136
     },
     "directories": {},
     "maintainers": [
@@ -40,8 +40,8 @@
         "email": "purocean@outlook.com"
       }
     ],
-    "readmeUrl": "https://fastly.jsdelivr.net/npm/@yank-note/extension-mermaid@1.4.0/README.md?__t=1666005440066",
-    "changelogUrl": "https://fastly.jsdelivr.net/npm/@yank-note/extension-mermaid@1.4.0/CHANGELOG.md?__t=1666005441110",
+    "readmeUrl": "https://fastly.jsdelivr.net/npm/@yank-note/extension-mermaid@1.5.0/README.md?__t=1666505932410",
+    "changelogUrl": "https://fastly.jsdelivr.net/npm/@yank-note/extension-mermaid@1.5.0/CHANGELOG.md?__t=1666505932580",
     "origin": "official"
   },
   {
@@ -91,7 +91,7 @@
   },
   {
     "name": "@yank-note/extension-echarts",
-    "version": "1.2.0",
+    "version": "1.3.0",
     "displayName": "ECharts",
     "description": "ECharts integration",
     "displayName_ZH-CN": "ECharts",
@@ -108,7 +108,7 @@
     },
     "main": "./dist/index.js",
     "style": "./dist/style.css",
-    "icon": "https://fastly.jsdelivr.net/npm/@yank-note/extension-echarts@1.2.0/icon.png?__t=1666177121797",
+    "icon": "https://fastly.jsdelivr.net/npm/@yank-note/extension-echarts@1.3.0/icon.png?__t=1666505935728",
     "engines": {
       "node": ">=14.6.0",
       "yank-note": "^3.40.0"
@@ -117,11 +117,11 @@
       "url": "https://github.com/purocean/yank-note-extension/issues"
     },
     "dist": {
-      "integrity": "sha512-ZlKqhfHkk8Ya0IY/90jAAXTeyBsmGek2XZaGOIdwG1jKq4xKXHMUdxQnebQSdC9uhP33OCbYbWLqzM/t1NZIhg==",
-      "shasum": "9b765aebc24f61e4b36f5cdee60b9239e3267e05",
-      "tarball": "https://registry.npmjs.org/@yank-note/extension-echarts/-/extension-echarts-1.2.0.tgz",
+      "integrity": "sha512-qt82D7v9qZhn8uWsI6OkzFSiR7/1VtgOCZhEfBa08y6LhZDLdSYCChHusKsf05BbvcHutXS6Mf7S6VJGfTZbWQ==",
+      "shasum": "c7cd5732321e88f82467a42fea8a2a9d1922ea5a",
+      "tarball": "https://registry.npmjs.org/@yank-note/extension-echarts/-/extension-echarts-1.3.0.tgz",
       "fileCount": 7,
-      "unpackedSize": 1217413
+      "unpackedSize": 1217775
     },
     "directories": {},
     "maintainers": [
@@ -130,13 +130,13 @@
         "email": "purocean@outlook.com"
       }
     ],
-    "readmeUrl": "https://fastly.jsdelivr.net/npm/@yank-note/extension-echarts@1.2.0/README.md?__t=1666177122594",
-    "changelogUrl": "https://fastly.jsdelivr.net/npm/@yank-note/extension-echarts@1.2.0/CHANGELOG.md?__t=1666177124237",
+    "readmeUrl": "https://fastly.jsdelivr.net/npm/@yank-note/extension-echarts@1.3.0/README.md?__t=1666505936010",
+    "changelogUrl": "https://fastly.jsdelivr.net/npm/@yank-note/extension-echarts@1.3.0/CHANGELOG.md?__t=1666505936256",
     "origin": "official"
   },
   {
     "name": "@yank-note/extension-reveal-js",
-    "version": "1.4.0",
+    "version": "1.5.0",
     "displayName": "Reveal.js",
     "description": "Reveal.js integration",
     "displayName_ZH-CN": "Reveal.js",
@@ -153,7 +153,7 @@
     },
     "main": "./dist/index.js",
     "style": "./dist/style.css",
-    "icon": "https://fastly.jsdelivr.net/npm/@yank-note/extension-reveal-js@1.4.0/icon.svg?__t=1665909395828",
+    "icon": "https://fastly.jsdelivr.net/npm/@yank-note/extension-reveal-js@1.5.0/icon.svg?__t=1666505940494",
     "engines": {
       "node": ">=14.6.0",
       "yank-note": "^3.40.0"
@@ -165,11 +165,11 @@
       "url": "https://github.com/purocean/yank-note-extension/issues"
     },
     "dist": {
-      "integrity": "sha512-ZFOgKmOPmipmQI3jPJ5VJ0zmFMwG5PAAptM1G3apn5XC2KihSg+jdO82mUQyH0rkqEKwjyRmzceoybmOj0JD5Q==",
-      "shasum": "63b3115ce9c132dfbf1c21f4409db5fa1b9c043c",
-      "tarball": "https://registry.npmjs.org/@yank-note/extension-reveal-js/-/extension-reveal-js-1.4.0.tgz",
+      "integrity": "sha512-qbY876lCokaJGCGOAU4Eyzgu9dxnrBiiTUgllAFK07jGDrqq8W17L5uHvbAMx9JmyOuYQXlTEbr/Z1h+bLefxw==",
+      "shasum": "af71e6848f92c34c75a7a6eb191ecbb4a5228f38",
+      "tarball": "https://registry.npmjs.org/@yank-note/extension-reveal-js/-/extension-reveal-js-1.5.0.tgz",
       "fileCount": 63,
-      "unpackedSize": 4678980
+      "unpackedSize": 4679196
     },
     "directories": {},
     "maintainers": [
@@ -178,13 +178,13 @@
         "email": "purocean@outlook.com"
       }
     ],
-    "readmeUrl": "https://fastly.jsdelivr.net/npm/@yank-note/extension-reveal-js@1.4.0/README.md?__t=1665909398573",
-    "changelogUrl": "https://fastly.jsdelivr.net/npm/@yank-note/extension-reveal-js@1.4.0/CHANGELOG.md?__t=1665909398753",
+    "readmeUrl": "https://fastly.jsdelivr.net/npm/@yank-note/extension-reveal-js@1.5.0/README.md?__t=1666505940793",
+    "changelogUrl": "https://fastly.jsdelivr.net/npm/@yank-note/extension-reveal-js@1.5.0/CHANGELOG.md?__t=1666505942048",
     "origin": "official"
   },
   {
     "name": "@yank-note/extension-markmap",
-    "version": "1.3.2",
+    "version": "1.4.0",
     "displayName": "Markmap",
     "description": "Visualize your Markdown as mindmaps with Markmap.",
     "displayName_ZH-CN": "Markmap",
@@ -201,7 +201,7 @@
     },
     "main": "./dist/index.js",
     "style": "./dist/style.css",
-    "icon": "https://fastly.jsdelivr.net/npm/@yank-note/extension-markmap@1.3.2/icon.png?__t=1666200105354",
+    "icon": "https://fastly.jsdelivr.net/npm/@yank-note/extension-markmap@1.4.0/icon.png?__t=1666505944366",
     "engines": {
       "node": ">=14.6.0",
       "yank-note": "^3.33.0"
@@ -213,11 +213,11 @@
       "url": "https://github.com/purocean/yank-note-extension/issues"
     },
     "dist": {
-      "integrity": "sha512-hG+GSlEw9K/kpsbYBAcQP+ElDEodUDsW+8qp7Vengnj6aQ38IFfsIrLM0C4NrdbgGQuHUJY+VSUnKGWL4IRI0A==",
-      "shasum": "d4b64c63d3660dc829f1da7e43be77a7e0517a2f",
-      "tarball": "https://registry.npmjs.org/@yank-note/extension-markmap/-/extension-markmap-1.3.2.tgz",
+      "integrity": "sha512-1JLKBPwQsjkhj1q76Qf29k2WWcoRb2xlrj1duxlxtexchLW0w+J0iMHSrDXGXWVHpLj856KucVLzJyg8wv+vrw==",
+      "shasum": "82958678d614aacf72919e302de7b10508cfd473",
+      "tarball": "https://registry.npmjs.org/@yank-note/extension-markmap/-/extension-markmap-1.4.0.tgz",
       "fileCount": 12,
-      "unpackedSize": 481304
+      "unpackedSize": 483055
     },
     "directories": {},
     "maintainers": [
@@ -226,8 +226,8 @@
         "email": "purocean@outlook.com"
       }
     ],
-    "readmeUrl": "https://fastly.jsdelivr.net/npm/@yank-note/extension-markmap@1.3.2/README.md?__t=1666200105684",
-    "changelogUrl": "https://fastly.jsdelivr.net/npm/@yank-note/extension-markmap@1.3.2/CHANGELOG.md?__t=1666200108084",
+    "readmeUrl": "https://fastly.jsdelivr.net/npm/@yank-note/extension-markmap@1.4.0/README.md?__t=1666505947774",
+    "changelogUrl": "https://fastly.jsdelivr.net/npm/@yank-note/extension-markmap@1.4.0/CHANGELOG.md?__t=1666505948056",
     "origin": "official"
   },
   {
