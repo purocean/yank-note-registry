@@ -372,6 +372,54 @@
     "origin": "official"
   },
   {
+    "name": "@yank-note/extension-pdf-viewer",
+    "version": "1.0.0",
+    "displayName": "PDF Viewer",
+    "description": "PDF viewer extension",
+    "displayName_ZH-CN": "PDF Viewer",
+    "description_ZH-CN": "PDF 阅读器扩展",
+    "author": {
+      "name": "Yank Note"
+    },
+    "license": "AGPL-3.0",
+    "keywords": [],
+    "homepage": "https://github.com/purocean/yank-note-extension/tree/main/packages/extension-pdf-viewer",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/purocean/yank-note-extension.git"
+    },
+    "main": "./dist/index.js",
+    "style": "./dist/style.css",
+    "icon": "https://fastly.jsdelivr.net/npm/@yank-note/extension-pdf-viewer@1.0.0/icon.svg?__t=1667909784788",
+    "engines": {
+      "node": ">=14.6.0",
+      "yank-note": "^3.42.0"
+    },
+    "requirements": {
+      "premium": true
+    },
+    "bugs": {
+      "url": "https://github.com/purocean/yank-note-extension/issues"
+    },
+    "dist": {
+      "integrity": "sha512-+0YsZ5jHGEtP+XpGxAzBv1QDljiqMREAkOH/W37cc+1J8UgT488QJnGGUZFbbLg9x99FJovGbbWoyXeiOMXBsA==",
+      "shasum": "ec8d47cd694b0beb1807d00cb9d0af0043da54e9",
+      "tarball": "https://registry.npmjs.org/@yank-note/extension-pdf-viewer/-/extension-pdf-viewer-1.0.0.tgz",
+      "fileCount": 7,
+      "unpackedSize": 39338
+    },
+    "directories": {},
+    "maintainers": [
+      {
+        "name": "purocean",
+        "email": "purocean@outlook.com"
+      }
+    ],
+    "readmeUrl": "https://fastly.jsdelivr.net/npm/@yank-note/extension-pdf-viewer@1.0.0/README.md?__t=1667909785065",
+    "changelogUrl": "https://fastly.jsdelivr.net/npm/@yank-note/extension-pdf-viewer@1.0.0/CHANGELOG.md?__t=1667909785427",
+    "origin": "official"
+  },
+  {
     "name": "@yank-note/extension-git-push",
     "version": "1.1.7",
     "displayName": "Git Push",
