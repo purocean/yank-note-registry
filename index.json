@@ -604,7 +604,7 @@
   },
   {
     "name": "@yank-note/extension-milkdown",
-    "version": "1.1.0",
+    "version": "1.1.1",
     "displayName": "Milkdown",
     "description": "WYSIWYG Markdown Editor",
     "displayName_ZH-CN": "Milkdown",
@@ -621,7 +621,7 @@
     },
     "main": "./main/index.js",
     "style": "./main/style.css",
-    "icon": "https://fastly.jsdelivr.net/npm/@yank-note/extension-milkdown@1.1.0/icon.svg?__t=1668436511181",
+    "icon": "https://fastly.jsdelivr.net/npm/@yank-note/extension-milkdown@1.1.1/icon.svg?__t=1668438409594",
     "engines": {
       "node": ">=14.6.0",
       "yank-note": "^3.43.0"
@@ -633,11 +633,11 @@
       "url": "https://github.com/purocean/yank-note-extension/issues"
     },
     "dist": {
-      "integrity": "sha512-E0A2acMbDRIKw8qtotrQNwaj+dyr9YM0HUPqKE68ngSvCerP/7L+Qx3pvkxyPohlG2+9hh3OtmRHi1FxugIKyw==",
-      "shasum": "beaff94a4a82dae1eb68666ece024ab27f49890d",
-      "tarball": "https://registry.npmjs.org/@yank-note/extension-milkdown/-/extension-milkdown-1.1.0.tgz",
+      "integrity": "sha512-UCUckaZgk5a8Lvv+yD1Z5RPUyt9CFMM6bzXM3z61DgfYhyv2onhkEtUWlBjlaxPbKOdC3QlBz2jRb723HfpT/Q==",
+      "shasum": "22f5b3bb439332f51e286b4c9b74bcdcc3312473",
+      "tarball": "https://registry.npmjs.org/@yank-note/extension-milkdown/-/extension-milkdown-1.1.1.tgz",
       "fileCount": 9,
-      "unpackedSize": 6783991
+      "unpackedSize": 6784354
     },
     "directories": {},
     "maintainers": [
@@ -646,8 +646,8 @@
         "email": "purocean@outlook.com"
       }
     ],
-    "readmeUrl": "https://fastly.jsdelivr.net/npm/@yank-note/extension-milkdown@1.1.0/README.md?__t=1668436514531",
-    "changelogUrl": "https://fastly.jsdelivr.net/npm/@yank-note/extension-milkdown@1.1.0/CHANGELOG.md?__t=1668436514825",
+    "readmeUrl": "https://fastly.jsdelivr.net/npm/@yank-note/extension-milkdown@1.1.1/README.md?__t=1668438409723",
+    "changelogUrl": "https://fastly.jsdelivr.net/npm/@yank-note/extension-milkdown@1.1.1/CHANGELOG.md?__t=1668438413619",
     "origin": "official"
   },
   {
