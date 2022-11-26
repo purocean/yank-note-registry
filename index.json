@@ -468,7 +468,7 @@
   },
   {
     "name": "@yank-note/extension-sublime-merge",
-    "version": "1.0.5",
+    "version": "1.1.0",
     "displayName": "Sublime Merge",
     "description": "Sublime Merge integration for Yank Note",
     "displayName_ZH-CN": "Sublime Merge",
@@ -484,10 +484,10 @@
       "url": "git+https://github.com/purocean/yank-note-extension.git"
     },
     "main": "./dist/index.js",
-    "icon": "https://fastly.jsdelivr.net/npm/@yank-note/extension-sublime-merge@1.0.5/icon.png?__t=1652779097387",
+    "icon": "https://fastly.jsdelivr.net/npm/@yank-note/extension-sublime-merge@1.1.0/icon.png?__t=1669458047559",
     "engines": {
       "node": ">=14.6.0",
-      "yank-note": "^3.29.0"
+      "yank-note": "^3.45.0"
     },
     "requirements": {
       "terminal": true
@@ -496,11 +496,11 @@
       "url": "https://github.com/purocean/yank-note-extension/issues"
     },
     "dist": {
-      "integrity": "sha512-eNF/xphuny20GbOCjxARZ1XffXunLGOOk65LZCF++/h0MdRX7ejoF6wPHJdgUqeecCAJcc2xUdi4eXHziUGKIw==",
-      "shasum": "eb7b37d59b29b6db5becbb48f423fd16aff3f7cc",
-      "tarball": "https://registry.npmjs.org/@yank-note/extension-sublime-merge/-/extension-sublime-merge-1.0.5.tgz",
+      "integrity": "sha512-9dkSyPFp8bP7ZFY1SQIxJLo2a48tW2keYXUUyc6ojapq9AEdbshhygAjINzevzYpFoTMHS6cK0w827ERtocnHg==",
+      "shasum": "ec540e0a64cf5f1dbac75363f86266ca31db78db",
+      "tarball": "https://registry.npmjs.org/@yank-note/extension-sublime-merge/-/extension-sublime-merge-1.1.0.tgz",
       "fileCount": 6,
-      "unpackedSize": 60677
+      "unpackedSize": 61154
     },
     "directories": {},
     "maintainers": [
@@ -509,8 +509,8 @@
         "email": "purocean@outlook.com"
       }
     ],
-    "readmeUrl": "https://fastly.jsdelivr.net/npm/@yank-note/extension-sublime-merge@1.0.5/README.md?__t=1652779098712",
-    "changelogUrl": "https://fastly.jsdelivr.net/npm/@yank-note/extension-sublime-merge@1.0.5/CHANGELOG.md?__t=1652779099979",
+    "readmeUrl": "https://fastly.jsdelivr.net/npm/@yank-note/extension-sublime-merge@1.1.0/README.md?__t=1669458047758",
+    "changelogUrl": "https://fastly.jsdelivr.net/npm/@yank-note/extension-sublime-merge@1.1.0/CHANGELOG.md?__t=1669458056570",
     "origin": "official"
   },
   {
