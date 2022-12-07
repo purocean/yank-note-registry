@@ -560,7 +560,7 @@
   },
   {
     "name": "@yank-note/extension-openai",
-    "version": "1.0.5",
+    "version": "1.1.0",
     "displayName": "OpenAI",
     "description": "Your AI writing assistant",
     "displayName_ZH-CN": "OpenAI",
@@ -576,20 +576,24 @@
       "url": "git+https://github.com/purocean/yank-note-extension.git"
     },
     "main": "./dist/index.js",
-    "icon": "https://fastly.jsdelivr.net/npm/@yank-note/extension-openai@1.0.5/icon.svg?__t=1659322726201",
+    "style": "./dist/style.css",
+    "icon": "https://fastly.jsdelivr.net/npm/@yank-note/extension-openai@1.1.0/icon.svg?__t=1670416718249",
     "engines": {
       "node": ">=14.6.0",
-      "yank-note": "^3.29.0"
+      "yank-note": "^3.46.0"
+    },
+    "requirements": {
+      "premium": true
     },
     "bugs": {
       "url": "https://github.com/purocean/yank-note-extension/issues"
     },
     "dist": {
-      "integrity": "sha512-67+f8QbVrI9LV/PL0JNsxrXd6pnJc2FdYVOmlzsVhQJy5biggn9nDnF3ZQQMfL2aeiYmrq8X9HgeiRXLthr97A==",
-      "shasum": "71dbf6ea44f933407fcfbc2b84bf7b289de7e4e7",
-      "tarball": "https://registry.npmjs.org/@yank-note/extension-openai/-/extension-openai-1.0.5.tgz",
-      "fileCount": 6,
-      "unpackedSize": 45623
+      "integrity": "sha512-fTy3O5SFQ8awwHjFqR5YSq2ZWGgeUTO4zOqEv2fqvgdszNatjnV2GiZ/8AMW1o1GF2Z82mc7HFddk3E7mszGyA==",
+      "shasum": "b96dbd1f7f9515994d5a59eb037903d27344a12c",
+      "tarball": "https://registry.npmjs.org/@yank-note/extension-openai/-/extension-openai-1.1.0.tgz",
+      "fileCount": 7,
+      "unpackedSize": 56906
     },
     "directories": {},
     "maintainers": [
@@ -598,8 +602,8 @@
         "email": "purocean@outlook.com"
       }
     ],
-    "readmeUrl": "https://fastly.jsdelivr.net/npm/@yank-note/extension-openai@1.0.5/README.md?__t=1659322726643",
-    "changelogUrl": "https://fastly.jsdelivr.net/npm/@yank-note/extension-openai@1.0.5/CHANGELOG.md?__t=1659322728300",
+    "readmeUrl": "https://fastly.jsdelivr.net/npm/@yank-note/extension-openai@1.1.0/README.md?__t=1670416718439",
+    "changelogUrl": "https://fastly.jsdelivr.net/npm/@yank-note/extension-openai@1.1.0/CHANGELOG.md?__t=1670416718757",
     "origin": "official"
   },
   {
