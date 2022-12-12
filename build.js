@@ -43,7 +43,7 @@ async function buildCDNUrl (id, version, filename) {
   });
 
   const _url = new URL('https://registry.yank-note.com/' + urlPath);
-  _url.searchParams.set('__t', Date.now());
+  // _url.searchParams.set('__t', Date.now());
   return _url.toString();
 }
 
