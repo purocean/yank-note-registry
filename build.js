@@ -45,9 +45,9 @@ async function buildCDNUrl (id, version, filename) {
   });
 
   const _url = new URL('https://registry.yank-note.com/' + urlPath);
-  console.log(`    CDN: ${url}`);
-  // _url.searchParams.set('__t', Date.now());
-  return _url.toString();
+  const cdnUrl = _url.toString();
+  console.log(`    CDN: ${cdnUrl}`);
+  return cdnUrl;
 }
 
 async function fetchInfo (id, version) {
