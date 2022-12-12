@@ -27,6 +27,8 @@ async function buildCDNUrl (id, version, filename) {
 
   if (!/^https?:\/\//.test(url)) {
     url = `${cdnPrefix}${id}@${version}/${filename}`
+  } else {
+    filename = path.basename(filename.replace(/^https?:\/\/[^/]+\//, ''))
   }
 
   const urlPath = path.join('cdn', id, version, filename)
@@ -43,6 +45,7 @@ async function buildCDNUrl (id, version, filename) {
   });
 
   const _url = new URL('https://registry.yank-note.com/' + urlPath);
+  console.log(`    CDN: ${url}`);
   // _url.searchParams.set('__t', Date.now());
   return _url.toString();
 }
