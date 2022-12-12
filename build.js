@@ -1,9 +1,22 @@
 const fs = require('fs');
+const path = require('path');
 const fetch = require('node-fetch');
 const index = require('./index.json');
 const { official, registry } = require('./extensions.json');
 
 const cdnPrefix = 'https://fastly.jsdelivr.net/npm/'
+
+function createDirectoryIfNotExists(dirPath) {
+  if (!fs.existsSync(dirPath)) {
+    const parent = path.dirname(dirPath);
+
+    if (!fs.existsSync(parent)) {
+      createDirectoryIfNotExists(parent);
+    }
+
+    fs.mkdirSync(dirPath);
+  }
+}
 
 async function buildCDNUrl (id, version, filename) {
   if (!filename) {
@@ -16,12 +29,20 @@ async function buildCDNUrl (id, version, filename) {
     url = `${cdnPrefix}${id}@${version}/${filename}`
   }
 
-  if (url.startsWith('https://fastly.jsdelivr.net/')) {
-    console.log(`    Purge: ${url}`);
-    await fetch(url.replace('cdn.jsdelivr.net', 'purge.jsdelivr.net'));
-  }
+  const urlPath = path.join('cdn', id, version, filename)
+  const filePath = path.join(__dirname, urlPath);
 
-  const _url = new URL(url);
+  createDirectoryIfNotExists(path.dirname(filePath));
+
+  await new Promise(async (resolve, reject) => {
+    console.log(`    Download: ${url}`);
+    const stream = await fetch(url).then(res => res.body);
+    stream.on('end', resolve);
+    stream.on('error', reject);
+    stream.pipe(fs.createWriteStream(filePath));
+  });
+
+  const _url = new URL('https://registry.yank-note.com/' + urlPath);
   _url.searchParams.set('__t', Date.now());
   return _url.toString();
 }
