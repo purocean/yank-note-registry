@@ -14,7 +14,7 @@
     { "id": "@yank-note/extension-luckysheet", "version": "1.0.3" },
     { "id": "@yank-note/extension-openai", "version": "1.2.1" },
     { "id": "@yank-note/extension-milkdown", "version": "1.1.1" },
-    { "id": "@yank-note/extension-editor-themes", "version": "1.0.0" },
+    { "id": "@yank-note/extension-editor-themes", "version": "1.0.0" }
   ],
   "registry": [
     { "id": "yank-note-extension-theme-yanser", "version": "1.2.1" },
