@@ -656,7 +656,7 @@
   },
   {
     "name": "@yank-note/extension-editor-themes",
-    "version": "1.0.0",
+    "version": "1.1.0",
     "displayName": "Editor Themes",
     "description": "Change the theme of the editor",
     "displayName_ZH-CN": "编辑器主题",
@@ -672,7 +672,7 @@
       "url": "git+https://github.com/purocean/yank-note-extension.git"
     },
     "main": "./dist/index.js",
-    "icon": "https://registry.yank-note.com/cdn/@yank-note/extension-editor-themes/1.0.0/icon.png",
+    "icon": "https://registry.yank-note.com/cdn/@yank-note/extension-editor-themes/1.1.0/icon.png",
     "engines": {
       "node": ">=14.6.0",
       "yank-note": "^3.46.0"
@@ -684,11 +684,11 @@
       "url": "https://github.com/purocean/yank-note-extension/issues"
     },
     "dist": {
-      "integrity": "sha512-cqEG0zPxYkq7Hgy3vexauQcVHkOx08/V8g8Bs08Ql8nHJgTKiQPXEA+HGf8aMJM5qoyZjLggQ4Vewoc/8ibzDg==",
-      "shasum": "5c1b05d79311f24db95c74ff6be865871ba69269",
-      "tarball": "https://registry.npmjs.org/@yank-note/extension-editor-themes/-/extension-editor-themes-1.0.0.tgz",
+      "integrity": "sha512-PVTHZKVCpyWhxpmeOBfxcK/x+/ORZdG0xlT7WnK9gQZQEPtbn9QSxkum9WYWdQCPZgo7raPl2Z+e650FGQm0Aw==",
+      "shasum": "81574f796ea4525d1fad4b2e64212f92be1a8ce3",
+      "tarball": "https://registry.npmjs.org/@yank-note/extension-editor-themes/-/extension-editor-themes-1.1.0.tgz",
       "fileCount": 6,
-      "unpackedSize": 296001
+      "unpackedSize": 339777
     },
     "directories": {},
     "maintainers": [
@@ -697,8 +697,8 @@
         "email": "purocean@outlook.com"
       }
     ],
-    "readmeUrl": "https://registry.yank-note.com/cdn/@yank-note/extension-editor-themes/1.0.0/README.md",
-    "changelogUrl": "https://registry.yank-note.com/cdn/@yank-note/extension-editor-themes/1.0.0/CHANGELOG.md",
+    "readmeUrl": "https://registry.yank-note.com/cdn/@yank-note/extension-editor-themes/1.1.0/README.md",
+    "changelogUrl": "https://registry.yank-note.com/cdn/@yank-note/extension-editor-themes/1.1.0/CHANGELOG.md",
     "origin": "official"
   },
   {
