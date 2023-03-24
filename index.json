@@ -902,7 +902,7 @@
   },
   {
     "name": "yank-note-extension-snippet",
-    "version": "0.0.1",
+    "version": "1.0.1",
     "displayName": "Text Snippet",
     "description": "Insert text snippet quickly",
     "displayName_ZH-CN": "文本片段",
@@ -915,7 +915,7 @@
     "homepage": "https://github.com/zhyipeng/yank-note-extension-snippet",
     "main": "./dist/index.js",
     "style": "./dist/style.css",
-    "icon": "https://registry.yank-note.com/cdn/yank-note-extension-snippet/0.0.1/icon.png",
+    "icon": "https://registry.yank-note.com/cdn/yank-note-extension-snippet/1.0.1/icon.png",
     "engines": {
       "node": ">=14.6.0",
       "yank-note": ">=3.48.0"
@@ -923,11 +923,11 @@
     "themes": [],
     "licenseText": "MIT License\n\nCopyright (c) 2022 洋子\n\nPermission is hereby granted, free of charge, to any person obtaining a copy\nof this software and associated documentation files (the \"Software\"), to deal\nin the Software without restriction, including without limitation the rights\nto use, copy, modify, merge, publish, distribute, sublicense, and/or sell\ncopies of the Software, and to permit persons to whom the Software is\nfurnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in all\ncopies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\nFITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE\nAUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\nLIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,\nOUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE\nSOFTWARE.\n",
     "dist": {
-      "shasum": "8781bcfb7b628689439b75ef47d268acb8f6253b",
-      "integrity": "sha512-eKqULfZtuPpEcYmZujuwk2NGEs3sTPGVI68w+vpzKxBFiN3/+ag4ElQMbDIEdpzpRGszz+I79jCCXw1Ug3Uwdw==",
-      "tarball": "https://registry.npmjs.org/yank-note-extension-snippet/-/yank-note-extension-snippet-0.0.1.tgz",
+      "shasum": "7be7792ca894064cf1d28f7c2e1eae93f189404a",
+      "integrity": "sha512-+XacSAUZ1POzMukUcQQG4ThzPfb3VAiRPrjXjlsFS83wRoMWJ8c8bmzDWXig8HCrIXKovdm6YzYSGkrOwZJwgA==",
+      "tarball": "https://registry.npmjs.org/yank-note-extension-snippet/-/yank-note-extension-snippet-1.0.1.tgz",
       "fileCount": 10,
-      "unpackedSize": 22549
+      "unpackedSize": 8297
     },
     "directories": {},
     "maintainers": [
@@ -936,8 +936,8 @@
         "email": "zhyipeng@outlook.com"
       }
     ],
-    "readmeUrl": "https://registry.yank-note.com/cdn/yank-note-extension-snippet/0.0.1/README.md",
-    "changelogUrl": "https://registry.yank-note.com/cdn/yank-note-extension-snippet/0.0.1/CHANGELOG.md",
+    "readmeUrl": "https://registry.yank-note.com/cdn/yank-note-extension-snippet/1.0.1/README.md",
+    "changelogUrl": "https://registry.yank-note.com/cdn/yank-note-extension-snippet/1.0.1/CHANGELOG.md",
     "origin": "registry"
   }
 ]
