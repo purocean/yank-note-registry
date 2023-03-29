@@ -21,6 +21,6 @@
     { "id": "yank-note-extension-view-reverse-yanser", "version": "2.3.0" },
     { "id": "yank-note-extension-vim-mode", "version": "1.0.5" },
     { "id": "yank-note-extension-tool-bar", "version": "1.0.0" },
-    { "id": "yank-note-extension-snippet", "version": "1.0.1" }
+    { "id": "yank-note-extension-snippet", "version": "1.0.2" }
   ]
 }
