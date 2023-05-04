@@ -374,7 +374,7 @@
   },
   {
     "name": "@yank-note/extension-popup-preview",
-    "version": "1.1.1",
+    "version": "1.1.2",
     "displayName": "Popup Preview",
     "description": "Popup preview in a new window",
     "displayName_ZH-CN": "弹出预览",
@@ -390,7 +390,7 @@
       "url": "git+https://github.com/purocean/yank-note-extension.git"
     },
     "main": "./dist/index.js",
-    "icon": "https://registry.yank-note.com/cdn/@yank-note/extension-popup-preview/1.1.1/icon.svg",
+    "icon": "https://registry.yank-note.com/cdn/@yank-note/extension-popup-preview/1.1.2/icon.svg",
     "engines": {
       "node": ">=14.6.0",
       "yank-note": "^3.29.0"
@@ -402,11 +402,11 @@
       "url": "https://github.com/purocean/yank-note-extension/issues"
     },
     "dist": {
-      "integrity": "sha512-fK4VuntVEPtokzMp30BVNhc/3ousGA2xu/KClm/poMGQFEmYl+TIgcMG/mIbbK8ZsfvMpc+QnSOmjXh4ZcJwcA==",
-      "shasum": "070c215dabf0cd7764c33b457559dd57a55bd56e",
-      "tarball": "https://registry.npmjs.org/@yank-note/extension-popup-preview/-/extension-popup-preview-1.1.1.tgz",
+      "integrity": "sha512-LY4Ms+CyOGfF4dry0h8bttlZtUSWTc137THHRrQ2X7Qxfh7xUYb8roxrz2wF5KkOXE7WX10G0/2pwRHdFNfcVw==",
+      "shasum": "5ba20282684de210caf154a0236ea5d968ba21fd",
+      "tarball": "https://registry.npmjs.org/@yank-note/extension-popup-preview/-/extension-popup-preview-1.1.2.tgz",
       "fileCount": 6,
-      "unpackedSize": 41023
+      "unpackedSize": 41524
     },
     "directories": {},
     "maintainers": [
@@ -415,8 +415,8 @@
         "email": "purocean@outlook.com"
       }
     ],
-    "readmeUrl": "https://registry.yank-note.com/cdn/@yank-note/extension-popup-preview/1.1.1/README.md",
-    "changelogUrl": "https://registry.yank-note.com/cdn/@yank-note/extension-popup-preview/1.1.1/CHANGELOG.md",
+    "readmeUrl": "https://registry.yank-note.com/cdn/@yank-note/extension-popup-preview/1.1.2/README.md",
+    "changelogUrl": "https://registry.yank-note.com/cdn/@yank-note/extension-popup-preview/1.1.2/CHANGELOG.md",
     "origin": "official"
   },
   {
