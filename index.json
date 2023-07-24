@@ -468,7 +468,7 @@
   },
   {
     "name": "@yank-note/extension-sublime-merge",
-    "version": "1.2.0",
+    "version": "1.2.1",
     "displayName": "Sublime Merge",
     "description": "Sublime Merge integration for Yank Note",
     "displayName_ZH-CN": "Sublime Merge",
@@ -484,7 +484,7 @@
       "url": "git+https://github.com/purocean/yank-note-extension.git"
     },
     "main": "./dist/index.js",
-    "icon": "https://registry.yank-note.com/cdn/@yank-note/extension-sublime-merge/1.2.0/icon.png",
+    "icon": "https://registry.yank-note.com/cdn/@yank-note/extension-sublime-merge/1.2.1/icon.png",
     "engines": {
       "node": ">=14.6.0",
       "yank-note": "^3.56.2"
@@ -496,11 +496,11 @@
       "url": "https://github.com/purocean/yank-note-extension/issues"
     },
     "dist": {
-      "integrity": "sha512-mdmalfIVSIWF7BnfOGDALrO6MMllxFo/Gjb7NGSe+eE1QOCvKu2vx2Q9yLj82VDetjzihP+lDflONi4DeC6X5g==",
-      "shasum": "c0b25f210f227395c4570660e19ed5cf2536f01a",
-      "tarball": "https://registry.npmjs.org/@yank-note/extension-sublime-merge/-/extension-sublime-merge-1.2.0.tgz",
+      "integrity": "sha512-PfltwN8R22oirSeTUP7y6rQkmpAnJzgq51Xq9uq3K8+wDXgKtMlPHLlHpoeFJKGQ/TrQlVwKO1goGy4nAfFYwA==",
+      "shasum": "d25ee1ec23a01d74f3360c2733c3caa1aaa7c671",
+      "tarball": "https://registry.npmjs.org/@yank-note/extension-sublime-merge/-/extension-sublime-merge-1.2.1.tgz",
       "fileCount": 6,
-      "unpackedSize": 61652
+      "unpackedSize": 61989
     },
     "directories": {},
     "maintainers": [
@@ -509,8 +509,8 @@
         "email": "purocean@outlook.com"
       }
     ],
-    "readmeUrl": "https://registry.yank-note.com/cdn/@yank-note/extension-sublime-merge/1.2.0/README.md",
-    "changelogUrl": "https://registry.yank-note.com/cdn/@yank-note/extension-sublime-merge/1.2.0/CHANGELOG.md",
+    "readmeUrl": "https://registry.yank-note.com/cdn/@yank-note/extension-sublime-merge/1.2.1/README.md",
+    "changelogUrl": "https://registry.yank-note.com/cdn/@yank-note/extension-sublime-merge/1.2.1/CHANGELOG.md",
     "origin": "official"
   },
   {
