@@ -279,7 +279,7 @@
   },
   {
     "name": "@yank-note/extension-markdown-prettier",
-    "version": "1.4.0",
+    "version": "1.4.1",
     "displayName": "Markdown Prettier",
     "description": "Markdown Formatter for Yank Note",
     "displayName_ZH-CN": "Markdown Prettier",
@@ -295,7 +295,7 @@
       "url": "git+https://github.com/purocean/yank-note-extension.git"
     },
     "main": "./dist/index.js",
-    "icon": "https://registry.yank-note.com/cdn/@yank-note/extension-markdown-prettier/1.4.0/icon.png",
+    "icon": "https://registry.yank-note.com/cdn/@yank-note/extension-markdown-prettier/1.4.1/icon.png",
     "engines": {
       "node": ">=14.6.0",
       "yank-note": "^3.55.0"
@@ -307,11 +307,11 @@
       "url": "https://github.com/purocean/yank-note-extension/issues"
     },
     "dist": {
-      "integrity": "sha512-ad2IMuwwHOP5H33/Su8b/dx3W3dRdpjnv/VOX0ab0+rsxv4babG5rJ6Vyj78zu07OHy2O2Q8hhQXYdVMu9abiA==",
-      "shasum": "347ff29cc90028dfd9d8e1c8e21cac2af22be1fe",
-      "tarball": "https://registry.npmjs.org/@yank-note/extension-markdown-prettier/-/extension-markdown-prettier-1.4.0.tgz",
+      "integrity": "sha512-6yEbSD/gWZl5C0mf1nwA2b8MHKz5646faf1OjQiW5GIWoDWaTRBFuNpjaHFIj4BTQ7eNibWs+Z5WjYHjNvDHHw==",
+      "shasum": "a32afd6327d24102e4f9a5c32e8f014d6d21e6e9",
+      "tarball": "https://registry.npmjs.org/@yank-note/extension-markdown-prettier/-/extension-markdown-prettier-1.4.1.tgz",
       "fileCount": 6,
-      "unpackedSize": 646957
+      "unpackedSize": 647383
     },
     "directories": {},
     "maintainers": [
@@ -320,8 +320,8 @@
         "email": "purocean@outlook.com"
       }
     ],
-    "readmeUrl": "https://registry.yank-note.com/cdn/@yank-note/extension-markdown-prettier/1.4.0/README.md",
-    "changelogUrl": "https://registry.yank-note.com/cdn/@yank-note/extension-markdown-prettier/1.4.0/CHANGELOG.md",
+    "readmeUrl": "https://registry.yank-note.com/cdn/@yank-note/extension-markdown-prettier/1.4.1/README.md",
+    "changelogUrl": "https://registry.yank-note.com/cdn/@yank-note/extension-markdown-prettier/1.4.1/CHANGELOG.md",
     "origin": "official"
   },
   {
