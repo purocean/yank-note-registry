@@ -608,7 +608,7 @@
   },
   {
     "name": "@yank-note/extension-milkdown",
-    "version": "1.1.1",
+    "version": "1.2.0",
     "displayName": "Milkdown",
     "description": "WYSIWYG Markdown Editor",
     "displayName_ZH-CN": "Milkdown",
@@ -625,7 +625,7 @@
     },
     "main": "./main/index.js",
     "style": "./main/style.css",
-    "icon": "https://registry.yank-note.com/cdn/@yank-note/extension-milkdown/1.1.1/icon.svg",
+    "icon": "https://registry.yank-note.com/cdn/@yank-note/extension-milkdown/1.2.0/icon.svg",
     "engines": {
       "node": ">=14.6.0",
       "yank-note": "^3.43.0"
@@ -637,11 +637,11 @@
       "url": "https://github.com/purocean/yank-note-extension/issues"
     },
     "dist": {
-      "integrity": "sha512-UCUckaZgk5a8Lvv+yD1Z5RPUyt9CFMM6bzXM3z61DgfYhyv2onhkEtUWlBjlaxPbKOdC3QlBz2jRb723HfpT/Q==",
-      "shasum": "22f5b3bb439332f51e286b4c9b74bcdcc3312473",
-      "tarball": "https://registry.npmjs.org/@yank-note/extension-milkdown/-/extension-milkdown-1.1.1.tgz",
+      "integrity": "sha512-jQ0naySOO2PWs+Jpx66ra8Ye52FMkStFJ9y1NsRRviJKv4gCJEdmYICTcSla08QqMa4uNouRPQfPp1uJsdvq9Q==",
+      "shasum": "a8c54e7b69b2cb035b1b14688bddaefbac4e81a8",
+      "tarball": "https://registry.npmjs.org/@yank-note/extension-milkdown/-/extension-milkdown-1.2.0.tgz",
       "fileCount": 9,
-      "unpackedSize": 6784354
+      "unpackedSize": 6780714
     },
     "directories": {},
     "maintainers": [
@@ -650,8 +650,8 @@
         "email": "purocean@outlook.com"
       }
     ],
-    "readmeUrl": "https://registry.yank-note.com/cdn/@yank-note/extension-milkdown/1.1.1/README.md",
-    "changelogUrl": "https://registry.yank-note.com/cdn/@yank-note/extension-milkdown/1.1.1/CHANGELOG.md",
+    "readmeUrl": "https://registry.yank-note.com/cdn/@yank-note/extension-milkdown/1.2.0/README.md",
+    "changelogUrl": "https://registry.yank-note.com/cdn/@yank-note/extension-milkdown/1.2.0/CHANGELOG.md",
     "origin": "official"
   },
   {
