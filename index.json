@@ -560,7 +560,7 @@
   },
   {
     "name": "@yank-note/extension-openai",
-    "version": "1.6.0",
+    "version": "1.7.0",
     "displayName": "OpenAI",
     "description": "Your AI writing assistant",
     "displayName_ZH-CN": "OpenAI",
@@ -577,7 +577,7 @@
     },
     "main": "./dist/index.js",
     "style": "./dist/style.css",
-    "icon": "https://registry.yank-note.com/cdn/@yank-note/extension-openai/1.6.0/icon.svg",
+    "icon": "https://registry.yank-note.com/cdn/@yank-note/extension-openai/1.7.0/icon.svg",
     "engines": {
       "node": ">=14.6.0",
       "yank-note": "^3.58.0"
@@ -589,11 +589,11 @@
       "url": "https://github.com/purocean/yank-note-extension/issues"
     },
     "dist": {
-      "integrity": "sha512-qPARhsQ57SgBe1d735JF8VO3PED7WcxH1gThB9pE6H1y1Jo+siWzEEZm57kzD57xcgSd8lkCQHEqn6pU19ohRg==",
-      "shasum": "34424de72d7f941d364f95f81e119a181b0941b1",
-      "tarball": "https://registry.npmjs.org/@yank-note/extension-openai/-/extension-openai-1.6.0.tgz",
+      "integrity": "sha512-wJp3Td9bNw8o6XUyGPdHW4eo79AxjUgvA8EjulgH60FCjWFV9SmOIXM6H27kv+JPZ9Pnxjv3c0YtrMqomyjmxQ==",
+      "shasum": "d8fad846533f3baac45922b40e8d930046d3ce74",
+      "tarball": "https://registry.npmjs.org/@yank-note/extension-openai/-/extension-openai-1.7.0.tgz",
       "fileCount": 7,
-      "unpackedSize": 66493
+      "unpackedSize": 66631
     },
     "directories": {},
     "maintainers": [
@@ -602,8 +602,8 @@
         "email": "purocean@outlook.com"
       }
     ],
-    "readmeUrl": "https://registry.yank-note.com/cdn/@yank-note/extension-openai/1.6.0/README.md",
-    "changelogUrl": "https://registry.yank-note.com/cdn/@yank-note/extension-openai/1.6.0/CHANGELOG.md",
+    "readmeUrl": "https://registry.yank-note.com/cdn/@yank-note/extension-openai/1.7.0/README.md",
+    "changelogUrl": "https://registry.yank-note.com/cdn/@yank-note/extension-openai/1.7.0/CHANGELOG.md",
     "origin": "official"
   },
   {
