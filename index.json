@@ -814,7 +814,7 @@
   },
   {
     "name": "yank-note-extension-vim-mode",
-    "version": "1.0.7",
+    "version": "1.1.0",
     "displayName": "Vim Mode",
     "description": "Vim Mode extension",
     "displayName_ZH-CN": "Vim Mode",
@@ -826,10 +826,10 @@
     "keywords": [],
     "homepage": "https://github.com/zhyipeng/yank-note-extension-vim-mode",
     "main": "./dist/index.js",
-    "icon": "https://registry.yank-note.com/cdn/yank-note-extension-vim-mode/1.0.7/icon.png",
+    "icon": "https://registry.yank-note.com/cdn/yank-note-extension-vim-mode/1.1.0/icon.png",
     "engines": {
       "node": ">=14.6.0",
-      "yank-note": "^3.35.0"
+      "yank-note": "^3.58.0"
     },
     "themes": [],
     "repository": {
@@ -839,13 +839,13 @@
     "bugs": {
       "url": "https://github.com/zhyipeng/yank-note-extension-vim-mode/issues"
     },
-    "gitHead": "e8913c76ebbb0a4ed026977d4351c23e91922797",
+    "gitHead": "2dc2b2bc8c3ca3a94958a387e5366ea498d60dae",
     "dist": {
-      "integrity": "sha512-7uwtVdySBGH2+pp56jtqPkdnvn8f6tZtr94+7mxIRYL/UQ3oEyX6xLhYQ2G36trgP+X/XwEa2siHM6UPYkLddw==",
-      "shasum": "64038902afa222a5f4a6d0da548a521f64daa38f",
-      "tarball": "https://registry.npmjs.org/yank-note-extension-vim-mode/-/yank-note-extension-vim-mode-1.0.7.tgz",
+      "integrity": "sha512-J1NahYumqAFlb+mJAgY4LBStCo7rrSLGsAClnOVFab25gIXFtlzA/y0pv0iX3PDXJ5/p8AY0EmrumNZMsmzE7A==",
+      "shasum": "4e8cf9fb8e00d445aeb987b64b069cee9fa33824",
+      "tarball": "https://registry.npmjs.org/yank-note-extension-vim-mode/-/yank-note-extension-vim-mode-1.1.0.tgz",
       "fileCount": 7,
-      "unpackedSize": 122171
+      "unpackedSize": 125997
     },
     "directories": {},
     "maintainers": [
@@ -854,8 +854,8 @@
         "email": "zhyipeng@outlook.com"
       }
     ],
-    "readmeUrl": "https://registry.yank-note.com/cdn/yank-note-extension-vim-mode/1.0.7/README.md",
-    "changelogUrl": "https://registry.yank-note.com/cdn/yank-note-extension-vim-mode/1.0.7/CHANGELOG.md",
+    "readmeUrl": "https://registry.yank-note.com/cdn/yank-note-extension-vim-mode/1.1.0/README.md",
+    "changelogUrl": "https://registry.yank-note.com/cdn/yank-note-extension-vim-mode/1.1.0/CHANGELOG.md",
     "origin": "registry"
   },
   {
