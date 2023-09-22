@@ -91,7 +91,7 @@
   },
   {
     "name": "@yank-note/extension-echarts",
-    "version": "1.4.0",
+    "version": "1.5.0",
     "displayName": "ECharts",
     "description": "ECharts integration",
     "displayName_ZH-CN": "ECharts",
@@ -108,7 +108,7 @@
     },
     "main": "./dist/index.js",
     "style": "./dist/style.css",
-    "icon": "https://registry.yank-note.com/cdn/@yank-note/extension-echarts/1.4.0/icon.png",
+    "icon": "https://registry.yank-note.com/cdn/@yank-note/extension-echarts/1.5.0/icon.png",
     "engines": {
       "node": ">=14.6.0",
       "yank-note": "^3.41.0"
@@ -117,11 +117,11 @@
       "url": "https://github.com/purocean/yank-note-extension/issues"
     },
     "dist": {
-      "integrity": "sha512-MEqcOZ5bPjvGKUTluGtKB6ZpZhZ7eDACBPcgAuu72CBwPe42DPh9jIlIJEtlQjRXNpfRJglEhAJg6NzlAp74ew==",
-      "shasum": "bcfa7c438d700417a5e2b9b8d4b254910190f6f8",
-      "tarball": "https://registry.npmjs.org/@yank-note/extension-echarts/-/extension-echarts-1.4.0.tgz",
+      "integrity": "sha512-5hnapUAuzDGFybzs/MPmh9xglMSYBVRIN+DQ01/mozlGWGXvqATc5cbi08i+NYnUQ2QaMUKfDyN/eZQxTm+k7g==",
+      "shasum": "16a7f9fe9c0d7439adab9813dfd5f68c76fcbbb9",
+      "tarball": "https://registry.npmjs.org/@yank-note/extension-echarts/-/extension-echarts-1.5.0.tgz",
       "fileCount": 7,
-      "unpackedSize": 1219399
+      "unpackedSize": 1219713
     },
     "directories": {},
     "maintainers": [
@@ -130,8 +130,8 @@
         "email": "purocean@outlook.com"
       }
     ],
-    "readmeUrl": "https://registry.yank-note.com/cdn/@yank-note/extension-echarts/1.4.0/README.md",
-    "changelogUrl": "https://registry.yank-note.com/cdn/@yank-note/extension-echarts/1.4.0/CHANGELOG.md",
+    "readmeUrl": "https://registry.yank-note.com/cdn/@yank-note/extension-echarts/1.5.0/README.md",
+    "changelogUrl": "https://registry.yank-note.com/cdn/@yank-note/extension-echarts/1.5.0/CHANGELOG.md",
     "origin": "official"
   },
   {
