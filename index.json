@@ -91,7 +91,7 @@
   },
   {
     "name": "@yank-note/extension-excalidraw",
-    "version": "1.0.1",
+    "version": "1.1.1",
     "displayName": "Excalidraw",
     "description": "Excalidraw integration",
     "displayName_ZH-CN": "Excalidraw",
@@ -108,7 +108,7 @@
     },
     "main": "./main/index.js",
     "style": "./main/style.css",
-    "icon": "https://registry.yank-note.com/cdn/@yank-note/extension-excalidraw/1.0.1/icon.png",
+    "icon": "https://registry.yank-note.com/cdn/@yank-note/extension-excalidraw/1.1.1/icon.png",
     "engines": {
       "node": ">=14.6.0",
       "yank-note": "^3.63.2"
@@ -120,11 +120,11 @@
       "url": "https://github.com/purocean/yank-note-extension/issues"
     },
     "dist": {
-      "integrity": "sha512-wopOuO7vRxzIJva/AFctzWnohPOOxCoSXKeBipHjWsaK7Ecvl87KmqEzRGRM2S5cp7/g4R6NtVDqaQ14NSgXjA==",
-      "shasum": "c5d1caffa28707b81d57b853b97a4bc79992ce9f",
-      "tarball": "https://registry.npmjs.org/@yank-note/extension-excalidraw/-/extension-excalidraw-1.0.1.tgz",
+      "integrity": "sha512-3YKbmympJRAidyWLAWlryX1v2LPlyzoIl77wdV7SwB3UOo43RXHsC0ulT4U4AONWxtYajJa4PhwsQ0w3Qc1UuA==",
+      "shasum": "11676001a578d0f0d1d0292fc7796e52ce379cdb",
+      "tarball": "https://registry.npmjs.org/@yank-note/extension-excalidraw/-/extension-excalidraw-1.1.1.tgz",
       "fileCount": 69,
-      "unpackedSize": 10854412
+      "unpackedSize": 2618881
     },
     "directories": {},
     "maintainers": [
@@ -133,8 +133,8 @@
         "email": "purocean@outlook.com"
       }
     ],
-    "readmeUrl": "https://registry.yank-note.com/cdn/@yank-note/extension-excalidraw/1.0.1/README.md",
-    "changelogUrl": "https://registry.yank-note.com/cdn/@yank-note/extension-excalidraw/1.0.1/CHANGELOG.md",
+    "readmeUrl": "https://registry.yank-note.com/cdn/@yank-note/extension-excalidraw/1.1.1/README.md",
+    "changelogUrl": "https://registry.yank-note.com/cdn/@yank-note/extension-excalidraw/1.1.1/CHANGELOG.md",
     "origin": "official"
   },
   {
@@ -704,7 +704,7 @@
   },
   {
     "name": "@yank-note/extension-editor-themes",
-    "version": "1.1.0",
+    "version": "1.2.0",
     "displayName": "Editor Themes",
     "description": "Change the theme of the editor",
     "displayName_ZH-CN": "编辑器主题",
@@ -720,10 +720,10 @@
       "url": "git+https://github.com/purocean/yank-note-extension.git"
     },
     "main": "./dist/index.js",
-    "icon": "https://registry.yank-note.com/cdn/@yank-note/extension-editor-themes/1.1.0/icon.png",
+    "icon": "https://registry.yank-note.com/cdn/@yank-note/extension-editor-themes/1.2.0/icon.png",
     "engines": {
       "node": ">=14.6.0",
-      "yank-note": "^3.46.0"
+      "yank-note": "^3.63.2"
     },
     "requirements": {
       "premium": true
@@ -732,11 +732,11 @@
       "url": "https://github.com/purocean/yank-note-extension/issues"
     },
     "dist": {
-      "integrity": "sha512-PVTHZKVCpyWhxpmeOBfxcK/x+/ORZdG0xlT7WnK9gQZQEPtbn9QSxkum9WYWdQCPZgo7raPl2Z+e650FGQm0Aw==",
-      "shasum": "81574f796ea4525d1fad4b2e64212f92be1a8ce3",
-      "tarball": "https://registry.npmjs.org/@yank-note/extension-editor-themes/-/extension-editor-themes-1.1.0.tgz",
+      "integrity": "sha512-YVHCTixq5DmnAfx4enHCC3GNK3ejtNPd3UOFh30Ft+FZE7PhSvKaYoAvFBKCj+XklOjIgFp6DuJHXnLlnKjOwQ==",
+      "shasum": "b7030d647979759d9719d49202979d9763e9045f",
+      "tarball": "https://registry.npmjs.org/@yank-note/extension-editor-themes/-/extension-editor-themes-1.2.0.tgz",
       "fileCount": 6,
-      "unpackedSize": 339777
+      "unpackedSize": 340114
     },
     "directories": {},
     "maintainers": [
@@ -745,8 +745,8 @@
         "email": "purocean@outlook.com"
       }
     ],
-    "readmeUrl": "https://registry.yank-note.com/cdn/@yank-note/extension-editor-themes/1.1.0/README.md",
-    "changelogUrl": "https://registry.yank-note.com/cdn/@yank-note/extension-editor-themes/1.1.0/CHANGELOG.md",
+    "readmeUrl": "https://registry.yank-note.com/cdn/@yank-note/extension-editor-themes/1.2.0/README.md",
+    "changelogUrl": "https://registry.yank-note.com/cdn/@yank-note/extension-editor-themes/1.2.0/CHANGELOG.md",
     "origin": "official"
   },
   {
