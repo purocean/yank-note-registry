@@ -46,7 +46,7 @@
   },
   {
     "name": "@yank-note/extension-drawio",
-    "version": "1.7.0",
+    "version": "1.8.0",
     "displayName": "Drawio",
     "description": "Drawio integration",
     "displayName_ZH-CN": "Drawio",
@@ -63,22 +63,22 @@
     },
     "main": "./dist/index.js",
     "style": "./dist/style.css",
-    "icon": "https://registry.yank-note.com/cdn/@yank-note/extension-drawio/1.7.0/icon.svg",
-    "readmeUrl": "https://registry.yank-note.com/cdn/@yank-note/extension-drawio/1.7.0/README.md",
-    "changelogUrl": "https://registry.yank-note.com/cdn/@yank-note/extension-drawio/1.7.0/CHANGELOG.md",
+    "icon": "https://registry.yank-note.com/cdn/@yank-note/extension-drawio/1.8.0/icon.svg",
+    "readmeUrl": "https://registry.yank-note.com/cdn/@yank-note/extension-drawio/1.8.0/README.md",
+    "changelogUrl": "https://registry.yank-note.com/cdn/@yank-note/extension-drawio/1.8.0/CHANGELOG.md",
     "engines": {
       "node": ">=14.6.0",
-      "yank-note": "^3.59.1"
+      "yank-note": "^3.63.2"
     },
     "bugs": {
       "url": "https://github.com/purocean/yank-note-extension/issues"
     },
     "dist": {
-      "integrity": "sha512-SmpIAZ+fnRqXyZnPGnSSO47SvuyaWBVcQpR+jeP9+nfztDCH0ZkraCUZNccZ0u7RXrgavCiyipF1WJC6XSJkPA==",
-      "shasum": "585aa406019b615788145439df36b0189f6c3f23",
-      "tarball": "https://registry.npmjs.org/@yank-note/extension-drawio/-/extension-drawio-1.7.0.tgz",
+      "integrity": "sha512-evaI+daSeE4r6nGYUedN2PSAHHVVnyHP2zecA1nbECH9/ANjZP/pA27na485wwUkhQ7M0muSKrDxzUkHqz2h+g==",
+      "shasum": "54e1ded1811f9237cf93f4ebabfd1d833f6c1c1a",
+      "tarball": "https://registry.npmjs.org/@yank-note/extension-drawio/-/extension-drawio-1.8.0.tgz",
       "fileCount": 2905,
-      "unpackedSize": 155361623
+      "unpackedSize": 155362434
     },
     "directories": {},
     "maintainers": [
@@ -87,6 +87,54 @@
         "email": "purocean@outlook.com"
       }
     ],
+    "origin": "official"
+  },
+  {
+    "name": "@yank-note/extension-excalidraw",
+    "version": "1.0.1",
+    "displayName": "Excalidraw",
+    "description": "Excalidraw integration",
+    "displayName_ZH-CN": "Excalidraw",
+    "description_ZH-CN": "Excalidraw 集成",
+    "author": {
+      "name": "Yank Note"
+    },
+    "license": "AGPL-3.0",
+    "keywords": [],
+    "homepage": "https://github.com/purocean/yank-note-extension/tree/main/packages/extension-excalidraw",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/purocean/yank-note-extension.git"
+    },
+    "main": "./main/index.js",
+    "style": "./main/style.css",
+    "icon": "https://registry.yank-note.com/cdn/@yank-note/extension-excalidraw/1.0.1/icon.png",
+    "engines": {
+      "node": ">=14.6.0",
+      "yank-note": "^3.63.2"
+    },
+    "requirements": {
+      "premium": true
+    },
+    "bugs": {
+      "url": "https://github.com/purocean/yank-note-extension/issues"
+    },
+    "dist": {
+      "integrity": "sha512-wopOuO7vRxzIJva/AFctzWnohPOOxCoSXKeBipHjWsaK7Ecvl87KmqEzRGRM2S5cp7/g4R6NtVDqaQ14NSgXjA==",
+      "shasum": "c5d1caffa28707b81d57b853b97a4bc79992ce9f",
+      "tarball": "https://registry.npmjs.org/@yank-note/extension-excalidraw/-/extension-excalidraw-1.0.1.tgz",
+      "fileCount": 69,
+      "unpackedSize": 10854412
+    },
+    "directories": {},
+    "maintainers": [
+      {
+        "name": "purocean",
+        "email": "purocean@outlook.com"
+      }
+    ],
+    "readmeUrl": "https://registry.yank-note.com/cdn/@yank-note/extension-excalidraw/1.0.1/README.md",
+    "changelogUrl": "https://registry.yank-note.com/cdn/@yank-note/extension-excalidraw/1.0.1/CHANGELOG.md",
     "origin": "official"
   },
   {
@@ -374,7 +422,7 @@
   },
   {
     "name": "@yank-note/extension-popup-preview",
-    "version": "1.1.2",
+    "version": "1.2.0",
     "displayName": "Popup Preview",
     "description": "Popup preview in a new window",
     "displayName_ZH-CN": "弹出预览",
@@ -390,10 +438,10 @@
       "url": "git+https://github.com/purocean/yank-note-extension.git"
     },
     "main": "./dist/index.js",
-    "icon": "https://registry.yank-note.com/cdn/@yank-note/extension-popup-preview/1.1.2/icon.svg",
+    "icon": "https://registry.yank-note.com/cdn/@yank-note/extension-popup-preview/1.2.0/icon.svg",
     "engines": {
       "node": ">=14.6.0",
-      "yank-note": "^3.29.0"
+      "yank-note": "^3.63.1"
     },
     "requirements": {
       "premium": true
@@ -402,11 +450,11 @@
       "url": "https://github.com/purocean/yank-note-extension/issues"
     },
     "dist": {
-      "integrity": "sha512-LY4Ms+CyOGfF4dry0h8bttlZtUSWTc137THHRrQ2X7Qxfh7xUYb8roxrz2wF5KkOXE7WX10G0/2pwRHdFNfcVw==",
-      "shasum": "5ba20282684de210caf154a0236ea5d968ba21fd",
-      "tarball": "https://registry.npmjs.org/@yank-note/extension-popup-preview/-/extension-popup-preview-1.1.2.tgz",
+      "integrity": "sha512-cjNXtJ97VAIuXdtDdjPIugvMSdG3Mx/kg7klRpxP24iKBacYWz1QrbVjOB3h0AlPPP7E1/48XEDJxDVf8rpehg==",
+      "shasum": "8c2fa2114c5d0893fef88e88bea34229ef6bab40",
+      "tarball": "https://registry.npmjs.org/@yank-note/extension-popup-preview/-/extension-popup-preview-1.2.0.tgz",
       "fileCount": 6,
-      "unpackedSize": 41524
+      "unpackedSize": 41834
     },
     "directories": {},
     "maintainers": [
@@ -415,8 +463,8 @@
         "email": "purocean@outlook.com"
       }
     ],
-    "readmeUrl": "https://registry.yank-note.com/cdn/@yank-note/extension-popup-preview/1.1.2/README.md",
-    "changelogUrl": "https://registry.yank-note.com/cdn/@yank-note/extension-popup-preview/1.1.2/CHANGELOG.md",
+    "readmeUrl": "https://registry.yank-note.com/cdn/@yank-note/extension-popup-preview/1.2.0/README.md",
+    "changelogUrl": "https://registry.yank-note.com/cdn/@yank-note/extension-popup-preview/1.2.0/CHANGELOG.md",
     "origin": "official"
   },
   {
