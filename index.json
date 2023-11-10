@@ -184,7 +184,7 @@
   },
   {
     "name": "@yank-note/extension-reveal-js",
-    "version": "1.5.1",
+    "version": "1.6.0",
     "displayName": "Reveal.js",
     "description": "Reveal.js integration",
     "displayName_ZH-CN": "Reveal.js",
@@ -201,10 +201,10 @@
     },
     "main": "./dist/index.js",
     "style": "./dist/style.css",
-    "icon": "https://registry.yank-note.com/cdn/@yank-note/extension-reveal-js/1.5.1/icon.svg",
+    "icon": "https://registry.yank-note.com/cdn/@yank-note/extension-reveal-js/1.6.0/icon.svg",
     "engines": {
       "node": ">=14.6.0",
-      "yank-note": "^3.41.0"
+      "yank-note": "^3.63.3"
     },
     "requirements": {
       "premium": true
@@ -213,11 +213,11 @@
       "url": "https://github.com/purocean/yank-note-extension/issues"
     },
     "dist": {
-      "integrity": "sha512-U4yVhyNYqweKEbIi8MFZZvyC2uZ+PYywir6Rqx3IF1xSatTtjTyWWWqdNT0Clm/YJXnSTA2Yu2lT95yd+zog+Q==",
-      "shasum": "95ef1a887ce00a0676a052b1beebeabf8b91c963",
-      "tarball": "https://registry.npmjs.org/@yank-note/extension-reveal-js/-/extension-reveal-js-1.5.1.tgz",
-      "fileCount": 63,
-      "unpackedSize": 4679485
+      "integrity": "sha512-0ADaFz9gdTJCQHwAGdZvV8wzyldJzLTy2NSVyWFsxPLR7Fi88QOn9GGbcK4YsLduQhpxF5xj5K1bXN2Dn6/L2A==",
+      "shasum": "64eabcc9d85e0a2db33d3282669c29267511e852",
+      "tarball": "https://registry.npmjs.org/@yank-note/extension-reveal-js/-/extension-reveal-js-1.6.0.tgz",
+      "fileCount": 67,
+      "unpackedSize": 4423701
     },
     "directories": {},
     "maintainers": [
@@ -226,8 +226,8 @@
         "email": "purocean@outlook.com"
       }
     ],
-    "readmeUrl": "https://registry.yank-note.com/cdn/@yank-note/extension-reveal-js/1.5.1/README.md",
-    "changelogUrl": "https://registry.yank-note.com/cdn/@yank-note/extension-reveal-js/1.5.1/CHANGELOG.md",
+    "readmeUrl": "https://registry.yank-note.com/cdn/@yank-note/extension-reveal-js/1.6.0/README.md",
+    "changelogUrl": "https://registry.yank-note.com/cdn/@yank-note/extension-reveal-js/1.6.0/CHANGELOG.md",
     "origin": "official"
   },
   {
