@@ -90,9 +90,9 @@ async function buildMarkdownCDNUrl (id, version, filename) {
         markdown = markdown.replace(new RegExp(imgUrl, 'g'), cdnUrl)
       }
     }
-
-    fs.writeFileSync(filePath, markdown);
   }
+
+  fs.writeFileSync(filePath, markdown);
 
   const _url = new URL('https://registry.yank-note.com/' + urlPath);
   const cdnUrl = _url.toString();
