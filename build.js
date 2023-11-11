@@ -167,6 +167,4 @@ async function build () {
   fs.writeFileSync('./index.json', JSON.stringify(data, null, 2));
 }
 
-// build();
-
-buildMarkdownCDNUrl('@yank-note/extension-excalidraw', '1.1.1', 'README.md')
+build();
