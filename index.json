@@ -1,1 +1,995 @@
-[]
+[
+  {
+    "name": "@yank-note/extension-mermaid",
+    "version": "1.6.2",
+    "displayName": "Mermaid",
+    "description": "Mermaid integration",
+    "displayName_ZH-CN": "Mermaid",
+    "description_ZH-CN": "Mermaid 图形集成",
+    "keywords": [],
+    "author": {
+      "name": "Yank Note"
+    },
+    "license": "AGPL-3.0",
+    "homepage": "https://github.com/purocean/yank-note-extension/tree/main/packages/extension-mermaid",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/purocean/yank-note-extension.git"
+    },
+    "main": "./dist/index.js",
+    "style": "./dist/style.css",
+    "icon": "https://registry.yank-note.com/cdn/@yank-note/extension-mermaid/1.6.2/icon.png",
+    "engines": {
+      "node": ">=14.6.0",
+      "yank-note": "^3.41.0"
+    },
+    "bugs": {
+      "url": "https://github.com/purocean/yank-note-extension/issues"
+    },
+    "dist": {
+      "integrity": "sha512-wTMRcyRPYdysfNEr54mjP8+Euz0o9olTaNsnD+Da1m4PlBQWSeYfJeMngqYw4k5et/o8GM0y3ecrhEFu5OPvlg==",
+      "shasum": "e123fc698506fc16960a691343bc881cd0acf46b",
+      "tarball": "https://registry.npmjs.org/@yank-note/extension-mermaid/-/extension-mermaid-1.6.2.tgz",
+      "fileCount": 8,
+      "unpackedSize": 3077865
+    },
+    "directories": {},
+    "maintainers": [
+      {
+        "name": "purocean",
+        "email": "purocean@outlook.com"
+      }
+    ],
+    "readmeUrl": "https://registry.yank-note.com/cdn/@yank-note/extension-mermaid/1.6.2/README.md",
+    "changelogUrl": "https://registry.yank-note.com/cdn/@yank-note/extension-mermaid/1.6.2/CHANGELOG.md",
+    "origin": "official"
+  },
+  {
+    "name": "@yank-note/extension-drawio",
+    "version": "1.8.2",
+    "displayName": "Drawio",
+    "description": "Drawio integration",
+    "displayName_ZH-CN": "Drawio",
+    "description_ZH-CN": "Drawio 图形集成",
+    "author": {
+      "name": "Yank Note"
+    },
+    "license": "AGPL-3.0",
+    "keywords": [],
+    "homepage": "https://github.com/purocean/yank-note-extension/tree/main/packages/extension-drawio",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/purocean/yank-note-extension.git"
+    },
+    "main": "./dist/index.js",
+    "style": "./dist/style.css",
+    "icon": "https://registry.yank-note.com/cdn/@yank-note/extension-drawio/1.8.2/icon.svg",
+    "readmeUrl": "https://registry.yank-note.com/cdn/@yank-note/extension-drawio/1.8.2/README.md",
+    "changelogUrl": "https://registry.yank-note.com/cdn/@yank-note/extension-drawio/1.8.2/CHANGELOG.md",
+    "engines": {
+      "node": ">=14.6.0",
+      "yank-note": "^3.63.2"
+    },
+    "bugs": {
+      "url": "https://github.com/purocean/yank-note-extension/issues"
+    },
+    "dist": {
+      "integrity": "sha512-Ni3Gpu72YTLSXiljVGKnAS56r5YO0jUYilySXkFL2LXDZUZUpYd32gbTi0MY2Bw5QAjq3wWxolgve0+1lKm1lg==",
+      "shasum": "50cefbe5f85f4a3ad1763ce85c24b3e1dfa11d8f",
+      "tarball": "https://registry.npmjs.org/@yank-note/extension-drawio/-/extension-drawio-1.8.2.tgz",
+      "fileCount": 2905,
+      "unpackedSize": 155363000
+    },
+    "directories": {},
+    "maintainers": [
+      {
+        "name": "purocean",
+        "email": "purocean@outlook.com"
+      }
+    ],
+    "origin": "official"
+  },
+  {
+    "name": "@yank-note/extension-excalidraw",
+    "version": "1.1.3",
+    "displayName": "Excalidraw",
+    "description": "Excalidraw integration",
+    "displayName_ZH-CN": "Excalidraw",
+    "description_ZH-CN": "Excalidraw 集成",
+    "author": {
+      "name": "Yank Note"
+    },
+    "license": "AGPL-3.0",
+    "keywords": [],
+    "homepage": "https://github.com/purocean/yank-note-extension/tree/main/packages/extension-excalidraw",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/purocean/yank-note-extension.git"
+    },
+    "main": "./main/index.js",
+    "style": "./main/style.css",
+    "icon": "https://registry.yank-note.com/cdn/@yank-note/extension-excalidraw/1.1.3/icon.png",
+    "engines": {
+      "node": ">=14.6.0",
+      "yank-note": "^3.63.2"
+    },
+    "requirements": {
+      "premium": true
+    },
+    "bugs": {
+      "url": "https://github.com/purocean/yank-note-extension/issues"
+    },
+    "dist": {
+      "integrity": "sha512-ONlXRqsYDrDNKcr/SsCNXLe3tvfnMzxTgdNIlOimDKUcL1nH3zfse8BTBUwQFg2WfdAIY5TFErOtYpyDEZvVfQ==",
+      "shasum": "657bf3bb3010f728d461e7c234e9d6904ab5318a",
+      "tarball": "https://registry.npmjs.org/@yank-note/extension-excalidraw/-/extension-excalidraw-1.1.3.tgz",
+      "fileCount": 69,
+      "unpackedSize": 2619463
+    },
+    "directories": {},
+    "maintainers": [
+      {
+        "name": "purocean",
+        "email": "purocean@outlook.com"
+      }
+    ],
+    "readmeUrl": "https://registry.yank-note.com/cdn/@yank-note/extension-excalidraw/1.1.3/README.md",
+    "changelogUrl": "https://registry.yank-note.com/cdn/@yank-note/extension-excalidraw/1.1.3/CHANGELOG.md",
+    "origin": "official"
+  },
+  {
+    "name": "@yank-note/extension-echarts",
+    "version": "1.5.2",
+    "displayName": "ECharts",
+    "description": "ECharts integration",
+    "displayName_ZH-CN": "ECharts",
+    "description_ZH-CN": "ECharts 图形集成",
+    "keywords": [],
+    "author": {
+      "name": "Yank Note"
+    },
+    "license": "AGPL-3.0",
+    "homepage": "https://github.com/purocean/yank-note-extension/tree/main/packages/extension-echarts",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/purocean/yank-note-extension.git"
+    },
+    "main": "./dist/index.js",
+    "style": "./dist/style.css",
+    "icon": "https://registry.yank-note.com/cdn/@yank-note/extension-echarts/1.5.2/icon.png",
+    "engines": {
+      "node": ">=14.6.0",
+      "yank-note": "^3.41.0"
+    },
+    "bugs": {
+      "url": "https://github.com/purocean/yank-note-extension/issues"
+    },
+    "dist": {
+      "integrity": "sha512-FR8qZ2yesKwpL7Z9CFiMFJ5Z9Cw6kopTxZ/gHoJWYIs+Ic0ju2FujkMrc9EqpJrTUpNxN0XMUtFZ0gjB4mCRpg==",
+      "shasum": "e9d6ea0666e0c16946161fb0967ae213d594313a",
+      "tarball": "https://registry.npmjs.org/@yank-note/extension-echarts/-/extension-echarts-1.5.2.tgz",
+      "fileCount": 7,
+      "unpackedSize": 1220283
+    },
+    "directories": {},
+    "maintainers": [
+      {
+        "name": "purocean",
+        "email": "purocean@outlook.com"
+      }
+    ],
+    "readmeUrl": "https://registry.yank-note.com/cdn/@yank-note/extension-echarts/1.5.2/README.md",
+    "changelogUrl": "https://registry.yank-note.com/cdn/@yank-note/extension-echarts/1.5.2/CHANGELOG.md",
+    "origin": "official"
+  },
+  {
+    "name": "@yank-note/extension-reveal-js",
+    "version": "1.6.2",
+    "displayName": "Reveal.js",
+    "description": "Reveal.js integration",
+    "displayName_ZH-CN": "Reveal.js",
+    "description_ZH-CN": "Reveal.js 集成",
+    "author": {
+      "name": "Yank Note"
+    },
+    "license": "AGPL-3.0",
+    "keywords": [],
+    "homepage": "https://github.com/purocean/yank-note-extension/tree/main/packages/extension-reveal-js",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/purocean/yank-note-extension.git"
+    },
+    "main": "./dist/index.js",
+    "style": "./dist/style.css",
+    "icon": "https://registry.yank-note.com/cdn/@yank-note/extension-reveal-js/1.6.2/icon.svg",
+    "engines": {
+      "node": ">=14.6.0",
+      "yank-note": "^3.63.3"
+    },
+    "requirements": {
+      "premium": true
+    },
+    "bugs": {
+      "url": "https://github.com/purocean/yank-note-extension/issues"
+    },
+    "dist": {
+      "integrity": "sha512-yBS0MykpH7A+9hbuL2WmfmH+BROPNlKf9ldQ35Mjfo757szPEmlWcoQ2FouBEOfe7ZNMsCm3oatFaa8dg3IajQ==",
+      "shasum": "b48422913c426dec58af43798f1dcff380c26947",
+      "tarball": "https://registry.npmjs.org/@yank-note/extension-reveal-js/-/extension-reveal-js-1.6.2.tgz",
+      "fileCount": 67,
+      "unpackedSize": 4424279
+    },
+    "directories": {},
+    "maintainers": [
+      {
+        "name": "purocean",
+        "email": "purocean@outlook.com"
+      }
+    ],
+    "readmeUrl": "https://registry.yank-note.com/cdn/@yank-note/extension-reveal-js/1.6.2/README.md",
+    "changelogUrl": "https://registry.yank-note.com/cdn/@yank-note/extension-reveal-js/1.6.2/CHANGELOG.md",
+    "origin": "official"
+  },
+  {
+    "name": "@yank-note/extension-markmap",
+    "version": "1.5.3",
+    "displayName": "Markmap",
+    "description": "Visualize your Markdown as mindmaps with Markmap.",
+    "displayName_ZH-CN": "Markmap",
+    "description_ZH-CN": "使用 Markmap 将您的 Markdown 可视化为思维导图。",
+    "author": {
+      "name": "Yank Note"
+    },
+    "license": "AGPL-3.0",
+    "keywords": [],
+    "homepage": "https://github.com/purocean/yank-note-extension/tree/main/packages/extension-markmap",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/purocean/yank-note-extension.git"
+    },
+    "main": "./dist/index.js",
+    "style": "./dist/style.css",
+    "icon": "https://registry.yank-note.com/cdn/@yank-note/extension-markmap/1.5.3/icon.png",
+    "engines": {
+      "node": ">=14.6.0",
+      "yank-note": "^3.41.0"
+    },
+    "requirements": {
+      "premium": true
+    },
+    "bugs": {
+      "url": "https://github.com/purocean/yank-note-extension/issues"
+    },
+    "dist": {
+      "integrity": "sha512-dx7b3P08PUuFJemOpqtGZwutnePVHr0nHljQkkEdgZcEW1RagQtCRAoJwuBsAe6PAds1z1T0mDo9aN3kcdz/Pw==",
+      "shasum": "fd820c57469aa1b1e55f819788c0f527ae62c7b9",
+      "tarball": "https://registry.npmjs.org/@yank-note/extension-markmap/-/extension-markmap-1.5.3.tgz",
+      "fileCount": 12,
+      "unpackedSize": 485725
+    },
+    "directories": {},
+    "maintainers": [
+      {
+        "name": "purocean",
+        "email": "purocean@outlook.com"
+      }
+    ],
+    "readmeUrl": "https://registry.yank-note.com/cdn/@yank-note/extension-markmap/1.5.3/README.md",
+    "changelogUrl": "https://registry.yank-note.com/cdn/@yank-note/extension-markmap/1.5.3/CHANGELOG.md",
+    "origin": "official"
+  },
+  {
+    "name": "@yank-note/extension-code-runner",
+    "version": "1.2.0",
+    "displayName": "Code Runner",
+    "displayName_ZH-CN": "Code Runner",
+    "description": "Run code for multiple languages: BASH/SH, PHP, Python, Node.js, BAT, Java, C and more.",
+    "description_ZH-CN": "执行多种语言的代码：BASH/SH, PHP, Python, Node.js, BAT, Java, C 和更多。",
+    "keywords": [],
+    "author": {
+      "name": "Yank Note"
+    },
+    "license": "AGPL-3.0",
+    "homepage": "https://github.com/purocean/yank-note-extension/tree/main/packages/extension-code-runner",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/purocean/yank-note-extension.git"
+    },
+    "main": "./dist/index.js",
+    "icon": "https://registry.yank-note.com/cdn/@yank-note/extension-code-runner/1.2.0/icon.png",
+    "engines": {
+      "node": ">=14.6.0",
+      "yank-note": "^3.34.0"
+    },
+    "requirements": {
+      "terminal": true
+    },
+    "bugs": {
+      "url": "https://github.com/purocean/yank-note-extension/issues"
+    },
+    "dist": {
+      "integrity": "sha512-LpMU0KCAX9kquRSqJWLY68hDtAUOauF1fckOEhEUFrePReWf1R1t7zfMJnU1NlN8jLHw6wF9mYznDhuqdySYMQ==",
+      "shasum": "85a8e2a092d75a729c1f78b4609464e60438ecc3",
+      "tarball": "https://registry.npmjs.org/@yank-note/extension-code-runner/-/extension-code-runner-1.2.0.tgz",
+      "fileCount": 6,
+      "unpackedSize": 53642
+    },
+    "directories": {},
+    "maintainers": [
+      {
+        "name": "purocean",
+        "email": "purocean@outlook.com"
+      }
+    ],
+    "readmeUrl": "https://registry.yank-note.com/cdn/@yank-note/extension-code-runner/1.2.0/README.md",
+    "changelogUrl": "https://registry.yank-note.com/cdn/@yank-note/extension-code-runner/1.2.0/CHANGELOG.md",
+    "origin": "official"
+  },
+  {
+    "name": "@yank-note/extension-markdown-prettier",
+    "version": "1.4.3",
+    "displayName": "Markdown Prettier",
+    "description": "Markdown Formatter for Yank Note",
+    "displayName_ZH-CN": "Markdown Prettier",
+    "description_ZH-CN": "Markdown 格式化",
+    "keywords": [],
+    "author": {
+      "name": "Yank Note"
+    },
+    "license": "AGPL-3.0",
+    "homepage": "https://github.com/purocean/yank-note-extension/tree/main/packages/extension-markdown-prettier",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/purocean/yank-note-extension.git"
+    },
+    "main": "./dist/index.js",
+    "icon": "https://registry.yank-note.com/cdn/@yank-note/extension-markdown-prettier/1.4.3/icon.png",
+    "engines": {
+      "node": ">=14.6.0",
+      "yank-note": "^3.55.0"
+    },
+    "requirements": {
+      "premium": true
+    },
+    "bugs": {
+      "url": "https://github.com/purocean/yank-note-extension/issues"
+    },
+    "dist": {
+      "integrity": "sha512-Z/D7h0lSzt2/dTScxyRvQ9XtdTBHkxJL4Ah6//fp+G/zQcpNJsfPcPtIZRrt7P/Tpc7d4saokqH27tXkLaGLrw==",
+      "shasum": "7d6ba27e62fa468d2b37d57f726fa7925ded5bef",
+      "tarball": "https://registry.npmjs.org/@yank-note/extension-markdown-prettier/-/extension-markdown-prettier-1.4.3.tgz",
+      "fileCount": 6,
+      "unpackedSize": 647993
+    },
+    "directories": {},
+    "maintainers": [
+      {
+        "name": "purocean",
+        "email": "purocean@outlook.com"
+      }
+    ],
+    "readmeUrl": "https://registry.yank-note.com/cdn/@yank-note/extension-markdown-prettier/1.4.3/README.md",
+    "changelogUrl": "https://registry.yank-note.com/cdn/@yank-note/extension-markdown-prettier/1.4.3/CHANGELOG.md",
+    "origin": "official"
+  },
+  {
+    "name": "@yank-note/extension-pdf-viewer",
+    "version": "1.2.2",
+    "displayName": "PDF Viewer",
+    "description": "PDF viewer extension",
+    "displayName_ZH-CN": "PDF Viewer",
+    "description_ZH-CN": "PDF 阅读器扩展",
+    "author": {
+      "name": "Yank Note"
+    },
+    "license": "AGPL-3.0",
+    "keywords": [],
+    "homepage": "https://github.com/purocean/yank-note-extension/tree/main/packages/extension-pdf-viewer",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/purocean/yank-note-extension.git"
+    },
+    "main": "./dist/index.js",
+    "style": "./dist/style.css",
+    "icon": "https://registry.yank-note.com/cdn/@yank-note/extension-pdf-viewer/1.2.2/icon.svg",
+    "engines": {
+      "node": ">=14.6.0",
+      "yank-note": "^3.43.0"
+    },
+    "requirements": {
+      "premium": true
+    },
+    "bugs": {
+      "url": "https://github.com/purocean/yank-note-extension/issues"
+    },
+    "dist": {
+      "integrity": "sha512-UwQFdWC6ZK5Ymxb4xG8+cv1W2chJf5K12cn2P0Do/WKYMbXlroKecc6497TurnQDBiepjJnFz99X4sxbP8Stjw==",
+      "shasum": "a35ac12e9d4c818dcda7de0e3390ed9e31aa4549",
+      "tarball": "https://registry.npmjs.org/@yank-note/extension-pdf-viewer/-/extension-pdf-viewer-1.2.2.tgz",
+      "fileCount": 7,
+      "unpackedSize": 40850
+    },
+    "directories": {},
+    "maintainers": [
+      {
+        "name": "purocean",
+        "email": "purocean@outlook.com"
+      }
+    ],
+    "readmeUrl": "https://registry.yank-note.com/cdn/@yank-note/extension-pdf-viewer/1.2.2/README.md",
+    "changelogUrl": "https://registry.yank-note.com/cdn/@yank-note/extension-pdf-viewer/1.2.2/CHANGELOG.md",
+    "origin": "official"
+  },
+  {
+    "name": "@yank-note/extension-popup-preview",
+    "version": "1.2.2",
+    "displayName": "Popup Preview",
+    "description": "Popup preview in a new window",
+    "displayName_ZH-CN": "弹出预览",
+    "description_ZH-CN": "在新窗口中弹出预览",
+    "author": {
+      "name": "Yank Note"
+    },
+    "license": "AGPL-3.0",
+    "keywords": [],
+    "homepage": "https://github.com/purocean/yank-note-extension/tree/main/packages/extension-pop-preview",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/purocean/yank-note-extension.git"
+    },
+    "main": "./dist/index.js",
+    "icon": "https://registry.yank-note.com/cdn/@yank-note/extension-popup-preview/1.2.2/icon.svg",
+    "engines": {
+      "node": ">=14.6.0",
+      "yank-note": "^3.63.1"
+    },
+    "requirements": {
+      "premium": true
+    },
+    "bugs": {
+      "url": "https://github.com/purocean/yank-note-extension/issues"
+    },
+    "dist": {
+      "integrity": "sha512-H6Vi3VUlo3C5alT0Ku836aph7v84o99l/C7omWzklJKeQm/3N/uvpGyx/xr+xYgyvQvfPLWjHui20XyGTJJpHw==",
+      "shasum": "393da4c74f759a8b553065d57a6f05ffc1db8fe1",
+      "tarball": "https://registry.npmjs.org/@yank-note/extension-popup-preview/-/extension-popup-preview-1.2.2.tgz",
+      "fileCount": 6,
+      "unpackedSize": 42420
+    },
+    "directories": {},
+    "maintainers": [
+      {
+        "name": "purocean",
+        "email": "purocean@outlook.com"
+      }
+    ],
+    "readmeUrl": "https://registry.yank-note.com/cdn/@yank-note/extension-popup-preview/1.2.2/README.md",
+    "changelogUrl": "https://registry.yank-note.com/cdn/@yank-note/extension-popup-preview/1.2.2/CHANGELOG.md",
+    "origin": "official"
+  },
+  {
+    "name": "@yank-note/extension-git-push",
+    "version": "1.3.0",
+    "displayName": "Git Push",
+    "displayName_ZH-CN": "Git 推送",
+    "description": "Run Git commit and push to remote repository. Note: This plugin is not available for Mac App Store downloaded Yank Note.",
+    "description_ZH-CN": "运行 Git 提交并推送到远程仓库。注意：此插件不适用于 Mac App Store 中下载的 Yank Note。",
+    "keywords": [],
+    "author": {
+      "name": "Yank Note"
+    },
+    "license": "AGPL-3.0",
+    "homepage": "https://github.com/purocean/yank-note-extension/tree/main/packages/extension-git-push",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/purocean/yank-note-extension.git"
+    },
+    "main": "./dist/index.js",
+    "icon": "https://registry.yank-note.com/cdn/@yank-note/extension-git-push/1.3.0/icon.png",
+    "engines": {
+      "node": ">=14.6.0",
+      "yank-note": "^3.59.1"
+    },
+    "requirements": {
+      "terminal": true
+    },
+    "bugs": {
+      "url": "https://github.com/purocean/yank-note-extension/issues"
+    },
+    "dist": {
+      "integrity": "sha512-3qXPwQNFkutq9Xdsp+kyMmjj8nwzKrrcIi/sg/Hs9QmR+w6/A7T2ALNnz0nYtWt+eSFCgz7Hwkz7u1xIVBqtKg==",
+      "shasum": "e88e4a2e23594277617966d5bcfc5966e667bfe6",
+      "tarball": "https://registry.npmjs.org/@yank-note/extension-git-push/-/extension-git-push-1.3.0.tgz",
+      "fileCount": 6,
+      "unpackedSize": 60970
+    },
+    "directories": {},
+    "maintainers": [
+      {
+        "name": "purocean",
+        "email": "purocean@outlook.com"
+      }
+    ],
+    "readmeUrl": "https://registry.yank-note.com/cdn/@yank-note/extension-git-push/1.3.0/README.md",
+    "changelogUrl": "https://registry.yank-note.com/cdn/@yank-note/extension-git-push/1.3.0/CHANGELOG.md",
+    "origin": "official"
+  },
+  {
+    "name": "@yank-note/extension-sublime-merge",
+    "version": "1.4.3",
+    "displayName": "Sublime Merge",
+    "description": "Sublime Merge integration for Yank Note",
+    "displayName_ZH-CN": "Sublime Merge",
+    "description_ZH-CN": "Sublime Merge 和 Yank Note 的集成",
+    "author": {
+      "name": "Yank Note"
+    },
+    "license": "AGPL-3.0",
+    "keywords": [],
+    "homepage": "https://github.com/purocean/yank-note-extension/tree/main/packages/extension-sublime-merge",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/purocean/yank-note-extension.git"
+    },
+    "main": "./dist/index.js",
+    "icon": "https://registry.yank-note.com/cdn/@yank-note/extension-sublime-merge/1.4.3/icon.png",
+    "engines": {
+      "node": ">=14.6.0",
+      "yank-note": "^3.59.1"
+    },
+    "requirements": {
+      "terminal": true
+    },
+    "bugs": {
+      "url": "https://github.com/purocean/yank-note-extension/issues"
+    },
+    "dist": {
+      "integrity": "sha512-V3O8Gp2mPNwmlQKir3Zmdnh4HgPbWc+QjWtFsDlt1juRo5sIWb7tdvfAakm+TsAJrNhS9Sb7ONMdtq4S5ruCNg==",
+      "shasum": "c7831f2079d82213cc00b0975f461a4da53bb03c",
+      "tarball": "https://registry.npmjs.org/@yank-note/extension-sublime-merge/-/extension-sublime-merge-1.4.3.tgz",
+      "fileCount": 6,
+      "unpackedSize": 63792
+    },
+    "directories": {},
+    "maintainers": [
+      {
+        "name": "purocean",
+        "email": "purocean@outlook.com"
+      }
+    ],
+    "readmeUrl": "https://registry.yank-note.com/cdn/@yank-note/extension-sublime-merge/1.4.3/README.md",
+    "changelogUrl": "https://registry.yank-note.com/cdn/@yank-note/extension-sublime-merge/1.4.3/CHANGELOG.md",
+    "origin": "official"
+  },
+  {
+    "name": "@yank-note/extension-luckysheet",
+    "version": "1.1.2",
+    "displayName": "Luckysheet",
+    "description": "Luckysheet table integration",
+    "displayName_ZH-CN": "Luckysheet",
+    "description_ZH-CN": "Luckysheet 表格集成",
+    "keywords": [],
+    "author": {
+      "name": "Yank Note"
+    },
+    "license": "AGPL-3.0",
+    "homepage": "https://github.com/purocean/yank-note-extension/tree/main/packages/extension-luckysheet",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/purocean/yank-note-extension.git"
+    },
+    "main": "./dist/index.js",
+    "style": "./dist/style.css",
+    "icon": "https://registry.yank-note.com/cdn/@yank-note/extension-luckysheet/1.1.2/icon.png",
+    "engines": {
+      "node": ">=14.6.0",
+      "yank-note": "^3.29.0"
+    },
+    "bugs": {
+      "url": "https://github.com/purocean/yank-note-extension/issues"
+    },
+    "dist": {
+      "integrity": "sha512-QXdjbf6JEzQv9zAx6wTuQyEaIh2/+fQed4x2jua1E0g8oPeKk0XfHXh6nF7Z9fkxmy2OuCYRUJNZyAjH+XuMOg==",
+      "shasum": "099209ee46e0e97d8fa2f36667dc9d6e6bb6918f",
+      "tarball": "https://registry.npmjs.org/@yank-note/extension-luckysheet/-/extension-luckysheet-1.1.2.tgz",
+      "fileCount": 53,
+      "unpackedSize": 6595915
+    },
+    "directories": {},
+    "maintainers": [
+      {
+        "name": "purocean",
+        "email": "purocean@outlook.com"
+      }
+    ],
+    "readmeUrl": "https://registry.yank-note.com/cdn/@yank-note/extension-luckysheet/1.1.2/README.md",
+    "changelogUrl": "https://registry.yank-note.com/cdn/@yank-note/extension-luckysheet/1.1.2/CHANGELOG.md",
+    "origin": "official"
+  },
+  {
+    "name": "@yank-note/extension-openai",
+    "version": "1.7.2",
+    "displayName": "OpenAI",
+    "description": "Your AI writing assistant",
+    "displayName_ZH-CN": "OpenAI",
+    "description_ZH-CN": "你的人工智能写作助手",
+    "author": {
+      "name": "Yank Note"
+    },
+    "license": "AGPL-3.0",
+    "keywords": [],
+    "homepage": "https://github.com/purocean/yank-note-extension/tree/main/packages/extension-openai",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/purocean/yank-note-extension.git"
+    },
+    "main": "./dist/index.js",
+    "style": "./dist/style.css",
+    "icon": "https://registry.yank-note.com/cdn/@yank-note/extension-openai/1.7.2/icon.svg",
+    "engines": {
+      "node": ">=14.6.0",
+      "yank-note": "^3.58.0"
+    },
+    "requirements": {
+      "premium": true
+    },
+    "bugs": {
+      "url": "https://github.com/purocean/yank-note-extension/issues"
+    },
+    "dist": {
+      "integrity": "sha512-9jTj5AlCzEZaQfDQZ+C2aGYhLRcDGHTqBAPalx5DJTmI37SiB4PS4Bv9m9NYYzkco2GF3lPgrmewEzRGhH9vrQ==",
+      "shasum": "3089cf25f17529e480746a428c87fbc63664348c",
+      "tarball": "https://registry.npmjs.org/@yank-note/extension-openai/-/extension-openai-1.7.2.tgz",
+      "fileCount": 7,
+      "unpackedSize": 67197
+    },
+    "directories": {},
+    "maintainers": [
+      {
+        "name": "purocean",
+        "email": "purocean@outlook.com"
+      }
+    ],
+    "readmeUrl": "https://registry.yank-note.com/cdn/@yank-note/extension-openai/1.7.2/README.md",
+    "changelogUrl": "https://registry.yank-note.com/cdn/@yank-note/extension-openai/1.7.2/CHANGELOG.md",
+    "origin": "official"
+  },
+  {
+    "name": "@yank-note/extension-milkdown",
+    "version": "1.2.2",
+    "displayName": "Milkdown",
+    "description": "WYSIWYG Markdown Editor",
+    "displayName_ZH-CN": "Milkdown",
+    "description_ZH-CN": "所见即所得的 Markdown 编辑器",
+    "author": {
+      "name": "Yank Note"
+    },
+    "license": "AGPL-3.0",
+    "keywords": [],
+    "homepage": "https://github.com/purocean/yank-note-extension/tree/main/packages/extension-milkdown",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/purocean/yank-note-extension.git"
+    },
+    "main": "./main/index.js",
+    "style": "./main/style.css",
+    "icon": "https://registry.yank-note.com/cdn/@yank-note/extension-milkdown/1.2.2/icon.svg",
+    "engines": {
+      "node": ">=14.6.0",
+      "yank-note": "^3.43.0"
+    },
+    "requirements": {
+      "premium": true
+    },
+    "bugs": {
+      "url": "https://github.com/purocean/yank-note-extension/issues"
+    },
+    "dist": {
+      "integrity": "sha512-R8npKA+rvIAsEjqOzUJO9pyDT7CFtY80t05NCr1CCiWJsRuEMPFcg/OpqWGH6JCmRfnbf+AE35A3tXh9TSyqrg==",
+      "shasum": "6ca15c7710428e7e0e2fed03f875ee0f193a7866",
+      "tarball": "https://registry.npmjs.org/@yank-note/extension-milkdown/-/extension-milkdown-1.2.2.tgz",
+      "fileCount": 9,
+      "unpackedSize": 6781288
+    },
+    "directories": {},
+    "maintainers": [
+      {
+        "name": "purocean",
+        "email": "purocean@outlook.com"
+      }
+    ],
+    "readmeUrl": "https://registry.yank-note.com/cdn/@yank-note/extension-milkdown/1.2.2/README.md",
+    "changelogUrl": "https://registry.yank-note.com/cdn/@yank-note/extension-milkdown/1.2.2/CHANGELOG.md",
+    "origin": "official"
+  },
+  {
+    "name": "@yank-note/extension-editor-themes",
+    "version": "1.2.2",
+    "displayName": "Editor Themes",
+    "description": "Change the theme of the editor",
+    "displayName_ZH-CN": "编辑器主题",
+    "description_ZH-CN": "更改编辑器的主题",
+    "author": {
+      "name": "Yank Note"
+    },
+    "license": "AGPL-3.0",
+    "keywords": [],
+    "homepage": "https://github.com/purocean/yank-note-extension/tree/main/packages/extension-editor-themes",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/purocean/yank-note-extension.git"
+    },
+    "main": "./dist/index.js",
+    "icon": "https://registry.yank-note.com/cdn/@yank-note/extension-editor-themes/1.2.2/icon.png",
+    "engines": {
+      "node": ">=14.6.0",
+      "yank-note": "^3.63.2"
+    },
+    "requirements": {
+      "premium": true
+    },
+    "bugs": {
+      "url": "https://github.com/purocean/yank-note-extension/issues"
+    },
+    "dist": {
+      "integrity": "sha512-rj4xwmCFyWD2z/gSxoQPzDjN+Hspdn4C7lS4qUZPN5QDBru1h7TNACJK0ElkPygcfuznR2wF78gdadOG1mztyg==",
+      "shasum": "0449e0985948f48ce90037f41be605afc9f6d0e1",
+      "tarball": "https://registry.npmjs.org/@yank-note/extension-editor-themes/-/extension-editor-themes-1.2.2.tgz",
+      "fileCount": 6,
+      "unpackedSize": 340708
+    },
+    "directories": {},
+    "maintainers": [
+      {
+        "name": "purocean",
+        "email": "purocean@outlook.com"
+      }
+    ],
+    "readmeUrl": "https://registry.yank-note.com/cdn/@yank-note/extension-editor-themes/1.2.2/README.md",
+    "changelogUrl": "https://registry.yank-note.com/cdn/@yank-note/extension-editor-themes/1.2.2/CHANGELOG.md",
+    "origin": "official"
+  },
+  {
+    "name": "yank-note-extension-theme-yanser",
+    "version": "2.0.0",
+    "displayName": "theme｜Yanser",
+    "description": "theme from Yanser",
+    "displayName_ZH-CN": "主题｜烟舍",
+    "description_ZH-CN": "来自烟舍的主题",
+    "author": {
+      "name": "Yanser"
+    },
+    "license": "AGPL-3.0",
+    "keywords": [],
+    "homepage": "https://github.com/Yannnser/yank-note-theme.git",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/Yannnser/yank-note-theme.git"
+    },
+    "publishConfig": {
+      "access": "public",
+      "registry": "https://registry.npmjs.org/"
+    },
+    "icon": "https://registry.yank-note.com/cdn/yank-note-extension-theme-yanser/2.0.0/icon.png",
+    "engines": {
+      "node": ">=14.6.0",
+      "yank-note": "^3.45.0"
+    },
+    "themes": [
+      {
+        "name": "winter｜废弃｜下个版本删除",
+        "css": "./themes/winter.css"
+      },
+      {
+        "name": "dark｜废弃｜下个版本删除",
+        "css": "./themes/dark.css"
+      },
+      {
+        "name": "dream｜最新｜往后主要版本",
+        "css": "./themes/dream.css"
+      }
+    ],
+    "gitHead": "a5b2663336f42d4fe96cee5e0202fe992efa17a5",
+    "bugs": {
+      "url": "https://github.com/Yannnser/yank-note-theme/issues"
+    },
+    "dist": {
+      "integrity": "sha512-ub0y8ePpLEgPBqBvTDRIZrp9cqF9ohoElUCMHpDMbBiVz5hBVQJ/iRpndvdF2VmsXosxXSDJ46ezmUNdbjddHA==",
+      "shasum": "006e5444dc880a1f9d0273c2e682055cfe91c825",
+      "tarball": "https://registry.npmjs.org/yank-note-extension-theme-yanser/-/yank-note-extension-theme-yanser-2.0.0.tgz",
+      "fileCount": 8,
+      "unpackedSize": 77374
+    },
+    "directories": {},
+    "maintainers": [
+      {
+        "name": "yanser",
+        "email": "2306974571@qq.com"
+      }
+    ],
+    "readmeUrl": "https://registry.yank-note.com/cdn/yank-note-extension-theme-yanser/2.0.0/README.md",
+    "changelogUrl": "https://registry.yank-note.com/cdn/yank-note-extension-theme-yanser/2.0.0/CHANGELOG.md",
+    "origin": "registry"
+  },
+  {
+    "name": "yank-note-extension-view-reverse-yanser",
+    "version": "2.3.0",
+    "displayName": " view-reverse｜Yanser",
+    "description": "view-reverse extension from Yanser",
+    "displayName_ZH-CN": "区域翻转｜烟舍",
+    "description_ZH-CN": "翻转预览和编辑器｜翻转侧边栏和内容区",
+    "author": {
+      "name": "Yanser"
+    },
+    "license": "AGPL-3.0",
+    "keywords": [],
+    "homepage": "https://github.com/Yannnser/yank-note-view-reverse.git",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/Yannnser/yank-note-view-reverse.git"
+    },
+    "publishConfig": {
+      "access": "public",
+      "registry": "https://registry.npmjs.org/"
+    },
+    "main": "./dist/index.js",
+    "icon": "https://registry.yank-note.com/cdn/yank-note-extension-view-reverse-yanser/2.3.0/icon.png",
+    "engines": {
+      "node": ">=14.6.0",
+      "yank-note": "^3.45.0"
+    },
+    "gitHead": "7a8752bdd179a4318122cd28acb903fb94d7943d",
+    "bugs": {
+      "url": "https://github.com/Yannnser/yank-note-view-reverse/issues"
+    },
+    "dist": {
+      "integrity": "sha512-1gpVYBn9d+ZaC3mPSkowg+clPavlK/LqblIzzn1nXL8w+AMx6EupT1cpUwKlsD+AfeyZ+k3YFKa421zvfmJyxw==",
+      "shasum": "fa07cf412f5eee1debf61e9e347823e66a899d0d",
+      "tarball": "https://registry.npmjs.org/yank-note-extension-view-reverse-yanser/-/yank-note-extension-view-reverse-yanser-2.3.0.tgz",
+      "fileCount": 6,
+      "unpackedSize": 7250
+    },
+    "directories": {},
+    "maintainers": [
+      {
+        "name": "yanser",
+        "email": "2306974571@qq.com"
+      }
+    ],
+    "readmeUrl": "https://registry.yank-note.com/cdn/yank-note-extension-view-reverse-yanser/2.3.0/README.md",
+    "changelogUrl": "https://registry.yank-note.com/cdn/yank-note-extension-view-reverse-yanser/2.3.0/CHANGELOG.md",
+    "origin": "registry"
+  },
+  {
+    "name": "yank-note-extension-vim-mode",
+    "version": "1.1.0",
+    "displayName": "Vim Mode",
+    "description": "Vim Mode extension",
+    "displayName_ZH-CN": "Vim Mode",
+    "description_ZH-CN": "Vim Mode 扩展",
+    "author": {
+      "name": "zhyipeng"
+    },
+    "license": "MIT",
+    "keywords": [],
+    "homepage": "https://github.com/zhyipeng/yank-note-extension-vim-mode",
+    "main": "./dist/index.js",
+    "icon": "https://registry.yank-note.com/cdn/yank-note-extension-vim-mode/1.1.0/icon.png",
+    "engines": {
+      "node": ">=14.6.0",
+      "yank-note": "^3.58.0"
+    },
+    "themes": [],
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/zhyipeng/yank-note-extension-vim-mode.git"
+    },
+    "bugs": {
+      "url": "https://github.com/zhyipeng/yank-note-extension-vim-mode/issues"
+    },
+    "gitHead": "2dc2b2bc8c3ca3a94958a387e5366ea498d60dae",
+    "dist": {
+      "integrity": "sha512-J1NahYumqAFlb+mJAgY4LBStCo7rrSLGsAClnOVFab25gIXFtlzA/y0pv0iX3PDXJ5/p8AY0EmrumNZMsmzE7A==",
+      "shasum": "4e8cf9fb8e00d445aeb987b64b069cee9fa33824",
+      "tarball": "https://registry.npmjs.org/yank-note-extension-vim-mode/-/yank-note-extension-vim-mode-1.1.0.tgz",
+      "fileCount": 7,
+      "unpackedSize": 125997
+    },
+    "directories": {},
+    "maintainers": [
+      {
+        "name": "zhyipeng",
+        "email": "zhyipeng@outlook.com"
+      }
+    ],
+    "readmeUrl": "https://registry.yank-note.com/cdn/yank-note-extension-vim-mode/1.1.0/README.md",
+    "changelogUrl": "https://registry.yank-note.com/cdn/yank-note-extension-vim-mode/1.1.0/CHANGELOG.md",
+    "origin": "registry"
+  },
+  {
+    "name": "yank-note-extension-tool-bar",
+    "version": "1.0.0",
+    "displayName": "Yank Note Tool Bar",
+    "description": "Tool Bar For Yank Note",
+    "displayName_ZH-CN": "工具栏",
+    "description_ZH-CN": "yank工具栏",
+    "author": {
+      "name": "andrew_asa"
+    },
+    "license": "AGPL-3.0",
+    "keywords": [],
+    "homepage": "https://github.com/andrew-asa/yank-note-extension-tool-bar",
+    "repository": {
+      "type": "git",
+      "url": "git+ssh://git@github.com/andrew-asa/yank-note-extension-tool-bar.git"
+    },
+    "main": "./dist/index.js",
+    "icon": "https://registry.yank-note.com/cdn/yank-note-extension-tool-bar/1.0.0/icon.png",
+    "engines": {
+      "node": ">=14.6.0",
+      "yank-note": "^3.30.0"
+    },
+    "requirements": {},
+    "bugs": {
+      "url": "https://github.com/andrew-asa/yank-note-extension-tool-bar/issues"
+    },
+    "gitHead": "9d3ff2a4846228022be6b24e75b735088d82e97f",
+    "dist": {
+      "integrity": "sha512-OBt3R+WaVhJvCzldqhvy61Sajzu3c1KZg4khYpWBQFPNhKnjQ8VQUhz3rbak1Rz3kfXZEowi2FswxNR7FabNYg==",
+      "shasum": "2b2a414c18675ccfae13e2767c321bea17ce3b52",
+      "tarball": "https://registry.npmjs.org/yank-note-extension-tool-bar/-/yank-note-extension-tool-bar-1.0.0.tgz",
+      "fileCount": 6,
+      "unpackedSize": 1266436
+    },
+    "directories": {},
+    "maintainers": [
+      {
+        "name": "andrew_asa",
+        "email": "asa.andrew@yahoo.com"
+      }
+    ],
+    "readmeUrl": "https://registry.yank-note.com/cdn/yank-note-extension-tool-bar/1.0.0/README.md",
+    "changelogUrl": "https://registry.yank-note.com/cdn/yank-note-extension-tool-bar/1.0.0/CHANGELOG.md",
+    "origin": "registry"
+  },
+  {
+    "name": "yank-note-extension-snippet",
+    "version": "1.0.3",
+    "displayName": "Text Snippet",
+    "description": "Insert text snippet quickly",
+    "displayName_ZH-CN": "文本片段",
+    "description_ZH-CN": "快速输入文本片段",
+    "author": {
+      "name": "zhyipeng"
+    },
+    "license": "MIT",
+    "keywords": [],
+    "homepage": "https://github.com/zhyipeng/yank-note-extension-snippet",
+    "main": "./dist/index.js",
+    "style": "./dist/style.css",
+    "icon": "https://registry.yank-note.com/cdn/yank-note-extension-snippet/1.0.3/icon.png",
+    "engines": {
+      "node": ">=14.6.0",
+      "yank-note": ">=3.48.0"
+    },
+    "themes": [],
+    "licenseText": "MIT License\n\nCopyright (c) 2022 洋子\n\nPermission is hereby granted, free of charge, to any person obtaining a copy\nof this software and associated documentation files (the \"Software\"), to deal\nin the Software without restriction, including without limitation the rights\nto use, copy, modify, merge, publish, distribute, sublicense, and/or sell\ncopies of the Software, and to permit persons to whom the Software is\nfurnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in all\ncopies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\nFITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE\nAUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\nLIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,\nOUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE\nSOFTWARE.\n",
+    "dist": {
+      "shasum": "39d47047c689a594ae5726803871f633ff5a2e75",
+      "integrity": "sha512-MSAH9WeByQyZ8uLfrf4/fJDvikoYV+FGyMIxOq/RhAJblSjv+tEsA6knfBq+DJ1929kV2eGfXjiW79OABbOZ3w==",
+      "tarball": "https://registry.npmjs.org/yank-note-extension-snippet/-/yank-note-extension-snippet-1.0.3.tgz",
+      "fileCount": 10,
+      "unpackedSize": 9480
+    },
+    "directories": {},
+    "maintainers": [
+      {
+        "name": "zhyipeng",
+        "email": "zhyipeng@outlook.com"
+      }
+    ],
+    "readmeUrl": "https://registry.yank-note.com/cdn/yank-note-extension-snippet/1.0.3/README.md",
+    "changelogUrl": "https://registry.yank-note.com/cdn/yank-note-extension-snippet/1.0.3/CHANGELOG.md",
+    "origin": "registry"
+  }
+]

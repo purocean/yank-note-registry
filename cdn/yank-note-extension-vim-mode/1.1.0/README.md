@@ -6,7 +6,7 @@ Vim 插件, 通过加载 monaco 的插件 - [monaco-vim](https://github.com/brij
 
 ## 如何使用
 - 启用/关闭 Vim 编辑模式: [状态栏]工具-Vim模式, 或者快捷键 `cmd/ctrl + alt + v`
-![img_1.png](https://raw.githubusercontent.com/zhyipeng/yank-note-extension-vim-mode/main/img_1.png)
+![img_1.png](https://registry.yank-note.com/cdn/yank-note-extension-vim-mode/1.1.0/img_1.png)
 
 ## Keymap
 支持基本的键映射和调用 yn 的部分功能
