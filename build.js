@@ -92,7 +92,6 @@ async function buildMarkdownCDNUrl (id, version, filename) {
     }
 
     fs.writeFileSync(filePath, markdown);
-    process.exit();
   }
 
   const _url = new URL('https://registry.yank-note.com/' + urlPath);
