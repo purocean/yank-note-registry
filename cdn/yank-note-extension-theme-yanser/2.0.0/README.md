@@ -11,10 +11,10 @@
 ### 因原主题的停止维护所带来的不便我深感抱歉，希望新的主题能够让大家喜欢。
 
 ## 使用方法
- [![zNmEbd.png](https://registry.yank-note.com/cdn/yank-note-extension-theme-yanser/2.0.0/zNmEbd.png)](https://imgse.com/i/zNmEbd)
+ [![zNmEbd.png](https://s1.ax1x.com/2022/11/26/zNmEbd.png)](https://imgse.com/i/zNmEbd)
 
 ## dream
 注意：此主题为深色主题，请开启深色模式后再继续使用。
 ### 预览
-[![zNQWuT.png](https://registry.yank-note.com/cdn/yank-note-extension-theme-yanser/2.0.0/zNQWuT.png)](https://imgse.com/i/zNQWuT)
-[![zNQfDU.png](https://registry.yank-note.com/cdn/yank-note-extension-theme-yanser/2.0.0/zNQfDU.png)](https://imgse.com/i/zNQfDU)
+[![zNQWuT.png](https://s1.ax1x.com/2022/11/26/zNQWuT.png)](https://imgse.com/i/zNQWuT)
+[![zNQfDU.png](https://s1.ax1x.com/2022/11/26/zNQfDU.png)](https://imgse.com/i/zNQfDU)

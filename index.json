@@ -750,6 +750,68 @@
     "origin": "official"
   },
   {
+    "name": "yank-note-extension-theme-yanser",
+    "version": "2.0.0",
+    "displayName": "theme｜Yanser",
+    "description": "theme from Yanser",
+    "displayName_ZH-CN": "主题｜烟舍",
+    "description_ZH-CN": "来自烟舍的主题",
+    "author": {
+      "name": "Yanser"
+    },
+    "license": "AGPL-3.0",
+    "keywords": [],
+    "homepage": "https://github.com/Yannnser/yank-note-theme.git",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/Yannnser/yank-note-theme.git"
+    },
+    "publishConfig": {
+      "access": "public",
+      "registry": "https://registry.npmjs.org/"
+    },
+    "icon": "https://registry.yank-note.com/cdn/yank-note-extension-theme-yanser/2.0.0/icon.png",
+    "engines": {
+      "node": ">=14.6.0",
+      "yank-note": "^3.45.0"
+    },
+    "themes": [
+      {
+        "name": "winter｜废弃｜下个版本删除",
+        "css": "./themes/winter.css"
+      },
+      {
+        "name": "dark｜废弃｜下个版本删除",
+        "css": "./themes/dark.css"
+      },
+      {
+        "name": "dream｜最新｜往后主要版本",
+        "css": "./themes/dream.css"
+      }
+    ],
+    "gitHead": "a5b2663336f42d4fe96cee5e0202fe992efa17a5",
+    "bugs": {
+      "url": "https://github.com/Yannnser/yank-note-theme/issues"
+    },
+    "dist": {
+      "integrity": "sha512-ub0y8ePpLEgPBqBvTDRIZrp9cqF9ohoElUCMHpDMbBiVz5hBVQJ/iRpndvdF2VmsXosxXSDJ46ezmUNdbjddHA==",
+      "shasum": "006e5444dc880a1f9d0273c2e682055cfe91c825",
+      "tarball": "https://registry.npmjs.org/yank-note-extension-theme-yanser/-/yank-note-extension-theme-yanser-2.0.0.tgz",
+      "fileCount": 8,
+      "unpackedSize": 77374
+    },
+    "directories": {},
+    "maintainers": [
+      {
+        "name": "yanser",
+        "email": "2306974571@qq.com"
+      }
+    ],
+    "readmeUrl": "https://registry.yank-note.com/cdn/yank-note-extension-theme-yanser/2.0.0/README.md",
+    "changelogUrl": "https://registry.yank-note.com/cdn/yank-note-extension-theme-yanser/2.0.0/CHANGELOG.md",
+    "origin": "registry"
+  },
+  {
     "name": "yank-note-extension-view-reverse-yanser",
     "version": "2.3.0",
     "displayName": " view-reverse｜Yanser",
