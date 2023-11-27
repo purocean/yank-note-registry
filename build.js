@@ -5,6 +5,7 @@ const index = require('./index.json');
 const { official, registry } = require('./extensions.json');
 
 const cdnPrefix = 'https://fastly.jsdelivr.net/npm/'
+const useCdnImgDomains = ['github.com', 'githubusercontent.com'];
 
 function createDirectoryIfNotExists(dirPath) {
   if (!fs.existsSync(dirPath)) {
@@ -86,6 +87,11 @@ async function buildMarkdownCDNUrl (id, version, filename) {
     if (match) {
       for (const m of match) {
         const imgUrl = m.match(/!\[(.*?)\]\((.*?)\)/)[2]
+
+        if (!useCdnImgDomains.some(domain => imgUrl.includes(domain))) {
+          continue
+        }
+
         const cdnUrl = await buildCDNUrl(id, version, imgUrl)
         markdown = markdown.replace(new RegExp(imgUrl, 'g'), cdnUrl)
       }
