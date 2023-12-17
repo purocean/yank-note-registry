@@ -326,6 +326,54 @@
     "origin": "official"
   },
   {
+    "name": "@yank-note/extension-ai-copilot",
+    "version": "1.0.0",
+    "displayName": "AI Copilot",
+    "description": "Your AI writing assistant",
+    "displayName_ZH-CN": "AI Copilot",
+    "description_ZH-CN": "你的人工智能写作助手",
+    "author": {
+      "name": "Yank Note"
+    },
+    "license": "AGPL-3.0",
+    "keywords": [],
+    "homepage": "https://github.com/purocean/yank-note-extension/tree/main/packages/extension-ai-copilot",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/purocean/yank-note-extension.git"
+    },
+    "main": "./dist/index.js",
+    "style": "./dist/style.css",
+    "icon": "https://registry.yank-note.com/cdn/@yank-note/extension-ai-copilot/1.0.0/icon.svg",
+    "engines": {
+      "node": ">=14.6.0",
+      "yank-note": "^3.65.0"
+    },
+    "requirements": {
+      "premium": true
+    },
+    "bugs": {
+      "url": "https://github.com/purocean/yank-note-extension/issues"
+    },
+    "dist": {
+      "integrity": "sha512-17xJ4ZI/OlGLpT5ySVqAR8+r3glpyRprEZPNwrzp2v722iuzfN2/1316lak3hUjE6tgL/U+Qiq0b8VXyM5pmyw==",
+      "shasum": "2725c9443f04917b12dc12da25c9b0976f88690e",
+      "tarball": "https://registry.npmjs.org/@yank-note/extension-ai-copilot/-/extension-ai-copilot-1.0.0.tgz",
+      "fileCount": 7,
+      "unpackedSize": 113779
+    },
+    "directories": {},
+    "maintainers": [
+      {
+        "name": "purocean",
+        "email": "purocean@outlook.com"
+      }
+    ],
+    "readmeUrl": "https://registry.yank-note.com/cdn/@yank-note/extension-ai-copilot/1.0.0/README.md",
+    "changelogUrl": "https://registry.yank-note.com/cdn/@yank-note/extension-ai-copilot/1.0.0/CHANGELOG.md",
+    "origin": "official"
+  },
+  {
     "name": "@yank-note/extension-markdown-prettier",
     "version": "1.4.3",
     "displayName": "Markdown Prettier",
@@ -604,54 +652,6 @@
     ],
     "readmeUrl": "https://registry.yank-note.com/cdn/@yank-note/extension-luckysheet/1.1.2/README.md",
     "changelogUrl": "https://registry.yank-note.com/cdn/@yank-note/extension-luckysheet/1.1.2/CHANGELOG.md",
-    "origin": "official"
-  },
-  {
-    "name": "@yank-note/extension-openai",
-    "version": "1.7.2",
-    "displayName": "OpenAI",
-    "description": "Your AI writing assistant",
-    "displayName_ZH-CN": "OpenAI",
-    "description_ZH-CN": "你的人工智能写作助手",
-    "author": {
-      "name": "Yank Note"
-    },
-    "license": "AGPL-3.0",
-    "keywords": [],
-    "homepage": "https://github.com/purocean/yank-note-extension/tree/main/packages/extension-openai",
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/purocean/yank-note-extension.git"
-    },
-    "main": "./dist/index.js",
-    "style": "./dist/style.css",
-    "icon": "https://registry.yank-note.com/cdn/@yank-note/extension-openai/1.7.2/icon.svg",
-    "engines": {
-      "node": ">=14.6.0",
-      "yank-note": "^3.58.0"
-    },
-    "requirements": {
-      "premium": true
-    },
-    "bugs": {
-      "url": "https://github.com/purocean/yank-note-extension/issues"
-    },
-    "dist": {
-      "integrity": "sha512-9jTj5AlCzEZaQfDQZ+C2aGYhLRcDGHTqBAPalx5DJTmI37SiB4PS4Bv9m9NYYzkco2GF3lPgrmewEzRGhH9vrQ==",
-      "shasum": "3089cf25f17529e480746a428c87fbc63664348c",
-      "tarball": "https://registry.npmjs.org/@yank-note/extension-openai/-/extension-openai-1.7.2.tgz",
-      "fileCount": 7,
-      "unpackedSize": 67197
-    },
-    "directories": {},
-    "maintainers": [
-      {
-        "name": "purocean",
-        "email": "purocean@outlook.com"
-      }
-    ],
-    "readmeUrl": "https://registry.yank-note.com/cdn/@yank-note/extension-openai/1.7.2/README.md",
-    "changelogUrl": "https://registry.yank-note.com/cdn/@yank-note/extension-openai/1.7.2/CHANGELOG.md",
     "origin": "official"
   },
   {
