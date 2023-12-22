@@ -327,7 +327,7 @@
   },
   {
     "name": "@yank-note/extension-ai-copilot",
-    "version": "1.2.1",
+    "version": "1.2.2",
     "displayName": "AI Copilot",
     "description": "Your AI writing assistant",
     "displayName_ZH-CN": "AI Copilot",
@@ -344,7 +344,7 @@
     },
     "main": "./dist/index.js",
     "style": "./dist/style.css",
-    "icon": "https://registry.yank-note.com/cdn/@yank-note/extension-ai-copilot/1.2.1/icon.svg",
+    "icon": "https://registry.yank-note.com/cdn/@yank-note/extension-ai-copilot/1.2.2/icon.svg",
     "engines": {
       "node": ">=14.6.0",
       "yank-note": "^3.65.0"
@@ -356,11 +356,11 @@
       "url": "https://github.com/purocean/yank-note-extension/issues"
     },
     "dist": {
-      "integrity": "sha512-LbwcyItIcXWcDLAYVYAQV+BBSSqtCOwPJHro5gIYf3yhSd4MjDIhjvC5BPOUAYOnpaw6WVyFvvKZlUd6DDMUqg==",
-      "shasum": "d6cfc2ca9b8069c2b1a9afacf4ea9c8d3bdc9ad3",
-      "tarball": "https://registry.npmjs.org/@yank-note/extension-ai-copilot/-/extension-ai-copilot-1.2.1.tgz",
+      "integrity": "sha512-7A6ruc2EUsiZwFppy7E/Soh5o4ys7Q/LoPrY5O7++u5s1KliMTD/g5JhVv26MetpnsrBtUrujhykk7HwB++6zg==",
+      "shasum": "9d51c07b60ea46bb30de923ec0b7ab7586e2b532",
+      "tarball": "https://registry.npmjs.org/@yank-note/extension-ai-copilot/-/extension-ai-copilot-1.2.2.tgz",
       "fileCount": 7,
-      "unpackedSize": 134527
+      "unpackedSize": 135156
     },
     "directories": {},
     "maintainers": [
@@ -369,8 +369,8 @@
         "email": "purocean@outlook.com"
       }
     ],
-    "readmeUrl": "https://registry.yank-note.com/cdn/@yank-note/extension-ai-copilot/1.2.1/README.md",
-    "changelogUrl": "https://registry.yank-note.com/cdn/@yank-note/extension-ai-copilot/1.2.1/CHANGELOG.md",
+    "readmeUrl": "https://registry.yank-note.com/cdn/@yank-note/extension-ai-copilot/1.2.2/README.md",
+    "changelogUrl": "https://registry.yank-note.com/cdn/@yank-note/extension-ai-copilot/1.2.2/CHANGELOG.md",
     "origin": "official"
   },
   {
