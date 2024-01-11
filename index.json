@@ -611,7 +611,7 @@
   },
   {
     "name": "@yank-note/extension-luckysheet",
-    "version": "1.1.2",
+    "version": "1.1.3",
     "displayName": "Luckysheet",
     "description": "Luckysheet table integration",
     "displayName_ZH-CN": "Luckysheet",
@@ -628,7 +628,7 @@
     },
     "main": "./dist/index.js",
     "style": "./dist/style.css",
-    "icon": "https://registry.yank-note.com/cdn/@yank-note/extension-luckysheet/1.1.2/icon.png",
+    "icon": "https://registry.yank-note.com/cdn/@yank-note/extension-luckysheet/1.1.3/icon.png",
     "engines": {
       "node": ">=14.6.0",
       "yank-note": "^3.29.0"
@@ -637,11 +637,11 @@
       "url": "https://github.com/purocean/yank-note-extension/issues"
     },
     "dist": {
-      "integrity": "sha512-QXdjbf6JEzQv9zAx6wTuQyEaIh2/+fQed4x2jua1E0g8oPeKk0XfHXh6nF7Z9fkxmy2OuCYRUJNZyAjH+XuMOg==",
-      "shasum": "099209ee46e0e97d8fa2f36667dc9d6e6bb6918f",
-      "tarball": "https://registry.npmjs.org/@yank-note/extension-luckysheet/-/extension-luckysheet-1.1.2.tgz",
+      "integrity": "sha512-RLagRDU+4/Y398Tl6aRinxNBGbZPj3QUrq309eQD/90thJ0U3KpS9jMO0NXRi+/lDmHtxRXrvBQSaw0DXOrhWg==",
+      "shasum": "dbf2a688b8fcd63329e43c1e98b4ce882e983571",
+      "tarball": "https://registry.npmjs.org/@yank-note/extension-luckysheet/-/extension-luckysheet-1.1.3.tgz",
       "fileCount": 53,
-      "unpackedSize": 6595915
+      "unpackedSize": 6597103
     },
     "directories": {},
     "maintainers": [
@@ -650,8 +650,8 @@
         "email": "purocean@outlook.com"
       }
     ],
-    "readmeUrl": "https://registry.yank-note.com/cdn/@yank-note/extension-luckysheet/1.1.2/README.md",
-    "changelogUrl": "https://registry.yank-note.com/cdn/@yank-note/extension-luckysheet/1.1.2/CHANGELOG.md",
+    "readmeUrl": "https://registry.yank-note.com/cdn/@yank-note/extension-luckysheet/1.1.3/README.md",
+    "changelogUrl": "https://registry.yank-note.com/cdn/@yank-note/extension-luckysheet/1.1.3/CHANGELOG.md",
     "origin": "official"
   },
   {
