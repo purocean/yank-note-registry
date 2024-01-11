@@ -91,7 +91,7 @@
   },
   {
     "name": "@yank-note/extension-excalidraw",
-    "version": "1.2.0",
+    "version": "1.3.0",
     "displayName": "Excalidraw",
     "description": "Excalidraw integration",
     "displayName_ZH-CN": "Excalidraw",
@@ -107,11 +107,10 @@
       "url": "git+https://github.com/purocean/yank-note-extension.git"
     },
     "main": "./main/index.js",
-    "style": "./main/style.css",
-    "icon": "https://registry.yank-note.com/cdn/@yank-note/extension-excalidraw/1.2.0/icon.png",
+    "icon": "https://registry.yank-note.com/cdn/@yank-note/extension-excalidraw/1.3.0/icon.png",
     "engines": {
       "node": ">=14.6.0",
-      "yank-note": "^3.63.2"
+      "yank-note": "^3.66.0"
     },
     "requirements": {
       "premium": true
@@ -120,11 +119,11 @@
       "url": "https://github.com/purocean/yank-note-extension/issues"
     },
     "dist": {
-      "integrity": "sha512-pQeQriAbKMqGMC9Vd3XamY0u//mbOuJvHtt1bxx1VdSrfbspJmq214UzArwg5NgoMdiT4fZHWBHQVv6NSuoSxQ==",
-      "shasum": "62d6eba5ba5aab6ba7674be212db41f439d8c39d",
-      "tarball": "https://registry.npmjs.org/@yank-note/extension-excalidraw/-/extension-excalidraw-1.2.0.tgz",
-      "fileCount": 69,
-      "unpackedSize": 5655606
+      "integrity": "sha512-BORrzXs3dUahwTsdUAhVKFXZsk+pA5JBcTvXCxc6WUh5t85tTGQPcN67xohr9E98yhH6vGxDpe/rdFOvxGC/PA==",
+      "shasum": "7c5ff3b4181fd6d86776818fb76e924c733b68ff",
+      "tarball": "https://registry.npmjs.org/@yank-note/extension-excalidraw/-/extension-excalidraw-1.3.0.tgz",
+      "fileCount": 68,
+      "unpackedSize": 5662044
     },
     "directories": {},
     "maintainers": [
@@ -133,8 +132,8 @@
         "email": "purocean@outlook.com"
       }
     ],
-    "readmeUrl": "https://registry.yank-note.com/cdn/@yank-note/extension-excalidraw/1.2.0/README.md",
-    "changelogUrl": "https://registry.yank-note.com/cdn/@yank-note/extension-excalidraw/1.2.0/CHANGELOG.md",
+    "readmeUrl": "https://registry.yank-note.com/cdn/@yank-note/extension-excalidraw/1.3.0/README.md",
+    "changelogUrl": "https://registry.yank-note.com/cdn/@yank-note/extension-excalidraw/1.3.0/CHANGELOG.md",
     "origin": "official"
   },
   {
