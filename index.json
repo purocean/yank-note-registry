@@ -373,6 +373,53 @@
     "origin": "official"
   },
   {
+    "name": "@yank-note/extension-repl",
+    "version": "1.0.1",
+    "displayName": "Vue Repl",
+    "description": "Build and run Vue interactive apps in Yank Note",
+    "displayName_ZH-CN": "Vue Repl",
+    "description_ZH-CN": "在 Yank Note 中构建并运行 Vue 交互式应用",
+    "author": {
+      "name": "Yank Note"
+    },
+    "license": "AGPL-3.0",
+    "keywords": [],
+    "homepage": "https://github.com/purocean/yank-note-extension/tree/main/packages/extension-repl",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/purocean/yank-note-extension.git"
+    },
+    "main": "./main/index.js",
+    "icon": "https://registry.yank-note.com/cdn/@yank-note/extension-repl/1.0.1/icon.svg",
+    "engines": {
+      "node": ">=14.6.0",
+      "yank-note": "^3.66.0"
+    },
+    "requirements": {
+      "premium": true
+    },
+    "bugs": {
+      "url": "https://github.com/purocean/yank-note-extension/issues"
+    },
+    "dist": {
+      "integrity": "sha512-83n7P2z7CaidWmo1E4PjNbmVjMbu1xUzcJfYoGdGJ+Mt8NvR+/tX8aB9Gm0ok8mtGnryTRXQz2jZ/BnRpjpsSQ==",
+      "shasum": "5ef8ac9d523d8673dbb67f0491af944a28e65cc6",
+      "tarball": "https://registry.npmjs.org/@yank-note/extension-repl/-/extension-repl-1.0.1.tgz",
+      "fileCount": 11,
+      "unpackedSize": 4988086
+    },
+    "directories": {},
+    "maintainers": [
+      {
+        "name": "purocean",
+        "email": "purocean@outlook.com"
+      }
+    ],
+    "readmeUrl": "https://registry.yank-note.com/cdn/@yank-note/extension-repl/1.0.1/README.md",
+    "changelogUrl": "https://registry.yank-note.com/cdn/@yank-note/extension-repl/1.0.1/CHANGELOG.md",
+    "origin": "official"
+  },
+  {
     "name": "@yank-note/extension-markdown-prettier",
     "version": "1.4.3",
     "displayName": "Markdown Prettier",
