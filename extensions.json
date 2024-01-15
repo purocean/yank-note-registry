@@ -2,7 +2,7 @@
   "official": [
     { "id": "@yank-note/extension-mermaid", "version": "1.7.0" },
     { "id": "@yank-note/extension-drawio", "version": "1.8.2" },
-    { "id": "@yank-note/extension-excalidraw", "version": "1.3.0" },
+    { "id": "@yank-note/extension-excalidraw", "version": "1.4.0" },
     { "id": "@yank-note/extension-echarts", "version": "1.5.2" },
     { "id": "@yank-note/extension-reveal-js", "version": "1.8.0" },
     { "id": "@yank-note/extension-markmap", "version": "1.5.3" },
