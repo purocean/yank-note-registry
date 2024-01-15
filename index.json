@@ -46,7 +46,7 @@
   },
   {
     "name": "@yank-note/extension-drawio",
-    "version": "1.9.0",
+    "version": "2.0.0",
     "displayName": "Drawio",
     "description": "Drawio integration",
     "displayName_ZH-CN": "Drawio",
@@ -61,24 +61,24 @@
       "type": "git",
       "url": "git+https://github.com/purocean/yank-note-extension.git"
     },
-    "main": "./dist/index.js",
-    "style": "./dist/style.css",
-    "icon": "https://registry.yank-note.com/cdn/@yank-note/extension-drawio/1.9.0/icon.svg",
-    "readmeUrl": "https://registry.yank-note.com/cdn/@yank-note/extension-drawio/1.9.0/README.md",
-    "changelogUrl": "https://registry.yank-note.com/cdn/@yank-note/extension-drawio/1.9.0/CHANGELOG.md",
+    "main": "./main/index.js",
+    "style": "./main/style.css",
+    "icon": "https://registry.yank-note.com/cdn/@yank-note/extension-drawio/2.0.0/icon.svg",
+    "readmeUrl": "https://registry.yank-note.com/cdn/@yank-note/extension-drawio/2.0.0/README.md",
+    "changelogUrl": "https://registry.yank-note.com/cdn/@yank-note/extension-drawio/2.0.0/CHANGELOG.md",
     "engines": {
       "node": ">=14.6.0",
-      "yank-note": "^3.63.2"
+      "yank-note": "^3.66.0"
     },
     "bugs": {
       "url": "https://github.com/purocean/yank-note-extension/issues"
     },
     "dist": {
-      "integrity": "sha512-TAYz1n43qiX6tTq7zeLIWWtAXWC1PnGA23WVGmtCjkuatjwYDpy7DVcRJiYSQrpKfm6XDi9PwRxiStKR4WbOuw==",
-      "shasum": "fde6dd21a397efdb6acfe83cd5d0ad9415b16058",
-      "tarball": "https://registry.npmjs.org/@yank-note/extension-drawio/-/extension-drawio-1.9.0.tgz",
-      "fileCount": 2905,
-      "unpackedSize": 155364802
+      "integrity": "sha512-rOq1Yxa1CF5cN/fqJWdOkmzDxB6g6pe9b37IMrar83Esi0dYXAM9WUvxRQk/U1MVycdhxtq/PT+/dz/64IBeOw==",
+      "shasum": "bafc19dccd1949c52211fbf3977d6937fbddb27f",
+      "tarball": "https://registry.npmjs.org/@yank-note/extension-drawio/-/extension-drawio-2.0.0.tgz",
+      "fileCount": 2907,
+      "unpackedSize": 155368411
     },
     "directories": {},
     "maintainers": [
