@@ -374,7 +374,7 @@
   },
   {
     "name": "@yank-note/extension-repl",
-    "version": "1.1.0",
+    "version": "1.2.0",
     "displayName": "Vue Repl",
     "description": "Build and run Vue interactive apps in Yank Note",
     "displayName_ZH-CN": "Vue Repl",
@@ -390,7 +390,7 @@
       "url": "git+https://github.com/purocean/yank-note-extension.git"
     },
     "main": "./main/index.js",
-    "icon": "https://registry.yank-note.com/cdn/@yank-note/extension-repl/1.1.0/icon.svg",
+    "icon": "https://registry.yank-note.com/cdn/@yank-note/extension-repl/1.2.0/icon.svg",
     "engines": {
       "node": ">=14.6.0",
       "yank-note": "^3.66.0"
@@ -402,11 +402,11 @@
       "url": "https://github.com/purocean/yank-note-extension/issues"
     },
     "dist": {
-      "integrity": "sha512-Xv1qGGMBhADyjI/KQrgvXG1pDJfZxSFFuGFSl/1BveMFSrKVuyhRcliIbCbXdAzLJKNPt4O91kmg/wEoF6G3FQ==",
-      "shasum": "946dc8f4e8fd3535642f7bfe75da67e8338e6ea9",
-      "tarball": "https://registry.npmjs.org/@yank-note/extension-repl/-/extension-repl-1.1.0.tgz",
+      "integrity": "sha512-tH399Sw5j7gV5AmWYafU+e+vaHcmkK5b8OIpgxOiiHRd72x05c5d6uF44HUsIi/Oye3eVQ1uY6+5Vd/vo9RwPA==",
+      "shasum": "cddf0952223d4d447463e1cd04b3be37da8e8cb5",
+      "tarball": "https://registry.npmjs.org/@yank-note/extension-repl/-/extension-repl-1.2.0.tgz",
       "fileCount": 11,
-      "unpackedSize": 4990915
+      "unpackedSize": 4991979
     },
     "directories": {},
     "maintainers": [
@@ -415,8 +415,8 @@
         "email": "purocean@outlook.com"
       }
     ],
-    "readmeUrl": "https://registry.yank-note.com/cdn/@yank-note/extension-repl/1.1.0/README.md",
-    "changelogUrl": "https://registry.yank-note.com/cdn/@yank-note/extension-repl/1.1.0/CHANGELOG.md",
+    "readmeUrl": "https://registry.yank-note.com/cdn/@yank-note/extension-repl/1.2.0/README.md",
+    "changelogUrl": "https://registry.yank-note.com/cdn/@yank-note/extension-repl/1.2.0/CHANGELOG.md",
     "origin": "official"
   },
   {
