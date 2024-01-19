@@ -46,7 +46,7 @@
   },
   {
     "name": "@yank-note/extension-drawio",
-    "version": "2.1.1",
+    "version": "2.1.2",
     "displayName": "Drawio",
     "description": "Drawio integration",
     "displayName_ZH-CN": "Drawio",
@@ -63,9 +63,9 @@
     },
     "main": "./main/index.js",
     "style": "./main/style.css",
-    "icon": "https://registry.yank-note.com/cdn/@yank-note/extension-drawio/2.1.1/icon.svg",
-    "readmeUrl": "https://registry.yank-note.com/cdn/@yank-note/extension-drawio/2.1.1/README.md",
-    "changelogUrl": "https://registry.yank-note.com/cdn/@yank-note/extension-drawio/2.1.1/CHANGELOG.md",
+    "icon": "https://registry.yank-note.com/cdn/@yank-note/extension-drawio/2.1.2/icon.svg",
+    "readmeUrl": "https://registry.yank-note.com/cdn/@yank-note/extension-drawio/2.1.2/README.md",
+    "changelogUrl": "https://registry.yank-note.com/cdn/@yank-note/extension-drawio/2.1.2/CHANGELOG.md",
     "engines": {
       "node": ">=14.6.0",
       "yank-note": "^3.66.0"
@@ -74,11 +74,11 @@
       "url": "https://github.com/purocean/yank-note-extension/issues"
     },
     "dist": {
-      "integrity": "sha512-ZA0VCTtmT2GT5qAyMx7sUbU6IP9IqLnGXXkNRz+sO3P9wyWvUn+MK+tD2tuNsei1xREvhsDQ+cm/D9slL69kWw==",
-      "shasum": "95ea67a431939b9759246a8123a76c264bcda2b9",
-      "tarball": "https://registry.npmjs.org/@yank-note/extension-drawio/-/extension-drawio-2.1.1.tgz",
+      "integrity": "sha512-Ti7+hkqEK3Eh6PO8MTsS6vRCEJoNzcQsMOWZfen8MkPC5c513/B9lRBRk6K8KiE+jqEfyxV551s9Sf7lZhbayA==",
+      "shasum": "1651b9b6f78f75d276bd57afcb36996c0ca7e617",
+      "tarball": "https://registry.npmjs.org/@yank-note/extension-drawio/-/extension-drawio-2.1.2.tgz",
       "fileCount": 2907,
-      "unpackedSize": 155369051
+      "unpackedSize": 155369463
     },
     "directories": {},
     "maintainers": [
