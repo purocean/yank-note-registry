@@ -421,7 +421,7 @@
   },
   {
     "name": "@yank-note/extension-kroki",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "displayName": "Kroki",
     "description": "Kroki diagram extension for Yank Note",
     "displayName_ZH-CN": "Kroki",
@@ -437,7 +437,7 @@
       "url": "git+https://github.com/purocean/yank-note-extension.git"
     },
     "main": "./dist/index.js",
-    "icon": "https://registry.yank-note.com/cdn/@yank-note/extension-kroki/1.0.0/icon.svg",
+    "icon": "https://registry.yank-note.com/cdn/@yank-note/extension-kroki/1.0.1/icon.svg",
     "engines": {
       "node": ">=14.6.0",
       "yank-note": "^3.66.0"
@@ -449,11 +449,11 @@
       "url": "https://github.com/purocean/yank-note-extension/issues"
     },
     "dist": {
-      "integrity": "sha512-r3ieoUgqO7sSfqB17Zy0mlmfsL6QJjem6+NCyK8tl6Bvjk8Ds0JpyJsWPPrRCey28G0a+HQLHNuD4ixq83Z7Qg==",
-      "shasum": "b34ebe5d4d76ca5ee2f0503e605c80a6794ba779",
-      "tarball": "https://registry.npmjs.org/@yank-note/extension-kroki/-/extension-kroki-1.0.0.tgz",
+      "integrity": "sha512-emrgBagPD5fI5nGTAD5COPXOZeE5FcJmsbNcGCrTgxSi+z1kR7FktjDbFeni3PKqwV5cyFpq/r+Sw2tZnYmRxg==",
+      "shasum": "f95f13e0f4c77dd12a8db436378f87a4c85213c6",
+      "tarball": "https://registry.npmjs.org/@yank-note/extension-kroki/-/extension-kroki-1.0.1.tgz",
       "fileCount": 6,
-      "unpackedSize": 52544
+      "unpackedSize": 52895
     },
     "directories": {},
     "maintainers": [
@@ -462,8 +462,8 @@
         "email": "purocean@outlook.com"
       }
     ],
-    "readmeUrl": "https://registry.yank-note.com/cdn/@yank-note/extension-kroki/1.0.0/README.md",
-    "changelogUrl": "https://registry.yank-note.com/cdn/@yank-note/extension-kroki/1.0.0/CHANGELOG.md",
+    "readmeUrl": "https://registry.yank-note.com/cdn/@yank-note/extension-kroki/1.0.1/README.md",
+    "changelogUrl": "https://registry.yank-note.com/cdn/@yank-note/extension-kroki/1.0.1/CHANGELOG.md",
     "origin": "official"
   },
   {
