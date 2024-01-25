@@ -420,6 +420,53 @@
     "origin": "official"
   },
   {
+    "name": "@yank-note/extension-kroki",
+    "version": "1.0.0",
+    "displayName": "Kroki",
+    "description": "Kroki diagram extension for Yank Note",
+    "displayName_ZH-CN": "Kroki",
+    "description_ZH-CN": "Kroki 图像扩展",
+    "keywords": [],
+    "author": {
+      "name": "Yank Note"
+    },
+    "license": "AGPL-3.0",
+    "homepage": "https://github.com/purocean/yank-note-extension/tree/main/packages/extension-kroki",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/purocean/yank-note-extension.git"
+    },
+    "main": "./dist/index.js",
+    "icon": "https://registry.yank-note.com/cdn/@yank-note/extension-kroki/1.0.0/icon.svg",
+    "engines": {
+      "node": ">=14.6.0",
+      "yank-note": "^3.66.0"
+    },
+    "requirements": {
+      "premium": true
+    },
+    "bugs": {
+      "url": "https://github.com/purocean/yank-note-extension/issues"
+    },
+    "dist": {
+      "integrity": "sha512-r3ieoUgqO7sSfqB17Zy0mlmfsL6QJjem6+NCyK8tl6Bvjk8Ds0JpyJsWPPrRCey28G0a+HQLHNuD4ixq83Z7Qg==",
+      "shasum": "b34ebe5d4d76ca5ee2f0503e605c80a6794ba779",
+      "tarball": "https://registry.npmjs.org/@yank-note/extension-kroki/-/extension-kroki-1.0.0.tgz",
+      "fileCount": 6,
+      "unpackedSize": 52544
+    },
+    "directories": {},
+    "maintainers": [
+      {
+        "name": "purocean",
+        "email": "purocean@outlook.com"
+      }
+    ],
+    "readmeUrl": "https://registry.yank-note.com/cdn/@yank-note/extension-kroki/1.0.0/README.md",
+    "changelogUrl": "https://registry.yank-note.com/cdn/@yank-note/extension-kroki/1.0.0/CHANGELOG.md",
+    "origin": "official"
+  },
+  {
     "name": "@yank-note/extension-markdown-prettier",
     "version": "1.4.3",
     "displayName": "Markdown Prettier",
