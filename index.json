@@ -844,7 +844,7 @@
   },
   {
     "name": "@yank-note/extension-nes-emulator",
-    "version": "1.0.0",
+    "version": "1.1.0",
     "displayName": "NES Emulator",
     "description": "Run NES games in Yank Note",
     "displayName_ZH-CN": "NES 模拟器",
@@ -861,7 +861,7 @@
     },
     "main": "./dist/index.js",
     "style": "./dist/style.css",
-    "icon": "https://registry.yank-note.com/cdn/@yank-note/extension-nes-emulator/1.0.0/icon.svg",
+    "icon": "https://registry.yank-note.com/cdn/@yank-note/extension-nes-emulator/1.1.0/icon.svg",
     "engines": {
       "node": ">=14.6.0",
       "yank-note": "^3.43.0"
@@ -873,11 +873,11 @@
       "url": "https://github.com/purocean/yank-note-extension/issues"
     },
     "dist": {
-      "integrity": "sha512-5bnetadbDF13lJTdfPX2l2DhaRcICllru9DlpPeqhK5T9uql1WjEB9pKgWkruvUKiy8KUoMcUMNC2l5YJi1BwA==",
-      "shasum": "558be3eb3091dc35f635131a8c787774092d60fd",
-      "tarball": "https://registry.npmjs.org/@yank-note/extension-nes-emulator/-/extension-nes-emulator-1.0.0.tgz",
+      "integrity": "sha512-LcAPcxqXZKaLhjQK5MjWIqi667MsY4A1c0mnmRJKGNIUNAiwgsEbkGm+nIMZSvwskMmbwF12VgGsNDTRrxsP0g==",
+      "shasum": "49baba7a25a0b2ed3dfc9f9386621956885d044f",
+      "tarball": "https://registry.npmjs.org/@yank-note/extension-nes-emulator/-/extension-nes-emulator-1.1.0.tgz",
       "fileCount": 26,
-      "unpackedSize": 2055569
+      "unpackedSize": 2057971
     },
     "directories": {},
     "maintainers": [
@@ -886,8 +886,8 @@
         "email": "purocean@outlook.com"
       }
     ],
-    "readmeUrl": "https://registry.yank-note.com/cdn/@yank-note/extension-nes-emulator/1.0.0/README.md",
-    "changelogUrl": "https://registry.yank-note.com/cdn/@yank-note/extension-nes-emulator/1.0.0/CHANGELOG.md",
+    "readmeUrl": "https://registry.yank-note.com/cdn/@yank-note/extension-nes-emulator/1.1.0/README.md",
+    "changelogUrl": "https://registry.yank-note.com/cdn/@yank-note/extension-nes-emulator/1.1.0/CHANGELOG.md",
     "origin": "official"
   },
   {
