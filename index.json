@@ -843,6 +843,54 @@
     "origin": "official"
   },
   {
+    "name": "@yank-note/extension-nes-emulator",
+    "version": "1.0.0",
+    "displayName": "NES Emulator",
+    "description": "Run NES games in Yank Note",
+    "displayName_ZH-CN": "NES 模拟器",
+    "description_ZH-CN": "在 Yank Note 中运行 NES 游戏",
+    "author": {
+      "name": "Yank Note"
+    },
+    "license": "AGPL-3.0",
+    "keywords": [],
+    "homepage": "https://github.com/purocean/yank-note-extension/tree/main/packages/extension-nes-emulator",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/purocean/yank-note-extension.git"
+    },
+    "main": "./dist/index.js",
+    "style": "./dist/style.css",
+    "icon": "https://registry.yank-note.com/cdn/@yank-note/extension-nes-emulator/1.0.0/icon.svg",
+    "engines": {
+      "node": ">=14.6.0",
+      "yank-note": "^3.43.0"
+    },
+    "requirements": {
+      "premium": true
+    },
+    "bugs": {
+      "url": "https://github.com/purocean/yank-note-extension/issues"
+    },
+    "dist": {
+      "integrity": "sha512-5bnetadbDF13lJTdfPX2l2DhaRcICllru9DlpPeqhK5T9uql1WjEB9pKgWkruvUKiy8KUoMcUMNC2l5YJi1BwA==",
+      "shasum": "558be3eb3091dc35f635131a8c787774092d60fd",
+      "tarball": "https://registry.npmjs.org/@yank-note/extension-nes-emulator/-/extension-nes-emulator-1.0.0.tgz",
+      "fileCount": 26,
+      "unpackedSize": 2055569
+    },
+    "directories": {},
+    "maintainers": [
+      {
+        "name": "purocean",
+        "email": "purocean@outlook.com"
+      }
+    ],
+    "readmeUrl": "https://registry.yank-note.com/cdn/@yank-note/extension-nes-emulator/1.0.0/README.md",
+    "changelogUrl": "https://registry.yank-note.com/cdn/@yank-note/extension-nes-emulator/1.0.0/CHANGELOG.md",
+    "origin": "official"
+  },
+  {
     "name": "yank-note-extension-theme-yanser",
     "version": "2.0.0",
     "displayName": "theme｜Yanser",
