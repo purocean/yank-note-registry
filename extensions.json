@@ -7,7 +7,7 @@
     { "id": "@yank-note/extension-reveal-js", "version": "1.8.0" },
     { "id": "@yank-note/extension-markmap", "version": "1.5.3" },
     { "id": "@yank-note/extension-code-runner", "version": "1.2.0" },
-    { "id": "@yank-note/extension-ai-copilot", "version": "1.9.1" },
+    { "id": "@yank-note/extension-ai-copilot", "version": "1.9.2" },
     { "id": "@yank-note/extension-repl", "version": "1.2.1" },
     { "id": "@yank-note/extension-kroki", "version": "1.1.1" },
     { "id": "@yank-note/extension-markdown-prettier", "version": "1.4.3" },
