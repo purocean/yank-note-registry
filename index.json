@@ -703,6 +703,54 @@
     "origin": "official"
   },
   {
+    "name": "@yank-note/extension-renumber",
+    "version": "1.0.0",
+    "displayName": "Renumber",
+    "displayName_ZH-CN": "自动编号",
+    "description": "Automatically renumber the list items in the note.",
+    "description_ZH-CN": "自动为笔记中的列表项编号。",
+    "keywords": [],
+    "author": {
+      "name": "Yank Note"
+    },
+    "license": "AGPL-3.0",
+    "homepage": "https://github.com/purocean/yank-note-extension/tree/main/packages/extension-renumber",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/purocean/yank-note-extension.git"
+    },
+    "main": "./dist/index.js",
+    "icon": "https://registry.yank-note.com/cdn/@yank-note/extension-renumber/1.0.0/icon.svg",
+    "style": "./dist/style.css",
+    "engines": {
+      "node": ">=14.6.0",
+      "yank-note": "^3.66.0"
+    },
+    "requirements": {
+      "premium": true
+    },
+    "bugs": {
+      "url": "https://github.com/purocean/yank-note-extension/issues"
+    },
+    "dist": {
+      "integrity": "sha512-LNSov8NIPtuCKLDDJX7Q2HLmI9DFTSuJDsR02DrO8bK2uae3H68dauCcJbvMO7B7tsNrWJM3R4vL12Fu+ZRTZA==",
+      "shasum": "738951ee2cbfe9a6d7f8ef5e780dd08cde861ab8",
+      "tarball": "https://registry.npmjs.org/@yank-note/extension-renumber/-/extension-renumber-1.0.0.tgz",
+      "fileCount": 7,
+      "unpackedSize": 43677
+    },
+    "directories": {},
+    "maintainers": [
+      {
+        "name": "purocean",
+        "email": "purocean@outlook.com"
+      }
+    ],
+    "readmeUrl": "https://registry.yank-note.com/cdn/@yank-note/extension-renumber/1.0.0/README.md",
+    "changelogUrl": "https://registry.yank-note.com/cdn/@yank-note/extension-renumber/1.0.0/CHANGELOG.md",
+    "origin": "official"
+  },
+  {
     "name": "@yank-note/extension-luckysheet",
     "version": "1.1.3",
     "displayName": "Luckysheet",
