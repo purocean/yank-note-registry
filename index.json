@@ -704,7 +704,7 @@
   },
   {
     "name": "@yank-note/extension-renumber",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "displayName": "Renumber",
     "displayName_ZH-CN": "自动编号",
     "description": "Automatically renumber the list items in the note.",
@@ -720,7 +720,7 @@
       "url": "git+https://github.com/purocean/yank-note-extension.git"
     },
     "main": "./dist/index.js",
-    "icon": "https://registry.yank-note.com/cdn/@yank-note/extension-renumber/1.0.0/icon.svg",
+    "icon": "https://registry.yank-note.com/cdn/@yank-note/extension-renumber/1.0.1/icon.svg",
     "style": "./dist/style.css",
     "engines": {
       "node": ">=14.6.0",
@@ -733,11 +733,11 @@
       "url": "https://github.com/purocean/yank-note-extension/issues"
     },
     "dist": {
-      "integrity": "sha512-LNSov8NIPtuCKLDDJX7Q2HLmI9DFTSuJDsR02DrO8bK2uae3H68dauCcJbvMO7B7tsNrWJM3R4vL12Fu+ZRTZA==",
-      "shasum": "738951ee2cbfe9a6d7f8ef5e780dd08cde861ab8",
-      "tarball": "https://registry.npmjs.org/@yank-note/extension-renumber/-/extension-renumber-1.0.0.tgz",
+      "integrity": "sha512-wZkgfRkln+fZHQfCYTSJJJqJdcNgETtDdtBqCw2gLvUZb7wy8WLdT5GS01GPgw6z/YPB03nZ4ywuEi/4WR68wQ==",
+      "shasum": "2d8bba994cd6299bcd4636fe6380c0c61af2196a",
+      "tarball": "https://registry.npmjs.org/@yank-note/extension-renumber/-/extension-renumber-1.0.1.tgz",
       "fileCount": 7,
-      "unpackedSize": 43677
+      "unpackedSize": 44085
     },
     "directories": {},
     "maintainers": [
@@ -746,8 +746,8 @@
         "email": "purocean@outlook.com"
       }
     ],
-    "readmeUrl": "https://registry.yank-note.com/cdn/@yank-note/extension-renumber/1.0.0/README.md",
-    "changelogUrl": "https://registry.yank-note.com/cdn/@yank-note/extension-renumber/1.0.0/CHANGELOG.md",
+    "readmeUrl": "https://registry.yank-note.com/cdn/@yank-note/extension-renumber/1.0.1/README.md",
+    "changelogUrl": "https://registry.yank-note.com/cdn/@yank-note/extension-renumber/1.0.1/CHANGELOG.md",
     "origin": "official"
   },
   {
