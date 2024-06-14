@@ -467,6 +467,53 @@
     "origin": "official"
   },
   {
+    "name": "@yank-note/extension-tldraw",
+    "version": "1.0.0",
+    "displayName": "tldraw",
+    "description": "tldraw integration",
+    "displayName_ZH-CN": "tldraw",
+    "description_ZH-CN": "tldraw 集成",
+    "author": {
+      "name": "Yank Note"
+    },
+    "license": "AGPL-3.0",
+    "keywords": [],
+    "homepage": "https://github.com/purocean/yank-note-extension/tree/main/packages/extension-tldraw",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/purocean/yank-note-extension.git"
+    },
+    "main": "./main/index.js",
+    "icon": "https://registry.yank-note.com/cdn/@yank-note/extension-tldraw/1.0.0/icon.svg",
+    "engines": {
+      "node": ">=14.6.0",
+      "yank-note": "^3.66.0"
+    },
+    "requirements": {
+      "premium": true
+    },
+    "bugs": {
+      "url": "https://github.com/purocean/yank-note-extension/issues"
+    },
+    "dist": {
+      "integrity": "sha512-MUwLr0cY9taWob/B3TwcE+m7AraKLmyO9kdWm6y/LgjIpUoVzUM4iV7saTdmwzlT3MPCML33T1Xxytf3Xdbonw==",
+      "shasum": "ff53146a276bb3949eb3eb88aba5b4a23bb50134",
+      "tarball": "https://registry.npmjs.org/@yank-note/extension-tldraw/-/extension-tldraw-1.0.0.tgz",
+      "fileCount": 210,
+      "unpackedSize": 2145039
+    },
+    "directories": {},
+    "maintainers": [
+      {
+        "name": "purocean",
+        "email": "purocean@outlook.com"
+      }
+    ],
+    "readmeUrl": "https://registry.yank-note.com/cdn/@yank-note/extension-tldraw/1.0.0/README.md",
+    "changelogUrl": "https://registry.yank-note.com/cdn/@yank-note/extension-tldraw/1.0.0/CHANGELOG.md",
+    "origin": "official"
+  },
+  {
     "name": "@yank-note/extension-markdown-prettier",
     "version": "1.4.3",
     "displayName": "Markdown Prettier",
