@@ -279,7 +279,7 @@
   },
   {
     "name": "@yank-note/extension-code-runner",
-    "version": "1.2.0",
+    "version": "1.3.0",
     "displayName": "Code Runner",
     "displayName_ZH-CN": "Code Runner",
     "description": "Run code for multiple languages: BASH/SH, PHP, Python, Node.js, BAT, Java, C and more.",
@@ -295,7 +295,7 @@
       "url": "git+https://github.com/purocean/yank-note-extension.git"
     },
     "main": "./dist/index.js",
-    "icon": "https://registry.yank-note.com/cdn/@yank-note/extension-code-runner/1.2.0/icon.png",
+    "icon": "https://registry.yank-note.com/cdn/@yank-note/extension-code-runner/1.3.0/icon.png",
     "engines": {
       "node": ">=14.6.0",
       "yank-note": "^3.34.0"
@@ -307,11 +307,11 @@
       "url": "https://github.com/purocean/yank-note-extension/issues"
     },
     "dist": {
-      "integrity": "sha512-LpMU0KCAX9kquRSqJWLY68hDtAUOauF1fckOEhEUFrePReWf1R1t7zfMJnU1NlN8jLHw6wF9mYznDhuqdySYMQ==",
-      "shasum": "85a8e2a092d75a729c1f78b4609464e60438ecc3",
-      "tarball": "https://registry.npmjs.org/@yank-note/extension-code-runner/-/extension-code-runner-1.2.0.tgz",
+      "integrity": "sha512-si/zeOsOj8taLJA8+ZDGyi22XiRJtcU5FMl31bPgk+4rzjofnTizZJ6tJcFueAuvlUVr5IIu98Jh/A2vJNS2vw==",
+      "shasum": "9c2dbc8311c1b72b21bb8f4c6abd208abd2545d0",
+      "tarball": "https://registry.npmjs.org/@yank-note/extension-code-runner/-/extension-code-runner-1.3.0.tgz",
       "fileCount": 6,
-      "unpackedSize": 53642
+      "unpackedSize": 54032
     },
     "directories": {},
     "maintainers": [
@@ -320,8 +320,8 @@
         "email": "purocean@outlook.com"
       }
     ],
-    "readmeUrl": "https://registry.yank-note.com/cdn/@yank-note/extension-code-runner/1.2.0/README.md",
-    "changelogUrl": "https://registry.yank-note.com/cdn/@yank-note/extension-code-runner/1.2.0/CHANGELOG.md",
+    "readmeUrl": "https://registry.yank-note.com/cdn/@yank-note/extension-code-runner/1.3.0/README.md",
+    "changelogUrl": "https://registry.yank-note.com/cdn/@yank-note/extension-code-runner/1.3.0/CHANGELOG.md",
     "origin": "official"
   },
   {
