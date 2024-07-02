@@ -13,7 +13,7 @@
     { "id": "@yank-note/extension-tldraw", "version": "1.0.0" },
     { "id": "@yank-note/extension-markdown-prettier", "version": "1.4.3" },
     { "id": "@yank-note/extension-pdf-viewer", "version": "1.2.2" },
-    { "id": "@yank-note/extension-popup-preview", "version": "1.2.2" },
+    { "id": "@yank-note/extension-popup-preview", "version": "1.2.3" },
     { "id": "@yank-note/extension-git-push", "version": "1.4.0" },
     { "id": "@yank-note/extension-sublime-merge", "version": "1.4.3" },
     { "id": "@yank-note/extension-renumber", "version": "1.0.1" },
