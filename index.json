@@ -496,6 +496,53 @@
     "origin": "official"
   },
   {
+    "name": "@yank-note/extension-geogebra",
+    "version": "1.0.0",
+    "displayName": "GeoGebra",
+    "description": "GeoGebra integration.",
+    "displayName_ZH-CN": "GeoGebra",
+    "description_ZH-CN": "GeoGebra 集成",
+    "author": {
+      "name": "Yank Note"
+    },
+    "license": "AGPL-3.0",
+    "keywords": [],
+    "homepage": "https://github.com/purocean/yank-note-extension/tree/main/packages/extension-geogebra",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/purocean/yank-note-extension.git"
+    },
+    "main": "./main/index.js",
+    "icon": "https://registry.yank-note.com/cdn/@yank-note/extension-geogebra/1.0.0/icon.svg",
+    "engines": {
+      "node": ">=18.20.2",
+      "yank-note": "^3.72.1"
+    },
+    "requirements": {
+      "premium": true
+    },
+    "bugs": {
+      "url": "https://github.com/purocean/yank-note-extension/issues"
+    },
+    "dist": {
+      "integrity": "sha512-2GTyV2VCSgnWZg2+plPiEzfbc52aKsp4IhwuPcgIH1uIkgZLeszc7XargD/x06FSUKGCBvFwc8NvaDcx7Vs11Q==",
+      "shasum": "935d65005837a02ebcb9b60749ed21cab93c3376",
+      "tarball": "https://registry.npmjs.org/@yank-note/extension-geogebra/-/extension-geogebra-1.0.0.tgz",
+      "fileCount": 449,
+      "unpackedSize": 104357936
+    },
+    "directories": {},
+    "maintainers": [
+      {
+        "name": "purocean",
+        "email": "purocean@outlook.com"
+      }
+    ],
+    "readmeUrl": "https://registry.yank-note.com/cdn/@yank-note/extension-geogebra/1.0.0/README.md",
+    "changelogUrl": "https://registry.yank-note.com/cdn/@yank-note/extension-geogebra/1.0.0/CHANGELOG.md",
+    "origin": "official"
+  },
+  {
     "name": "@yank-note/extension-markdown-prettier",
     "version": "1.4.3",
     "displayName": "Markdown Prettier",
