@@ -497,7 +497,7 @@
   },
   {
     "name": "@yank-note/extension-geogebra",
-    "version": "1.1.1",
+    "version": "1.1.2",
     "displayName": "GeoGebra",
     "description": "GeoGebra integration.",
     "displayName_ZH-CN": "GeoGebra",
@@ -513,7 +513,7 @@
       "url": "git+https://github.com/purocean/yank-note-extension.git"
     },
     "main": "./main/index.js",
-    "icon": "https://registry.yank-note.com/cdn/@yank-note/extension-geogebra/1.1.1/icon.svg",
+    "icon": "https://registry.yank-note.com/cdn/@yank-note/extension-geogebra/1.1.2/icon.svg",
     "engines": {
       "node": ">=18.20.2",
       "yank-note": "^3.72.1"
@@ -523,11 +523,11 @@
       "url": "https://github.com/purocean/yank-note-extension/issues"
     },
     "dist": {
-      "integrity": "sha512-SKI1UHdL+DJusJc7QITamygXEwsMS5DgoSZnm1mOnV5D4rdrMttzsPzRQFWc/yRjgyS82ekbodK3e645hsIoYg==",
-      "shasum": "9591dcdd9c5cdfb06bdedd775c0d834a327a2e81",
-      "tarball": "https://registry.npmjs.org/@yank-note/extension-geogebra/-/extension-geogebra-1.1.1.tgz",
+      "integrity": "sha512-aN5T+PP+yL+IKDfBw15szW2j7W5O7j4a+fE5lhHGWbjBapHywmi/7BpJGeM01h97lO7BX2jK/2Rz+K7VqUbBNQ==",
+      "shasum": "c17418ead1e6519508505152dec592c321025fc0",
+      "tarball": "https://registry.npmjs.org/@yank-note/extension-geogebra/-/extension-geogebra-1.1.2.tgz",
       "fileCount": 449,
-      "unpackedSize": 104358312
+      "unpackedSize": 104358432
     },
     "directories": {},
     "maintainers": [
@@ -536,8 +536,8 @@
         "email": "purocean@outlook.com"
       }
     ],
-    "readmeUrl": "https://registry.yank-note.com/cdn/@yank-note/extension-geogebra/1.1.1/README.md",
-    "changelogUrl": "https://registry.yank-note.com/cdn/@yank-note/extension-geogebra/1.1.1/CHANGELOG.md",
+    "readmeUrl": "https://registry.yank-note.com/cdn/@yank-note/extension-geogebra/1.1.2/README.md",
+    "changelogUrl": "https://registry.yank-note.com/cdn/@yank-note/extension-geogebra/1.1.2/CHANGELOG.md",
     "origin": "official"
   },
   {
