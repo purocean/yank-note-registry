@@ -1,6 +1,6 @@
 {
   "official": [
-    { "id": "@yank-note/extension-mermaid", "version": "1.7.0" },
+    { "id": "@yank-note/extension-mermaid", "version": "1.7.1" },
     { "id": "@yank-note/extension-drawio", "version": "2.3.0" },
     { "id": "@yank-note/extension-excalidraw", "version": "1.5.0" },
     { "id": "@yank-note/extension-echarts", "version": "1.5.2" },
