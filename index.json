@@ -326,7 +326,7 @@
   },
   {
     "name": "@yank-note/extension-ai-copilot",
-    "version": "1.16.2",
+    "version": "1.17.0",
     "displayName": "AI Copilot",
     "description": "Your AI writing assistant",
     "displayName_ZH-CN": "AI Copilot",
@@ -343,9 +343,9 @@
     },
     "main": "./dist/index.js",
     "style": "./dist/style.css",
-    "icon": "https://registry.yank-note.com/cdn/@yank-note/extension-ai-copilot/1.16.2/icon.svg",
+    "icon": "https://registry.yank-note.com/cdn/@yank-note/extension-ai-copilot/1.17.0/icon.svg",
     "engines": {
-      "node": ">=14.6.0",
+      "node": ">=18.20.2",
       "yank-note": "^3.65.0"
     },
     "requirements": {
@@ -355,11 +355,11 @@
       "url": "https://github.com/purocean/yank-note-extension/issues"
     },
     "dist": {
-      "integrity": "sha512-Ms5Nbalhnx4wFCkuvekM31jCrnVt1yBxwmi7A9MrK0eZzKsGgox7IdC540AcdDgPUhTVN6CP7X/++8FYhwgR0g==",
-      "shasum": "0537b4f660d6e5b2d7ceff9c9906c3f3c952b216",
-      "tarball": "https://registry.npmjs.org/@yank-note/extension-ai-copilot/-/extension-ai-copilot-1.16.2.tgz",
+      "integrity": "sha512-u1hTh9U2tV0jD+CFPwf5yI+5n2QZwohF9DbkFKyO3tO+dniPsHXvCm0QP3yeekokb0NzVyBVjKrNwJ1K4iPhAQ==",
+      "shasum": "ce906b5c3c9485b16a489c8d39658fbb312dc7b9",
+      "tarball": "https://registry.npmjs.org/@yank-note/extension-ai-copilot/-/extension-ai-copilot-1.17.0.tgz",
       "fileCount": 7,
-      "unpackedSize": 146273
+      "unpackedSize": 146976
     },
     "directories": {},
     "maintainers": [
@@ -368,8 +368,8 @@
         "email": "purocean@outlook.com"
       }
     ],
-    "readmeUrl": "https://registry.yank-note.com/cdn/@yank-note/extension-ai-copilot/1.16.2/README.md",
-    "changelogUrl": "https://registry.yank-note.com/cdn/@yank-note/extension-ai-copilot/1.16.2/CHANGELOG.md",
+    "readmeUrl": "https://registry.yank-note.com/cdn/@yank-note/extension-ai-copilot/1.17.0/README.md",
+    "changelogUrl": "https://registry.yank-note.com/cdn/@yank-note/extension-ai-copilot/1.17.0/CHANGELOG.md",
     "origin": "official"
   },
   {
