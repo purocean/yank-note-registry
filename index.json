@@ -737,49 +737,49 @@
   },
   {
     "name": "@yank-note/extension-sublime-merge",
-    "version": "1.4.3",
-    "displayName": "Sublime Merge",
-    "description": "Sublime Merge integration for Yank Note",
-    "displayName_ZH-CN": "Sublime Merge",
-    "description_ZH-CN": "Sublime Merge 和 Yank Note 的集成",
+    "version": "1.5.0",
+    "keywords": [],
     "author": {
       "name": "Yank Note"
     },
     "license": "AGPL-3.0",
-    "keywords": [],
-    "homepage": "https://github.com/purocean/yank-note-extension/tree/main/packages/extension-sublime-merge",
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/purocean/yank-note-extension.git"
-    },
-    "main": "./dist/index.js",
-    "icon": "https://registry.yank-note.com/cdn/@yank-note/extension-sublime-merge/1.4.3/icon.png",
-    "engines": {
-      "node": ">=14.6.0",
-      "yank-note": "^3.59.1"
-    },
-    "requirements": {
-      "terminal": true
-    },
-    "bugs": {
-      "url": "https://github.com/purocean/yank-note-extension/issues"
-    },
-    "dist": {
-      "integrity": "sha512-V3O8Gp2mPNwmlQKir3Zmdnh4HgPbWc+QjWtFsDlt1juRo5sIWb7tdvfAakm+TsAJrNhS9Sb7ONMdtq4S5ruCNg==",
-      "shasum": "c7831f2079d82213cc00b0975f461a4da53bb03c",
-      "tarball": "https://registry.npmjs.org/@yank-note/extension-sublime-merge/-/extension-sublime-merge-1.4.3.tgz",
-      "fileCount": 6,
-      "unpackedSize": 63792
-    },
-    "directories": {},
     "maintainers": [
       {
         "name": "purocean",
         "email": "purocean@outlook.com"
       }
     ],
-    "readmeUrl": "https://registry.yank-note.com/cdn/@yank-note/extension-sublime-merge/1.4.3/README.md",
-    "changelogUrl": "https://registry.yank-note.com/cdn/@yank-note/extension-sublime-merge/1.4.3/CHANGELOG.md",
+    "homepage": "https://github.com/purocean/yank-note-extension/tree/main/packages/extension-sublime-merge",
+    "bugs": {
+      "url": "https://github.com/purocean/yank-note-extension/issues"
+    },
+    "dist": {
+      "shasum": "ad9e033bbc603743bfb6b9c4e36455a1a94a2d5f",
+      "tarball": "https://registry.npmjs.org/@yank-note/extension-sublime-merge/-/extension-sublime-merge-1.5.0.tgz",
+      "fileCount": 6,
+      "integrity": "sha512-kwYj/52oTlRiOLvphBfIr/oG88ICFDRK64Xe35Rs/kXsSdj5dsGMplezTnOsLOYS4EBKQYEvPprSo8F7A41C7A==",
+      "unpackedSize": 64931
+    },
+    "icon": "https://registry.yank-note.com/cdn/@yank-note/extension-sublime-merge/1.5.0/icon.png",
+    "main": "./dist/index.js",
+    "engines": {
+      "node": ">=18.20.2",
+      "yank-note": "^3.59.1"
+    },
+    "repository": {
+      "url": "git+https://github.com/purocean/yank-note-extension.git",
+      "type": "git"
+    },
+    "description": "Sublime Merge integration for Yank Note",
+    "directories": {},
+    "displayName": "Sublime Merge",
+    "requirements": {
+      "terminal": true
+    },
+    "description_ZH-CN": "Sublime Merge 和 Yank Note 的集成",
+    "displayName_ZH-CN": "Sublime Merge",
+    "readmeUrl": "https://registry.yank-note.com/cdn/@yank-note/extension-sublime-merge/1.5.0/README.md",
+    "changelogUrl": "https://registry.yank-note.com/cdn/@yank-note/extension-sublime-merge/1.5.0/CHANGELOG.md",
     "origin": "official"
   },
   {
