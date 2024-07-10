@@ -1260,5 +1260,44 @@
     "readmeUrl": "https://registry.yank-note.com/cdn/yank-note-extension-snippet/1.0.3/README.md",
     "changelogUrl": "https://registry.yank-note.com/cdn/yank-note-extension-snippet/1.0.3/CHANGELOG.md",
     "origin": "registry"
+  },
+  {
+    "name": "yank-note-extension-docsify",
+    "version": "0.0.1",
+    "displayName": "Docsify",
+    "description": "Docsify quick start",
+    "displayName_ZH-CN": "Docsify",
+    "description_ZH-CN": "一键配置 Docsify",
+    "author": {
+      "name": "zhyipeng"
+    },
+    "license": "MIT",
+    "keywords": [],
+    "homepage": "https://github.com/zhyipeng/yank-note-extension-docsify",
+    "main": "./dist/index.js",
+    "style": "./dist/style.css",
+    "icon": "https://registry.yank-note.com/cdn/yank-note-extension-docsify/0.0.1/icon.ico",
+    "engines": {
+      "node": ">=14.6.0",
+      "yank-note": ">=3.60.1"
+    },
+    "gitHead": "d90c555956e3b95edc684c188a4ab725e5e49e87",
+    "dist": {
+      "integrity": "sha512-7ivXxLeEdsIJP88jpixq7HrGxgi/CGmBNUrGxRy25RxLlP4oFymYu6RKnj6nMwcnWWYWldFpzsZiw4eKH/7FyQ==",
+      "shasum": "b83edfecd3a11dbb3c8e543511eaa8df9aa1e54d",
+      "tarball": "https://registry.npmjs.org/yank-note-extension-docsify/-/yank-note-extension-docsify-0.0.1.tgz",
+      "fileCount": 7,
+      "unpackedSize": 75835
+    },
+    "directories": {},
+    "maintainers": [
+      {
+        "name": "zhyipeng",
+        "email": "zhyipeng@outlook.com"
+      }
+    ],
+    "readmeUrl": "https://registry.yank-note.com/cdn/yank-note-extension-docsify/0.0.1/README.md",
+    "changelogUrl": "https://registry.yank-note.com/cdn/yank-note-extension-docsify/0.0.1/CHANGELOG.md",
+    "origin": "registry"
   }
 ]
