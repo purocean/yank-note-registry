@@ -5,6 +5,7 @@ const index = require('./index.json');
 const { official, registry } = require('./extensions.json');
 
 const cdnPrefix = 'https://fastly.jsdelivr.net/npm/'
+const useCdnImgDomains = ['github.com', 'githubusercontent.com'];
 
 function createDirectoryIfNotExists(dirPath) {
   if (!fs.existsSync(dirPath)) {
@@ -31,18 +32,73 @@ async function buildCDNUrl (id, version, filename) {
     filename = path.basename(filename.replace(/^https?:\/\/[^/]+\//, ''))
   }
 
-  const urlPath = path.join('cdn', id, version, filename)
-  const filePath = path.join(__dirname, urlPath);
+  let urlPath = path.join('cdn', id, version, filename)
+  let filePath = path.join(__dirname, urlPath);
 
   createDirectoryIfNotExists(path.dirname(filePath));
 
   await new Promise(async (resolve, reject) => {
     console.log(`    Download: ${url}`);
-    const stream = await fetch(url).then(res => res.body);
+    const res =  await fetch(url)
+
+    // file path without extension
+    if (!path.extname(filePath)) {
+      const contentType = res.headers.get('content-type');
+      const ext = contentType.split('/')[1];
+      urlPath += `.${ext}`;
+      filePath += `.${ext}`;
+    }
+
+    const stream = res.body;
     stream.on('end', resolve);
     stream.on('error', reject);
     stream.pipe(fs.createWriteStream(filePath));
   });
+
+  const _url = new URL('https://registry.yank-note.com/' + urlPath);
+  const cdnUrl = _url.toString();
+  console.log(`    CDN: ${cdnUrl}`);
+  return cdnUrl;
+}
+
+async function buildMarkdownCDNUrl (id, version, filename) {
+  if (!filename) {
+    return filename;
+  }
+
+  let url = filename
+
+  if (!/^https?:\/\//.test(url)) {
+    url = `${cdnPrefix}${id}@${version}/${filename}`
+  } else {
+    filename = path.basename(filename.replace(/^https?:\/\/[^/]+\//, ''))
+  }
+
+  const urlPath = path.join('cdn', id, version, filename)
+  const filePath = path.join(__dirname, urlPath);
+
+  createDirectoryIfNotExists(path.dirname(filePath));
+
+  console.log(`    Download: ${url}`);
+  let markdown = await fetch(url).then(res => res.text());
+  if (markdown.length) {
+    const imgReg = /!\[(.*?)\]\((.*?)\)/g
+    const match = markdown.match(imgReg)
+    if (match) {
+      for (const m of match) {
+        const imgUrl = m.match(/!\[(.*?)\]\((.*?)\)/)[2]
+
+        if (!useCdnImgDomains.some(domain => imgUrl.includes(domain))) {
+          continue
+        }
+
+        const cdnUrl = await buildCDNUrl(id, version, imgUrl)
+        markdown = markdown.replace(new RegExp(imgUrl, 'g'), cdnUrl)
+      }
+    }
+  }
+
+  fs.writeFileSync(filePath, markdown);
 
   const _url = new URL('https://registry.yank-note.com/' + urlPath);
   const cdnUrl = _url.toString();
@@ -77,7 +133,7 @@ async function fetchInfo (id, version) {
   });
 
   packageJson.icon = await buildCDNUrl(id, version, packageJson.icon)
-  packageJson.readmeUrl = await buildCDNUrl(id, version, packageJson.readmeUrl || 'README.md')
+  packageJson.readmeUrl = await buildMarkdownCDNUrl(id, version, packageJson.readmeUrl || 'README.md')
   packageJson.changelogUrl = await buildCDNUrl(id, version, packageJson.changelogUrl || 'CHANGELOG.md')
 
   return packageJson;
