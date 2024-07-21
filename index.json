@@ -279,7 +279,7 @@
   },
   {
     "name": "@yank-note/extension-code-runner",
-    "version": "1.3.0",
+    "version": "1.4.0",
     "displayName": "Code Runner",
     "displayName_ZH-CN": "Code Runner",
     "description": "Run code for multiple languages: BASH/SH, PHP, Python, Node.js, BAT, Java, C and more.",
@@ -295,9 +295,9 @@
       "url": "git+https://github.com/purocean/yank-note-extension.git"
     },
     "main": "./dist/index.js",
-    "icon": "https://registry.yank-note.com/cdn/@yank-note/extension-code-runner/1.3.0/icon.png",
+    "icon": "https://registry.yank-note.com/cdn/@yank-note/extension-code-runner/1.4.0/icon.png",
     "engines": {
-      "node": ">=14.6.0",
+      "node": ">=18.20.2",
       "yank-note": "^3.34.0"
     },
     "requirements": {
@@ -307,11 +307,11 @@
       "url": "https://github.com/purocean/yank-note-extension/issues"
     },
     "dist": {
-      "integrity": "sha512-si/zeOsOj8taLJA8+ZDGyi22XiRJtcU5FMl31bPgk+4rzjofnTizZJ6tJcFueAuvlUVr5IIu98Jh/A2vJNS2vw==",
-      "shasum": "9c2dbc8311c1b72b21bb8f4c6abd208abd2545d0",
-      "tarball": "https://registry.npmjs.org/@yank-note/extension-code-runner/-/extension-code-runner-1.3.0.tgz",
+      "integrity": "sha512-8FAxVBXcVZJm0OAnDiUQBLApWXa66OTK1tsncGF5Ep5s9W2JUXlHBzOAMqY7fjFGRU3XoKs/0gNCyRGoC55VNA==",
+      "shasum": "a37f7d0388d1b435b4c6a8fa6c5c7bff0720bad4",
+      "tarball": "https://registry.npmjs.org/@yank-note/extension-code-runner/-/extension-code-runner-1.4.0.tgz",
       "fileCount": 6,
-      "unpackedSize": 54032
+      "unpackedSize": 54426
     },
     "directories": {},
     "maintainers": [
@@ -320,8 +320,8 @@
         "email": "purocean@outlook.com"
       }
     ],
-    "readmeUrl": "https://registry.yank-note.com/cdn/@yank-note/extension-code-runner/1.3.0/README.md",
-    "changelogUrl": "https://registry.yank-note.com/cdn/@yank-note/extension-code-runner/1.3.0/CHANGELOG.md",
+    "readmeUrl": "https://registry.yank-note.com/cdn/@yank-note/extension-code-runner/1.4.0/README.md",
+    "changelogUrl": "https://registry.yank-note.com/cdn/@yank-note/extension-code-runner/1.4.0/CHANGELOG.md",
     "origin": "official"
   },
   {
