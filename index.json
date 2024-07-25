@@ -1251,7 +1251,7 @@
   },
   {
     "name": "yank-note-extension-docsify",
-    "version": "0.0.2",
+    "version": "0.0.3",
     "displayName": "Docsify",
     "description": "Docsify quick start",
     "displayName_ZH-CN": "Docsify",
@@ -1264,18 +1264,17 @@
     "homepage": "https://github.com/zhyipeng/yank-note-extension-docsify",
     "main": "./dist/index.js",
     "style": "./dist/style.css",
-    "icon": "https://registry.yank-note.com/cdn/yank-note-extension-docsify/0.0.2/icon.ico",
+    "icon": "https://registry.yank-note.com/cdn/yank-note-extension-docsify/0.0.3/icon.ico",
     "engines": {
       "node": ">=14.6.0",
       "yank-note": ">=3.60.1"
     },
-    "gitHead": "9c5d29c03d762591d7debf4f45a24a1a0beeacd4",
     "dist": {
-      "integrity": "sha512-wPk4BPgovm9lzXKKtf1aZzVwen4HxqngcjZYUwgPQiFeG0XR1FYy/vVaeLwcoB30il33iIxRgENyIAGL3sVeeg==",
-      "shasum": "4d4a55b7be9cb12373e1ac123f57f3b1c5686b0e",
-      "tarball": "https://registry.npmjs.org/yank-note-extension-docsify/-/yank-note-extension-docsify-0.0.2.tgz",
+      "integrity": "sha512-Bb/9wodQ7FR5LOTGsMEsJedMrCxjusg/sZO4aSoSSJD5+ShY0dMhodnjoQ+cg3tyY7BkOMOW/SayLrhoAsYfZA==",
+      "shasum": "44c94011925a62ca24d363a58a968b52aa64bda1",
+      "tarball": "https://registry.npmjs.org/yank-note-extension-docsify/-/yank-note-extension-docsify-0.0.3.tgz",
       "fileCount": 7,
-      "unpackedSize": 76694
+      "unpackedSize": 76995
     },
     "directories": {},
     "maintainers": [
@@ -1284,8 +1283,8 @@
         "email": "zhyipeng@outlook.com"
       }
     ],
-    "readmeUrl": "https://registry.yank-note.com/cdn/yank-note-extension-docsify/0.0.2/README.md",
-    "changelogUrl": "https://registry.yank-note.com/cdn/yank-note-extension-docsify/0.0.2/CHANGELOG.md",
+    "readmeUrl": "https://registry.yank-note.com/cdn/yank-note-extension-docsify/0.0.3/README.md",
+    "changelogUrl": "https://registry.yank-note.com/cdn/yank-note-extension-docsify/0.0.3/CHANGELOG.md",
     "origin": "registry"
   }
 ]
