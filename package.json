@@ -1,6 +1,6 @@
 {
   "name": "yank-note-registry",
-  "version": "1.0.264",
+  "version": "1.0.265",
   "description": "Yank Note Extension Registry",
   "main": "index.json",
   "repository": "git@github.com:purocean/yank-note-registry.git",
