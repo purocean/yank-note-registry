@@ -29,6 +29,6 @@
     { "id": "yank-note-extension-vim-mode", "version": "1.1.0" },
     { "id": "yank-note-extension-tool-bar", "version": "1.0.0" },
     { "id": "yank-note-extension-snippet", "version": "1.0.3" },
-    { "id": "yank-note-extension-docsify", "version": "0.0.2" }
+    { "id": "yank-note-extension-docsify", "version": "0.0.3" }
   ]
 }
