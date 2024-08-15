@@ -279,7 +279,7 @@
   },
   {
     "name": "@yank-note/extension-markmap",
-    "version": "1.6.0",
+    "version": "1.7.0",
     "displayName": "Markmap",
     "description": "Visualize your Markdown as mindmaps with Markmap.",
     "displayName_ZH-CN": "Markmap",
@@ -296,7 +296,7 @@
     },
     "main": "./dist/index.js",
     "style": "./dist/style.css",
-    "icon": "https://registry.yank-note.com/cdn/@yank-note/extension-markmap/1.6.0/icon.png",
+    "icon": "https://registry.yank-note.com/cdn/@yank-note/extension-markmap/1.7.0/icon.png",
     "engines": {
       "node": ">=18.20.2",
       "yank-note": "^3.72.1"
@@ -308,11 +308,11 @@
       "url": "https://github.com/purocean/yank-note-extension/issues"
     },
     "dist": {
-      "integrity": "sha512-PaSlwUmLDLqZbTm2hqRe36MzDSSDU+OoBsucK5kwYxa8vBPG8Jn55iMa9GF2sByIn1FnXPxvc9Mb5TMjKheUIQ==",
-      "shasum": "805df3c3d3769f9e2ddabad576bf5ece70a1b7f5",
-      "tarball": "https://registry.npmjs.org/@yank-note/extension-markmap/-/extension-markmap-1.6.0.tgz",
+      "integrity": "sha512-SmAV8jPKnqWKyKTcBjI7DNG/Wb51t30JikrUsMV4Yt/fJVrsZTB8HHLUL0ThjaEcDEHogiBg9KduRIB/bWtP5A==",
+      "shasum": "efb9251d154180689d861c36f234c200ebcf8972",
+      "tarball": "https://registry.npmjs.org/@yank-note/extension-markmap/-/extension-markmap-1.7.0.tgz",
       "fileCount": 12,
-      "unpackedSize": 1168018
+      "unpackedSize": 1168583
     },
     "directories": {},
     "maintainers": [
@@ -321,8 +321,8 @@
         "email": "purocean@outlook.com"
       }
     ],
-    "readmeUrl": "https://registry.yank-note.com/cdn/@yank-note/extension-markmap/1.6.0/README.md",
-    "changelogUrl": "https://registry.yank-note.com/cdn/@yank-note/extension-markmap/1.6.0/CHANGELOG.md",
+    "readmeUrl": "https://registry.yank-note.com/cdn/@yank-note/extension-markmap/1.7.0/README.md",
+    "changelogUrl": "https://registry.yank-note.com/cdn/@yank-note/extension-markmap/1.7.0/CHANGELOG.md",
     "origin": "official"
   },
   {
@@ -832,7 +832,7 @@
   },
   {
     "name": "@yank-note/extension-luckysheet",
-    "version": "1.1.3",
+    "version": "1.1.4",
     "displayName": "Luckysheet",
     "description": "Luckysheet table integration",
     "displayName_ZH-CN": "Luckysheet",
@@ -849,20 +849,20 @@
     },
     "main": "./dist/index.js",
     "style": "./dist/style.css",
-    "icon": "https://registry.yank-note.com/cdn/@yank-note/extension-luckysheet/1.1.3/icon.png",
+    "icon": "https://registry.yank-note.com/cdn/@yank-note/extension-luckysheet/1.1.4/icon.png",
     "engines": {
-      "node": ">=14.6.0",
+      "node": ">=18.20.2",
       "yank-note": "^3.29.0"
     },
     "bugs": {
       "url": "https://github.com/purocean/yank-note-extension/issues"
     },
     "dist": {
-      "integrity": "sha512-RLagRDU+4/Y398Tl6aRinxNBGbZPj3QUrq309eQD/90thJ0U3KpS9jMO0NXRi+/lDmHtxRXrvBQSaw0DXOrhWg==",
-      "shasum": "dbf2a688b8fcd63329e43c1e98b4ce882e983571",
-      "tarball": "https://registry.npmjs.org/@yank-note/extension-luckysheet/-/extension-luckysheet-1.1.3.tgz",
+      "integrity": "sha512-q3PcDWT8IFxDCfagmWbiZW++5K+sN6AB2Z4gqMy3byVYUveiH54r411eGRMtJkIhg9DiHq6qS1Iox4JYYo2E3g==",
+      "shasum": "e6127ac9427108c38a515744d44b19c92b822e07",
+      "tarball": "https://registry.npmjs.org/@yank-note/extension-luckysheet/-/extension-luckysheet-1.1.4.tgz",
       "fileCount": 53,
-      "unpackedSize": 6597103
+      "unpackedSize": 6596662
     },
     "directories": {},
     "maintainers": [
@@ -871,8 +871,8 @@
         "email": "purocean@outlook.com"
       }
     ],
-    "readmeUrl": "https://registry.yank-note.com/cdn/@yank-note/extension-luckysheet/1.1.3/README.md",
-    "changelogUrl": "https://registry.yank-note.com/cdn/@yank-note/extension-luckysheet/1.1.3/CHANGELOG.md",
+    "readmeUrl": "https://registry.yank-note.com/cdn/@yank-note/extension-luckysheet/1.1.4/README.md",
+    "changelogUrl": "https://registry.yank-note.com/cdn/@yank-note/extension-luckysheet/1.1.4/CHANGELOG.md",
     "origin": "official"
   },
   {
