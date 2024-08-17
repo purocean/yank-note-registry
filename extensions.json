@@ -2,7 +2,7 @@
   "official": [
     { "id": "@yank-note/extension-ai-copilot", "version": "1.24.1" },
     { "id": "@yank-note/extension-mermaid", "version": "1.8.0" },
-    { "id": "@yank-note/extension-drawio", "version": "2.4.0" },
+    { "id": "@yank-note/extension-drawio", "version": "2.5.0" },
     { "id": "@yank-note/extension-excalidraw", "version": "1.6.0" },
     { "id": "@yank-note/extension-echarts", "version": "1.5.2" },
     { "id": "@yank-note/extension-reveal-js", "version": "1.8.0" },
