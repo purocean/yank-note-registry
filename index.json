@@ -1339,7 +1339,7 @@
   },
   {
     "name": "yank-note-extension-background",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "displayName": "自定义背景",
     "description": "现在你可以把 Yank Note 的背景设为你最喜欢的图片了！",
     "author": {
@@ -1353,18 +1353,18 @@
     },
     "homepage": "https://github.com/MirionQs/yank-note-extension-background",
     "main": "./dist/index.js",
-    "icon": "https://registry.yank-note.com/cdn/yank-note-extension-background/1.0.0/icon.svg",
+    "icon": "https://registry.yank-note.com/cdn/yank-note-extension-background/1.0.1/icon.svg",
     "engines": {
       "node": ">=18.20.2",
       "yank-note": ">=3.75.4"
     },
     "licenseText": "MIT License\n\nCopyright (c) 2024 Mirion\n\nPermission is hereby granted, free of charge, to any person obtaining a copy\nof this software and associated documentation files (the \"Software\"), to deal\nin the Software without restriction, including without limitation the rights\nto use, copy, modify, merge, publish, distribute, sublicense, and/or sell\ncopies of the Software, and to permit persons to whom the Software is\nfurnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in all\ncopies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\nFITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE\nAUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\nLIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,\nOUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE\nSOFTWARE.\n",
     "dist": {
-      "shasum": "a297846aa9f290afb6a28e64de9e84985c87c1f1",
-      "integrity": "sha512-BrsXr9Urj4scUuk3Aov09hVlYRVCo/mggJfaCgDJvAc+3KS0RvxV9VYkCO58rkryfUbcGy2ohzsIph4cMR+JOA==",
-      "tarball": "https://registry.npmjs.org/yank-note-extension-background/-/yank-note-extension-background-1.0.0.tgz",
-      "fileCount": 6,
-      "unpackedSize": 4623
+      "shasum": "1f410d662fc43a7fbfb4be3193ec25ab39861ba5",
+      "integrity": "sha512-+DFB+q35xgVwenddjwHYj6zyvKN2GAVrFJrGVRXbLQsIc+LRn4ggQ8FoXjutRedO6rbijwx9AuY/JGcH9XPI+Q==",
+      "tarball": "https://registry.npmjs.org/yank-note-extension-background/-/yank-note-extension-background-1.0.1.tgz",
+      "fileCount": 7,
+      "unpackedSize": 6182
     },
     "directories": {},
     "maintainers": [
@@ -1373,8 +1373,8 @@
         "email": "mirion@qq.com"
       }
     ],
-    "readmeUrl": "https://registry.yank-note.com/cdn/yank-note-extension-background/1.0.0/README.md",
-    "changelogUrl": "https://registry.yank-note.com/cdn/yank-note-extension-background/1.0.0/CHANGELOG.md",
+    "readmeUrl": "https://registry.yank-note.com/cdn/yank-note-extension-background/1.0.1/README.md",
+    "changelogUrl": "https://registry.yank-note.com/cdn/yank-note-extension-background/1.0.1/CHANGELOG.md",
     "origin": "registry"
   }
 ]
