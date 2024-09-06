@@ -1286,5 +1286,95 @@
     "readmeUrl": "https://registry.yank-note.com/cdn/yank-note-extension-docsify/0.0.3/README.md",
     "changelogUrl": "https://registry.yank-note.com/cdn/yank-note-extension-docsify/0.0.3/CHANGELOG.md",
     "origin": "registry"
+  },
+  {
+    "name": "yank-note-extension-math",
+    "version": "0.3.0",
+    "displayName": "数学扩展",
+    "description": "面向数学用户的 Yank Note 扩展",
+    "author": {
+      "name": "Mirion"
+    },
+    "license": "MIT",
+    "keywords": [],
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/MirionQs/yank-note-extension-math.git"
+    },
+    "homepage": "https://github.com/MirionQs/yank-note-extension-math",
+    "main": "./dist/index.js",
+    "icon": "https://registry.yank-note.com/cdn/yank-note-extension-math/0.3.0/icon.png",
+    "engines": {
+      "node": ">=18.20.2",
+      "yank-note": ">=3.75.4"
+    },
+    "themes": [
+      {
+        "name": "香蕉空间",
+        "css": "./themes/banana-space.css"
+      },
+      {
+        "name": "多彩笔记",
+        "css": "./themes/colorful-note.css"
+      }
+    ],
+    "licenseText": "MIT License\n\nCopyright (c) 2022-2024 Mirion\n\nPermission is hereby granted, free of charge, to any person obtaining a copy\nof this software and associated documentation files (the \"Software\"), to deal\nin the Software without restriction, including without limitation the rights\nto use, copy, modify, merge, publish, distribute, sublicense, and/or sell\ncopies of the Software, and to permit persons to whom the Software is\nfurnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in all\ncopies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\nFITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE\nAUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\nLIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,\nOUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE\nSOFTWARE.\n",
+    "dist": {
+      "shasum": "47f3532efee7e1f4eb82db4c8c91d98ef774291e",
+      "integrity": "sha512-5mZp9hJ4//WtdEanWFIb4rktCjyvC5YJyIjxTROuo+MLflZeTqyUo1OggdWfuT0x76B3kwDywTa+dUwMa8nSnA==",
+      "tarball": "https://registry.npmjs.org/yank-note-extension-math/-/yank-note-extension-math-0.3.0.tgz",
+      "fileCount": 31,
+      "unpackedSize": 69049967
+    },
+    "directories": {},
+    "maintainers": [
+      {
+        "name": "mirion",
+        "email": "mirion@qq.com"
+      }
+    ],
+    "readmeUrl": "https://registry.yank-note.com/cdn/yank-note-extension-math/0.3.0/README.md",
+    "changelogUrl": "https://registry.yank-note.com/cdn/yank-note-extension-math/0.3.0/CHANGELOG.md",
+    "origin": "registry"
+  },
+  {
+    "name": "yank-note-extension-background",
+    "version": "1.0.0",
+    "displayName": "自定义背景",
+    "description": "现在你可以把 Yank Note 的背景设为你最喜欢的图片了！",
+    "author": {
+      "name": "Mirion"
+    },
+    "license": "MIT",
+    "keywords": [],
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/MirionQs/yank-note-extension-background.git"
+    },
+    "homepage": "https://github.com/MirionQs/yank-note-extension-background",
+    "main": "./dist/index.js",
+    "icon": "https://registry.yank-note.com/cdn/yank-note-extension-background/1.0.0/icon.svg",
+    "engines": {
+      "node": ">=18.20.2",
+      "yank-note": ">=3.75.4"
+    },
+    "licenseText": "MIT License\n\nCopyright (c) 2024 Mirion\n\nPermission is hereby granted, free of charge, to any person obtaining a copy\nof this software and associated documentation files (the \"Software\"), to deal\nin the Software without restriction, including without limitation the rights\nto use, copy, modify, merge, publish, distribute, sublicense, and/or sell\ncopies of the Software, and to permit persons to whom the Software is\nfurnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in all\ncopies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\nFITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE\nAUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\nLIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,\nOUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE\nSOFTWARE.\n",
+    "dist": {
+      "shasum": "a297846aa9f290afb6a28e64de9e84985c87c1f1",
+      "integrity": "sha512-BrsXr9Urj4scUuk3Aov09hVlYRVCo/mggJfaCgDJvAc+3KS0RvxV9VYkCO58rkryfUbcGy2ohzsIph4cMR+JOA==",
+      "tarball": "https://registry.npmjs.org/yank-note-extension-background/-/yank-note-extension-background-1.0.0.tgz",
+      "fileCount": 6,
+      "unpackedSize": 4623
+    },
+    "directories": {},
+    "maintainers": [
+      {
+        "name": "mirion",
+        "email": "mirion@qq.com"
+      }
+    ],
+    "readmeUrl": "https://registry.yank-note.com/cdn/yank-note-extension-background/1.0.0/README.md",
+    "changelogUrl": "https://registry.yank-note.com/cdn/yank-note-extension-background/1.0.0/CHANGELOG.md",
+    "origin": "registry"
   }
 ]
