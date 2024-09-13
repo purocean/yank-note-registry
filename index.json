@@ -139,7 +139,7 @@
   },
   {
     "name": "@yank-note/extension-excalidraw",
-    "version": "1.7.1",
+    "version": "1.7.2",
     "displayName": "Excalidraw",
     "description": "Excalidraw integration",
     "displayName_ZH-CN": "Excalidraw",
@@ -155,7 +155,7 @@
       "url": "git+https://github.com/purocean/yank-note-extension.git"
     },
     "main": "./main/index.js",
-    "icon": "https://registry.yank-note.com/cdn/@yank-note/extension-excalidraw/1.7.1/icon.png",
+    "icon": "https://registry.yank-note.com/cdn/@yank-note/extension-excalidraw/1.7.2/icon.png",
     "engines": {
       "node": ">=18.20.2",
       "yank-note": "^3.66.0"
@@ -167,11 +167,11 @@
       "url": "https://github.com/purocean/yank-note-extension/issues"
     },
     "dist": {
-      "integrity": "sha512-KFxo5lLJQ+Y7xjq5Kc1iDTK0jcf7brz3ySGuuBLIYbbQw1kqNeAicl9nzoWEqulR48h1YtrxYmCWJUIPA296yg==",
-      "shasum": "d3e3af03162c45946018ffd7faa4ba960df71980",
-      "tarball": "https://registry.npmjs.org/@yank-note/extension-excalidraw/-/extension-excalidraw-1.7.1.tgz",
+      "integrity": "sha512-iL1Ju8yVzaaXPuw+cEEUb32a62Kbz8GzexNa+ZDfV/IIXQZtHV43HFbV+yaaYPq+IIkLU9ckIuQuU4G8gaRNyA==",
+      "shasum": "c32dd33c0ee7c7f1f3976d59042694ab3018c643",
+      "tarball": "https://registry.npmjs.org/@yank-note/extension-excalidraw/-/extension-excalidraw-1.7.2.tgz",
       "fileCount": 68,
-      "unpackedSize": 5666004
+      "unpackedSize": 5666288
     },
     "directories": {},
     "maintainers": [
@@ -180,8 +180,8 @@
         "email": "purocean@outlook.com"
       }
     ],
-    "readmeUrl": "https://registry.yank-note.com/cdn/@yank-note/extension-excalidraw/1.7.1/README.md",
-    "changelogUrl": "https://registry.yank-note.com/cdn/@yank-note/extension-excalidraw/1.7.1/CHANGELOG.md",
+    "readmeUrl": "https://registry.yank-note.com/cdn/@yank-note/extension-excalidraw/1.7.2/README.md",
+    "changelogUrl": "https://registry.yank-note.com/cdn/@yank-note/extension-excalidraw/1.7.2/CHANGELOG.md",
     "origin": "official"
   },
   {
