@@ -1,7 +1,7 @@
 [
   {
     "name": "@yank-note/extension-ai-copilot",
-    "version": "1.24.1",
+    "version": "1.25.0",
     "displayName": "AI Copilot",
     "description": "Your AI writing assistant",
     "displayName_ZH-CN": "AI Copilot",
@@ -18,7 +18,7 @@
     },
     "main": "./dist/index.js",
     "style": "./dist/style.css",
-    "icon": "https://registry.yank-note.com/cdn/@yank-note/extension-ai-copilot/1.24.1/icon.svg",
+    "icon": "https://registry.yank-note.com/cdn/@yank-note/extension-ai-copilot/1.25.0/icon.svg",
     "engines": {
       "node": ">=18.20.2",
       "yank-note": "^3.65.0"
@@ -30,11 +30,11 @@
       "url": "https://github.com/purocean/yank-note-extension/issues"
     },
     "dist": {
-      "integrity": "sha512-EUjE7WrVbHjFRWagXKxdM6VRTN0d1/p+5vPWBvYCNB0WZ3TVWFXUrRAtSDlDa/RSKvwmrTtWqomqVUc3aqf9Gw==",
-      "shasum": "17bf967c8e6929fae3e20868e95b919df12299ea",
-      "tarball": "https://registry.npmjs.org/@yank-note/extension-ai-copilot/-/extension-ai-copilot-1.24.1.tgz",
+      "integrity": "sha512-uysm2NwQ02uSq62h97ecUKA4LY9sZy2dgE7DzvoTFUoeiwyIbz5rF23Ryg+kZHKqbDg+Cdx6iUS95KMoF67YYA==",
+      "shasum": "cdc2ac8b318147d2315a03767a61bcef3e73c997",
+      "tarball": "https://registry.npmjs.org/@yank-note/extension-ai-copilot/-/extension-ai-copilot-1.25.0.tgz",
       "fileCount": 7,
-      "unpackedSize": 197042
+      "unpackedSize": 202525
     },
     "directories": {},
     "maintainers": [
@@ -43,8 +43,8 @@
         "email": "purocean@outlook.com"
       }
     ],
-    "readmeUrl": "https://registry.yank-note.com/cdn/@yank-note/extension-ai-copilot/1.24.1/README.md",
-    "changelogUrl": "https://registry.yank-note.com/cdn/@yank-note/extension-ai-copilot/1.24.1/CHANGELOG.md",
+    "readmeUrl": "https://registry.yank-note.com/cdn/@yank-note/extension-ai-copilot/1.25.0/README.md",
+    "changelogUrl": "https://registry.yank-note.com/cdn/@yank-note/extension-ai-copilot/1.25.0/CHANGELOG.md",
     "origin": "official"
   },
   {
@@ -784,7 +784,7 @@
   },
   {
     "name": "@yank-note/extension-renumber",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "displayName": "Renumber",
     "displayName_ZH-CN": "自动编号",
     "description": "Automatically renumber the list items in the note.",
@@ -800,10 +800,10 @@
       "url": "git+https://github.com/purocean/yank-note-extension.git"
     },
     "main": "./dist/index.js",
-    "icon": "https://registry.yank-note.com/cdn/@yank-note/extension-renumber/1.0.1/icon.svg",
+    "icon": "https://registry.yank-note.com/cdn/@yank-note/extension-renumber/1.0.2/icon.svg",
     "style": "./dist/style.css",
     "engines": {
-      "node": ">=14.6.0",
+      "node": ">=18.20.2",
       "yank-note": "^3.66.0"
     },
     "requirements": {
@@ -813,11 +813,11 @@
       "url": "https://github.com/purocean/yank-note-extension/issues"
     },
     "dist": {
-      "integrity": "sha512-wZkgfRkln+fZHQfCYTSJJJqJdcNgETtDdtBqCw2gLvUZb7wy8WLdT5GS01GPgw6z/YPB03nZ4ywuEi/4WR68wQ==",
-      "shasum": "2d8bba994cd6299bcd4636fe6380c0c61af2196a",
-      "tarball": "https://registry.npmjs.org/@yank-note/extension-renumber/-/extension-renumber-1.0.1.tgz",
+      "integrity": "sha512-2a2hZ/Xa3+1Ot9WvnORyuNsfrXADb77TA8cAc3hk1lVeIqiTN35/w6Be2phYk3IZz1qn1MCXKGXnoZCqUNWYkQ==",
+      "shasum": "3fe8e578c1d039441ed0409d5db5ae19abac2469",
+      "tarball": "https://registry.npmjs.org/@yank-note/extension-renumber/-/extension-renumber-1.0.2.tgz",
       "fileCount": 7,
-      "unpackedSize": 44085
+      "unpackedSize": 44274
     },
     "directories": {},
     "maintainers": [
@@ -826,8 +826,8 @@
         "email": "purocean@outlook.com"
       }
     ],
-    "readmeUrl": "https://registry.yank-note.com/cdn/@yank-note/extension-renumber/1.0.1/README.md",
-    "changelogUrl": "https://registry.yank-note.com/cdn/@yank-note/extension-renumber/1.0.1/CHANGELOG.md",
+    "readmeUrl": "https://registry.yank-note.com/cdn/@yank-note/extension-renumber/1.0.2/README.md",
+    "changelogUrl": "https://registry.yank-note.com/cdn/@yank-note/extension-renumber/1.0.2/CHANGELOG.md",
     "origin": "official"
   },
   {
