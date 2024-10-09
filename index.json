@@ -649,7 +649,7 @@
   },
   {
     "name": "@yank-note/extension-popup-preview",
-    "version": "1.2.3",
+    "version": "1.2.4",
     "displayName": "Popup Preview",
     "description": "Popup preview in a new window",
     "displayName_ZH-CN": "弹出预览",
@@ -665,7 +665,7 @@
       "url": "git+https://github.com/purocean/yank-note-extension.git"
     },
     "main": "./dist/index.js",
-    "icon": "https://registry.yank-note.com/cdn/@yank-note/extension-popup-preview/1.2.3/icon.svg",
+    "icon": "https://registry.yank-note.com/cdn/@yank-note/extension-popup-preview/1.2.4/icon.svg",
     "engines": {
       "node": ">=18.20.2",
       "yank-note": "^3.63.1"
@@ -677,15 +677,21 @@
       "url": "https://github.com/purocean/yank-note-extension/issues"
     },
     "dist": {
-      "integrity": "sha512-c9nWPKvLE+SGGUOnOlXp9hOuhTJhcg0p1UNhc6tjLUQrcGgXfBdxWrfTzZfoqvNgWRsS0uCkSyeqF7Off3BU6A==",
-      "shasum": "85ec6d1f2751fabefeb4120c8d7752150685c27b",
-      "tarball": "https://registry.npmjs.org/@yank-note/extension-popup-preview/-/extension-popup-preview-1.2.3.tgz",
+      "integrity": "sha512-p9zUwhxlSxjtWh1ItLx6y5m2yWYpQXuSJ5hfP0DTE2n0kndfg44+RxtjOoxK+oz2b8qoeZ2lP/PyGxpqPGTIsw==",
+      "shasum": "0175dad69753a3cc3f490f9a0982a3a07101e9bb",
+      "tarball": "https://registry.npmjs.org/@yank-note/extension-popup-preview/-/extension-popup-preview-1.2.4.tgz",
       "fileCount": 6,
-      "unpackedSize": 42782
+      "unpackedSize": 43119
     },
     "directories": {},
-    "readmeUrl": "https://registry.yank-note.com/cdn/@yank-note/extension-popup-preview/1.2.3/README.md",
-    "changelogUrl": "https://registry.yank-note.com/cdn/@yank-note/extension-popup-preview/1.2.3/CHANGELOG.md",
+    "maintainers": [
+      {
+        "name": "purocean",
+        "email": "purocean@outlook.com"
+      }
+    ],
+    "readmeUrl": "https://registry.yank-note.com/cdn/@yank-note/extension-popup-preview/1.2.4/README.md",
+    "changelogUrl": "https://registry.yank-note.com/cdn/@yank-note/extension-popup-preview/1.2.4/CHANGELOG.md",
     "origin": "official"
   },
   {
@@ -972,7 +978,7 @@
   },
   {
     "name": "@yank-note/extension-nes-emulator",
-    "version": "1.1.0",
+    "version": "1.2.0",
     "displayName": "NES Emulator",
     "description": "Run NES games in Yank Note",
     "displayName_ZH-CN": "NES 模拟器",
@@ -989,9 +995,9 @@
     },
     "main": "./dist/index.js",
     "style": "./dist/style.css",
-    "icon": "https://registry.yank-note.com/cdn/@yank-note/extension-nes-emulator/1.1.0/icon.svg",
+    "icon": "https://registry.yank-note.com/cdn/@yank-note/extension-nes-emulator/1.2.0/icon.svg",
     "engines": {
-      "node": ">=14.6.0",
+      "node": ">=18.20.2",
       "yank-note": "^3.43.0"
     },
     "requirements": {
@@ -1001,11 +1007,11 @@
       "url": "https://github.com/purocean/yank-note-extension/issues"
     },
     "dist": {
-      "integrity": "sha512-LcAPcxqXZKaLhjQK5MjWIqi667MsY4A1c0mnmRJKGNIUNAiwgsEbkGm+nIMZSvwskMmbwF12VgGsNDTRrxsP0g==",
-      "shasum": "49baba7a25a0b2ed3dfc9f9386621956885d044f",
-      "tarball": "https://registry.npmjs.org/@yank-note/extension-nes-emulator/-/extension-nes-emulator-1.1.0.tgz",
+      "integrity": "sha512-7vv5QM6DdqT+/ODplWquuaSBQem0/A8AmTp1pPIL0RbJZ1Brpof1lVzCx7d8eGtCA6Fpt8XcDkcb/Rzn2uuO8A==",
+      "shasum": "e1c6dd1a72a06a1490dadf03870ea71a8e5e80a7",
+      "tarball": "https://registry.npmjs.org/@yank-note/extension-nes-emulator/-/extension-nes-emulator-1.2.0.tgz",
       "fileCount": 26,
-      "unpackedSize": 2057971
+      "unpackedSize": 2057375
     },
     "directories": {},
     "maintainers": [
@@ -1014,8 +1020,8 @@
         "email": "purocean@outlook.com"
       }
     ],
-    "readmeUrl": "https://registry.yank-note.com/cdn/@yank-note/extension-nes-emulator/1.1.0/README.md",
-    "changelogUrl": "https://registry.yank-note.com/cdn/@yank-note/extension-nes-emulator/1.1.0/CHANGELOG.md",
+    "readmeUrl": "https://registry.yank-note.com/cdn/@yank-note/extension-nes-emulator/1.2.0/README.md",
+    "changelogUrl": "https://registry.yank-note.com/cdn/@yank-note/extension-nes-emulator/1.2.0/CHANGELOG.md",
     "origin": "official"
   },
   {
