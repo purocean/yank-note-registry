@@ -279,7 +279,7 @@
   },
   {
     "name": "@yank-note/extension-markmap",
-    "version": "1.7.0",
+    "version": "1.7.1",
     "displayName": "Markmap",
     "description": "Visualize your Markdown as mindmaps with Markmap.",
     "displayName_ZH-CN": "Markmap",
@@ -296,7 +296,7 @@
     },
     "main": "./dist/index.js",
     "style": "./dist/style.css",
-    "icon": "https://registry.yank-note.com/cdn/@yank-note/extension-markmap/1.7.0/icon.png",
+    "icon": "https://registry.yank-note.com/cdn/@yank-note/extension-markmap/1.7.1/icon.png",
     "engines": {
       "node": ">=18.20.2",
       "yank-note": "^3.72.1"
@@ -308,11 +308,11 @@
       "url": "https://github.com/purocean/yank-note-extension/issues"
     },
     "dist": {
-      "integrity": "sha512-SmAV8jPKnqWKyKTcBjI7DNG/Wb51t30JikrUsMV4Yt/fJVrsZTB8HHLUL0ThjaEcDEHogiBg9KduRIB/bWtP5A==",
-      "shasum": "efb9251d154180689d861c36f234c200ebcf8972",
-      "tarball": "https://registry.npmjs.org/@yank-note/extension-markmap/-/extension-markmap-1.7.0.tgz",
+      "integrity": "sha512-dGLNf+fqSFr+xpBs/pAQquDik8LRAcaE2s/cZtWiba/W73HOExuB4kD0NQSszMZtBE04dofLaBiGdZuND2XTlw==",
+      "shasum": "b084e48f1cf1c3571800b8bdd23fcb8af273dda3",
+      "tarball": "https://registry.npmjs.org/@yank-note/extension-markmap/-/extension-markmap-1.7.1.tgz",
       "fileCount": 12,
-      "unpackedSize": 1168583
+      "unpackedSize": 1168771
     },
     "directories": {},
     "maintainers": [
@@ -321,8 +321,8 @@
         "email": "purocean@outlook.com"
       }
     ],
-    "readmeUrl": "https://registry.yank-note.com/cdn/@yank-note/extension-markmap/1.7.0/README.md",
-    "changelogUrl": "https://registry.yank-note.com/cdn/@yank-note/extension-markmap/1.7.0/CHANGELOG.md",
+    "readmeUrl": "https://registry.yank-note.com/cdn/@yank-note/extension-markmap/1.7.1/README.md",
+    "changelogUrl": "https://registry.yank-note.com/cdn/@yank-note/extension-markmap/1.7.1/CHANGELOG.md",
     "origin": "official"
   },
   {
@@ -1295,7 +1295,7 @@
   },
   {
     "name": "yank-note-extension-math",
-    "version": "0.3.1",
+    "version": "0.3.2",
     "displayName": "数学扩展",
     "description": "面向数学用户的 Yank Note 扩展",
     "author": {
@@ -1309,7 +1309,7 @@
     },
     "homepage": "https://github.com/MirionQs/yank-note-extension-math",
     "main": "./dist/index.js",
-    "icon": "https://registry.yank-note.com/cdn/yank-note-extension-math/0.3.1/icon.png",
+    "icon": "https://registry.yank-note.com/cdn/yank-note-extension-math/0.3.2/icon.png",
     "engines": {
       "node": ">=18.20.2",
       "yank-note": ">=3.75.4"
@@ -1317,20 +1317,20 @@
     "themes": [
       {
         "name": "香蕉空间",
-        "css": "./themes/banana-space.min.css"
+        "css": "./themes/banana-space.css"
       },
       {
         "name": "多彩笔记",
-        "css": "./themes/colorful-note.min.css"
+        "css": "./themes/colorful-note.css"
       }
     ],
     "licenseText": "MIT License\n\nCopyright (c) 2022-2024 Mirion\n\nPermission is hereby granted, free of charge, to any person obtaining a copy\nof this software and associated documentation files (the \"Software\"), to deal\nin the Software without restriction, including without limitation the rights\nto use, copy, modify, merge, publish, distribute, sublicense, and/or sell\ncopies of the Software, and to permit persons to whom the Software is\nfurnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in all\ncopies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\nFITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE\nAUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\nLIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,\nOUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE\nSOFTWARE.\n",
     "dist": {
-      "shasum": "efc69c01add2c68a5c0487401ab46a0704c15676",
-      "integrity": "sha512-CQtAFS1riXNFR9vrbDVvIWySEtLodP9oTV4UIRrBGugdWN9yFmJFZg+pF7B/IAM2LJdNDDBWnzB3bjVSLQSyeQ==",
-      "tarball": "https://registry.npmjs.org/yank-note-extension-math/-/yank-note-extension-math-0.3.1.tgz",
+      "shasum": "2c7cea64194e587e02e51736b3367d35658a0c06",
+      "integrity": "sha512-nVKLWsmdOE4rswIBo0NPu4GnPTxXFjJQR06Ywt+5Bg7Dip4k9Wuq/iHGZhMd0Lzpok1cOGOLKFRJOzEakOjHCQ==",
+      "tarball": "https://registry.npmjs.org/yank-note-extension-math/-/yank-note-extension-math-0.3.2.tgz",
       "fileCount": 31,
-      "unpackedSize": 69047886
+      "unpackedSize": 69053037
     },
     "directories": {},
     "maintainers": [
@@ -1339,8 +1339,8 @@
         "email": "mirion@qq.com"
       }
     ],
-    "readmeUrl": "https://registry.yank-note.com/cdn/yank-note-extension-math/0.3.1/README.md",
-    "changelogUrl": "https://registry.yank-note.com/cdn/yank-note-extension-math/0.3.1/CHANGELOG.md",
+    "readmeUrl": "https://registry.yank-note.com/cdn/yank-note-extension-math/0.3.2/README.md",
+    "changelogUrl": "https://registry.yank-note.com/cdn/yank-note-extension-math/0.3.2/CHANGELOG.md",
     "origin": "registry"
   },
   {
