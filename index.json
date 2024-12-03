@@ -743,49 +743,49 @@
   },
   {
     "name": "@yank-note/extension-sublime-merge",
-    "version": "1.5.0",
-    "keywords": [],
+    "version": "1.6.0",
+    "displayName": "Sublime Merge",
+    "description": "Sublime Merge integration for Yank Note",
+    "displayName_ZH-CN": "Sublime Merge",
+    "description_ZH-CN": "Sublime Merge 和 Yank Note 的集成",
     "author": {
       "name": "Yank Note"
     },
     "license": "AGPL-3.0",
+    "keywords": [],
+    "homepage": "https://github.com/purocean/yank-note-extension/tree/main/packages/extension-sublime-merge",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/purocean/yank-note-extension.git"
+    },
+    "main": "./dist/index.js",
+    "icon": "https://registry.yank-note.com/cdn/@yank-note/extension-sublime-merge/1.6.0/icon.png",
+    "engines": {
+      "node": ">=18.20.2",
+      "yank-note": "^3.59.1"
+    },
+    "requirements": {
+      "terminal": true
+    },
+    "bugs": {
+      "url": "https://github.com/purocean/yank-note-extension/issues"
+    },
+    "dist": {
+      "integrity": "sha512-MClQVN5Ha9ycc5m3cGUut4jt7dY/q7he1S4iqI8TGFviNtjv7sZLrSxtEge/4Bgdm1N4thUzSSB2cj5gsS2pQg==",
+      "shasum": "a756470f8bd294f39fca2eef14f62c44fcc9b569",
+      "tarball": "https://registry.npmjs.org/@yank-note/extension-sublime-merge/-/extension-sublime-merge-1.6.0.tgz",
+      "fileCount": 6,
+      "unpackedSize": 65238
+    },
+    "directories": {},
     "maintainers": [
       {
         "name": "purocean",
         "email": "purocean@outlook.com"
       }
     ],
-    "homepage": "https://github.com/purocean/yank-note-extension/tree/main/packages/extension-sublime-merge",
-    "bugs": {
-      "url": "https://github.com/purocean/yank-note-extension/issues"
-    },
-    "dist": {
-      "shasum": "ad9e033bbc603743bfb6b9c4e36455a1a94a2d5f",
-      "tarball": "https://registry.npmjs.org/@yank-note/extension-sublime-merge/-/extension-sublime-merge-1.5.0.tgz",
-      "fileCount": 6,
-      "integrity": "sha512-kwYj/52oTlRiOLvphBfIr/oG88ICFDRK64Xe35Rs/kXsSdj5dsGMplezTnOsLOYS4EBKQYEvPprSo8F7A41C7A==",
-      "unpackedSize": 64931
-    },
-    "icon": "https://registry.yank-note.com/cdn/@yank-note/extension-sublime-merge/1.5.0/icon.png",
-    "main": "./dist/index.js",
-    "engines": {
-      "node": ">=18.20.2",
-      "yank-note": "^3.59.1"
-    },
-    "repository": {
-      "url": "git+https://github.com/purocean/yank-note-extension.git",
-      "type": "git"
-    },
-    "description": "Sublime Merge integration for Yank Note",
-    "directories": {},
-    "displayName": "Sublime Merge",
-    "requirements": {
-      "terminal": true
-    },
-    "description_ZH-CN": "Sublime Merge 和 Yank Note 的集成",
-    "displayName_ZH-CN": "Sublime Merge",
-    "readmeUrl": "https://registry.yank-note.com/cdn/@yank-note/extension-sublime-merge/1.5.0/README.md",
-    "changelogUrl": "https://registry.yank-note.com/cdn/@yank-note/extension-sublime-merge/1.5.0/CHANGELOG.md",
+    "readmeUrl": "https://registry.yank-note.com/cdn/@yank-note/extension-sublime-merge/1.6.0/README.md",
+    "changelogUrl": "https://registry.yank-note.com/cdn/@yank-note/extension-sublime-merge/1.6.0/CHANGELOG.md",
     "origin": "official"
   },
   {
@@ -1295,7 +1295,7 @@
   },
   {
     "name": "yank-note-extension-math",
-    "version": "0.3.2",
+    "version": "0.3.3",
     "displayName": "数学扩展",
     "description": "面向数学用户的 Yank Note 扩展",
     "author": {
@@ -1305,11 +1305,11 @@
     "keywords": [],
     "repository": {
       "type": "git",
-      "url": "https://github.com/MirionQs/yank-note-extension-math.git"
+      "url": "git+https://github.com/MirionQs/yank-note-extension-math.git"
     },
     "homepage": "https://github.com/MirionQs/yank-note-extension-math",
     "main": "./dist/index.js",
-    "icon": "https://registry.yank-note.com/cdn/yank-note-extension-math/0.3.2/icon.png",
+    "icon": "https://registry.yank-note.com/cdn/yank-note-extension-math/0.3.3/icon.png",
     "engines": {
       "node": ">=18.20.2",
       "yank-note": ">=3.75.4"
@@ -1324,13 +1324,16 @@
         "css": "./themes/colorful-note.css"
       }
     ],
-    "licenseText": "MIT License\n\nCopyright (c) 2022-2024 Mirion\n\nPermission is hereby granted, free of charge, to any person obtaining a copy\nof this software and associated documentation files (the \"Software\"), to deal\nin the Software without restriction, including without limitation the rights\nto use, copy, modify, merge, publish, distribute, sublicense, and/or sell\ncopies of the Software, and to permit persons to whom the Software is\nfurnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in all\ncopies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\nFITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE\nAUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\nLIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,\nOUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE\nSOFTWARE.\n",
+    "gitHead": "5376c72b14efd43fbe46d7d7ce5161ab5ae08bf0",
+    "bugs": {
+      "url": "https://github.com/MirionQs/yank-note-extension-math/issues"
+    },
     "dist": {
-      "shasum": "2c7cea64194e587e02e51736b3367d35658a0c06",
-      "integrity": "sha512-nVKLWsmdOE4rswIBo0NPu4GnPTxXFjJQR06Ywt+5Bg7Dip4k9Wuq/iHGZhMd0Lzpok1cOGOLKFRJOzEakOjHCQ==",
-      "tarball": "https://registry.npmjs.org/yank-note-extension-math/-/yank-note-extension-math-0.3.2.tgz",
-      "fileCount": 31,
-      "unpackedSize": 69053037
+      "integrity": "sha512-c0YaWp2EX5xseozknnhh47TZkuSij1DVRJLoLJq56arjCw3Qayf0tAsxEQQbiqE7gJnBl9egLwBGKnB+UW/Xpw==",
+      "shasum": "1d082236b4c9c05c1d9ec2800a4e1eea869e2d9d",
+      "tarball": "https://registry.npmjs.org/yank-note-extension-math/-/yank-note-extension-math-0.3.3.tgz",
+      "fileCount": 28,
+      "unpackedSize": 69055034
     },
     "directories": {},
     "maintainers": [
@@ -1339,8 +1342,8 @@
         "email": "mirion@qq.com"
       }
     ],
-    "readmeUrl": "https://registry.yank-note.com/cdn/yank-note-extension-math/0.3.2/README.md",
-    "changelogUrl": "https://registry.yank-note.com/cdn/yank-note-extension-math/0.3.2/CHANGELOG.md",
+    "readmeUrl": "https://registry.yank-note.com/cdn/yank-note-extension-math/0.3.3/README.md",
+    "changelogUrl": "https://registry.yank-note.com/cdn/yank-note-extension-math/0.3.3/CHANGELOG.md",
     "origin": "registry"
   },
   {
