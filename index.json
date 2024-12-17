@@ -185,38 +185,41 @@
     "origin": "official"
   },
   {
-    "name": "@yank-note/extension-echarts",
-    "version": "1.5.2",
-    "displayName": "ECharts",
-    "description": "ECharts integration",
-    "displayName_ZH-CN": "ECharts",
-    "description_ZH-CN": "ECharts 图形集成",
+    "name": "@yank-note/extension-graph-view",
+    "version": "1.0.0",
+    "displayName": "Graph View",
+    "description": "Display the repository relationship graph",
+    "displayName_ZH-CN": "Graph View",
+    "description_ZH-CN": "显示仓库关系图谱",
     "keywords": [],
     "author": {
       "name": "Yank Note"
     },
     "license": "AGPL-3.0",
-    "homepage": "https://github.com/purocean/yank-note-extension/tree/main/packages/extension-echarts",
+    "homepage": "https://github.com/purocean/yank-note-extension/tree/main/packages/extension-graph-view",
     "repository": {
       "type": "git",
       "url": "git+https://github.com/purocean/yank-note-extension.git"
     },
     "main": "./dist/index.js",
     "style": "./dist/style.css",
-    "icon": "https://registry.yank-note.com/cdn/@yank-note/extension-echarts/1.5.2/icon.png",
+    "icon": "https://registry.yank-note.com/cdn/@yank-note/extension-graph-view/1.0.0/icon.svg",
     "engines": {
-      "node": ">=14.6.0",
-      "yank-note": "^3.41.0"
+      "node": ">=18.20.2",
+      "yank-note": "^3.78.0"
+    },
+    "requirements": {
+      "premium": true
     },
     "bugs": {
       "url": "https://github.com/purocean/yank-note-extension/issues"
     },
     "dist": {
-      "integrity": "sha512-FR8qZ2yesKwpL7Z9CFiMFJ5Z9Cw6kopTxZ/gHoJWYIs+Ic0ju2FujkMrc9EqpJrTUpNxN0XMUtFZ0gjB4mCRpg==",
-      "shasum": "e9d6ea0666e0c16946161fb0967ae213d594313a",
-      "tarball": "https://registry.npmjs.org/@yank-note/extension-echarts/-/extension-echarts-1.5.2.tgz",
+      "integrity": "sha512-HDHFY3gcK+cLaOF/oa+tG0o/kzwOrH8wR2jpAM8sREWSYN+EqIIjPXuRPCBEiXFkfylQC+i6vr/pjclcCyX4hg==",
+      "shasum": "4f0ee7af5e4551c752b1c309963c9dbfb9b7d58d",
+      "tarball": "https://registry.npmjs.org/@yank-note/extension-graph-view/-/extension-graph-view-1.0.0.tgz",
       "fileCount": 7,
-      "unpackedSize": 1220283
+      "unpackedSize": 226495
     },
     "directories": {},
     "maintainers": [
@@ -225,8 +228,8 @@
         "email": "purocean@outlook.com"
       }
     ],
-    "readmeUrl": "https://registry.yank-note.com/cdn/@yank-note/extension-echarts/1.5.2/README.md",
-    "changelogUrl": "https://registry.yank-note.com/cdn/@yank-note/extension-echarts/1.5.2/CHANGELOG.md",
+    "readmeUrl": "https://registry.yank-note.com/cdn/@yank-note/extension-graph-view/1.0.0/README.md",
+    "changelogUrl": "https://registry.yank-note.com/cdn/@yank-note/extension-graph-view/1.0.0/CHANGELOG.md",
     "origin": "official"
   },
   {
@@ -597,6 +600,51 @@
     ],
     "readmeUrl": "https://registry.yank-note.com/cdn/@yank-note/extension-markdown-prettier/1.4.3/README.md",
     "changelogUrl": "https://registry.yank-note.com/cdn/@yank-note/extension-markdown-prettier/1.4.3/CHANGELOG.md",
+    "origin": "official"
+  },
+  {
+    "name": "@yank-note/extension-echarts",
+    "version": "1.5.2",
+    "displayName": "ECharts",
+    "description": "ECharts integration",
+    "displayName_ZH-CN": "ECharts",
+    "description_ZH-CN": "ECharts 图形集成",
+    "keywords": [],
+    "author": {
+      "name": "Yank Note"
+    },
+    "license": "AGPL-3.0",
+    "homepage": "https://github.com/purocean/yank-note-extension/tree/main/packages/extension-echarts",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/purocean/yank-note-extension.git"
+    },
+    "main": "./dist/index.js",
+    "style": "./dist/style.css",
+    "icon": "https://registry.yank-note.com/cdn/@yank-note/extension-echarts/1.5.2/icon.png",
+    "engines": {
+      "node": ">=14.6.0",
+      "yank-note": "^3.41.0"
+    },
+    "bugs": {
+      "url": "https://github.com/purocean/yank-note-extension/issues"
+    },
+    "dist": {
+      "integrity": "sha512-FR8qZ2yesKwpL7Z9CFiMFJ5Z9Cw6kopTxZ/gHoJWYIs+Ic0ju2FujkMrc9EqpJrTUpNxN0XMUtFZ0gjB4mCRpg==",
+      "shasum": "e9d6ea0666e0c16946161fb0967ae213d594313a",
+      "tarball": "https://registry.npmjs.org/@yank-note/extension-echarts/-/extension-echarts-1.5.2.tgz",
+      "fileCount": 7,
+      "unpackedSize": 1220283
+    },
+    "directories": {},
+    "maintainers": [
+      {
+        "name": "purocean",
+        "email": "purocean@outlook.com"
+      }
+    ],
+    "readmeUrl": "https://registry.yank-note.com/cdn/@yank-note/extension-echarts/1.5.2/README.md",
+    "changelogUrl": "https://registry.yank-note.com/cdn/@yank-note/extension-echarts/1.5.2/CHANGELOG.md",
     "origin": "official"
   },
   {
