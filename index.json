@@ -186,7 +186,7 @@
   },
   {
     "name": "@yank-note/extension-graph-view",
-    "version": "1.0.1",
+    "version": "1.1.0",
     "displayName": "Graph View",
     "description": "Display the repository relationship graph",
     "displayName_ZH-CN": "Graph View",
@@ -203,7 +203,7 @@
     },
     "main": "./dist/index.js",
     "style": "./dist/style.css",
-    "icon": "https://registry.yank-note.com/cdn/@yank-note/extension-graph-view/1.0.1/icon.svg",
+    "icon": "https://registry.yank-note.com/cdn/@yank-note/extension-graph-view/1.1.0/icon.svg",
     "engines": {
       "node": ">=18.20.2",
       "yank-note": "^3.78.0"
@@ -215,11 +215,11 @@
       "url": "https://github.com/purocean/yank-note-extension/issues"
     },
     "dist": {
-      "integrity": "sha512-CqIEk9bacVz+bpqXt2FGRY63ObU1wmYWenGQqOMx9LXXestmpLtKfdFn+0ThPp/jcc2D2E4+LaJUVA4KbX5KkA==",
-      "shasum": "ba7b78943dfbffb3dcbb3a299d62d79403bdba0e",
-      "tarball": "https://registry.npmjs.org/@yank-note/extension-graph-view/-/extension-graph-view-1.0.1.tgz",
+      "integrity": "sha512-XAJpC3CdZLfOqfslHFQGSpGDjhGZofagW6yc9bey5053oZ3FQxscNv7xVJmRlfZOG1mZ4XCJOim54a05E4Z6cg==",
+      "shasum": "e67796b5f43b01213ff5f28dcefb9aac400ab922",
+      "tarball": "https://registry.npmjs.org/@yank-note/extension-graph-view/-/extension-graph-view-1.1.0.tgz",
       "fileCount": 7,
-      "unpackedSize": 226812
+      "unpackedSize": 227951
     },
     "directories": {},
     "maintainers": [
@@ -228,8 +228,8 @@
         "email": "purocean@outlook.com"
       }
     ],
-    "readmeUrl": "https://registry.yank-note.com/cdn/@yank-note/extension-graph-view/1.0.1/README.md",
-    "changelogUrl": "https://registry.yank-note.com/cdn/@yank-note/extension-graph-view/1.0.1/CHANGELOG.md",
+    "readmeUrl": "https://registry.yank-note.com/cdn/@yank-note/extension-graph-view/1.1.0/README.md",
+    "changelogUrl": "https://registry.yank-note.com/cdn/@yank-note/extension-graph-view/1.1.0/CHANGELOG.md",
     "origin": "official"
   },
   {
