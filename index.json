@@ -557,7 +557,7 @@
   },
   {
     "name": "@yank-note/extension-spellchecker",
-    "version": "1.0.2",
+    "version": "1.0.3",
     "displayName": "Spell Checker",
     "description": "Check spelling in the editor",
     "displayName_ZH-CN": "拼写检查",
@@ -573,7 +573,7 @@
       "url": "git+https://github.com/purocean/yank-note-extension.git"
     },
     "main": "./dist/index.js",
-    "icon": "https://registry.yank-note.com/cdn/@yank-note/extension-spellchecker/1.0.2/icon.svg",
+    "icon": "https://registry.yank-note.com/cdn/@yank-note/extension-spellchecker/1.0.3/icon.svg",
     "engines": {
       "node": ">=18.20.2",
       "yank-note": "^3.79.0"
@@ -585,11 +585,11 @@
       "url": "https://github.com/purocean/yank-note-extension/issues"
     },
     "dist": {
-      "integrity": "sha512-gV8YiVOpGq0L68AdDZOnHzH+k/eztNDh0KPArYV7Ngv6CyQfV9HS9yEJuTEziUSNCWcTrEB0BIcIYXNzF5SGTg==",
-      "shasum": "2048daded5df6dbcd631858a3903f3c56a97cb3d",
-      "tarball": "https://registry.npmjs.org/@yank-note/extension-spellchecker/-/extension-spellchecker-1.0.2.tgz",
+      "integrity": "sha512-7WdH6640FZbZ4cSqwT8TR0wp+gJ0QLImwrEyGEPkIXzpkJ2OhLkN+OMSfDZS3f5NA73L6mP/nN1vJoIxKPi+2g==",
+      "shasum": "fa0a2c93c35306e5999dac55f7f6667fc83ca972",
+      "tarball": "https://registry.npmjs.org/@yank-note/extension-spellchecker/-/extension-spellchecker-1.0.3.tgz",
       "fileCount": 9,
-      "unpackedSize": 1347780
+      "unpackedSize": 1348134
     },
     "directories": {},
     "maintainers": [
@@ -598,8 +598,8 @@
         "email": "purocean@outlook.com"
       }
     ],
-    "readmeUrl": "https://registry.yank-note.com/cdn/@yank-note/extension-spellchecker/1.0.2/README.md",
-    "changelogUrl": "https://registry.yank-note.com/cdn/@yank-note/extension-spellchecker/1.0.2/CHANGELOG.md",
+    "readmeUrl": "https://registry.yank-note.com/cdn/@yank-note/extension-spellchecker/1.0.3/README.md",
+    "changelogUrl": "https://registry.yank-note.com/cdn/@yank-note/extension-spellchecker/1.0.3/CHANGELOG.md",
     "origin": "official"
   },
   {
