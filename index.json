@@ -1,7 +1,7 @@
 [
   {
     "name": "@yank-note/extension-ai-copilot",
-    "version": "1.27.4",
+    "version": "1.27.5",
     "displayName": "AI Copilot",
     "description": "Your AI writing assistant",
     "displayName_ZH-CN": "AI Copilot",
@@ -18,7 +18,7 @@
     },
     "main": "./dist/index.js",
     "style": "./dist/style.css",
-    "icon": "https://registry.yank-note.com/cdn/@yank-note/extension-ai-copilot/1.27.4/icon.svg",
+    "icon": "https://registry.yank-note.com/cdn/@yank-note/extension-ai-copilot/1.27.5/icon.svg",
     "engines": {
       "node": ">=18.20.2",
       "yank-note": "^3.65.0"
@@ -30,11 +30,11 @@
       "url": "https://github.com/purocean/yank-note-extension/issues"
     },
     "dist": {
-      "integrity": "sha512-lI/dhNyMBa4jJIb1QeYAYohMm5f3JKpUSVcoThct5K+0L24EUfRLSYP41/bJDzs2+Zlc0tini7IkR8Mx86XD1A==",
-      "shasum": "d7609be0fe7f0a690ec3f148c5c779072d16e915",
-      "tarball": "https://registry.npmjs.org/@yank-note/extension-ai-copilot/-/extension-ai-copilot-1.27.4.tgz",
+      "integrity": "sha512-O0aakpqXW2bvHcs673a9sic0ZtscVH+qtZSE9lhV+5eVaZNP4Mofp2sEo/CI2oEs74LgMfNWloj9m6c0i5HGsQ==",
+      "shasum": "7e5dc8dcf9e5b92ffc0d2e269d53a5f0ab6964d1",
+      "tarball": "https://registry.npmjs.org/@yank-note/extension-ai-copilot/-/extension-ai-copilot-1.27.5.tgz",
       "fileCount": 7,
-      "unpackedSize": 205167
+      "unpackedSize": 205539
     },
     "directories": {},
     "maintainers": [
@@ -43,8 +43,8 @@
         "email": "purocean@outlook.com"
       }
     ],
-    "readmeUrl": "https://registry.yank-note.com/cdn/@yank-note/extension-ai-copilot/1.27.4/README.md",
-    "changelogUrl": "https://registry.yank-note.com/cdn/@yank-note/extension-ai-copilot/1.27.4/CHANGELOG.md",
+    "readmeUrl": "https://registry.yank-note.com/cdn/@yank-note/extension-ai-copilot/1.27.5/README.md",
+    "changelogUrl": "https://registry.yank-note.com/cdn/@yank-note/extension-ai-copilot/1.27.5/CHANGELOG.md",
     "origin": "official"
   },
   {
@@ -600,6 +600,54 @@
     ],
     "readmeUrl": "https://registry.yank-note.com/cdn/@yank-note/extension-spellchecker/1.0.4/README.md",
     "changelogUrl": "https://registry.yank-note.com/cdn/@yank-note/extension-spellchecker/1.0.4/CHANGELOG.md",
+    "origin": "official"
+  },
+  {
+    "name": "@yank-note/extension-text-comparator",
+    "version": "1.0.0",
+    "displayName": "Text Comparator",
+    "description": "Compare two text files side by side.",
+    "displayName_ZH-CN": "文本比较器",
+    "description_ZH-CN": "将两个文本文件并排比较",
+    "author": {
+      "name": "Yank Note"
+    },
+    "license": "AGPL-3.0",
+    "keywords": [],
+    "homepage": "https://github.com/purocean/yank-note-extension/tree/main/packages/extension-text-comparator",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/purocean/yank-note-extension.git"
+    },
+    "main": "./dist/index.js",
+    "style": "./dist/style.css",
+    "icon": "https://registry.yank-note.com/cdn/@yank-note/extension-text-comparator/1.0.0/icon.svg",
+    "engines": {
+      "node": ">=18.20.2",
+      "yank-note": "^3.80.0"
+    },
+    "requirements": {
+      "premium": true
+    },
+    "bugs": {
+      "url": "https://github.com/purocean/yank-note-extension/issues"
+    },
+    "dist": {
+      "integrity": "sha512-Z1el746VMVZjXR10ZFlNZn/INf1SFN3RkB22AxXhQh86kWWBFsd976b9CQfcfKCbnXEFHl/xo4g6ngEaINLdcA==",
+      "shasum": "1540a65337deb26bf0b7cd6d9adfa79f88089c71",
+      "tarball": "https://registry.npmjs.org/@yank-note/extension-text-comparator/-/extension-text-comparator-1.0.0.tgz",
+      "fileCount": 7,
+      "unpackedSize": 50633
+    },
+    "directories": {},
+    "maintainers": [
+      {
+        "name": "purocean",
+        "email": "purocean@outlook.com"
+      }
+    ],
+    "readmeUrl": "https://registry.yank-note.com/cdn/@yank-note/extension-text-comparator/1.0.0/README.md",
+    "changelogUrl": "https://registry.yank-note.com/cdn/@yank-note/extension-text-comparator/1.0.0/CHANGELOG.md",
     "origin": "official"
   },
   {
