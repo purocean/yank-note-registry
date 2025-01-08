@@ -604,7 +604,7 @@
   },
   {
     "name": "@yank-note/extension-text-comparator",
-    "version": "1.0.2",
+    "version": "1.0.3",
     "displayName": "Text Comparator",
     "description": "Compare two text files side by side.",
     "displayName_ZH-CN": "文本比较器",
@@ -621,7 +621,7 @@
     },
     "main": "./dist/index.js",
     "style": "./dist/style.css",
-    "icon": "https://registry.yank-note.com/cdn/@yank-note/extension-text-comparator/1.0.2/icon.svg",
+    "icon": "https://registry.yank-note.com/cdn/@yank-note/extension-text-comparator/1.0.3/icon.svg",
     "engines": {
       "node": ">=18.20.2",
       "yank-note": "^3.80.0"
@@ -633,11 +633,11 @@
       "url": "https://github.com/purocean/yank-note-extension/issues"
     },
     "dist": {
-      "integrity": "sha512-uGcSUjo9XaPSVdIs4LHl0BgdDT2IKBrUGZWVNM7MrZB390KgY8B0gjeHCXftlxkx619hiG+SJ3j0m2KvIEvBaQ==",
-      "shasum": "524c7bce5d4e75a3021ad1c8ab1b75ea12f30d34",
-      "tarball": "https://registry.npmjs.org/@yank-note/extension-text-comparator/-/extension-text-comparator-1.0.2.tgz",
+      "integrity": "sha512-rplzgO7JIT2RZB7JpH4QDtVujBmGGqw1Hk9dGeNysc/JS6RvKIQYaocbW6IJ8xY04oFqfU48rTqbqmlAsRtU6A==",
+      "shasum": "0c0ddf7c2a03b0cb749c7bc75b9affcd83467488",
+      "tarball": "https://registry.npmjs.org/@yank-note/extension-text-comparator/-/extension-text-comparator-1.0.3.tgz",
       "fileCount": 7,
-      "unpackedSize": 51361
+      "unpackedSize": 51615
     },
     "directories": {},
     "maintainers": [
@@ -646,8 +646,8 @@
         "email": "purocean@outlook.com"
       }
     ],
-    "readmeUrl": "https://registry.yank-note.com/cdn/@yank-note/extension-text-comparator/1.0.2/README.md",
-    "changelogUrl": "https://registry.yank-note.com/cdn/@yank-note/extension-text-comparator/1.0.2/CHANGELOG.md",
+    "readmeUrl": "https://registry.yank-note.com/cdn/@yank-note/extension-text-comparator/1.0.3/README.md",
+    "changelogUrl": "https://registry.yank-note.com/cdn/@yank-note/extension-text-comparator/1.0.3/CHANGELOG.md",
     "origin": "official"
   },
   {
