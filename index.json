@@ -186,7 +186,7 @@
   },
   {
     "name": "@yank-note/extension-graph-view",
-    "version": "1.2.1",
+    "version": "1.2.2",
     "displayName": "Graph View",
     "description": "Display the repository relationship graph",
     "displayName_ZH-CN": "Graph View",
@@ -203,7 +203,7 @@
     },
     "main": "./dist/index.js",
     "style": "./dist/style.css",
-    "icon": "https://registry.yank-note.com/cdn/@yank-note/extension-graph-view/1.2.1/icon.svg",
+    "icon": "https://registry.yank-note.com/cdn/@yank-note/extension-graph-view/1.2.2/icon.svg",
     "engines": {
       "node": ">=18.20.2",
       "yank-note": "^3.78.0"
@@ -215,11 +215,11 @@
       "url": "https://github.com/purocean/yank-note-extension/issues"
     },
     "dist": {
-      "integrity": "sha512-vzvuyVEP8lVsleq75tmdqLZtatIP4GdH1IhmJBlrCjef3U2tBitQceHMmJ2Ke+FXR4ZvhFVPMUqm3h4ILUJyMw==",
-      "shasum": "e12dc0ce5d0e0ae17b8f189c17cbbe053bb61745",
-      "tarball": "https://registry.npmjs.org/@yank-note/extension-graph-view/-/extension-graph-view-1.2.1.tgz",
+      "integrity": "sha512-bcoNZ1nyitt1o6xtkAf+7H/VKuyvbZAKrXjr/dOtSeNCf4EkQ3lPUoS+AOCnU+3v7LvBOe26tqyQ5aZq+mzs/w==",
+      "shasum": "a247d6436d1762229aa00770e51a4cccbd1ea34f",
+      "tarball": "https://registry.npmjs.org/@yank-note/extension-graph-view/-/extension-graph-view-1.2.2.tgz",
       "fileCount": 7,
-      "unpackedSize": 234058
+      "unpackedSize": 234172
     },
     "directories": {},
     "maintainers": [
@@ -228,8 +228,8 @@
         "email": "purocean@outlook.com"
       }
     ],
-    "readmeUrl": "https://registry.yank-note.com/cdn/@yank-note/extension-graph-view/1.2.1/README.md",
-    "changelogUrl": "https://registry.yank-note.com/cdn/@yank-note/extension-graph-view/1.2.1/CHANGELOG.md",
+    "readmeUrl": "https://registry.yank-note.com/cdn/@yank-note/extension-graph-view/1.2.2/README.md",
+    "changelogUrl": "https://registry.yank-note.com/cdn/@yank-note/extension-graph-view/1.2.2/CHANGELOG.md",
     "origin": "official"
   },
   {
@@ -557,7 +557,7 @@
   },
   {
     "name": "@yank-note/extension-spellchecker",
-    "version": "1.0.4",
+    "version": "1.0.5",
     "displayName": "Spell Checker",
     "description": "Check spelling in the editor",
     "displayName_ZH-CN": "拼写检查",
@@ -573,7 +573,7 @@
       "url": "git+https://github.com/purocean/yank-note-extension.git"
     },
     "main": "./dist/index.js",
-    "icon": "https://registry.yank-note.com/cdn/@yank-note/extension-spellchecker/1.0.4/icon.svg",
+    "icon": "https://registry.yank-note.com/cdn/@yank-note/extension-spellchecker/1.0.5/icon.svg",
     "engines": {
       "node": ">=18.20.2",
       "yank-note": "^3.79.0"
@@ -585,11 +585,11 @@
       "url": "https://github.com/purocean/yank-note-extension/issues"
     },
     "dist": {
-      "integrity": "sha512-t6vt/eNjRDWkyiAJwuQ6Sb1BOEpKuzBRfZ98ijblZU49nYz4zFF1LeJj0wAJa6fvxZDWrp6ScJ/HFN01favTog==",
-      "shasum": "4bd4deed9e4fbe0009bc9584d29f853349a7f3d8",
-      "tarball": "https://registry.npmjs.org/@yank-note/extension-spellchecker/-/extension-spellchecker-1.0.4.tgz",
+      "integrity": "sha512-rR7iOLCnmvQbFbL9OKnJq57vv82d9IrFKfrFGabp+hCHTnV9BpJQ3NuzyaBPFimiJFDKvsrtyaqdxPJKLccYJw==",
+      "shasum": "b93a29f1b605f3c395a427653bf298e170b368d5",
+      "tarball": "https://registry.npmjs.org/@yank-note/extension-spellchecker/-/extension-spellchecker-1.0.5.tgz",
       "fileCount": 9,
-      "unpackedSize": 1348507
+      "unpackedSize": 1348909
     },
     "directories": {},
     "maintainers": [
@@ -598,13 +598,13 @@
         "email": "purocean@outlook.com"
       }
     ],
-    "readmeUrl": "https://registry.yank-note.com/cdn/@yank-note/extension-spellchecker/1.0.4/README.md",
-    "changelogUrl": "https://registry.yank-note.com/cdn/@yank-note/extension-spellchecker/1.0.4/CHANGELOG.md",
+    "readmeUrl": "https://registry.yank-note.com/cdn/@yank-note/extension-spellchecker/1.0.5/README.md",
+    "changelogUrl": "https://registry.yank-note.com/cdn/@yank-note/extension-spellchecker/1.0.5/CHANGELOG.md",
     "origin": "official"
   },
   {
     "name": "@yank-note/extension-text-comparator",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "displayName": "Text Comparator",
     "description": "Compare two text files side by side.",
     "displayName_ZH-CN": "文本比较器",
@@ -621,7 +621,7 @@
     },
     "main": "./dist/index.js",
     "style": "./dist/style.css",
-    "icon": "https://registry.yank-note.com/cdn/@yank-note/extension-text-comparator/1.0.1/icon.svg",
+    "icon": "https://registry.yank-note.com/cdn/@yank-note/extension-text-comparator/1.0.2/icon.svg",
     "engines": {
       "node": ">=18.20.2",
       "yank-note": "^3.80.0"
@@ -633,11 +633,11 @@
       "url": "https://github.com/purocean/yank-note-extension/issues"
     },
     "dist": {
-      "integrity": "sha512-Uv8sByWB3bVL35G/d4giXtRk7G3T9XEa3dpffrks8g5ZlKxjChWIfKFoeB5OdKnSj2SdH7B3fmR77HKeJMclig==",
-      "shasum": "e0b48edbe03d2def25cd0432497ebfebdf419eca",
-      "tarball": "https://registry.npmjs.org/@yank-note/extension-text-comparator/-/extension-text-comparator-1.0.1.tgz",
+      "integrity": "sha512-uGcSUjo9XaPSVdIs4LHl0BgdDT2IKBrUGZWVNM7MrZB390KgY8B0gjeHCXftlxkx619hiG+SJ3j0m2KvIEvBaQ==",
+      "shasum": "524c7bce5d4e75a3021ad1c8ab1b75ea12f30d34",
+      "tarball": "https://registry.npmjs.org/@yank-note/extension-text-comparator/-/extension-text-comparator-1.0.2.tgz",
       "fileCount": 7,
-      "unpackedSize": 51216
+      "unpackedSize": 51361
     },
     "directories": {},
     "maintainers": [
@@ -646,8 +646,8 @@
         "email": "purocean@outlook.com"
       }
     ],
-    "readmeUrl": "https://registry.yank-note.com/cdn/@yank-note/extension-text-comparator/1.0.1/README.md",
-    "changelogUrl": "https://registry.yank-note.com/cdn/@yank-note/extension-text-comparator/1.0.1/CHANGELOG.md",
+    "readmeUrl": "https://registry.yank-note.com/cdn/@yank-note/extension-text-comparator/1.0.2/README.md",
+    "changelogUrl": "https://registry.yank-note.com/cdn/@yank-note/extension-text-comparator/1.0.2/CHANGELOG.md",
     "origin": "official"
   },
   {
@@ -792,7 +792,7 @@
   },
   {
     "name": "@yank-note/extension-popup-preview",
-    "version": "1.2.4",
+    "version": "1.2.5",
     "displayName": "Popup Preview",
     "description": "Popup preview in a new window",
     "displayName_ZH-CN": "弹出预览",
@@ -808,7 +808,7 @@
       "url": "git+https://github.com/purocean/yank-note-extension.git"
     },
     "main": "./dist/index.js",
-    "icon": "https://registry.yank-note.com/cdn/@yank-note/extension-popup-preview/1.2.4/icon.svg",
+    "icon": "https://registry.yank-note.com/cdn/@yank-note/extension-popup-preview/1.2.5/icon.svg",
     "engines": {
       "node": ">=18.20.2",
       "yank-note": "^3.63.1"
@@ -820,11 +820,11 @@
       "url": "https://github.com/purocean/yank-note-extension/issues"
     },
     "dist": {
-      "integrity": "sha512-p9zUwhxlSxjtWh1ItLx6y5m2yWYpQXuSJ5hfP0DTE2n0kndfg44+RxtjOoxK+oz2b8qoeZ2lP/PyGxpqPGTIsw==",
-      "shasum": "0175dad69753a3cc3f490f9a0982a3a07101e9bb",
-      "tarball": "https://registry.npmjs.org/@yank-note/extension-popup-preview/-/extension-popup-preview-1.2.4.tgz",
+      "integrity": "sha512-uTfG83n/M11G62xBPgEME0AxUI2dMrBZKRDlt4JKMsrZwEBeAnhSIvv07je83DN+64ytxi4QF+ZgANbiGVJMTA==",
+      "shasum": "244ef5fbefa9a8b547ab7568390758f83c3a2d7f",
+      "tarball": "https://registry.npmjs.org/@yank-note/extension-popup-preview/-/extension-popup-preview-1.2.5.tgz",
       "fileCount": 6,
-      "unpackedSize": 43119
+      "unpackedSize": 43477
     },
     "directories": {},
     "maintainers": [
@@ -833,8 +833,8 @@
         "email": "purocean@outlook.com"
       }
     ],
-    "readmeUrl": "https://registry.yank-note.com/cdn/@yank-note/extension-popup-preview/1.2.4/README.md",
-    "changelogUrl": "https://registry.yank-note.com/cdn/@yank-note/extension-popup-preview/1.2.4/CHANGELOG.md",
+    "readmeUrl": "https://registry.yank-note.com/cdn/@yank-note/extension-popup-preview/1.2.5/README.md",
+    "changelogUrl": "https://registry.yank-note.com/cdn/@yank-note/extension-popup-preview/1.2.5/CHANGELOG.md",
     "origin": "official"
   },
   {
