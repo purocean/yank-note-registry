@@ -94,7 +94,7 @@
   },
   {
     "name": "@yank-note/extension-drawio",
-    "version": "2.5.0",
+    "version": "2.6.0",
     "displayName": "Drawio",
     "description": "Drawio integration",
     "displayName_ZH-CN": "Drawio",
@@ -111,9 +111,9 @@
     },
     "main": "./main/index.js",
     "style": "./main/style.css",
-    "icon": "https://registry.yank-note.com/cdn/@yank-note/extension-drawio/2.5.0/icon.svg",
-    "readmeUrl": "https://registry.yank-note.com/cdn/@yank-note/extension-drawio/2.5.0/README.md",
-    "changelogUrl": "https://registry.yank-note.com/cdn/@yank-note/extension-drawio/2.5.0/CHANGELOG.md",
+    "icon": "https://registry.yank-note.com/cdn/@yank-note/extension-drawio/2.6.0/icon.svg",
+    "readmeUrl": "https://registry.yank-note.com/cdn/@yank-note/extension-drawio/2.6.0/README.md",
+    "changelogUrl": "https://registry.yank-note.com/cdn/@yank-note/extension-drawio/2.6.0/CHANGELOG.md",
     "engines": {
       "node": ">=18.20.2",
       "yank-note": "^3.66.0"
@@ -122,11 +122,11 @@
       "url": "https://github.com/purocean/yank-note-extension/issues"
     },
     "dist": {
-      "integrity": "sha512-p+MSZu+gxN1XV0YqgIZRzq7bKQNLsadgmIAdBBVfHzxh3KU8W4fenWrdfi4jZrnmv8G1up6TTStqLy1+twRwCA==",
-      "shasum": "6c3f532f3124ba914f15157bf3768484b83f30fa",
-      "tarball": "https://registry.npmjs.org/@yank-note/extension-drawio/-/extension-drawio-2.5.0.tgz",
-      "fileCount": 3139,
-      "unpackedSize": 160354015
+      "integrity": "sha512-hk+bWIXeV4G632qWYm8QBr4wiho4IbJzaqj/7joCNwpZA+BkJ/zMa5Fc1SxK/pwMoGGdBt68Mf/7b3/PP1Dihw==",
+      "shasum": "a8e7568ae82e0d8725eac03560f822624dbc318d",
+      "tarball": "https://registry.npmjs.org/@yank-note/extension-drawio/-/extension-drawio-2.6.0.tgz",
+      "fileCount": 2877,
+      "unpackedSize": 108482801
     },
     "directories": {},
     "maintainers": [
@@ -465,7 +465,7 @@
   },
   {
     "name": "@yank-note/extension-tldraw",
-    "version": "1.1.0",
+    "version": "1.2.0",
     "displayName": "tldraw",
     "description": "tldraw integration",
     "displayName_ZH-CN": "tldraw",
@@ -481,7 +481,7 @@
       "url": "git+https://github.com/purocean/yank-note-extension.git"
     },
     "main": "./main/index.js",
-    "icon": "https://registry.yank-note.com/cdn/@yank-note/extension-tldraw/1.1.0/icon.svg",
+    "icon": "https://registry.yank-note.com/cdn/@yank-note/extension-tldraw/1.2.0/icon.svg",
     "engines": {
       "node": ">=18.20.2",
       "yank-note": "^3.66.0"
@@ -493,11 +493,11 @@
       "url": "https://github.com/purocean/yank-note-extension/issues"
     },
     "dist": {
-      "integrity": "sha512-5XkA1TB48un/tclm5bnOBt2xxlJOrYgEexr3A8uB4rv7ZZb2HEetwNhCxNmXdkZWHeMPQcDICqMoBi4BX5nDQg==",
-      "shasum": "47678dededd5689c9dae2b61d5d114183a991982",
-      "tarball": "https://registry.npmjs.org/@yank-note/extension-tldraw/-/extension-tldraw-1.1.0.tgz",
+      "integrity": "sha512-N3FKd6wsmPCzsO47nEj0DCeCOojPxQCNxV9UKxn+STa+HXFuGIlLeA2m4bbJ61jKqKD01vQXw9UdSTFxVgjr6w==",
+      "shasum": "6f4a21f4acf64454fece8cb890af611ee5845ab4",
+      "tarball": "https://registry.npmjs.org/@yank-note/extension-tldraw/-/extension-tldraw-1.2.0.tgz",
       "fileCount": 210,
-      "unpackedSize": 2145610
+      "unpackedSize": 2263269
     },
     "directories": {},
     "maintainers": [
@@ -506,8 +506,8 @@
         "email": "purocean@outlook.com"
       }
     ],
-    "readmeUrl": "https://registry.yank-note.com/cdn/@yank-note/extension-tldraw/1.1.0/README.md",
-    "changelogUrl": "https://registry.yank-note.com/cdn/@yank-note/extension-tldraw/1.1.0/CHANGELOG.md",
+    "readmeUrl": "https://registry.yank-note.com/cdn/@yank-note/extension-tldraw/1.2.0/README.md",
+    "changelogUrl": "https://registry.yank-note.com/cdn/@yank-note/extension-tldraw/1.2.0/CHANGELOG.md",
     "origin": "official"
   },
   {
