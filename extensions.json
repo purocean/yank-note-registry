@@ -12,7 +12,7 @@
     { "id": "@yank-note/extension-kroki", "version": "1.1.2" },
     { "id": "@yank-note/extension-tldraw", "version": "1.2.0" },
     { "id": "@yank-note/extension-geogebra", "version": "1.2.0" },
-    { "id": "@yank-note/extension-spellchecker", "version": "1.0.6" },
+    { "id": "@yank-note/extension-spellchecker", "version": "1.0.7" },
     { "id": "@yank-note/extension-text-comparator", "version": "1.2.0" },
     { "id": "@yank-note/extension-markdown-prettier", "version": "1.4.3" },
     { "id": "@yank-note/extension-echarts", "version": "1.5.2" },
