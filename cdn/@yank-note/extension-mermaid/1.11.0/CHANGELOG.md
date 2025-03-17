@@ -1,0 +1,167 @@
+# [1.11.0](https://github.com/purocean/yank-note-extension/compare/extension-mermaid-1.10.0...extension-mermaid-1.11.0) (2025-03-17)
+
+
+### Features
+
+* support runtime 3.82.0 ([8cae39b](https://github.com/purocean/yank-note-extension/commit/8cae39b3de3c5288441004f90944dde0f812eb84))
+
+
+
+# [1.10.0](https://github.com/purocean/yank-note-extension/compare/extension-mermaid-1.9.0...extension-mermaid-1.10.0) (2025-01-04)
+
+
+### Features
+
+* **extension-mermaid:** add @mermaid-js/layout-elk as a dependency and register layout loaders ([b6a8fe2](https://github.com/purocean/yank-note-extension/commit/b6a8fe2415d12934c891b291459f6ce266e138ce))
+* **extension-mermaid:** add resize observer to trigger re-render on container size change ([008b515](https://github.com/purocean/yank-note-extension/commit/008b51544a183655a48a453f2c239d3a974cea47))
+* **extension-mermaid:** enhance code height for mermaid ([9093cc3](https://github.com/purocean/yank-note-extension/commit/9093cc3e64f7350f04ec9b89eb5fbb022df984ee))
+* **extension-mermaid:** update mermaid dependency to version 11.4.1 ([c80dcc6](https://github.com/purocean/yank-note-extension/commit/c80dcc60b968fd9f49f3b968da2b0e4094b84b88))
+
+
+
+# [1.9.0](https://github.com/purocean/yank-note-extension/compare/extension-mermaid-1.8.0...extension-mermaid-1.9.0) (2024-09-08)
+
+
+
+# [1.8.0](https://github.com/purocean/yank-note-extension/compare/extension-mermaid-1.7.1...extension-mermaid-1.8.0) (2024-08-14)
+
+
+### Features
+
+* **extension-mermaid:** add support for .mmd and .mermaid file types ([fef12d8](https://github.com/purocean/yank-note-extension/commit/fef12d8c1804ac251db8530d3e6d95acf03d9a87))
+
+
+
+## [1.7.1](https://github.com/purocean/yank-note-extension/compare/extension-mermaid-1.7.0...extension-mermaid-1.7.1) (2024-07-03)
+
+
+### Bug Fixes
+
+* **extension-mermaid:** fix png export https://github.com/purocean/yank-note-extension/issues/27 ([e3328f9](https://github.com/purocean/yank-note-extension/commit/e3328f93d131195cfa818c4ba6f4d438495e0080))
+
+
+
+# [1.7.0](https://github.com/purocean/yank-note-extension/compare/extension-mermaid-1.6.2...extension-mermaid-1.7.0) (2023-11-23)
+
+
+### Features
+
+* **extension-mermaid:** upgrade mermaid to 10.6.1 ([7434eea](https://github.com/purocean/yank-note-extension/commit/7434eeab7a1737fa48ae43abb0db678519c36c4e))
+
+
+
+## [1.6.2](https://github.com/purocean/yank-note-extension/compare/extension-mermaid-1.6.1...extension-mermaid-1.6.2) (2023-11-11)
+
+
+### Reverts
+
+* Revert "feat: use base64 image" ([8492d5a](https://github.com/purocean/yank-note-extension/commit/8492d5a0c1c84991d56b06f9176632f8406d1e26))
+
+
+
+## [1.6.1](https://github.com/purocean/yank-note-extension/compare/extension-mermaid-1.6.0...extension-mermaid-1.6.1) (2023-11-10)
+
+
+### Features
+
+* use base64 image ([754f36c](https://github.com/purocean/yank-note-extension/commit/754f36c8da832dadff392c1df9bd79b7921acfe0))
+
+
+
+# [1.6.0](https://github.com/purocean/yank-note-extension/compare/extension-mermaid-1.5.4...extension-mermaid-1.6.0) (2023-10-28)
+
+
+### Features
+
+* **extension-mermaid:** upgrade mermaid to 10.6.0 ([d4b18ba](https://github.com/purocean/yank-note-extension/commit/d4b18ba8c7d74c9afd917ecfa96cfb4279af0982))
+
+
+
+## [1.5.4](https://github.com/purocean/yank-note-extension/compare/extension-mermaid-1.5.3...extension-mermaid-1.5.4) (2023-02-28)
+
+
+### Bug Fixes
+
+* **extension-mermaid:** fix concurrent calls to `getMermaidLib` ([3231312](https://github.com/purocean/yank-note-extension/commit/323131297f9e8331500d6e9200ce43dc41c9beb1))
+
+
+
+## [1.5.3](https://github.com/purocean/yank-note-extension/compare/extension-mermaid-1.5.2...extension-mermaid-1.5.3) (2022-11-04)
+
+
+### Bug Fixes
+
+* **extension-mermaid:** fix conflict global variable ([d87c477](https://github.com/purocean/yank-note-extension/commit/d87c477129e313fcdd365d7429e8ab662b1b0b00))
+
+
+
+## [1.5.2](https://github.com/purocean/yank-note-extension/compare/extension-mermaid-1.5.1...extension-mermaid-1.5.2) (2022-10-25)
+
+
+### Bug Fixes
+
+* fix https://github.com/purocean/yank-note-extension/issues/13 ([20d5b9e](https://github.com/purocean/yank-note-extension/commit/20d5b9e865b1708fd928098e533b4e975c443743))
+
+
+
+## [1.5.1](https://github.com/purocean/yank-note-extension/compare/extension-mermaid-1.5.0...extension-mermaid-1.5.1) (2022-10-23)
+
+
+### Bug Fixes
+
+* require runtime 3.41.0 ([3e252fa](https://github.com/purocean/yank-note-extension/commit/3e252fa8243bb248ceebb3800290d6119e3c3a74))
+
+
+
+# [1.5.0](https://github.com/purocean/yank-note-extension/compare/extension-mermaid-1.4.0...extension-mermaid-1.5.0) (2022-10-23)
+
+
+### Features
+
+* support runtime 3.41.0 ([8392f19](https://github.com/purocean/yank-note-extension/commit/8392f19642a0f3842b279a2d660153e5dc0e1cda))
+
+
+
+# [1.4.0](https://github.com/purocean/yank-note-extension/compare/extension-mermaid-1.3.0...extension-mermaid-1.4.0) (2022-10-17)
+
+
+### Features
+
+* **extension-mermaid:** optimize user experience ([8e94edb](https://github.com/purocean/yank-note-extension/commit/8e94edb36047faa2dd8da12b3cb78334840a01fb))
+
+
+
+# [1.3.0](https://github.com/purocean/yank-note-extension/compare/extension-mermaid-1.1.1...extension-mermaid-1.3.0) (2022-10-16)
+
+
+### Features
+
+* support runtime 3.40.0 ([4d5576e](https://github.com/purocean/yank-note-extension/commit/4d5576e4099609e08b35ac35502d88165be4b71c))
+
+
+
+# [1.2.0](https://github.com/purocean/yank-note-extension/compare/extension-mermaid-1.1.1...extension-mermaid-1.2.0) (2022-10-16)
+
+
+
+## [1.1.1](https://github.com/purocean/yank-note-extension/compare/extension-mermaid-1.1.0...extension-mermaid-1.1.1) (2022-09-26)
+
+
+### Features
+
+* **extension-mermaid:** update styles ([723904d](https://github.com/purocean/yank-note-extension/commit/723904dcf271994637b0f387cd107df6d927662a))
+
+
+
+# [1.1.0](https://github.com/purocean/yank-note-extension/compare/extension-mermaid-1.0.0...extension-mermaid-1.1.0) (2022-08-17)
+
+
+### Features
+
+* **extension-mermaid:** upgrade mermaid to 9.1.3 ([28bad71](https://github.com/purocean/yank-note-extension/commit/28bad71da965ef13a1ef878f00583c7eccd7d284))
+
+
+
+# 1.0.0 (2022-05-11)
+
+* first release
