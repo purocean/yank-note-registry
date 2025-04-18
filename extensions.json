@@ -35,6 +35,6 @@
     { "id": "yank-note-extension-docsify", "version": "0.0.3" },
     { "id": "yank-note-extension-math", "version": "0.3.3" },
     { "id": "yank-note-extension-background", "version": "1.0.3" },
-    { "id": "yank-note-extension-word-statistic", "version": "0.0.1" }
+    { "id": "yank-note-extension-word-statistic", "version": "0.0.2" }
   ]
 }
