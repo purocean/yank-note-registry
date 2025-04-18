@@ -1537,7 +1537,7 @@
   },
   {
     "name": "yank-note-extension-word-statistic",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "displayName": "word statistic",
     "description": "A plugin for counting the number of Chinese characters, punctuation marks, etc.",
     "displayName_ZH-CN": "字数统计",
@@ -1551,18 +1551,18 @@
     "homepage": "https://github.com/papudding/yank-note-extension-word-statistic",
     "main": "./dist/index.js",
     "style": "./dist/style.css",
-    "icon": "https://registry.yank-note.com/cdn/yank-note-extension-word-statistic/0.0.1/icon.png",
+    "icon": "https://registry.yank-note.com/cdn/yank-note-extension-word-statistic/0.0.2/icon.png",
     "engines": {
       "node": ">=18.20.2",
       "yank-note": ">=3.82.1"
     },
-    "gitHead": "fe1ea607fc44d2032885705bb36a4ebe67bdccfd",
+    "gitHead": "078300f9d71d8ce911a149ce64fc4e9b8256cfe9",
     "dist": {
-      "integrity": "sha512-1gqBEExoMSsvK2otxbBc1hAqGWo+6srJjBo69FpnISvTSsMYZmUEsDwqSVEaR8CqmdRFWBI4zYiTLn6xRpk1xA==",
-      "shasum": "29a7ea479d2dc2d27dc421db4c50df486b675036",
-      "tarball": "https://registry.npmjs.org/yank-note-extension-word-statistic/-/yank-note-extension-word-statistic-0.0.1.tgz",
+      "integrity": "sha512-3IprFO84hsVQWLwkVrDw3oY8bk94oKMY/81BXluQsH+WepTmdgVuzkna0jCjOa0mFBMis4hPk0kdgzqkq7gN5g==",
+      "shasum": "481721d31a68e816890395393aaf5984955d3f49",
+      "tarball": "https://registry.npmjs.org/yank-note-extension-word-statistic/-/yank-note-extension-word-statistic-0.0.2.tgz",
       "fileCount": 7,
-      "unpackedSize": 13305
+      "unpackedSize": 13706
     },
     "directories": {},
     "maintainers": [
@@ -1571,8 +1571,8 @@
         "email": "taotaomp@outlook.com"
       }
     ],
-    "readmeUrl": "https://registry.yank-note.com/cdn/yank-note-extension-word-statistic/0.0.1/README.md",
-    "changelogUrl": "https://registry.yank-note.com/cdn/yank-note-extension-word-statistic/0.0.1/CHANGELOG.md",
+    "readmeUrl": "https://registry.yank-note.com/cdn/yank-note-extension-word-statistic/0.0.2/README.md",
+    "changelogUrl": "https://registry.yank-note.com/cdn/yank-note-extension-word-statistic/0.0.2/CHANGELOG.md",
     "origin": "registry"
   }
 ]
