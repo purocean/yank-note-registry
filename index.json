@@ -1574,5 +1574,44 @@
     "readmeUrl": "https://registry.yank-note.com/cdn/yank-note-extension-word-statistic/0.0.2/README.md",
     "changelogUrl": "https://registry.yank-note.com/cdn/yank-note-extension-word-statistic/0.0.2/CHANGELOG.md",
     "origin": "registry"
+  },
+  {
+    "name": "yank-note-extension-directory-tree",
+    "version": "0.0.2",
+    "displayName": "directory tree",
+    "description": "focus and directory tree",
+    "displayName_ZH-CN": "目录树",
+    "description_ZH-CN": "聚焦到文件夹和显示目录树的插件",
+    "author": {
+      "name": "papudding"
+    },
+    "license": "MIT",
+    "keywords": [],
+    "homepage": "https://github.com/papudding/yank-note-extension-directory-tree",
+    "main": "./dist/index.js",
+    "style": "./dist/style.css",
+    "icon": "https://registry.yank-note.com/cdn/yank-note-extension-directory-tree/0.0.2/icon.png",
+    "engines": {
+      "node": ">=18.20.2",
+      "yank-note": ">=3.82.1"
+    },
+    "gitHead": "5f7c18229e29fd7873358bb81c9aef90615f10e3",
+    "dist": {
+      "integrity": "sha512-ymEO27Mrf5j9TLGg0WKFNQqlYX/DVve6TG6p5T0LdJ2zdSMOjujOBo3unFJzgTtPYvrh7GpHltlyJHqclT3YKw==",
+      "shasum": "07ddfa5b14b3c374638ac28d136af104e735534f",
+      "tarball": "https://registry.npmjs.org/yank-note-extension-directory-tree/-/yank-note-extension-directory-tree-0.0.2.tgz",
+      "fileCount": 8,
+      "unpackedSize": 22952
+    },
+    "directories": {},
+    "maintainers": [
+      {
+        "name": "papudding",
+        "email": "taotaomp@outlook.com"
+      }
+    ],
+    "readmeUrl": "https://registry.yank-note.com/cdn/yank-note-extension-directory-tree/0.0.2/README.md",
+    "changelogUrl": "https://registry.yank-note.com/cdn/yank-note-extension-directory-tree/0.0.2/CHANGELOG.md",
+    "origin": "registry"
   }
 ]
