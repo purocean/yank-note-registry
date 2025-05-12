@@ -563,7 +563,7 @@
   },
   {
     "name": "@yank-note/extension-spellchecker",
-    "version": "1.0.7",
+    "version": "1.0.8",
     "displayName": "Spell Checker",
     "description": "Check spelling in the editor",
     "displayName_ZH-CN": "拼写检查",
@@ -579,7 +579,7 @@
       "url": "git+https://github.com/purocean/yank-note-extension.git"
     },
     "main": "./dist/index.js",
-    "icon": "https://registry.yank-note.com/cdn/@yank-note/extension-spellchecker/1.0.7/icon.svg",
+    "icon": "https://registry.yank-note.com/cdn/@yank-note/extension-spellchecker/1.0.8/icon.svg",
     "engines": {
       "node": ">=18.20.2",
       "yank-note": "^3.79.0"
@@ -591,11 +591,11 @@
       "url": "https://github.com/purocean/yank-note-extension/issues"
     },
     "dist": {
-      "integrity": "sha512-FzHOS7gDOmlxk6BzbB0d1G3A3rPCrOLjVfHE0diIxSbqkCWbSckI1P+DgjqkwqMsYRXWrSUFB6AP85Ro4qPHJw==",
-      "shasum": "12d5c8520e315494921cdaea03f85573aec3a045",
-      "tarball": "https://registry.npmjs.org/@yank-note/extension-spellchecker/-/extension-spellchecker-1.0.7.tgz",
-      "fileCount": 9,
-      "unpackedSize": 1349640
+      "integrity": "sha512-RuhaxnONQLxSPYQWlqyJJiXoBg14LUgkSFfqRZu8XnpWfEOQWh7IqdaNcPW5ms70zlE2D2lguOBl8KB7EYaAoQ==",
+      "shasum": "f0ed26ab36733f965bf18054761d9b4bb36e3641",
+      "tarball": "https://registry.npmjs.org/@yank-note/extension-spellchecker/-/extension-spellchecker-1.0.8.tgz",
+      "fileCount": 10,
+      "unpackedSize": 1361286
     },
     "directories": {},
     "maintainers": [
@@ -604,8 +604,8 @@
         "email": "purocean@outlook.com"
       }
     ],
-    "readmeUrl": "https://registry.yank-note.com/cdn/@yank-note/extension-spellchecker/1.0.7/README.md",
-    "changelogUrl": "https://registry.yank-note.com/cdn/@yank-note/extension-spellchecker/1.0.7/CHANGELOG.md",
+    "readmeUrl": "https://registry.yank-note.com/cdn/@yank-note/extension-spellchecker/1.0.8/README.md",
+    "changelogUrl": "https://registry.yank-note.com/cdn/@yank-note/extension-spellchecker/1.0.8/CHANGELOG.md",
     "origin": "official"
   },
   {
