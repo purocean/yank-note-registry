@@ -986,6 +986,53 @@
     "origin": "official"
   },
   {
+    "name": "@yank-note/extension-code-line-highlighting",
+    "version": "1.0.0",
+    "displayName": "Code Line Highlighting",
+    "displayName_ZH-CN": "代码行高亮",
+    "description": "Focus on specific code lines.",
+    "description_ZH-CN": "聚焦特定的代码行。",
+    "keywords": [],
+    "author": {
+      "name": "Yank Note"
+    },
+    "license": "AGPL-3.0",
+    "homepage": "https://github.com/purocean/yank-note-extension/tree/main/packages/extension-code-line-highlighting",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/purocean/yank-note-extension.git"
+    },
+    "main": "./dist/index.js",
+    "icon": "https://registry.yank-note.com/cdn/@yank-note/extension-code-line-highlighting/1.0.0/icon.svg",
+    "engines": {
+      "node": ">=18.20.2",
+      "yank-note": "^3.66.0"
+    },
+    "requirements": {
+      "terminal": true
+    },
+    "bugs": {
+      "url": "https://github.com/purocean/yank-note-extension/issues"
+    },
+    "dist": {
+      "integrity": "sha512-kXac/RtKqNzWli/pRPZnt5bdPJPz4WjYJwdl3oS5NVtf3adVmGi0zzYF+oVdAfT/NjC5A23Y5yTqjmY65lwOTg==",
+      "shasum": "3ca7277e5fe7d9ccba656e0b8ae4334455da7caf",
+      "tarball": "https://registry.npmjs.org/@yank-note/extension-code-line-highlighting/-/extension-code-line-highlighting-1.0.0.tgz",
+      "fileCount": 7,
+      "unpackedSize": 42363
+    },
+    "directories": {},
+    "maintainers": [
+      {
+        "name": "purocean",
+        "email": "purocean@outlook.com"
+      }
+    ],
+    "readmeUrl": "https://registry.yank-note.com/cdn/@yank-note/extension-code-line-highlighting/1.0.0/README.md",
+    "changelogUrl": "https://registry.yank-note.com/cdn/@yank-note/extension-code-line-highlighting/1.0.0/CHANGELOG.md",
+    "origin": "official"
+  },
+  {
     "name": "@yank-note/extension-luckysheet",
     "version": "1.1.4",
     "displayName": "Luckysheet",
