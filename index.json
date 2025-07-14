@@ -987,7 +987,7 @@
   },
   {
     "name": "@yank-note/extension-code-line-highlighting",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "displayName": "Code Line Highlighting",
     "displayName_ZH-CN": "代码行高亮",
     "description": "Focus on specific code lines.",
@@ -1003,7 +1003,7 @@
       "url": "git+https://github.com/purocean/yank-note-extension.git"
     },
     "main": "./dist/index.js",
-    "icon": "https://registry.yank-note.com/cdn/@yank-note/extension-code-line-highlighting/1.0.1/icon.svg",
+    "icon": "https://registry.yank-note.com/cdn/@yank-note/extension-code-line-highlighting/1.0.2/icon.svg",
     "engines": {
       "node": ">=18.20.2",
       "yank-note": "^3.66.0"
@@ -1015,11 +1015,11 @@
       "url": "https://github.com/purocean/yank-note-extension/issues"
     },
     "dist": {
-      "integrity": "sha512-gMhokq6CoX6ex1DQPtUeevTimG1/Knb2q4/vnlHraKOQnriGaNrasVkgA+jY6rE7Lr+JJmwF6yhBs0wHQhiXGw==",
-      "shasum": "46ac94120959ce7fd7af03e6af93dcd0ac70a098",
-      "tarball": "https://registry.npmjs.org/@yank-note/extension-code-line-highlighting/-/extension-code-line-highlighting-1.0.1.tgz",
+      "integrity": "sha512-zmEXfkKCJWqEpjKdpo/s8w2C+QVH9iBPEAOk+mzVJxtbLMTCP0F3iUFQvq/LEANgjRNZm56fVQRc9JlxFah+3Q==",
+      "shasum": "e95cd4928ee4500616272a074cf9ffc8252ac430",
+      "tarball": "https://registry.npmjs.org/@yank-note/extension-code-line-highlighting/-/extension-code-line-highlighting-1.0.2.tgz",
       "fileCount": 7,
-      "unpackedSize": 42480
+      "unpackedSize": 42644
     },
     "directories": {},
     "maintainers": [
@@ -1028,8 +1028,8 @@
         "email": "purocean@outlook.com"
       }
     ],
-    "readmeUrl": "https://registry.yank-note.com/cdn/@yank-note/extension-code-line-highlighting/1.0.1/README.md",
-    "changelogUrl": "https://registry.yank-note.com/cdn/@yank-note/extension-code-line-highlighting/1.0.1/CHANGELOG.md",
+    "readmeUrl": "https://registry.yank-note.com/cdn/@yank-note/extension-code-line-highlighting/1.0.2/README.md",
+    "changelogUrl": "https://registry.yank-note.com/cdn/@yank-note/extension-code-line-highlighting/1.0.2/CHANGELOG.md",
     "origin": "official"
   },
   {
