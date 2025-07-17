@@ -798,7 +798,7 @@
   },
   {
     "name": "@yank-note/extension-popup-preview",
-    "version": "1.2.5",
+    "version": "1.3.0",
     "displayName": "Popup Preview",
     "description": "Popup preview in a new window",
     "displayName_ZH-CN": "弹出预览",
@@ -814,7 +814,7 @@
       "url": "git+https://github.com/purocean/yank-note-extension.git"
     },
     "main": "./dist/index.js",
-    "icon": "https://registry.yank-note.com/cdn/@yank-note/extension-popup-preview/1.2.5/icon.svg",
+    "icon": "https://registry.yank-note.com/cdn/@yank-note/extension-popup-preview/1.3.0/icon.svg",
     "engines": {
       "node": ">=18.20.2",
       "yank-note": "^3.63.1"
@@ -826,11 +826,11 @@
       "url": "https://github.com/purocean/yank-note-extension/issues"
     },
     "dist": {
-      "integrity": "sha512-uTfG83n/M11G62xBPgEME0AxUI2dMrBZKRDlt4JKMsrZwEBeAnhSIvv07je83DN+64ytxi4QF+ZgANbiGVJMTA==",
-      "shasum": "244ef5fbefa9a8b547ab7568390758f83c3a2d7f",
-      "tarball": "https://registry.npmjs.org/@yank-note/extension-popup-preview/-/extension-popup-preview-1.2.5.tgz",
-      "fileCount": 6,
-      "unpackedSize": 43477
+      "integrity": "sha512-IXrNOrp3iuGfJG32qrIr7TV2nZjIx1HzvTEXm2XTNBMWAtPr1VrzoLBphC3szBxafoxiUqrts51/LUrL50sqQw==",
+      "shasum": "693dc6e31ada9e6c5b475f4ba8fa034c093796d9",
+      "tarball": "https://registry.npmjs.org/@yank-note/extension-popup-preview/-/extension-popup-preview-1.3.0.tgz",
+      "fileCount": 7,
+      "unpackedSize": 46572
     },
     "directories": {},
     "maintainers": [
@@ -839,8 +839,8 @@
         "email": "purocean@outlook.com"
       }
     ],
-    "readmeUrl": "https://registry.yank-note.com/cdn/@yank-note/extension-popup-preview/1.2.5/README.md",
-    "changelogUrl": "https://registry.yank-note.com/cdn/@yank-note/extension-popup-preview/1.2.5/CHANGELOG.md",
+    "readmeUrl": "https://registry.yank-note.com/cdn/@yank-note/extension-popup-preview/1.3.0/README.md",
+    "changelogUrl": "https://registry.yank-note.com/cdn/@yank-note/extension-popup-preview/1.3.0/CHANGELOG.md",
     "origin": "official"
   },
   {
