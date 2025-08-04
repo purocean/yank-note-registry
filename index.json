@@ -186,7 +186,7 @@
   },
   {
     "name": "@yank-note/extension-graph-view",
-    "version": "1.3.1",
+    "version": "1.3.2",
     "displayName": "Graph View",
     "description": "Display the repository relationship graph",
     "displayName_ZH-CN": "Graph View",
@@ -203,7 +203,7 @@
     },
     "main": "./dist/index.js",
     "style": "./dist/style.css",
-    "icon": "https://registry.yank-note.com/cdn/@yank-note/extension-graph-view/1.3.1/icon.svg",
+    "icon": "https://registry.yank-note.com/cdn/@yank-note/extension-graph-view/1.3.2/icon.svg",
     "engines": {
       "node": ">=18.20.2",
       "yank-note": "^3.78.0"
@@ -215,11 +215,11 @@
       "url": "https://github.com/purocean/yank-note-extension/issues"
     },
     "dist": {
-      "integrity": "sha512-vHK7q335S/d6350+gDz5iMbHx0R+eWvOFIGmj+UNcnjuSIAvlemBTZP6MF4MxyceGcEiF0i7V12LFp5m4XW5Hw==",
-      "shasum": "95d00a6985bcf18f376a3199cf6e7cb303f15103",
-      "tarball": "https://registry.npmjs.org/@yank-note/extension-graph-view/-/extension-graph-view-1.3.1.tgz",
+      "integrity": "sha512-txO7Ls3DG3euM36ksvf75JJlNki9TSRHUVmcSWJ60S4WACHWxxr46jovxfwtwcOHjE8u01GT/1Oem6IaKhNbgw==",
+      "shasum": "bb7d8375d95279303980de6102f399d9f2c61042",
+      "tarball": "https://registry.npmjs.org/@yank-note/extension-graph-view/-/extension-graph-view-1.3.2.tgz",
       "fileCount": 8,
-      "unpackedSize": 427656
+      "unpackedSize": 428073
     },
     "directories": {},
     "maintainers": [
@@ -228,8 +228,8 @@
         "email": "purocean@outlook.com"
       }
     ],
-    "readmeUrl": "https://registry.yank-note.com/cdn/@yank-note/extension-graph-view/1.3.1/README.md",
-    "changelogUrl": "https://registry.yank-note.com/cdn/@yank-note/extension-graph-view/1.3.1/CHANGELOG.md",
+    "readmeUrl": "https://registry.yank-note.com/cdn/@yank-note/extension-graph-view/1.3.2/README.md",
+    "changelogUrl": "https://registry.yank-note.com/cdn/@yank-note/extension-graph-view/1.3.2/CHANGELOG.md",
     "origin": "official"
   },
   {
@@ -514,6 +514,53 @@
     ],
     "readmeUrl": "https://registry.yank-note.com/cdn/@yank-note/extension-tldraw/1.2.0/README.md",
     "changelogUrl": "https://registry.yank-note.com/cdn/@yank-note/extension-tldraw/1.2.0/CHANGELOG.md",
+    "origin": "official"
+  },
+  {
+    "name": "@yank-note/extension-cloze",
+    "version": "1.0.0",
+    "displayName": "Cloze",
+    "displayName_ZH-CN": "挖空",
+    "description": "A Yank Note extension that allows you to create spaced content for quizzes and learning.",
+    "description_ZH-CN": "一个 Yank Note 扩展，允许您创建用于测验和学习的挖空内容。",
+    "keywords": [],
+    "author": {
+      "name": "Yank Note"
+    },
+    "license": "AGPL-3.0",
+    "homepage": "https://github.com/purocean/yank-note-extension/tree/main/packages/extension-cloze",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/purocean/yank-note-extension.git"
+    },
+    "main": "./dist/index.js",
+    "icon": "https://registry.yank-note.com/cdn/@yank-note/extension-cloze/1.0.0/icon.svg",
+    "engines": {
+      "node": ">=18.20.2",
+      "yank-note": "^3.66.0"
+    },
+    "requirements": {
+      "premium": true
+    },
+    "bugs": {
+      "url": "https://github.com/purocean/yank-note-extension/issues"
+    },
+    "dist": {
+      "integrity": "sha512-WBilEg+Q3hnfXMzscHIrzm1KooLuzvEYm57TxGvn1H5su7v77N37Ki3uzrj8YUrzrPrl0qDMFNKV7LBBIXuoqg==",
+      "shasum": "dcc792a29129696f0d058644195b8a1fb9549d3d",
+      "tarball": "https://registry.npmjs.org/@yank-note/extension-cloze/-/extension-cloze-1.0.0.tgz",
+      "fileCount": 7,
+      "unpackedSize": 43556
+    },
+    "directories": {},
+    "maintainers": [
+      {
+        "name": "purocean",
+        "email": "purocean@outlook.com"
+      }
+    ],
+    "readmeUrl": "https://registry.yank-note.com/cdn/@yank-note/extension-cloze/1.0.0/README.md",
+    "changelogUrl": "https://registry.yank-note.com/cdn/@yank-note/extension-cloze/1.0.0/CHANGELOG.md",
     "origin": "official"
   },
   {
