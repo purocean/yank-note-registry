@@ -49,7 +49,7 @@
   },
   {
     "name": "@yank-note/extension-opencode",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "displayName": "OpenCode",
     "description": "AI document assistant powered by OpenCode",
     "displayName_ZH-CN": "OpenCode",
@@ -72,7 +72,7 @@
     },
     "main": "./dist/index.js",
     "style": "./dist/style.css",
-    "icon": "https://registry.yank-note.com/cdn/@yank-note/extension-opencode/1.0.1/icon.svg",
+    "icon": "https://registry.yank-note.com/cdn/@yank-note/extension-opencode/1.0.2/icon.svg",
     "engines": {
       "node": ">=18.20.2",
       "yank-note": "^3.86.0"
@@ -85,11 +85,11 @@
       "url": "https://github.com/purocean/yank-note-extension/issues"
     },
     "dist": {
-      "integrity": "sha512-4FgnYYYjWbp54Z9oNzfIvTa5VBmg6/2wz8oYFOLhaPP2sNiaKUIDoO82yjiQg7inFZWmDFCDLi7K8PjDbv+rjA==",
-      "shasum": "e792f83283ee1c33ab72bcd329dadc2c18037514",
-      "tarball": "https://registry.npmjs.org/@yank-note/extension-opencode/-/extension-opencode-1.0.1.tgz",
+      "integrity": "sha512-0U5U+U1sOUg5JSd+u5HjAjTFnvswZD5zQTIbo/q/zLOTmUELdYL3OrGqNlwcUYOo6UodXfCgfHCFshJsdDG7zA==",
+      "shasum": "05f566329b9272f35c61012f6ca7b7cd406ca962",
+      "tarball": "https://registry.npmjs.org/@yank-note/extension-opencode/-/extension-opencode-1.0.2.tgz",
       "fileCount": 7,
-      "unpackedSize": 80320
+      "unpackedSize": 80660
     },
     "directories": {},
     "maintainers": [
@@ -98,8 +98,8 @@
         "email": "purocean@outlook.com"
       }
     ],
-    "readmeUrl": "https://registry.yank-note.com/cdn/@yank-note/extension-opencode/1.0.1/README.md",
-    "changelogUrl": "https://registry.yank-note.com/cdn/@yank-note/extension-opencode/1.0.1/CHANGELOG.md",
+    "readmeUrl": "https://registry.yank-note.com/cdn/@yank-note/extension-opencode/1.0.2/README.md",
+    "changelogUrl": "https://registry.yank-note.com/cdn/@yank-note/extension-opencode/1.0.2/CHANGELOG.md",
     "origin": "official"
   },
   {
