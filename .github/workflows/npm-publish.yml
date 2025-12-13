@@ -31,5 +31,6 @@ jobs:
       - run: git add . && git commit -m 'update index.json'
       - run: npm version patch -m "[RELEASE] %s"
       - run: git push
+      - run: npm ci
       - run: npm publish
       - run: sleep 10 && curl -X PUT 'https://registry-direct.npmmirror.com/yank-note-registry/sync?sync_upstream=true'
