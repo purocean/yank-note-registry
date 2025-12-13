@@ -4,7 +4,7 @@
 
 This extension allows you to invoke OpenCode directly from within Yank Note, making it easy to use AI-powered assistance for your documents.
 
-![img](https://registry.yank-note.com/cdn/@yank-note/extension-opencode/1.0.1/74ab43b5-4838-4199-ba41-5b6563d091c5.plain;%20charset=utf-8)
+![img](https://registry.yank-note.com/cdn/@yank-note/extension-opencode/1.0.1/74ab43b5-4838-4199-ba41-5b6563d091c5.png)
 
 ## Features
 
