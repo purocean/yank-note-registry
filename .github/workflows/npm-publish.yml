@@ -32,6 +32,4 @@ jobs:
       - run: npm version patch -m "[RELEASE] %s"
       - run: git push
       - run: npm publish
-        env:
-          NODE_AUTH_TOKEN: ${{secrets.npm_token}}
       - run: sleep 10 && curl -X PUT 'https://registry-direct.npmmirror.com/yank-note-registry/sync?sync_upstream=true'
