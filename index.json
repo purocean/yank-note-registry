@@ -48,61 +48,6 @@
     "origin": "official"
   },
   {
-    "name": "@yank-note/extension-opencode",
-    "version": "1.0.1",
-    "displayName": "OpenCode",
-    "description": "AI document assistant powered by OpenCode",
-    "displayName_ZH-CN": "OpenCode",
-    "description_ZH-CN": "AI 文档助手，基于 OpenCode 构建",
-    "keywords": [
-      "opencode",
-      "ai",
-      "coding",
-      "agent",
-      "terminal"
-    ],
-    "author": {
-      "name": "Yank Note"
-    },
-    "license": "AGPL-3.0",
-    "homepage": "https://github.com/purocean/yank-note-extension/tree/main/packages/extension-opencode",
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/purocean/yank-note-extension.git"
-    },
-    "main": "./dist/index.js",
-    "style": "./dist/style.css",
-    "icon": "https://registry.yank-note.com/cdn/@yank-note/extension-opencode/1.0.1/icon.svg",
-    "engines": {
-      "node": ">=18.20.2",
-      "yank-note": "^3.86.0"
-    },
-    "requirements": {
-      "premium": true,
-      "terminal": true
-    },
-    "bugs": {
-      "url": "https://github.com/purocean/yank-note-extension/issues"
-    },
-    "dist": {
-      "integrity": "sha512-4FgnYYYjWbp54Z9oNzfIvTa5VBmg6/2wz8oYFOLhaPP2sNiaKUIDoO82yjiQg7inFZWmDFCDLi7K8PjDbv+rjA==",
-      "shasum": "e792f83283ee1c33ab72bcd329dadc2c18037514",
-      "tarball": "https://registry.npmjs.org/@yank-note/extension-opencode/-/extension-opencode-1.0.1.tgz",
-      "fileCount": 7,
-      "unpackedSize": 80320
-    },
-    "directories": {},
-    "maintainers": [
-      {
-        "name": "purocean",
-        "email": "purocean@outlook.com"
-      }
-    ],
-    "readmeUrl": "https://registry.yank-note.com/cdn/@yank-note/extension-opencode/1.0.1/README.md",
-    "changelogUrl": "https://registry.yank-note.com/cdn/@yank-note/extension-opencode/1.0.1/CHANGELOG.md",
-    "origin": "official"
-  },
-  {
     "name": "@yank-note/extension-mermaid",
     "version": "1.11.0",
     "displayName": "Mermaid",
