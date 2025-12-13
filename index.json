@@ -49,11 +49,11 @@
   },
   {
     "name": "@yank-note/extension-opencode",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "displayName": "OpenCode",
-    "description": "Invoke OpenCode - an AI coding agent built for the terminal",
+    "description": "AI document assistant powered by OpenCode",
     "displayName_ZH-CN": "OpenCode",
-    "description_ZH-CN": "唤起 OpenCode - 一款为终端打造的 AI 编程助手",
+    "description_ZH-CN": "AI 文档助手，基于 OpenCode 构建",
     "keywords": [
       "opencode",
       "ai",
@@ -72,7 +72,7 @@
     },
     "main": "./dist/index.js",
     "style": "./dist/style.css",
-    "icon": "https://registry.yank-note.com/cdn/@yank-note/extension-opencode/1.0.0/icon.svg",
+    "icon": "https://registry.yank-note.com/cdn/@yank-note/extension-opencode/1.0.1/icon.svg",
     "engines": {
       "node": ">=18.20.2",
       "yank-note": "^3.86.0"
@@ -85,11 +85,11 @@
       "url": "https://github.com/purocean/yank-note-extension/issues"
     },
     "dist": {
-      "integrity": "sha512-j/R+7zhtx6+9M8xSsNH3etj/6H8XpLuyvYzgxUVp2a8FiJ+k53ZuSAbV5FX/aD8PHTUu5cimZZMIGzz2hzP7sA==",
-      "shasum": "bb6d558ae9027720084c698813dc2870c6ea6776",
-      "tarball": "https://registry.npmjs.org/@yank-note/extension-opencode/-/extension-opencode-1.0.0.tgz",
+      "integrity": "sha512-4FgnYYYjWbp54Z9oNzfIvTa5VBmg6/2wz8oYFOLhaPP2sNiaKUIDoO82yjiQg7inFZWmDFCDLi7K8PjDbv+rjA==",
+      "shasum": "e792f83283ee1c33ab72bcd329dadc2c18037514",
+      "tarball": "https://registry.npmjs.org/@yank-note/extension-opencode/-/extension-opencode-1.0.1.tgz",
       "fileCount": 7,
-      "unpackedSize": 80050
+      "unpackedSize": 80320
     },
     "directories": {},
     "maintainers": [
@@ -98,8 +98,8 @@
         "email": "purocean@outlook.com"
       }
     ],
-    "readmeUrl": "https://registry.yank-note.com/cdn/@yank-note/extension-opencode/1.0.0/README.md",
-    "changelogUrl": "https://registry.yank-note.com/cdn/@yank-note/extension-opencode/1.0.0/CHANGELOG.md",
+    "readmeUrl": "https://registry.yank-note.com/cdn/@yank-note/extension-opencode/1.0.1/README.md",
+    "changelogUrl": "https://registry.yank-note.com/cdn/@yank-note/extension-opencode/1.0.1/CHANGELOG.md",
     "origin": "official"
   },
   {
