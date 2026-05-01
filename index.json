@@ -94,7 +94,7 @@
   },
   {
     "name": "@yank-note/extension-sidebar-terminal",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "displayName": "Sidebar Terminal",
     "description": "Run shell commands in a dedicated sidebar terminal",
     "displayName_ZH-CN": "侧栏终端",
@@ -116,7 +116,7 @@
     },
     "main": "./dist/index.js",
     "style": "./dist/style.css",
-    "icon": "https://registry.yank-note.com/cdn/@yank-note/extension-sidebar-terminal/1.0.0/icon.svg",
+    "icon": "https://registry.yank-note.com/cdn/@yank-note/extension-sidebar-terminal/1.0.1/icon.svg",
     "engines": {
       "node": ">=18.20.2",
       "yank-note": "^3.87.0"
@@ -128,11 +128,11 @@
       "url": "https://github.com/purocean/yank-note-extension/issues"
     },
     "dist": {
-      "integrity": "sha512-cjjeh5KeRncBWXi4kP3DkVF58YSNke7ohZ83jYScDrH1WRprkO8feELXPScLyxpgRV8kPKgWjLWSG5k3g0NMzg==",
-      "shasum": "7e353642470a62a09b028e80310e78c94117d95c",
-      "tarball": "https://registry.npmjs.org/@yank-note/extension-sidebar-terminal/-/extension-sidebar-terminal-1.0.0.tgz",
+      "integrity": "sha512-QS/apHOEMyKxJVA4y6jy2Y7R7m8gL/I4oq1wy8zWyazB7WXQJ9dkv46j1dXYnELkfOtbksv1zp3RG5GMm4a9mQ==",
+      "shasum": "009ed1be1fe6faf8ee53efd27a7461cff3d28a6a",
+      "tarball": "https://registry.npmjs.org/@yank-note/extension-sidebar-terminal/-/extension-sidebar-terminal-1.0.1.tgz",
       "fileCount": 7,
-      "unpackedSize": 74440
+      "unpackedSize": 75360
     },
     "directories": {},
     "maintainers": [
@@ -141,8 +141,8 @@
         "email": "purocean@outlook.com"
       }
     ],
-    "readmeUrl": "https://registry.yank-note.com/cdn/@yank-note/extension-sidebar-terminal/1.0.0/README.md",
-    "changelogUrl": "https://registry.yank-note.com/cdn/@yank-note/extension-sidebar-terminal/1.0.0/CHANGELOG.md",
+    "readmeUrl": "https://registry.yank-note.com/cdn/@yank-note/extension-sidebar-terminal/1.0.1/README.md",
+    "changelogUrl": "https://registry.yank-note.com/cdn/@yank-note/extension-sidebar-terminal/1.0.1/CHANGELOG.md",
     "origin": "official"
   },
   {
