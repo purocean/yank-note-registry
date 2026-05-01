@@ -48,6 +48,51 @@
     "origin": "official"
   },
   {
+    "name": "@yank-note/extension-mermaid",
+    "version": "1.13.0",
+    "displayName": "Mermaid",
+    "description": "Mermaid integration",
+    "displayName_ZH-CN": "Mermaid",
+    "description_ZH-CN": "Mermaid 图形集成",
+    "keywords": [],
+    "author": {
+      "name": "Yank Note"
+    },
+    "license": "AGPL-3.0",
+    "homepage": "https://github.com/purocean/yank-note-extension/tree/main/packages/extension-mermaid",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/purocean/yank-note-extension.git"
+    },
+    "main": "./dist/index.js",
+    "style": "./dist/style.css",
+    "icon": "https://registry.yank-note.com/cdn/@yank-note/extension-mermaid/1.13.0/icon.png",
+    "engines": {
+      "node": ">=18.20.2",
+      "yank-note": "^3.41.0"
+    },
+    "bugs": {
+      "url": "https://github.com/purocean/yank-note-extension/issues"
+    },
+    "dist": {
+      "integrity": "sha512-pXf3gpzJjU9+TIg2stbzxb9Vtwu2Avy2/MwvAh8/w74Gmy18QRWyVVW5GitOHo8q/QqmWBsxe4VwqJsQuU87iQ==",
+      "shasum": "dc5f248380e6b28064a5a8271064f02bde7b2de1",
+      "tarball": "https://registry.npmjs.org/@yank-note/extension-mermaid/-/extension-mermaid-1.13.0.tgz",
+      "fileCount": 8,
+      "unpackedSize": 4818882
+    },
+    "directories": {},
+    "maintainers": [
+      {
+        "name": "purocean",
+        "email": "purocean@outlook.com"
+      }
+    ],
+    "readmeUrl": "https://registry.yank-note.com/cdn/@yank-note/extension-mermaid/1.13.0/README.md",
+    "changelogUrl": "https://registry.yank-note.com/cdn/@yank-note/extension-mermaid/1.13.0/CHANGELOG.md",
+    "origin": "official"
+  },
+  {
     "name": "@yank-note/extension-sidebar-terminal",
     "version": "1.0.0",
     "displayName": "Sidebar Terminal",
@@ -98,51 +143,6 @@
     ],
     "readmeUrl": "https://registry.yank-note.com/cdn/@yank-note/extension-sidebar-terminal/1.0.0/README.md",
     "changelogUrl": "https://registry.yank-note.com/cdn/@yank-note/extension-sidebar-terminal/1.0.0/CHANGELOG.md",
-    "origin": "official"
-  },
-  {
-    "name": "@yank-note/extension-mermaid",
-    "version": "1.13.0",
-    "displayName": "Mermaid",
-    "description": "Mermaid integration",
-    "displayName_ZH-CN": "Mermaid",
-    "description_ZH-CN": "Mermaid 图形集成",
-    "keywords": [],
-    "author": {
-      "name": "Yank Note"
-    },
-    "license": "AGPL-3.0",
-    "homepage": "https://github.com/purocean/yank-note-extension/tree/main/packages/extension-mermaid",
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/purocean/yank-note-extension.git"
-    },
-    "main": "./dist/index.js",
-    "style": "./dist/style.css",
-    "icon": "https://registry.yank-note.com/cdn/@yank-note/extension-mermaid/1.13.0/icon.png",
-    "engines": {
-      "node": ">=18.20.2",
-      "yank-note": "^3.41.0"
-    },
-    "bugs": {
-      "url": "https://github.com/purocean/yank-note-extension/issues"
-    },
-    "dist": {
-      "integrity": "sha512-pXf3gpzJjU9+TIg2stbzxb9Vtwu2Avy2/MwvAh8/w74Gmy18QRWyVVW5GitOHo8q/QqmWBsxe4VwqJsQuU87iQ==",
-      "shasum": "dc5f248380e6b28064a5a8271064f02bde7b2de1",
-      "tarball": "https://registry.npmjs.org/@yank-note/extension-mermaid/-/extension-mermaid-1.13.0.tgz",
-      "fileCount": 8,
-      "unpackedSize": 4818882
-    },
-    "directories": {},
-    "maintainers": [
-      {
-        "name": "purocean",
-        "email": "purocean@outlook.com"
-      }
-    ],
-    "readmeUrl": "https://registry.yank-note.com/cdn/@yank-note/extension-mermaid/1.13.0/README.md",
-    "changelogUrl": "https://registry.yank-note.com/cdn/@yank-note/extension-mermaid/1.13.0/CHANGELOG.md",
     "origin": "official"
   },
   {
