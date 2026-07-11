@@ -287,7 +287,7 @@
   },
   {
     "name": "@yank-note/extension-reveal-js",
-    "version": "1.9.0",
+    "version": "1.10.0",
     "displayName": "Reveal.js",
     "description": "Reveal.js integration",
     "displayName_ZH-CN": "Reveal.js",
@@ -304,7 +304,7 @@
     },
     "main": "./dist/index.js",
     "style": "./dist/style.css",
-    "icon": "https://registry.yank-note.com/cdn/@yank-note/extension-reveal-js/1.9.0/icon.svg",
+    "icon": "https://registry.yank-note.com/cdn/@yank-note/extension-reveal-js/1.10.0/icon.svg",
     "engines": {
       "node": ">=18.20.2",
       "yank-note": "^3.64.1"
@@ -316,11 +316,11 @@
       "url": "https://github.com/purocean/yank-note-extension/issues"
     },
     "dist": {
-      "integrity": "sha512-uzJ0OAMB8toibxlrUXcJm0vvjleTsulOJN4xWASfNLHPH+YiZxOsOH308Tt455ZvAC53l1YS6g9NcMBEGsbohw==",
-      "shasum": "9e9109ea1f46e94a0b2b23b90f745db8aade6df9",
-      "tarball": "https://registry.npmjs.org/@yank-note/extension-reveal-js/-/extension-reveal-js-1.9.0.tgz",
+      "integrity": "sha512-VBls6awD1xok+eV+t1pfdP/g3WzZ3jVorEh7gpeSh/Zh8bBYZDuZUrHexpgt9wmsbsSMWr720SaREJZJ3BONaA==",
+      "shasum": "b9aad753889e7ffc8d8d8890be262b0cf76ba8b0",
+      "tarball": "https://registry.npmjs.org/@yank-note/extension-reveal-js/-/extension-reveal-js-1.10.0.tgz",
       "fileCount": 67,
-      "unpackedSize": 4429644
+      "unpackedSize": 4441099
     },
     "directories": {},
     "maintainers": [
@@ -329,8 +329,8 @@
         "email": "purocean@outlook.com"
       }
     ],
-    "readmeUrl": "https://registry.yank-note.com/cdn/@yank-note/extension-reveal-js/1.9.0/README.md",
-    "changelogUrl": "https://registry.yank-note.com/cdn/@yank-note/extension-reveal-js/1.9.0/CHANGELOG.md",
+    "readmeUrl": "https://registry.yank-note.com/cdn/@yank-note/extension-reveal-js/1.10.0/README.md",
+    "changelogUrl": "https://registry.yank-note.com/cdn/@yank-note/extension-reveal-js/1.10.0/CHANGELOG.md",
     "origin": "official"
   },
   {
