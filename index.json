@@ -146,6 +146,58 @@
     "origin": "official"
   },
   {
+    "name": "@yank-note/extension-review",
+    "version": "1.0.0",
+    "displayName": "Review Comments",
+    "displayName_ZH-CN": "审阅批注",
+    "description": "Select rendered text, leave review comments, and keep the review data readable in Markdown.",
+    "description_ZH-CN": "在预览中选择文字并添加批注，以人和 AI 都易读的 Markdown 形式保存。",
+    "keywords": [
+      "review",
+      "comment",
+      "annotation",
+      "ai"
+    ],
+    "author": {
+      "name": "Yank Note"
+    },
+    "license": "AGPL-3.0",
+    "homepage": "https://github.com/purocean/yank-note-extension/tree/main/packages/extension-review",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/purocean/yank-note-extension.git"
+    },
+    "main": "./dist/index.js",
+    "icon": "https://registry.yank-note.com/cdn/@yank-note/extension-review/1.0.0/icon.svg",
+    "engines": {
+      "node": ">=18.20.2",
+      "yank-note": ">=3.92.0"
+    },
+    "requirements": {
+      "premium": true
+    },
+    "bugs": {
+      "url": "https://github.com/purocean/yank-note-extension/issues"
+    },
+    "dist": {
+      "integrity": "sha512-7Aj4PVK44SgS441JVTTzWJQ6Ga6tmnYjdxIA9qICQUz/cD8NK1/LNO8QNFBsIlKRfIxk4Gnyg1sVzFEZYdQvGg==",
+      "shasum": "fa7777d168502076b86d0f7f6cefc589d786ed58",
+      "tarball": "https://registry.npmjs.org/@yank-note/extension-review/-/extension-review-1.0.0.tgz",
+      "fileCount": 7,
+      "unpackedSize": 76075
+    },
+    "directories": {},
+    "maintainers": [
+      {
+        "name": "purocean",
+        "email": "purocean@outlook.com"
+      }
+    ],
+    "readmeUrl": "https://registry.yank-note.com/cdn/@yank-note/extension-review/1.0.0/README.md",
+    "changelogUrl": "https://registry.yank-note.com/cdn/@yank-note/extension-review/1.0.0/CHANGELOG.md",
+    "origin": "official"
+  },
+  {
     "name": "@yank-note/extension-drawio",
     "version": "2.6.1",
     "displayName": "Drawio",
