@@ -147,7 +147,7 @@
   },
   {
     "name": "@yank-note/extension-review",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "displayName": "Review Comments",
     "displayName_ZH-CN": "审阅批注",
     "description": "Select rendered text, leave review comments, and keep the review data readable in Markdown.",
@@ -168,7 +168,7 @@
       "url": "git+https://github.com/purocean/yank-note-extension.git"
     },
     "main": "./dist/index.js",
-    "icon": "https://registry.yank-note.com/cdn/@yank-note/extension-review/1.0.1/icon.svg",
+    "icon": "https://registry.yank-note.com/cdn/@yank-note/extension-review/1.0.2/icon.svg",
     "engines": {
       "node": ">=18.20.2",
       "yank-note": ">=3.92.0"
@@ -180,11 +180,11 @@
       "url": "https://github.com/purocean/yank-note-extension/issues"
     },
     "dist": {
-      "integrity": "sha512-r9FlQpg/bRFj1V6u8Qu3jWinp+y8M0eLzVoSCX3H5xj0Z/+XGoH0ljehSjJ/zVtqo3jgC1gjJu5CDKUCN3zetw==",
-      "shasum": "e6a8f6bcc75bf706b4083b384c6cfcf671577066",
-      "tarball": "https://registry.npmjs.org/@yank-note/extension-review/-/extension-review-1.0.1.tgz",
+      "integrity": "sha512-dnbLbWjJJYipz62HAUe3/HWaNelN7gOjQFv4IAfNpArvZTvXzGhZZ3blxsRQP6eGaOpElyxT/5r6StibNEmmFg==",
+      "shasum": "534c01e2f7c3b8e499cf0d0324ec01edd92c9f2b",
+      "tarball": "https://registry.npmjs.org/@yank-note/extension-review/-/extension-review-1.0.2.tgz",
       "fileCount": 7,
-      "unpackedSize": 76293
+      "unpackedSize": 76920
     },
     "directories": {},
     "maintainers": [
@@ -193,8 +193,8 @@
         "email": "purocean@outlook.com"
       }
     ],
-    "readmeUrl": "https://registry.yank-note.com/cdn/@yank-note/extension-review/1.0.1/README.md",
-    "changelogUrl": "https://registry.yank-note.com/cdn/@yank-note/extension-review/1.0.1/CHANGELOG.md",
+    "readmeUrl": "https://registry.yank-note.com/cdn/@yank-note/extension-review/1.0.2/README.md",
+    "changelogUrl": "https://registry.yank-note.com/cdn/@yank-note/extension-review/1.0.2/CHANGELOG.md",
     "origin": "official"
   },
   {
@@ -291,7 +291,7 @@
   },
   {
     "name": "@yank-note/extension-change-gutter",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "displayName": "Change Gutter",
     "displayName_ZH-CN": "编辑装订线",
     "description": "Show added, modified, and deleted lines in the Monaco editor gutter.",
@@ -312,7 +312,7 @@
       "url": "git+https://github.com/purocean/yank-note-extension.git"
     },
     "main": "./dist/index.js",
-    "icon": "https://registry.yank-note.com/cdn/@yank-note/extension-change-gutter/1.0.1/icon.svg",
+    "icon": "https://registry.yank-note.com/cdn/@yank-note/extension-change-gutter/1.0.2/icon.svg",
     "engines": {
       "node": ">=18.20.2",
       "yank-note": ">=3.92.0"
@@ -321,11 +321,11 @@
       "url": "https://github.com/purocean/yank-note-extension/issues"
     },
     "dist": {
-      "integrity": "sha512-TkbtG9J5ariGcjnRJXNZuUmwWku/SIB9YahO+W84aq3cw67IrztxgH2JEqLKmdDk35cRGXUL+56upcT81s8Kdw==",
-      "shasum": "8b80f5f8551f42e69751273454fbdff960861dd0",
-      "tarball": "https://registry.npmjs.org/@yank-note/extension-change-gutter/-/extension-change-gutter-1.0.1.tgz",
+      "integrity": "sha512-EVBnsFbSMMVxL+j9jDJjVB9OvcOcp2Lyxxphgt7yi7CKWXpDPa/+0vPMpLnJD59l/F2xyiI+hmNbkrDU9qlCQg==",
+      "shasum": "d6ac8eb299ae63f44c95e993a4e0bfd2faeba2d2",
+      "tarball": "https://registry.npmjs.org/@yank-note/extension-change-gutter/-/extension-change-gutter-1.0.2.tgz",
       "fileCount": 9,
-      "unpackedSize": 166443
+      "unpackedSize": 167129
     },
     "directories": {},
     "maintainers": [
@@ -334,8 +334,8 @@
         "email": "purocean@outlook.com"
       }
     ],
-    "readmeUrl": "https://registry.yank-note.com/cdn/@yank-note/extension-change-gutter/1.0.1/README.md",
-    "changelogUrl": "https://registry.yank-note.com/cdn/@yank-note/extension-change-gutter/1.0.1/CHANGELOG.md",
+    "readmeUrl": "https://registry.yank-note.com/cdn/@yank-note/extension-change-gutter/1.0.2/README.md",
+    "changelogUrl": "https://registry.yank-note.com/cdn/@yank-note/extension-change-gutter/1.0.2/CHANGELOG.md",
     "origin": "official"
   },
   {
