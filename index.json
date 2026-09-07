@@ -1916,5 +1916,56 @@
     "readmeUrl": "https://registry.yank-note.com/cdn/yank-note-extension-directory-tree/0.0.2/README.md",
     "changelogUrl": "https://registry.yank-note.com/cdn/yank-note-extension-directory-tree/0.0.2/CHANGELOG.md",
     "origin": "registry"
+  },
+  {
+    "name": "yank-note-extension-tempmd",
+    "version": "0.1.0",
+    "displayName": "temp.md Temporary Preview",
+    "description": "Publish the current Yank Note document to an unlisted, expiring temp.md preview URL.",
+    "displayName_ZH-CN": "temp.md 临时预览",
+    "description_ZH-CN": "将当前 Yank Note 文档发布到不公开列出、会自动过期的 temp.md 预览链接。",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/huangdun/yank-note-extension-tempmd.git"
+    },
+    "author": {
+      "name": "huangdun"
+    },
+    "license": "MIT",
+    "keywords": [
+      "yank-note",
+      "yank-note-extension",
+      "temp.md",
+      "preview",
+      "sharing"
+    ],
+    "homepage": "https://github.com/huangdun/yank-note-extension-tempmd#readme",
+    "bugs": {
+      "url": "https://github.com/huangdun/yank-note-extension-tempmd/issues"
+    },
+    "main": "./dist/index.js",
+    "icon": "https://registry.yank-note.com/cdn/yank-note-extension-tempmd/0.1.0/icon.svg",
+    "engines": {
+      "node": ">=18.20.2",
+      "yank-note": "^3.80.0"
+    },
+    "gitHead": "1dbb7a2d3e33b46dbbc355f55755b66389cb30ad",
+    "dist": {
+      "integrity": "sha512-OVCx4oqef9WeE0PaRvfBs9KdfJ14+3Se/6iOMX1GzgH/yzMZwnu+rvjqr6StmP6RyY1idaiaa+fNVouisQNK6Q==",
+      "shasum": "071d5d013dbdf28ab06540e102128505fe88d114",
+      "tarball": "https://registry.npmjs.org/yank-note-extension-tempmd/-/yank-note-extension-tempmd-0.1.0.tgz",
+      "fileCount": 6,
+      "unpackedSize": 15604
+    },
+    "directories": {},
+    "maintainers": [
+      {
+        "name": "huangdun",
+        "email": "huangdun1212@hotmail.com"
+      }
+    ],
+    "readmeUrl": "https://registry.yank-note.com/cdn/yank-note-extension-tempmd/0.1.0/README.md",
+    "changelogUrl": "https://registry.yank-note.com/cdn/yank-note-extension-tempmd/0.1.0/CHANGELOG.md",
+    "origin": "registry"
   }
 ]
