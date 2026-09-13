@@ -198,48 +198,48 @@
     "origin": "official"
   },
   {
-    "name": "@yank-note/extension-drawio",
-    "version": "2.6.1",
-    "displayName": "Drawio",
-    "description": "Drawio integration",
-    "displayName_ZH-CN": "Drawio",
-    "description_ZH-CN": "Drawio 图形集成",
-    "author": {
-      "name": "Yank Note"
-    },
-    "license": "AGPL-3.0",
-    "keywords": [],
-    "homepage": "https://github.com/purocean/yank-note-extension/tree/main/packages/extension-drawio",
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/purocean/yank-note-extension.git"
-    },
-    "main": "./main/index.js",
-    "style": "./main/style.css",
-    "icon": "https://registry.yank-note.com/cdn/@yank-note/extension-drawio/2.6.1/icon.svg",
-    "readmeUrl": "https://registry.yank-note.com/cdn/@yank-note/extension-drawio/2.6.1/README.md",
-    "changelogUrl": "https://registry.yank-note.com/cdn/@yank-note/extension-drawio/2.6.1/CHANGELOG.md",
-    "engines": {
-      "node": ">=18.20.2",
-      "yank-note": "^3.66.0"
-    },
     "bugs": {
       "url": "https://github.com/purocean/yank-note-extension/issues"
     },
     "dist": {
-      "integrity": "sha512-VXum8qMacJrJntcwIMJaQyM3G7gzi0tYMSEKRLsQLAeEzpVcsnflvP1bCIWH4IDZeVmcgV71M/Oi7WqBIflIzQ==",
-      "shasum": "2cf4edd9589c5666acb57160be834a55f700e311",
-      "tarball": "https://registry.npmjs.org/@yank-note/extension-drawio/-/extension-drawio-2.6.1.tgz",
-      "fileCount": 2877,
-      "unpackedSize": 108483169
+      "shasum": "a188256fed56cdf4e3d173df4bf4d6a9d406af55",
+      "tarball": "https://registry.npmjs.org/@yank-note/extension-drawio/-/extension-drawio-2.7.0.tgz",
+      "fileCount": 3419,
+      "integrity": "sha512-4VLUG9TbHnHWgUSr6UtilrSdwuBtnfXaAJvXQwCS+1QSnPFpQpF1N2vyuvnU5n2fMx9/7pk2Fnb5Wir20PaOUQ==",
+      "unpackedSize": 154173546
     },
+    "icon": "https://registry.yank-note.com/cdn/@yank-note/extension-drawio/2.7.0/icon.svg",
+    "main": "./main/index.js",
+    "name": "@yank-note/extension-drawio",
+    "style": "./main/style.css",
+    "author": {
+      "name": "Yank Note"
+    },
+    "engines": {
+      "node": ">=18.20.2",
+      "yank-note": "^3.66.0"
+    },
+    "license": "AGPL-3.0",
+    "version": "2.7.0",
+    "homepage": "https://github.com/purocean/yank-note-extension/tree/main/packages/extension-drawio",
+    "keywords": [],
+    "readmeUrl": "https://registry.yank-note.com/cdn/@yank-note/extension-drawio/2.7.0/README.md",
+    "repository": {
+      "url": "git+https://github.com/purocean/yank-note-extension.git",
+      "type": "git"
+    },
+    "description": "Drawio integration",
     "directories": {},
+    "displayName": "Drawio",
     "maintainers": [
       {
         "name": "purocean",
         "email": "purocean@outlook.com"
       }
     ],
+    "changelogUrl": "https://registry.yank-note.com/cdn/@yank-note/extension-drawio/2.7.0/CHANGELOG.md",
+    "description_ZH-CN": "Drawio 图形集成",
+    "displayName_ZH-CN": "Drawio",
     "origin": "official"
   },
   {
