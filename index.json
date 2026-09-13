@@ -93,56 +93,56 @@
     "origin": "official"
   },
   {
+    "bugs": {
+      "url": "https://github.com/purocean/yank-note-extension/issues"
+    },
+    "dist": {
+      "shasum": "895af1b6bbb4d00acfd99da526237a22bf9675eb",
+      "tarball": "https://registry.npmjs.org/@yank-note/extension-sidebar-terminal/-/extension-sidebar-terminal-1.2.0.tgz",
+      "fileCount": 7,
+      "integrity": "sha512-Rgvq2WIWiWbl+n4PEgjeewQV6S4UZDRtHb+57ENw7YHpsXhhNGynJFsLryJO9sfa4DpMgNjy7ySNzBTRANjsaw==",
+      "unpackedSize": 84100
+    },
+    "icon": "https://registry.yank-note.com/cdn/@yank-note/extension-sidebar-terminal/1.2.0/icon.svg",
+    "main": "./dist/index.js",
     "name": "@yank-note/extension-sidebar-terminal",
-    "version": "1.1.1",
-    "displayName": "Sidebar Terminal",
-    "description": "Run shell commands in a dedicated sidebar terminal",
-    "displayName_ZH-CN": "侧栏终端",
-    "description_ZH-CN": "在独立侧栏终端中运行 Shell 命令",
+    "style": "./dist/style.css",
+    "author": {
+      "name": "Yank Note"
+    },
+    "engines": {
+      "node": ">=18.20.2",
+      "yank-note": "^3.87.0"
+    },
+    "license": "AGPL-3.0",
+    "version": "1.2.0",
+    "homepage": "https://github.com/purocean/yank-note-extension/tree/main/packages/extension-sidebar-terminal",
     "keywords": [
       "terminal",
       "shell",
       "command",
       "sidebar"
     ],
-    "author": {
-      "name": "Yank Note"
-    },
-    "license": "AGPL-3.0",
-    "homepage": "https://github.com/purocean/yank-note-extension/tree/main/packages/extension-sidebar-terminal",
     "repository": {
-      "type": "git",
-      "url": "git+https://github.com/purocean/yank-note-extension.git"
+      "url": "git+https://github.com/purocean/yank-note-extension.git",
+      "type": "git"
     },
-    "main": "./dist/index.js",
-    "style": "./dist/style.css",
-    "icon": "https://registry.yank-note.com/cdn/@yank-note/extension-sidebar-terminal/1.1.1/icon.svg",
-    "engines": {
-      "node": ">=18.20.2",
-      "yank-note": "^3.87.0"
-    },
-    "requirements": {
-      "terminal": true
-    },
-    "bugs": {
-      "url": "https://github.com/purocean/yank-note-extension/issues"
-    },
-    "dist": {
-      "integrity": "sha512-IMpJN9hO6BM930UaDfyCiUPH+y+8UcZ4QqVeKkN5v81clZpuFkPCGHqUVCVcoDJON1ESgZZxZ0ynqCG8XwOEDQ==",
-      "shasum": "f7469b072de2e132e5f561e4ccc4c2d60574d9bd",
-      "tarball": "https://registry.npmjs.org/@yank-note/extension-sidebar-terminal/-/extension-sidebar-terminal-1.1.1.tgz",
-      "fileCount": 7,
-      "unpackedSize": 81790
-    },
+    "description": "Run shell commands in a dedicated sidebar terminal",
     "directories": {},
+    "displayName": "Sidebar Terminal",
     "maintainers": [
       {
         "name": "purocean",
         "email": "purocean@outlook.com"
       }
     ],
-    "readmeUrl": "https://registry.yank-note.com/cdn/@yank-note/extension-sidebar-terminal/1.1.1/README.md",
-    "changelogUrl": "https://registry.yank-note.com/cdn/@yank-note/extension-sidebar-terminal/1.1.1/CHANGELOG.md",
+    "requirements": {
+      "terminal": true
+    },
+    "description_ZH-CN": "在独立侧栏终端中运行 Shell 命令",
+    "displayName_ZH-CN": "侧栏终端",
+    "readmeUrl": "https://registry.yank-note.com/cdn/@yank-note/extension-sidebar-terminal/1.2.0/README.md",
+    "changelogUrl": "https://registry.yank-note.com/cdn/@yank-note/extension-sidebar-terminal/1.2.0/CHANGELOG.md",
     "origin": "official"
   },
   {
